@@ -82,7 +82,13 @@ function renderHome(data){
       img.alt = item.title || "";
       if(item.icon) img.src = item.icon;
       const right = document.createElement("div");
-      right.innerHTML = `<h3>${item.title || ""}</h3><p>${item.body || ""}</p>`;
+      let titleHTML;
+      if (item.href) {
+		    titleHTML = `<h3><a href="${item.href}" style="text-decoration:none;color:inherit;">${item.title || ""}</a></h3>`;
+      } else {
+		    titleHTML = `<h3>${item.title || ""}</h3>`;
+      }
+      right.innerHTML = `${titleHTML}<p>${item.body || ""}</p>`;
       if(item.note){
         const b = document.createElement("div");
         b.className = "badge";
