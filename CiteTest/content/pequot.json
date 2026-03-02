@@ -58,16 +58,19 @@
         "items": [
           {
             "title": "Themadhood's Goods",
+            "href": "index.html?branch=goods"
             "body": "Physical and digital goods created under the Themadhood ecosystem, including custom items, limited releases, and project-specific products. Fulfillment and product details are handled at the branch level.",
             "icon": "assets/img/themadhood_goods_icon.png"
           },
           {
             "title": "Themadhood Media",
+            "href": "index.html?branch=media"
             "body": "Media and creative production across video, audio, music, and digital content. Projects may list Themadhood Media for production or platform identity, while individual creative credit may be attributed to Themadhood Pequot.",
             "icon": "assets/img/themadhood_media_icon.png"
           },
           {
             "title": "Themadhood's Codes",
+            "href": "index.html?branch=codes"
             "body": "Software, automation, and technical systems developed within the Themadhood ecosystem. This includes tools, scripts, applications, and experimental builds, with delivery and support managed through the appropriate code branch.",
             "icon": "assets/img/themadhood_codes_icon.png",
             "note": "(Link coming soon)"
@@ -76,26 +79,6 @@
             "title": "Other/ Routed Through Us",
             "body": "Requests that don\u2019t clearly fall under a specific branch, including custom, experimental, or cross-disciplinary work. These are reviewed at the parent level and delegated to the appropriate branch when applicable.",
             "icon": ""
-          }
-        ]
-      },
-      "affiliates": {
-        "title": "AFFILIATES",
-        "items": [
-          {
-            "name": "Themadhood Media",
-            "icon": "assets/img/themadhood_media_icon.png",
-            "href": "index.html?branch=media"
-          },
-          {
-            "name": "Themadhood's Codes",
-            "icon": "assets/img/themadhood_codes_icon.png",
-            "href": "index.html?branch=codes"
-          },
-          {
-            "name": "Themadhood's Goods",
-            "icon": "assets/img/themadhood_goods_icon.png",
-            "href": "index.html?branch=goods"
           }
         ]
       },
