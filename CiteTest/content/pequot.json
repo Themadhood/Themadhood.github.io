@@ -1,0 +1,163 @@
+{
+  "branchId": "pequot",
+  "site": {
+    "title": "Themadhood Pequot",
+    "tagline": "The primary hub and parent entity for the Themadhood network.",
+    "metaDescription": "Themadhood Pequot is the primary hub and parent entity for the Themadhood network.",
+    "brand": {
+      "logo": "assets/img/themadhood_pequot_logo.png",
+      "heroBackground": "assets/img/themadhood_background_square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html",
+    "items": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Links",
+        "href": "links.html"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      },
+      {
+        "label": "Themadhood Media",
+        "href": "https://themadhoodpequot.wixsite.com/themadhood-pequot/themadhood-media"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Themadhood Pequot",
+    "emailLabel": "Email",
+    "email": "ThemadhoodPequot@gmail.com",
+    "copyright": "\u00a9 2026 Themadhood Pequot. All rights reserved.",
+    "line2": "Themadhood Pequot operates as a parent entity for affiliated projects."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood\nPequot",
+        "body": [
+          "Themadhood Pequot is the primary hub and parent entity for the Themadhood network. It serves as the central point of reference for projects, products, and accounts that operate across multiple branches of the ecosystem..",
+          "When a project does not maintain its own public presence, communication, updates, and social links route through Themadhood Pequot. In this way, Themadhood Pequot functions as the connective layer \u2014 the place where everything meets, escalates, and stays accessible."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "Themadhood Pequot is both the parent brand of the Themadhood ecosystem and the creator name used across its projects. While individual branches may operate under their own identities, Themadhood Pequot remains the common point of attribution and public presence.",
+          "In practice, a project may list a branch name for production or organization, while crediting Themadhood Pequot as the artist, author, or creator\u2014keeping structure clear without fragmenting identity."
+        ]
+      },
+      "branches": {
+        "title": "Themadhood Pequot",
+        "items": [
+          {
+            "title": "Themadhood's Goods",
+            "body": "Physical and digital goods created under the Themadhood ecosystem, including custom items, limited releases, and project-specific products. Fulfillment and product details are handled at the branch level.",
+            "icon": "assets/img/themadhood_goods_icon.png"
+          },
+          {
+            "title": "Themadhood Media",
+            "body": "Media and creative production across video, audio, music, and digital content. Projects may list Themadhood Media for production or platform identity, while individual creative credit may be attributed to Themadhood Pequot.",
+            "icon": "assets/img/themadhood_media_icon.png"
+          },
+          {
+            "title": "Themadhood's Codes",
+            "body": "Software, automation, and technical systems developed within the Themadhood ecosystem. This includes tools, scripts, applications, and experimental builds, with delivery and support managed through the appropriate code branch.",
+            "icon": "assets/img/themadhood_codes_icon.png",
+            "note": "(Link coming soon)"
+          },
+          {
+            "title": "Other/ Routed Through Us",
+            "body": "Requests that don\u2019t clearly fall under a specific branch, including custom, experimental, or cross-disciplinary work. These are reviewed at the parent level and delegated to the appropriate branch when applicable.",
+            "icon": ""
+          }
+        ]
+      },
+      "affiliates": {
+        "title": "AFFILIATES",
+        "items": [
+          {
+            "name": "Themadhood Media",
+            "icon": "assets/img/themadhood_media_icon.png",
+            "href": "https://themadhoodpequot.wixsite.com/themadhood-pequot/themadhood-media"
+          },
+          {
+            "name": "Themadhood's Codes",
+            "icon": "assets/img/themadhood_codes_icon.png",
+            "note": "(Link coming soon)"
+          },
+          {
+            "name": "Themadhood's Goods",
+            "icon": "assets/img/themadhood_goods_icon.png",
+            "note": "(Link coming soon)"
+          }
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Social Links",
+          "links": [
+            {
+              "label": "Discord",
+              "href": "https://discord.gg"
+            },
+            {
+              "label": "Facebook",
+              "href": "https://www.facebook.com"
+            },
+            {
+              "label": "Patreon",
+              "href": "https://patreon.com"
+            },
+            {
+              "label": "Instagram",
+              "href": "https://www.instagram.com"
+            },
+            {
+              "label": "Snapchat",
+              "href": "https://www.snapchat.com"
+            },
+            {
+              "label": "X",
+              "href": "https://x.com"
+            },
+            {
+              "label": "Themadhood Media - (Socials)",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "Other Business Links",
+          "links": [
+            {
+              "label": "Themadhood's Goods (Link coming soon)",
+              "href": ""
+            },
+            {
+              "label": "Themadhood's Media",
+              "href": "https://themadhoodpequot.wixsite.com/themadhood-pequot/themadhood-media"
+            },
+            {
+              "label": "Themadhood's Codes (Link coming soon)",
+              "href": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

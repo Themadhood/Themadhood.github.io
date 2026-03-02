@@ -1,0 +1,46 @@
+{
+  "branchId": "goods",
+  "site": {
+    "title": "Themadhood's Goods",
+    "tagline": "",
+    "metaDescription": "",
+    "brand": {
+      "logo": "",
+      "heroBackground": ""
+    }
+  },
+  "nav": {
+    "homePath": "index.html",
+    "items": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Links",
+        "href": "links.html"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Themadhood Pequot",
+    "emailLabel": "Email",
+    "email": "ThemadhoodPequot@gmail.com",
+    "copyright": "\u00a9 2026 Themadhood Pequot. All rights reserved.",
+    "line2": "Themadhood Pequot operates as a parent entity for affiliated projects."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Goods",
+        "body": [
+          "(Edit content/goods.json)"
+        ]
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": []
+    }
+  }
+}
