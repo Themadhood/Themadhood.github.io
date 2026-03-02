@@ -26,7 +26,7 @@
       },
       {
         "label": "Themadhood Media",
-        "href": "https://themadhoodpequot.wixsite.com/themadhood-pequot/themadhood-media"
+        "href": "index.html?branch=media"
       }
     ]
   },
@@ -85,17 +85,17 @@
           {
             "name": "Themadhood Media",
             "icon": "assets/img/themadhood_media_icon.png",
-            "href": "https://themadhoodpequot.wixsite.com/themadhood-pequot/themadhood-media"
+            "href": "index.html?branch=media"
           },
           {
             "name": "Themadhood's Codes",
             "icon": "assets/img/themadhood_codes_icon.png",
-            "note": "(Link coming soon)"
+            "href": "index.html?branch=codes"
           },
           {
             "name": "Themadhood's Goods",
             "icon": "assets/img/themadhood_goods_icon.png",
-            "note": "(Link coming soon)"
+            "href": "index.html?branch=goods"
           }
         ]
       },
@@ -112,31 +112,31 @@
           "links": [
             {
               "label": "Discord",
-              "href": "https://discord.gg"
+              "href": "https://discord.gg/VGWpCT36RN"
             },
             {
               "label": "Facebook",
-              "href": "https://www.facebook.com"
+              "href": "https://www.facebook.com/people/Themadhood-Pequot/61586179380902/"
             },
             {
               "label": "Patreon",
-              "href": "https://patreon.com"
+              "href": "https://patreon.com/ThemadhoodPequot?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink"
             },
             {
               "label": "Instagram",
-              "href": "https://www.instagram.com"
+              "href": "https://www.instagram.com/themadhood_pequot/?hl=en"
             },
             {
               "label": "Snapchat",
-              "href": "https://www.snapchat.com"
+              "href": "https://www.snapchat.com/@themadhoodpq"
             },
             {
               "label": "X",
-              "href": "https://x.com"
+              "href": "https://x.com/Themadhood_PQ"
             },
             {
               "label": "Themadhood Media - (Socials)",
-              "href": ""
+              "href": "links.html?branch=media"
             }
           ]
         },
@@ -145,15 +145,15 @@
           "links": [
             {
               "label": "Themadhood's Goods (Link coming soon)",
-              "href": ""
+              "href": "index.html?branch=goods"
             },
             {
               "label": "Themadhood's Media",
-              "href": "https://themadhoodpequot.wixsite.com/themadhood-pequot/themadhood-media"
+              "href": "index.html?branch=media"
             },
             {
               "label": "Themadhood's Codes (Link coming soon)",
-              "href": ""
+              "href": "index.html?branch=codes"
             }
           ]
         }
