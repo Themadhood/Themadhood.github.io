@@ -1,3 +1,7 @@
 theme: jekyll-theme-minimal
 title: Themadhood's homepage
 description: Bookmark this to keep an eye on my project updates!
+
+logo: #/assets/img/logo.png   # optional (add if you have one)
+show_downloads: false        # cleaner look
+google_analytics:            # add later if needed
