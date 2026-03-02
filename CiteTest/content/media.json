@@ -23,10 +23,10 @@
     ]
   },
   "footer": {
-    "title": "Themadhood Pequot",
+    "title": "Themadhood Media",
     "emailLabel": "Email",
     "email": "Themadhood.Media@gmail.com",
-    "copyright": "\u00a9 2026 Themadhood Media. All rights reserved.",
+    "copyright": "© 2026 Themadhood Media. All rights reserved.",
     "line2": "Themadhood Media operates as a parent entity for affiliated projects."
   },
   "pages": {
@@ -37,9 +37,8 @@
           "Themadhood Media is the parent media division within the Themadhood ecosystem. It oversees and organizes all creative output across visual, audio, and digital media branches, including music, video, and photography.",
           "Projects under Themadhood Media focus on creation, presentation, and experimentation. When individual media branches do not maintain their own public presence, updates, releases, and distribution route through Themadhood Media, keeping creative work centralized while allowing each branch to evolve independently."
         ]
-      }
-    },
-    "about": {
+      },
+      "about": {
         "title": "ABOUT US",
         "body": [
           "Themadhood Media is the creative media division within the broader Themadhood ecosystem. It exists to develop, organize, and release creative works across multiple media disciplines while maintaining a clear structural hierarchy between parent and child branches.",
@@ -53,22 +52,22 @@
           {
             "title": "Themadhood's Music",
             "body": "Original music and audio works created under the Themadhood ecosystem, including standalone releases, sound design, and project-specific compositions. Distribution and release details are handled at the branch level.",
-            "icon": "assets/img/themadhood_goods_icon.png"
+            "icon": "assets/img/themadhood_media_icon.png"
           },
           {
             "title": "Themadhood's Videos",
             "body": "Original video and motion content created under the Themadhood ecosystem, including short-form media, long-form projects, and experimental visuals. Publishing and platform details are handled at the branch level.",
-            "icon": "assets/img/themadhood_media_icon.png"
+            "icon": "assets/img/themadhood_codes_icon.png"
           },
           {
             "title": "Themadhood's Photos",
             "body": "Original photography and visual imagery created under the Themadhood ecosystem, including digital collections, project documentation, and curated visual sets. Presentation and usage details are handled at the branch level.",
-            "icon": "assets/img/themadhood_codes_icon.png",
+            "icon": "assets/img/themadhood_goods_icon.png",
             "note": "(Link coming soon)"
           },
           {
             "title": "Other/ Routed Through Us",
-            "body": "Requests that don\u2019t clearly fall under a specific branch, including custom, experimental, or cross-disciplinary work. These are reviewed at the parent level and delegated to the appropriate branch when applicable.",
+            "body": "Requests that don’t clearly fall under a specific branch, including custom, experimental, or cross-disciplinary work. These are reviewed at the parent level and delegated to the appropriate branch when applicable.",
             "icon": ""
           }
         ]
@@ -84,12 +83,12 @@
           {
             "name": "Themadhood's Videos",
             "icon": "assets/img/themadhood_codes_icon.png",
-            "note": "index.html?branch=videos"
+            "href": "index.html?branch=videos"
           },
           {
             "name": "Themadhood's Photos",
             "icon": "assets/img/themadhood_goods_icon.png",
-            "note": "index.html?branch=photos"
+            "href": "index.html?branch=photos"
           }
         ]
       },
@@ -97,6 +96,7 @@
         "title": "CONNECT WITH US",
         "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
       }
+    },
     "links": {
       "title": "Links",
       "sections": [
@@ -105,7 +105,7 @@
           "links": [
             {
               "label": "More From Themadhood",
-              "href": "links.html"
+              "href": "links.html?branch=media"
             },
             {
               "label": "TikTok",
@@ -121,7 +121,7 @@
           "title": "Other Business Links",
           "links": [
             {
-              "label": "Themadhood's Music  (Link coming soon)",
+              "label": "Themadhood's Music (Link coming soon)",
               "href": "index.html?branch=music"
             },
             {
