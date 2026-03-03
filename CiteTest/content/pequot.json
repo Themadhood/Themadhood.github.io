@@ -127,7 +127,7 @@
           "title": "Other Business Links",
           "links": [
             {
-              "label": "Themadhood's Goods (Link coming soon)",
+              "label": "Themadhood's Goods",
               "href": "index.html?branch=goods"
             },
             {
@@ -135,7 +135,7 @@
               "href": "index.html?branch=media"
             },
             {
-              "label": "Themadhood's Codes (Link coming soon)",
+              "label": "Themadhood's Codes",
               "href": "index.html?branch=codes"
             }
           ]
