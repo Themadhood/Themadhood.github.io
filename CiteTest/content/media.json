@@ -87,7 +87,7 @@
           "links": [
             {
               "label": "More From Themadhood",
-              "href": "links.html?branch=media"
+              "href": "links.html"
             },
             {
               "label": "TikTok",
@@ -103,7 +103,7 @@
           "title": "Other Business Links",
           "links": [
             {
-              "label": "Themadhood's Music (Link coming soon)",
+              "label": "Themadhood's Music",
               "href": "index.html?branch=music"
             },
             {
@@ -111,7 +111,7 @@
               "href": "index.html?branch=videos"
             },
             {
-              "label": "Themadhood's Photos (Link coming soon)",
+              "label": "Themadhood's Photos",
               "href": "index.html?branch=photos"
             }
           ]
