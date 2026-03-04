@@ -114,9 +114,13 @@ function renderHome(data){
     for(const a of (page.affiliates?.items || [])){
       const row = document.createElement("div");
       row.className = "card branch-item";
-      const img = document.createElement("img");
-      img.alt = a.name || "";
-      if(a.icon) img.src = a.icon;
+      let img = null;
+
+	  if (item.icon && item.icon.trim() !== "") {
+	    img = document.createElement("img");
+	    img.src = item.icon;
+	    img.alt = item.title || "";
+	  }
       const right = document.createElement("div");
       const name = document.createElement("h3");
       name.textContent = a.name || "";
@@ -138,8 +142,10 @@ function renderHome(data){
         right.appendChild(note);
       }
 
-      row.appendChild(img);
-      row.appendChild(right);
+      if (img) {
+	    card.appendChild(img);
+	  }
+	  card.appendChild(right);
       affHost.appendChild(row);
     }
   }
