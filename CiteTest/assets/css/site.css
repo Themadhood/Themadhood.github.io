@@ -51,6 +51,10 @@ a{color:inherit}
 }
 .list{display:flex;flex-direction:column;gap:10px}
 .badge{display:inline-block;margin-top:8px;color:var(--muted);font-size:13px}
+
+
+
+/*Footer*/
 @media (max-width:700px){
   .footer-layout{
     flex-direction:column;
@@ -87,13 +91,10 @@ a{color:inherit}
   font-size:0.85rem;
   margin-top:4px;
 }
-.kv{
-  margin-bottom:6px;
-}
-.footer h4{margin:0 0 10px 0;color:var(--text)}
-.kv{display:flex;gap:8px;align-items:center}
+/*.footer h4{margin:0 0 10px 0;color:var(--text)}*/
+.kv{display:flex;gap:8px;align-items:center;margin-bottom:6px}
 .kv b{color:var(--text)}
-.small{font-size:13px}
+/*.small{font-size:13px}*/
 
 
 /* Force header logo to be circular + no box */
