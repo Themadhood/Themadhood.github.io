@@ -68,7 +68,7 @@ function renderHome(data){
 	  if(!p.trim()){
 		const spacer = document.createElement("div");
 		spacer.style.height = "12px";
-		aboutBody.appendChild(spacer);
+		heroBody.appendChild(spacer);
 		continue;
 	  }
 
