@@ -65,7 +65,7 @@ a{color:inherit}
 }
 
 .footer-text{
-  max-width:70%;
+  flex:1;
 }
 
 .footer-logo{
