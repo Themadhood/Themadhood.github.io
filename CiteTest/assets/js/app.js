@@ -211,6 +211,13 @@ async function main(){
   const page = document.body.getAttribute("data-page");
   if(page === "home") renderHome(data);
   if(page === "links") renderLinks(data);
+  // If URL has a #hash (ex: #contact), scroll after dynamic render finishes
+  if (window.location.hash) {
+    const target = document.querySelector(window.location.hash);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
 }
 
 main().catch(err=>{
