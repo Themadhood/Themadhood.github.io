@@ -90,11 +90,11 @@ a{color:inherit}
   margin:0 0 6px 0;
   font-size:1.2rem;
   font-weight:600;
+  margin-bottom:20px;
 }
 .footer-text .small{
   color:var(--muted);
   font-size:0.85rem;
-  margin-top:10px;
 }
 /*.footer h4{margin:0 0 10px 0;color:var(--text)}*/
 .kv{display:flex;gap:8px;align-items:center;margin-bottom:6px}
