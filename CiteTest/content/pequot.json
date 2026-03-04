@@ -5,8 +5,8 @@
     "tagline": "The primary hub and parent entity for the Themadhood network.",
     "metaDescription": "Themadhood Pequot is the primary hub and parent entity for the Themadhood network.",
     "brand": {
-      "logo": "assets/img/themadhood_pequot_logo.png",
-      "heroBackground": "assets/img/themadhood_background_square.png"
+      "logo": "assets/imgs/Pequot/THEMADHOOD Pequot O 2k-2k.png",
+      "heroBackground": "assets/imgs/Pequot/THEMADHOOD background square.png"
     }
   },
   "nav": {
@@ -60,19 +60,19 @@
             "title": "Themadhood's Goods",
             "href": "index.html?branch=goods",
             "body": "Physical and digital goods created under the Themadhood ecosystem, including custom items, limited releases, and project-specific products. Fulfillment and product details are handled at the branch level.",
-            "icon": "assets/img/themadhood_goods_icon.png"
+            "icon": "assets/imgs/Goods/THEMADHOOD Goods O 2k-2k.png"
           },
           {
             "title": "Themadhood Media",
             "href": "index.html?branch=media",
             "body": "Media and creative production across video, audio, music, and digital content. Projects may list Themadhood Media for production or platform identity, while individual creative credit may be attributed to Themadhood Pequot.",
-            "icon": "assets/img/themadhood_media_icon.png"
+            "icon": "assets/imgs/Media/THEMADHOOD Media O 2k-2k.png"
           },
           {
             "title": "Themadhood's Codes",
             "href": "index.html?branch=codes",
             "body": "Software, automation, and technical systems developed within the Themadhood ecosystem. This includes tools, scripts, applications, and experimental builds, with delivery and support managed through the appropriate code branch.",
-            "icon": "assets/img/themadhood_codes_icon.png"
+            "icon": "assets/imgs/Codes/THEMADHOOD Codes O 2k-2k.png"
           },
           {
             "title": "Other/ Routed Through Us",
