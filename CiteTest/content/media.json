@@ -19,7 +19,11 @@
       {
         "label": "Links",
         "href": "links.html?branch=media"
-      }
+      },
+	  {
+	    "label": "Contact",
+	    "href": "index.html?branch=media#contact"
+	  }
     ]
   },
   "footer": {
@@ -35,15 +39,18 @@
         "headline": "Themadhood Media",
         "body": [
           "Themadhood Media is the parent media division within the Themadhood ecosystem. It oversees and organizes all creative output across visual, audio, and digital media branches, including music, video, and photography.",
-          "Projects under Themadhood Media focus on creation, presentation, and experimentation. When individual media branches do not maintain their own public presence, updates, releases, and distribution route through Themadhood Media, keeping creative work centralized while allowing each branch to evolve independently."
+          "",
+		  "Projects under Themadhood Media focus on creation, presentation, and experimentation. When individual media branches do not maintain their own public presence, updates, releases, and distribution route through Themadhood Media, keeping creative work centralized while allowing each branch to evolve independently."
         ]
       },
       "about": {
         "title": "ABOUT US",
         "body": [
           "Themadhood Media is the creative media division within the broader Themadhood ecosystem. It exists to develop, organize, and release creative works across multiple media disciplines while maintaining a clear structural hierarchy between parent and child branches.",
-          "As a parent entity, Themadhood Media oversees media-focused branches such as music, video, and photography. Each branch may operate independently with its own identity and platforms, while still remaining structurally connected through Themadhood Media.",
-          "When a media project or sub-branch does not maintain its own public presence, releases, updates, and creative direction route through Themadhood Media. This ensures consistency, long-term accessibility, and centralized creative stewardship while allowing individual branches the freedom to grow and evolve on their own terms."
+          "",
+		  "As a parent entity, Themadhood Media oversees media-focused branches such as music, video, and photography. Each branch may operate independently with its own identity and platforms, while still remaining structurally connected through Themadhood Media.",
+          "",
+		  "When a media project or sub-branch does not maintain its own public presence, releases, updates, and creative direction route through Themadhood Media. This ensures consistency, long-term accessibility, and centralized creative stewardship while allowing individual branches the freedom to grow and evolve on their own terms."
         ]
       },
       "branches": {
