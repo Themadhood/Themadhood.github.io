@@ -76,10 +76,17 @@ function renderHome(data){
   if(aboutBody){
     aboutBody.innerHTML = "";
     for(const p of (page.about?.body || [])){
-      const el = document.createElement("p");
-      el.textContent = p;
-      aboutBody.appendChild(el);
-    }
+	  if(!p.trim()){
+		const spacer = document.createElement("div");
+		spacer.style.height = "12px";
+		aboutBody.appendChild(spacer);
+		continue;
+	  }
+
+	  const el = document.createElement("p");
+	  el.textContent = p;
+	  aboutBody.appendChild(el);
+	}
   }
 
   setText(document.querySelector("[data-branches-title]"), page.branches?.title || "");

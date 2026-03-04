@@ -51,7 +51,9 @@ a{color:inherit}
 }
 .list{display:flex;flex-direction:column;gap:10px}
 .badge{display:inline-block;margin-top:8px;color:var(--muted);font-size:13px}
-
+[data-about-body] p{
+  margin-bottom:12px;
+}
 
 
 /*Footer*/
@@ -89,7 +91,7 @@ a{color:inherit}
 .footer-text .small{
   color:var(--muted);
   font-size:0.85rem;
-  margin-top:4px;
+  margin-top:10px;
 }
 /*.footer h4{margin:0 0 10px 0;color:var(--text)}*/
 .kv{display:flex;gap:8px;align-items:center;margin-bottom:6px}
