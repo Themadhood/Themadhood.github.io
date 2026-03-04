@@ -78,9 +78,13 @@ function renderHome(data){
     for(const item of (page.branches?.items || [])){
       const card = document.createElement("div");
       card.className = "card branch-item";
-      const img = document.createElement("img");
-      img.alt = item.title || "";
-      if(item.icon) img.src = item.icon;
+      let img = null;
+
+	  if (item.icon && item.icon.trim() !== "") {
+	    img = document.createElement("img");
+	    img.src = item.icon;
+	    img.alt = item.title || "";
+	  }
       const right = document.createElement("div");
       let titleHTML;
       if (item.href) {
@@ -95,8 +99,10 @@ function renderHome(data){
         b.textContent = item.note;
         right.appendChild(b);
       }
-      card.appendChild(img);
-      card.appendChild(right);
+      if (img) {
+	    card.appendChild(img);
+	  }
+	  card.appendChild(right);
       branchesHost.appendChild(card);
     }
   }
