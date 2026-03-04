@@ -78,25 +78,15 @@ function renderHome(data){
     for(const item of (page.branches?.items || [])){
       const card = document.createElement("div");
       card.className = "card branch-item";
-      let img = null;
-
-	  if (item.icon && item.icon.trim() !== "") {
-	    img = document.createElement("img");
-	    img.src = item.icon;
-	    img.alt = item.title || "";
-	  }
+      const img = document.createElement("img");
+      img.alt = item.title || "";
+      if(item.icon) img.src = item.icon;
       const right = document.createElement("div");
       let titleHTML;
       if (item.href) {
-		    titleHTML = `
-			  <h3>
-			    <a href="${item.href}" class="card-link">
-			      ${item.title || ""}
-			    </a>
-			  </h3>
-			`;
+		titleHTML = `<h3><a href="${item.href}" style="text-decoration:none;color:inherit;">${item.title || ""}</a></h3>`;
       } else {
-		    titleHTML = `<h3>${item.title || ""}</h3>`;
+		titleHTML = `<h3>${item.title || ""}</h3>`;
       }
       right.innerHTML = `${titleHTML}<p>${item.body || ""}</p>`;
       if(item.note){
@@ -105,10 +95,8 @@ function renderHome(data){
         b.textContent = item.note;
         right.appendChild(b);
       }
-      if (img) {
-	    card.appendChild(img);
-	  }
-	  card.appendChild(right);
+      card.appendChild(img);
+      card.appendChild(right);
       branchesHost.appendChild(card);
     }
   }
