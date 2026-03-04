@@ -84,15 +84,9 @@ function renderHome(data){
       const right = document.createElement("div");
       let titleHTML;
       if (item.href) {
-		    titleHTML = `
-			  <h3>
-			    <a href="${item.href}" class="card-link">
-			      ${item.title || ""}
-			    </a>
-			  </h3>
-			`;
+		titleHTML = `<h3><a href="${item.href}" style="text-decoration:none;color:inherit;">${item.title || ""}</a></h3>`;
       } else {
-		    titleHTML = `<h3>${item.title || ""}</h3>`;
+		titleHTML = `<h3>${item.title || ""}</h3>`;
       }
       right.innerHTML = `${titleHTML}<p>${item.body || ""}</p>`;
       if(item.note){

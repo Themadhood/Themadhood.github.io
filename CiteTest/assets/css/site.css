@@ -34,7 +34,14 @@ a{color:inherit}
 .card h1,.card h2,.card h3{margin:0 0 10px 0}
 .card p{margin:0;color:var(--muted)}
 .branch-item{display:flex;gap:12px;align-items:flex-start}
-.branch-item img{width:44px;height:44px;border-radius:14px;border:1px solid var(--border);background:#000;object-fit:cover}
+.branch-item img{
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  object-fit:contain;
+  border:none;
+  background:none;
+}
 .list{display:flex;flex-direction:column;gap:10px}
 .badge{display:inline-block;margin-top:8px;color:var(--muted);font-size:13px}
 .footer{margin-top:30px;border-top:1px solid var(--border);padding:22px 0 40px 0;color:var(--muted)}
