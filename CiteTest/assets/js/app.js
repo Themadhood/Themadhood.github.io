@@ -19,6 +19,11 @@ function renderNav(data){
     brandLogo.alt = data.site.title || "Logo";
   }
   setText(brandName, data.site?.title || "");
+  
+  const brandHome = document.querySelector("[data-brand-home]");
+  if (brandHome) {
+    brandHome.href = data.nav?.homePath || "index.html";
+  }
 
   if(nav){
     nav.innerHTML = "";
