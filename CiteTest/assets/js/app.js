@@ -32,6 +32,12 @@ function renderNav(data){
 }
 
 function renderFooter(data){
+  const footerLogo = document.querySelector("[data-footer-logo]");
+
+  if (footerLogo && data.site?.brand?.logo) {
+    footerLogo.src = data.site.brand.logo;
+    footerLogo.alt = data.site.title || "Logo";
+  }
   setText(document.querySelector("[data-footer-title]"), data.footer?.title || data.site?.title || "");
   const emailEl = document.querySelector("[data-footer-email]");
   if(emailEl){
