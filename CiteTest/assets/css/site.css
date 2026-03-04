@@ -17,7 +17,14 @@ a{color:inherit}
 .topbar{position:sticky;top:0;z-index:10;background:rgba(15,15,18,.85);backdrop-filter: blur(10px);border-bottom:1px solid var(--border)}
 .topbar-inner{display:flex;align-items:center;gap:14px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
-.brand img{width:40px;height:40px;border-radius:12px;object-fit:cover;border:1px solid var(--border);background:#000}
+.brand img{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  object-fit:contain;
+  border:none;
+  background:none;
+}
 .brand .name{font-weight:700;letter-spacing:.2px}
 .nav{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap}
 .nav a{text-decoration:none;padding:8px 10px;border:1px solid transparent;border-radius:12px;color:var(--muted)}
