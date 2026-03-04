@@ -56,3 +56,12 @@ a{color:inherit}
 .kv{display:flex;gap:8px;align-items:center}
 .kv b{color:var(--text)}
 .small{font-size:13px}
+
+
+/* Force header logo to be circular + no box */
+.brand img{
+  border: 0 !important;
+  background: transparent !important;
+  border-radius: 50% !important;
+  object-fit: contain !important;
+}
