@@ -1,0 +1,112 @@
+{
+  "branchId": "goods",
+  "site": {
+    "title": "Themadhood's Goods",
+    "tagline": "Physical and digital goods created under the Themadhood ecosystem.",
+    "metaDescription": "Themadhood's Goods handles physical and digital goods, including jewelry, creations, and trinkets.",
+    "brand": {
+      "logo": "assets/imgs/Goods/THEMADHOOD Goods O 2k-2k.png",
+      "heroBackground": "assets/imgs/Goods/THEMADHOOD Goods background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=goods",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=goods" },
+      { "label": "Links", "href": "links.html?branch=goods" },
+      { "label": "Contact", "href": "index.html?branch=goods#contact" },
+      { "label": "Themadhood Pequot", "href": "index.html?branch=pequot" }
+    ]
+  },
+  "footer": {
+    "logo": "assets/imgs/Goods/THEMADHOOD Goods O 2k-2k.png",
+    "title": "Themadhood's Goods",
+    "emailLabel": "Email",
+    "email": "Themadhood.Goods@gmail.com",
+    "copyright": "© 2026 Themadhood's Goods. All rights reserved.",
+    "line2": "Themadhood's Goods operates as a parent entity for affiliated projects."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Goods",
+        "body": [
+          "Themadhood's Goods exists to create and deliver physical and digital items under the Themadhood ecosystem.",
+          "",
+          "This includes branch-specific releases, custom goods, and project-tied items designed to stay consistent with Themadhood identity."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "Themadhood's Goods is the goods division within the broader Themadhood ecosystem.",
+          "",
+          "When a goods subtree does not maintain its own public presence, product direction and updates may route through this branch."
+        ]
+      },
+      "branches": {
+        "title": "Themadhood's Goods",
+        "items": [
+          {
+            "title": "Themadhood's Julery",
+            "href": "index.html?branch=julery",
+            "body": "Jewelry and wearable items created under Themadhood goods, including themed pieces and limited releases.",
+            "icon": "assets/imgs/Goods/THEMADHOOD Julery O 2k-2k.png"
+          },
+		  {
+            "title": "Themadhood's Stained Glass",
+            "href": "index.html?branch=stained-glass",
+            "body": "Stained glass pieces created under Themadhood Goods, including decorative panels, themed designs, and limited handcrafted works.",
+            "icon": "assets/imgs/Goods/THEMADHOOD Stained Glass O 2k-2k.png"
+          },
+          {
+            "title": "Themadhood's Creations",
+            "href": "index.html?branch=creations",
+            "body": "Handmade and crafted items, including mixed-media builds and unique project creations.",
+            "icon": "assets/imgs/Goods/THEMADHOOD Creations O 2k-2k.png"
+          },
+          {
+            "title": "Themadgood's Trinkets",
+            "href": "index.html?branch=trinkets",
+            "body": "Small goods, accessories, and collectible trinkets released under Themadhood goods.",
+            "icon": "assets/imgs/Goods/THEMADHOOD Trinkets O 2k-2k.png"
+          },
+          {
+            "title": "Other/ Routed Through Us",
+            "href": "",
+            "body": "Requests that don’t clearly fall under a specific goods subtree, including custom or experimental goods.",
+            "icon": ""
+          }
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Shop Links",
+          "links": [
+            {
+              "label": "More From Themadhood",
+              "href": "links.html"
+            },
+            { "label": "Main Shop (coming soon)", "href": "" }
+          ]
+        },
+        {
+          "title": "Other Business Links",
+          "links": [
+            { "label": "Themadhood's Julery", "href": "index.html?branch=julery" },
+            { "label": "Themadhood's Stained Glass", "href": "index.html?branch=stained-glass" },
+            { "label": "Themadhood's Creations", "href": "index.html?branch=creations" },
+            { "label": "Themadhood's Trinkets", "href": "index.html?branch=trinkets" }
+          ]
+        }
+      ]
+    }
+  }
+}

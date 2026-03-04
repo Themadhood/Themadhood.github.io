@@ -1,0 +1,105 @@
+{
+  "branchId": "codes",
+  "site": {
+    "title": "Themadhood's Codes",
+    "tagline": "Software, automation, and technical systems across the Themadhood ecosystem.",
+    "metaDescription": "Themadhood's Codes is the software and systems division of Themadhood, covering systems, Pi solutions, and applications.",
+    "brand": {
+      "logo": "assets/imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
+      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=codes",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=codes" },
+      { "label": "Links", "href": "links.html?branch=codes" },
+      { "label": "Contact", "href": "index.html?branch=codes#contact" },
+      { "label": "Themadhood Pequot", "href": "index.html?branch=pequot" }
+    ]
+  },
+  "footer": {
+    "logo": "assets/imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
+    "title": "Themadhood's Codes",
+    "emailLabel": "Email",
+    "email": "Themadhoods.Codes@gmail.com",
+    "copyright": "© 2026 Themadhood's Codes. All rights reserved.",
+    "line2": "Themadhood's Codes operates as a parent entity for affiliated projects."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Codes",
+        "body": [
+          "Themadhood's Codes is the technical branch of the Themadhood ecosystem.",
+          "",
+          "It exists to design, build, and maintain systems, tools, and software that support Themadhood projects across all branches."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "Themadhood's Codes focuses on reliable, modular, and reusable technical foundations.",
+          "",
+          "When a project does not maintain its own technical public presence, updates and documentation can route through this branch."
+        ]
+      },
+      "branches": {
+        "title": "Themadhood's Codes",
+        "items": [
+          {
+            "title": "Themadhood Systems",
+            "href": "index.html?branch=systems",
+            "body": "Core system design, infrastructure patterns, and foundational technical architecture used across Themadhood projects.",
+            "icon": "assets/imgs/Codes/THEMADHOOD Systems O 2k-2k.png"
+          },
+          {
+            "title": "Themadhood's PI Solutions",
+            "href": "index.html?branch=pi-solutions",
+            "body": "Raspberry Pi based tools, deployments, utilities, and repeatable solutions designed for reliable real-world use.",
+            "icon": "assets/imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png"
+          },
+          {
+            "title": "Themadhood's Applications",
+            "href": "index.html?branch=applications",
+            "body": "User-facing applications and tools built under the Themadhood ecosystem, including utilities and project-specific apps.",
+            "icon": "assets/imgs/Codes/THEMADHOOD Applications O 2k-2k.png"
+          },
+          {
+            "title": "Other/ Routed Through Us",
+            "href": "",
+            "body": "Requests that don’t clearly fall under a specific codes subtree, including experimental or cross-branch technical work.",
+            "icon": ""
+          }
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Social Links",
+          "links": [
+            {
+              "label": "More From Themadhood",
+              "href": "links.html"
+            },
+            { "label": "GitHub (Project Hub)", "href": "https://github.com/themadhood" }
+          ]
+        },
+        {
+          "title": "Other Business Links",
+          "links": [
+            { "label": "Themadhood's Systems", "href": "index.html?branch=systems" },
+            { "label": "Themadhood's PI Solutions", "href": "index.html?branch=pi-solutions" },
+            { "label": "Themadhood's Applications", "href": "index.html?branch=applications" }
+          ]
+        }
+      ]
+    }
+  }
+}
