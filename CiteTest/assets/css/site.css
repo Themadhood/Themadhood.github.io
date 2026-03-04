@@ -29,6 +29,9 @@ a{color:inherit}
 .nav{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap}
 .nav a{text-decoration:none;padding:8px 10px;border:1px solid transparent;border-radius:12px;color:var(--muted)}
 .nav a:hover{border-color:var(--border);color:var(--text)}
+[data-hero-body] p{
+  margin-bottom:12px;
+}
 .hero{border:1px solid var(--border);border-radius:22px;overflow:hidden;background:linear-gradient(180deg, rgba(177,26,37,.15), rgba(0,0,0,0))}
 .hero-bg{min-height:220px;background-size:cover;background-position:center;border-bottom:1px solid var(--border)}
 .hero-content{padding:22px}

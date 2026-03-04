@@ -65,6 +65,13 @@ function renderHome(data){
   if(heroBody){
     heroBody.innerHTML = "";
     for(const p of (page.hero?.body || [])){
+	  if(!p.trim()){
+		const spacer = document.createElement("div");
+		spacer.style.height = "12px";
+		aboutBody.appendChild(spacer);
+		continue;
+	  }
+
       const el = document.createElement("p");
       el.textContent = p;
       heroBody.appendChild(el);
