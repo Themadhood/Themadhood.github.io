@@ -1,0 +1,129 @@
+{
+  "branchId": "media",
+  "site": {
+    "title": "Themadhood Media",
+    "tagline": "",
+    "metaDescription": "",
+    "brand": {
+      "logo": "",
+      "heroBackground": "assets/imgs/Media/THEMADHOOD Media background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=media",
+    "items": [
+      {
+        "label": "Home",
+        "href": "index.html?branch=media"
+      },
+      {
+        "label": "Links",
+        "href": "links.html?branch=media"
+      },
+	  {
+	    "label": "Contact",
+	    "href": "index.html?branch=media#contact"
+	  }
+    ]
+  },
+  "footer": {
+    "title": "Themadhood Media",
+    "emailLabel": "Email",
+    "email": "Themadhood.Media@gmail.com",
+    "copyright": "© 2026 Themadhood Media. All rights reserved.",
+    "line2": "Themadhood Media operates as a parent entity for affiliated projects."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood Media",
+        "body": [
+          "Themadhood Media is the parent media division within the Themadhood ecosystem. It oversees and organizes all creative output across visual, audio, and digital media branches, including music, video, and photography.",
+          "",
+		  "Projects under Themadhood Media focus on creation, presentation, and experimentation. When individual media branches do not maintain their own public presence, updates, releases, and distribution route through Themadhood Media, keeping creative work centralized while allowing each branch to evolve independently."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "Themadhood Media is the creative media division within the broader Themadhood ecosystem. It exists to develop, organize, and release creative works across multiple media disciplines while maintaining a clear structural hierarchy between parent and child branches.",
+          "",
+		  "As a parent entity, Themadhood Media oversees media-focused branches such as music, video, and photography. Each branch may operate independently with its own identity and platforms, while still remaining structurally connected through Themadhood Media.",
+          "",
+		  "When a media project or sub-branch does not maintain its own public presence, releases, updates, and creative direction route through Themadhood Media. This ensures consistency, long-term accessibility, and centralized creative stewardship while allowing individual branches the freedom to grow and evolve on their own terms."
+        ]
+      },
+      "branches": {
+        "title": "Themadhood Media",
+        "items": [
+          {
+            "title": "Themadhood's Music",
+            "href": "index.html?branch=music",
+            "body": "Original music and audio works created under the Themadhood ecosystem, including standalone releases, sound design, and project-specific compositions. Distribution and release details are handled at the branch level.",
+            "icon": "assets/img/themadhood_media_icon.png"
+          },
+          {
+            "title": "Themadhood's Videos",
+            "href": "index.html?branch=videos",
+            "body": "Original video and motion content created under the Themadhood ecosystem, including short-form media, long-form projects, and experimental visuals. Publishing and platform details are handled at the branch level.",
+            "icon": "assets/img/themadhood_codes_icon.png"
+          },
+          {
+            "title": "Themadhood's Photos",
+            "href": "index.html?branch=photos",
+            "body": "Original photography and visual imagery created under the Themadhood ecosystem, including digital collections, project documentation, and curated visual sets. Presentation and usage details are handled at the branch level.",
+            "icon": "assets/img/themadhood_goods_icon.png"
+          },
+          {
+            "title": "Other/ Routed Through Us",
+            "body": "Requests that don’t clearly fall under a specific branch, including custom, experimental, or cross-disciplinary work. These are reviewed at the parent level and delegated to the appropriate branch when applicable.",
+            "icon": ""
+          }
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Social Links",
+          "links": [
+            {
+              "label": "More From Themadhood",
+              "href": "links.html"
+            },
+            {
+              "label": "TikTok",
+              "href": "https://www.tiktok.com/@themadhood_pq?_r=1&_t=ZP-93VoRVwI7ji"
+            },
+            {
+              "label": "Youtube",
+              "href": "https://www.youtube.com/@themadhood"
+            }
+          ]
+        },
+        {
+          "title": "Other Business Links",
+          "links": [
+            {
+              "label": "Themadhood's Music",
+              "href": "index.html?branch=music"
+            },
+            {
+              "label": "Themadhood's Videos",
+              "href": "index.html?branch=videos"
+            },
+            {
+              "label": "Themadhood's Photos",
+              "href": "index.html?branch=photos"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
