@@ -30,17 +30,15 @@
       "hero": {
         "headline": "Themadhood's Codes",
         "body": [
-          "Themadhood's Codes is the technical branch of the Themadhood ecosystem.",
-          "",
-          "It exists to design, build, and maintain systems, tools, and software that support Themadhood projects across all branches."
+          "Themadhood's Codes is the technical development division of the Themadhood ecosystem, responsible for software systems, automation tools, and digital infrastructure. The branch focuses on building reliable, modular technologies that support both internal projects and independent software releases. Through its structure of specialized sub-branches, Themadhood's Codes provides a foundation for experimentation, development, and long-term technical growth."
         ]
       },
       "about": {
         "title": "ABOUT US",
         "body": [
-          "Themadhood's Codes focuses on reliable, modular, and reusable technical foundations.",
+          "Themadhood's Codes exists to design, develop, and maintain the technical systems that power many projects within the broader Themadhood ecosystem. While operating as an independent development branch, it also functions as a shared technical foundation that supports tools, applications, and infrastructure used across multiple divisions.",
           "",
-          "When a project does not maintain its own technical public presence, updates and documentation can route through this branch."
+          "Its structure allows projects to be organized into focused areas such as systems development, Raspberry Pi solutions, and software applications. This approach keeps technical work modular and adaptable while allowing individual projects to grow independently. By maintaining a structured development environment, Themadhood's Codes ensures that tools and systems remain reliable, maintainable, and expandable as the ecosystem evolves."
         ]
       },
       "branches": {
