@@ -51,12 +51,27 @@ a{color:inherit}
 }
 .list{display:flex;flex-direction:column;gap:10px}
 .badge{display:inline-block;margin-top:8px;color:var(--muted);font-size:13px}
+@media (max-width:700px){
+  .footer-layout{
+    flex-direction:column;
+    text-align:center;
+  }
+}
+.footer-layout{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+}
+
+.footer-text{
+  max-width:70%;
+}
+
 .footer-logo{
-  width:80px;
-  height:80px;
+  width:100px;
+  height:100px;
   object-fit:contain;
-  display:block;
-  margin-bottom:10px;
 }
 .footer{margin-top:30px;border-top:1px solid var(--border);padding:22px 0 40px 0;color:var(--muted)}
 .footer h4{margin:0 0 10px 0;color:var(--text)}
