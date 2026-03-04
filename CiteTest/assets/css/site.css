@@ -72,7 +72,24 @@ a{color:inherit}
   height:100px;
   object-fit:contain;
 }
-.footer{margin-top:30px;border-top:1px solid var(--border);padding:22px 0 40px 0;color:var(--muted)}
+.footer{
+  border-top:1px solid var(--border);
+  margin-top:40px;
+  padding-top:25px;
+}
+.footer-text h4{
+  margin:0 0 6px 0;
+  font-size:1.2rem;
+  font-weight:600;
+}
+.footer-text .small{
+  color:var(--muted);
+  font-size:0.85rem;
+  margin-top:4px;
+}
+.kv{
+  margin-bottom:6px;
+}
 .footer h4{margin:0 0 10px 0;color:var(--text)}
 .kv{display:flex;gap:8px;align-items:center}
 .kv b{color:var(--text)}
