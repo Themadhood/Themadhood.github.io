@@ -14,8 +14,7 @@
     "items": [
       { "label": "Home", "href": "index.html?branch=media" },
       { "label": "Links", "href": "links.html?branch=media" },
-      { "label": "Contact", "href": "index.html?branch=media#contact" },
-      { "label": "Themadhood Pequot", "href": "index.html?branch=pequot" }
+      { "label": "Contact", "href": "index.html?branch=media#contact" }
     ]
   },
   "footer": {
@@ -57,7 +56,7 @@
             "title": "Themadhood's Videos",
             "href": "index.html?branch=videos",
             "body": "Original video and motion content, including short-form media, long-form projects, and experimental visuals. Publishing details are handled at the branch level.",
-            "icon": "assets/imgs/Media/THEMADHOOD Videos O 2k-2k.png"
+            "icon": "assets/imgs/Media/THEMADHOOD Video O 2k-2k.png"
           },
           {
             "title": "Themadhood's Photos",

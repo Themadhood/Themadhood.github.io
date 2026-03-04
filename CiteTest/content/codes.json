@@ -14,8 +14,7 @@
     "items": [
       { "label": "Home", "href": "index.html?branch=codes" },
       { "label": "Links", "href": "links.html?branch=codes" },
-      { "label": "Contact", "href": "index.html?branch=codes#contact" },
-      { "label": "Themadhood Pequot", "href": "index.html?branch=pequot" }
+      { "label": "Contact", "href": "index.html?branch=codes#contact" }
     ]
   },
   "footer": {

@@ -14,15 +14,14 @@
     "items": [
       { "label": "Home", "href": "index.html?branch=goods" },
       { "label": "Links", "href": "links.html?branch=goods" },
-      { "label": "Contact", "href": "index.html?branch=goods#contact" },
-      { "label": "Themadhood Pequot", "href": "index.html?branch=pequot" }
+      { "label": "Contact", "href": "index.html?branch=goods#contact" }
     ]
   },
   "footer": {
     "logo": "assets/imgs/Goods/THEMADHOOD Goods O 2k-2k.png",
     "title": "Themadhood's Goods",
     "emailLabel": "Email",
-    "email": "Themadhood.Goods@gmail.com",
+    "email": "Themadhoods.Goods@gmail.com",
     "copyright": "© 2026 Themadhood's Goods. All rights reserved.",
     "line2": "Themadhood's Goods operates as a parent entity for affiliated projects."
   },
