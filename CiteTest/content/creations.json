@@ -6,7 +6,7 @@
     "metaDescription": "Themadhood's Creations handles handmade and crafted items, including mixed-media builds and unique project creations.",
     "brand": {
       "logo": "assets/imgs/Goods/THEMADHOOD Creations O 2k-2k.png",
-      "heroBackground": "assets/imgs/Goods/THEMADHOOD Creations background square.png"
+      "heroBackground": "assets/imgs/Goods/THEMADHOOD Goods background square.png"
     }
   },
   "nav": {
@@ -36,7 +36,7 @@
       "about": {
         "title": "ABOUT US",
         "body": [
-          "Themadhood's Creations operates as both an independent creative workshop and a structured branch within the larger Themadhood ecosystem. Its purpose is to design and produce handmade and crafted items that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
+          "Themadhood's Creations operates as both an independent creative workshop. Its purpose is to design and produce handmade and crafted items that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
           "",
           "Through mixed-media builds and unique project creations, Themadhood's Creations provides a framework for organizing physical creations while allowing each line of projects to develop its own style and focus. This structure ensures that goods remain connected to the broader creative ecosystem while still supporting unique craftsmanship and experimentation."
         ]
@@ -65,7 +65,7 @@
 		  "title": "Experimental Creations",
 		  "href": "",
 		  "icon": "",
-		  "body": "Development of exploratory builds that test new materials, forms, or creative ideas. These projects allow new techniques and concepts to be explored while remaining connected to the broader creative identity of Themadhood's Goods."
+		  "body": "Development of exploratory builds that test new materials, forms, or creative ideas. These projects allow new techniques and concepts to be explored."
 		}
         ]
       },

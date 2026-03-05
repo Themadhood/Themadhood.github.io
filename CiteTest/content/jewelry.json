@@ -1,44 +1,44 @@
 {
-  "branchId": "julery",
+  "branchId": "jewelry",
   "site": {
-    "title": "Themadhood's Julery",
+    "title": "Themadhood's Jewelry",
     "tagline": "Physical and digital goods created under the Themadhood ecosystem.",
-    "metaDescription": "Themadhood's Julery handles jewelry and wearable items, including themed pieces and limited releases.",
+    "metaDescription": "Themadhood's Jewelry handles jewelry and wearable items, including themed pieces and limited releases.",
     "brand": {
-      "logo": "assets/imgs/Goods/THEMADHOOD Julery O 2k-2k.png",
-      "heroBackground": "assets/imgs/Goods/THEMADHOOD Julery background square.png"
+      "logo": "assets/imgs/Goods/THEMADHOOD Jewelry O 2k-2k.png",
+      "heroBackground": "assets/imgs/Goods/THEMADHOOD Goods background square.png"
     }
   },
   "nav": {
-    "homePath": "index.html?branch=julery",
+    "homePath": "index.html?branch=jewelry",
     "items": [
-      { "label": "Home", "href": "index.html?branch=julery" },
-      { "label": "Links", "href": "links.html?branch=julery" },
-      { "label": "Contact", "href": "index.html?branch=julery#contact" }
+      { "label": "Home", "href": "index.html?branch=jewelry" },
+      { "label": "Links", "href": "links.html?branch=jewelry" },
+      { "label": "Contact", "href": "index.html?branch=jewelry#contact" }
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Goods/THEMADHOOD Julery O 2k-2k.png",
-    "title": "Themadhood's Julery",
+    "logo": "assets/imgs/Goods/THEMADHOOD Jewelry O 2k-2k.png",
+    "title": "Themadhood's Jewelry",
     "emailLabel": "Email",
     "email": "Themadhoods.Goods@gmail.com",
-    "copyright": "© 2026 Themadhood's Julery. All rights reserved.",
-    "line2": "Themadhood's Julery operates as a parent entity for affiliated projects."
+    "copyright": "© 2026 Themadhood's Jewelry. All rights reserved.",
+    "line2": "Themadhood's Jewelry operates as a parent entity for affiliated projects."
   },
   "pages": {
     "home": {
       "hero": {
-        "headline": "Themadhood's Julery",
+        "headline": "Themadhood's Jewelry",
         "body": [
-          "Themadhood's Julery is the jewelry and wearable goods division within Themadhood's Goods, focused on producing themed pieces, crafted accessories, and limited releases while maintaining the visual style and themes associated with Themadhood."
+          "Themadhood's Jewelry is the jewelry and wearable goods division within Themadhood's Goods, focused on producing themed pieces, crafted accessories, and limited releases while maintaining the visual style and themes associated with Themadhood."
         ]
       },
       "about": {
         "title": "ABOUT US",
         "body": [
-          "Themadhood's Julery operates as both an independent creative workshop and a structured branch within the larger Themadhood ecosystem. Its purpose is to design and produce jewelry and wearable items that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
+          "Themadhood's Jewelry operates as an independent creative workshop. Its purpose is to design and produce jewelry and wearable items that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
           "",
-          "Through themed pieces, handcrafted works, and limited releases, Themadhood's Julery provides a framework for organizing wearable creations while allowing each line of designs to develop its own style and focus. This structure ensures that goods remain connected to the broader creative ecosystem while still supporting unique craftsmanship and experimentation."
+          "Through themed pieces, handcrafted works, and limited releases, Themadhood's Jewelry provides a framework for organizing wearable creations while allowing each line of designs to develop its own style and focus. This structure ensures that goods remain connected to the broader creative ecosystem while still supporting unique craftsmanship and experimentation."
         ]
       },
       "branches": {
