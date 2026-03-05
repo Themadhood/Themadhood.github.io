@@ -1,0 +1,85 @@
+{
+  "branchId": "julery",
+  "site": {
+    "title": "Themadhood's Julery",
+    "tagline": "Physical and digital goods created under the Themadhood ecosystem.",
+    "metaDescription": "Themadhood's Julery handles jewelry and wearable items, including themed pieces and limited releases.",
+    "brand": {
+      "logo": "assets/imgs/Goods/THEMADHOOD Julery O 2k-2k.png",
+      "heroBackground": "assets/imgs/Goods/THEMADHOOD Julery background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=julery",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=julery" },
+      { "label": "Links", "href": "links.html?branch=julery" },
+      { "label": "Contact", "href": "index.html?branch=julery#contact" }
+    ]
+  },
+  "footer": {
+    "logo": "assets/imgs/Goods/THEMADHOOD Julery O 2k-2k.png",
+    "title": "Themadhood's Julery",
+    "emailLabel": "Email",
+    "email": "Themadhoods.Goods@gmail.com",
+    "copyright": "© 2026 Themadhood's Julery. All rights reserved.",
+    "line2": "Themadhood's Julery operates as a parent entity for affiliated projects."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Julery",
+        "body": [
+          "Themadhood's Julery is the jewelry and wearable goods division within Themadhood's Goods, focused on producing themed pieces, crafted accessories, and limited releases while maintaining the visual style and themes associated with Themadhood."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "Themadhood's Julery operates as both an independent creative workshop and a structured branch within the larger Themadhood ecosystem. Its purpose is to design and produce jewelry and wearable items that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
+          "",
+          "Through themed pieces, handcrafted works, and limited releases, Themadhood's Julery provides a framework for organizing wearable creations while allowing each line of designs to develop its own style and focus. This structure ensures that goods remain connected to the broader creative ecosystem while still supporting unique craftsmanship and experimentation."
+        ]
+      },
+      "branches": {
+        "title": "Themadhood's Julery",
+        "items": [
+          {
+            "title": "Other/ Routed Through Us",
+            "href": "",
+            "body": "Requests that don’t clearly fall under a specific Julery subtree, including custom or experimental wearable goods.",
+            "icon": ""
+          }
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Shop Links",
+          "links": [
+            {
+              "label": "More From Themadhood",
+              "href": "links.html"
+            },
+            { "label": "Main Shop (coming soon)", "href": "" }
+          ]
+        },
+        {
+          "title": "Other Business Links",
+          "links": [
+            { "label": "Themadhood's Julery", "href": "index.html?branch=julery" },
+            { "label": "Themadhood's Stained Glass", "href": "index.html?branch=stained-glass" },
+            { "label": "Themadhood's Creations", "href": "index.html?branch=creations" },
+            { "label": "Themadhood's Trinkets", "href": "index.html?branch=trinkets" }
+          ]
+        }
+      ]
+    }
+  }
+}
