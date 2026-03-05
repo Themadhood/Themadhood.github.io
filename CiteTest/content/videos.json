@@ -30,9 +30,9 @@
       "hero": {
         "headline": "Themadhood's Videos",
 		"body": [
-		  "Themadhood's Videos is the visual media production and release branch operating within Themadhood Media. It serves as the primary home for video-based projects created across the broader Themadhood ecosystem, including storytelling content, visual documentation, creative experiments, and project-focused media releases.",
+		  "Themadhood's Videos is the visual media production and release branch operating within Themadhood Media. It serves as the primary home for video-based projects, including storytelling content, visual documentation, creative experiments, and project-focused media releases.",
 		  "",
-		  "Through this branch, video productions are developed, organized, and published in a structured environment that supports both independent releases and collaborative projects connected to other Themadhood initiatives. The goal is not only to produce video content, but to ensure that each project remains clearly cataloged, accessible, and integrated with the wider creative and technical work taking place throughout the ecosystem.",
+		  "Video productions are developed, organized, and published in a structured environment that supports both independent releases and collaborative projects connected to other Themadhood initiatives. The goal is not only to produce video content, but to ensure that each project remains clearly cataloged, accessible.",
 		  "",
 		  "By maintaining a dedicated visual media division, Themadhood's Videos provides a stable framework for managing long-term projects, evolving creative formats, and experimental media development while preserving continuity between releases and maintaining a recognizable visual identity across all productions."
 		]
@@ -48,8 +48,32 @@
 		  ]      
 		  },
       "branches": {
-        "title": "",
-        "items": []
+        "title": "Services",
+        "items": [{
+		  "title": "Video Production",
+		  "href": "",
+		  "icon": "",
+		  "body": "Development and release of fully produced video projects, from concept planning through final edit and publication. Each production is built with clear visual direction, structured storytelling, and a consistent creative identity."
+		},
+		{
+		  "title": "Cinematography & Visual Capture",
+		  "href": "",
+		  "icon": "",
+		  "body": "Capture of visual footage designed to support narrative, documentation, or creative projects. Emphasis is placed on framing, motion, lighting, and composition to ensure visually engaging results."
+		},
+		{
+		  "title": "Editing & Post-Production",
+		  "href": "",
+		  "icon": "",
+		  "body": "Refinement of recorded footage through editing, pacing, color correction, and audio balancing. This stage transforms raw material into a cohesive final production with clarity, flow, and professional polish."
+		},
+		{
+		  "title": "Creative Video Development",
+		  "href": "",
+		  "icon": "",
+		  "body": "Collaborative shaping of video concepts including visual structure, narrative pacing, and stylistic direction. This service supports projects seeking deliberate creative development and long-term visual consistency."
+		}
+		]
       },
       "contact": {
         "title": "CONNECT WITH US",

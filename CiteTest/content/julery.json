@@ -42,8 +42,31 @@
         ]
       },
       "branches": {
-        "title": "Themadhood's Julery",
-        "items": [
+        "title": "Services",
+        "items": [{
+		  "title": "Custom Jewelry Design",
+		  "href": "",
+		  "icon": "",
+		  "body": "Development of original jewelry pieces from concept through final construction. Each design is created with attention to form, materials, and durability while maintaining a distinct visual identity."
+		},
+		{
+		  "title": "Handcrafted Jewelry Production",
+		  "href": "",
+		  "icon": "",
+		  "body": "Creation of handcrafted jewelry pieces produced with careful assembly and finishing techniques. This process emphasizes structural quality, aesthetic balance, and long-lasting craftsmanship."
+		},
+		{
+		  "title": "Material & Component Integration",
+		  "href": "",
+		  "icon": "",
+		  "body": "Selection and integration of metals, stones, glass, and other materials to create cohesive jewelry designs. Care is taken to ensure both visual harmony and functional reliability within each piece."
+		},
+		{
+		  "title": "Limited Release Collections",
+		  "href": "",
+		  "icon": "",
+		  "body": "Development of themed jewelry sets and small-batch releases tied to specific creative concepts. These collections allow designs to explore new styles while remaining connected to the broader visual identity of Themadhood."
+		}
         ]
       },
       "contact": {
