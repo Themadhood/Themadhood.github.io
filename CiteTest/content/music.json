@@ -1,0 +1,85 @@
+{
+  "branchId": "music",
+  "site": {
+    "title": "Themadhood's Music",
+    "tagline": "Original music releases and audio projects under Themadhood Media.",
+    "metaDescription": "Themadhood's Music is the music branch under Themadhood Media, focused on original releases and audio projects.",
+    "brand": {
+      "logo": "assets/imgs/Music/THEMADHOOD Music O music 2k-2k.png",
+      "heroBackground": "assets/imgs/Media/THEMADHOOD background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=music",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=music" },
+      { "label": "Links", "href": "links.html?branch=music" },
+      { "label": "Contact", "href": "index.html?branch=music#contact" },
+      { "label": "Media", "href": "index.html?branch=media" },
+      { "label": "Pequot", "href": "index.html?branch=pequot" }
+    ]
+  },
+  "footer": {
+    "logo": "assets/imgs/Music/THEMADHOOD Music O music 2k-2k.png",
+    "title": "Themadhood's Music",
+    "emailLabel": "Email",
+    "email": "Themadhood.Music@gmail.com",
+    "copyright": "© 2026 Themadhood's Music. All rights reserved.",
+    "line2": "Themadhood's Music operates under Themadhood Media."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Music",
+        "body": [
+          "Themadhood's Music is the music division within Themadhood Media, focused on original releases and audio projects.",
+          "",
+          "It exists to create, organize, and distribute music while keeping releases connected to the broader Themadhood ecosystem."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "Themadhood's Music is built to support consistent releases, clear project organization, and long-term accessibility across platforms.",
+          "",
+          "When music projects do not maintain their own public presence, updates and releases can route through the parent media structure while still keeping attribution clear."
+        ]
+      },
+      "branches": {
+        "title": "",
+        "items": [{
+            "name": "Album / Single Name",
+            "icon": "",
+            "href": "",
+            "body": "Add release links + cover art here"
+          }
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Listen",
+          "links": [
+            { "label": "YouTube", "href": "https://www.youtube.com/@themadhood" },
+            { "label": "TikTok", "href": "https://www.tiktok.com/@themadhood_pq?_r=1&_t=ZP-93VoRVwI7ji" }
+          ]
+        },
+        {
+          "title": "Other Branches",
+          "links": [
+            { "label": "Themadhood Media", "href": "index.html?branch=media" },
+            { "label": "Themadhood Pequot", "href": "index.html?branch=pequot" },
+            { "label": "Themadhood's Codes", "href": "index.html?branch=codes" },
+            { "label": "Themadhood's Goods", "href": "index.html?branch=goods" }
+          ]
+        }
+      ]
+    }
+  }
+}

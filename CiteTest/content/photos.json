@@ -1,0 +1,79 @@
+{
+  "branchId": "photos",
+  "site": {
+    "title": "Themadhood's Photos",
+    "tagline": "Photography and visual imagery under Themadhood Media.",
+    "metaDescription": "Themadhood's Photos is the photography branch under Themadhood Media, focused on visual sets, collections, and project documentation.",
+    "brand": {
+      "logo": "assets/imgs/Photos/THEMADHOOD Photos O photos 2k-2k.png",
+      "heroBackground": "assets/imgs/Media/THEMADHOOD background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=photos",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=photos" },
+      { "label": "Links", "href": "links.html?branch=photos" },
+      { "label": "Contact", "href": "index.html?branch=photos#contact" },
+      { "label": "Media", "href": "index.html?branch=media" },
+      { "label": "Pequot", "href": "index.html?branch=pequot" }
+    ]
+  },
+  "footer": {
+    "logo": "assets/imgs/Photos/THEMADHOOD Photos O photos 2k-2k.png",
+    "title": "Themadhood's Photos",
+    "emailLabel": "Email",
+    "email": "Themadhood.Photos@gmail.com",
+    "copyright": "© 2026 Themadhood's Photos. All rights reserved.",
+    "line2": "Themadhood's Photos operates under Themadhood Media."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Photos",
+        "body": [
+          "Themadhood's Photos is the photography and imagery branch within Themadhood Media.",
+          "",
+          "It exists to create, curate, and publish visual collections while keeping projects organized within the larger Themadhood ecosystem."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "This branch focuses on photography, visual sets, project documentation, and curated collections.",
+          "",
+          "When a project does not maintain its own public presence, releases and updates can route through the parent media structure while staying properly attributed."
+        ]
+      },
+      "branches": {
+        "title": "",
+        "items": []
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "View",
+          "links": [
+            { "label": "Instagram", "href": "https://www.instagram.com" },
+            { "label": "Themadhood Pequot - (Socials)", "href": "links.html?branch=pequot" }
+          ]
+        },
+        {
+          "title": "Other Branches",
+          "links": [
+            { "label": "Themadhood Media", "href": "index.html?branch=media" },
+            { "label": "Themadhood Pequot", "href": "index.html?branch=pequot" },
+            { "label": "Themadhood's Music", "href": "index.html?branch=music" },
+            { "label": "Themadhood's Videos", "href": "index.html?branch=videos" }
+          ]
+        }
+      ]
+    }
+  }
+}

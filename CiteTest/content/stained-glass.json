@@ -1,0 +1,85 @@
+{
+  "branchId": "stained-glass",
+  "site": {
+    "title": "Themadhood's Stained Glass",
+    "tagline": "Physical and digital goods created under the Themadhood ecosystem.",
+    "metaDescription": "Themadhood's Stained Glass handles stained glass pieces, including decorative panels, themed designs, and limited handcrafted works.",
+    "brand": {
+      "logo": "assets/imgs/Goods/THEMADHOOD Stained Glass O 2k-2k.png",
+      "heroBackground": "assets/imgs/Goods/THEMADHOOD Stained Glass background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=stained-glass",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=stained-glass" },
+      { "label": "Links", "href": "links.html?branch=stained-glass" },
+      { "label": "Contact", "href": "index.html?branch=stained-glass#contact" }
+    ]
+  },
+  "footer": {
+    "logo": "assets/imgs/Goods/THEMADHOOD Stained Glass O 2k-2k.png",
+    "title": "Themadhood's Stained Glass",
+    "emailLabel": "Email",
+    "email": "Themadhoods.Goods@gmail.com",
+    "copyright": "© 2026 Themadhood's Stained Glass. All rights reserved.",
+    "line2": "Themadhood's Stained Glass operates as a parent entity for affiliated projects."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Stained Glass",
+        "body": [
+          "Themadhood's Stained Glass is the stained glass division within Themadhood's Goods, focused on producing decorative panels, themed designs, and limited handcrafted works while maintaining the visual style and themes associated with Themadhood."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "Themadhood's Stained Glass operates as both an independent creative workshop and a structured branch within the larger Themadhood ecosystem. Its purpose is to design and produce stained glass pieces that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
+          "",
+          "Through decorative panels, themed designs, and limited handcrafted works, Themadhood's Stained Glass provides a framework for organizing glass creations while allowing each line of designs to develop its own style and focus. This structure ensures that goods remain connected to the broader creative ecosystem while still supporting unique craftsmanship and experimentation."
+        ]
+      },
+      "branches": {
+        "title": "Themadhood's Stained Glass",
+        "items": [
+          {
+            "title": "Other/ Routed Through Us",
+            "href": "",
+            "body": "Requests that don’t clearly fall under a specific stained glass subtree, including custom or experimental glasswork.",
+            "icon": ""
+          }
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Shop Links",
+          "links": [
+            {
+              "label": "More From Themadhood",
+              "href": "links.html"
+            },
+            { "label": "Main Shop (coming soon)", "href": "" }
+          ]
+        },
+        {
+          "title": "Other Business Links",
+          "links": [
+            { "label": "Themadhood's Julery", "href": "index.html?branch=julery" },
+            { "label": "Themadhood's Stained Glass", "href": "index.html?branch=stained-glass" },
+            { "label": "Themadhood's Creations", "href": "index.html?branch=creations" },
+            { "label": "Themadhood's Trinkets", "href": "index.html?branch=trinkets" }
+          ]
+        }
+      ]
+    }
+  }
+}
