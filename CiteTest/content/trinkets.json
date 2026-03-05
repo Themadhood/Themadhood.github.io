@@ -42,8 +42,31 @@
         ]
       },
       "branches": {
-        "title": "Themadhood's Trinkets",
-        "items": [
+        "title": "Services",
+        "items": [{
+		  "title": "Small Goods Design",
+		  "href": "",
+		  "icon": "",
+		  "body": "Development of small-scale crafted items designed with attention to detail, usability, and visual appeal. Each piece is created to maintain a balance between practical function and distinctive artistic style."
+		},
+		{
+		  "title": "Handcrafted Accessories",
+		  "href": "",
+		  "icon": "",
+		  "body": "Creation of small accessories and decorative items produced through careful assembly and finishing techniques. These works emphasize durability, craftsmanship, and refined presentation."
+		},
+		{
+		  "title": "Collectible Items",
+		  "href": "",
+		  "icon": "",
+		  "body": "Production of collectible pieces designed for display, personal use, or themed releases. These items often reflect creative motifs connected to projects and concepts within the broader Themadhood ecosystem."
+		},
+		{
+		  "title": "Limited Trinket Sets",
+		  "href": "",
+		  "icon": "",
+		  "body": "Development of small themed sets and short-run releases that explore new designs and materials. These collections allow experimental ideas to be introduced while maintaining the recognizable identity of Themadhood's Goods."
+		}
         ]
       },
       "contact": {

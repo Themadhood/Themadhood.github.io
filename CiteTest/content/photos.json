@@ -48,8 +48,32 @@
 		  ]
       },
       "branches": {
-        "title": "",
-        "items": []
+        "title": "Services",
+        "items": [{
+		  "title": "Photography Production",
+		  "href": "",
+		  "icon": "",
+		  "body": "Creation and release of professionally captured photographic work, from initial concept through final image preparation. Each project focuses on composition, visual clarity, and a cohesive photographic style."
+		},
+		{
+		  "title": "Visual Documentation",
+		  "href": "",
+		  "icon": "",
+		  "body": "Structured capture of images intended to document projects, environments, and creative processes. This service focuses on preserving visual records while maintaining strong photographic quality and consistency."
+		},
+		{
+		  "title": "Photo Editing & Image Processing",
+		  "href": "",
+		  "icon": "",
+		  "body": "Refinement of captured photographs through color correction, exposure balancing, and image enhancement. The process ensures visual clarity, consistency, and professional presentation across collections and releases."
+		},
+		{
+		  "title": "Curated Photo Collections",
+		  "href": "",
+		  "icon": "",
+		  "body": "Development and organization of themed photographic sets designed for publication or archival purposes. Collections are structured to present cohesive visual narratives and maintain long-term accessibility."
+		}
+		]
       },
       "contact": {
         "title": "CONNECT WITH US",
