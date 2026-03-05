@@ -44,12 +44,6 @@
       "branches": {
         "title": "Themadhood's Trinkets",
         "items": [
-          {
-            "title": "Other/ Routed Through Us",
-            "href": "",
-            "body": "Requests that don’t clearly fall under a specific trinkets subtree, including custom or experimental small goods.",
-            "icon": ""
-          }
         ]
       },
       "contact": {
@@ -63,20 +57,13 @@
         {
           "title": "Shop Links",
           "links": [
-            {
-              "label": "More From Themadhood",
-              "href": "links.html"
-            },
             { "label": "Main Shop (coming soon)", "href": "" }
           ]
         },
         {
           "title": "Other Business Links",
           "links": [
-            { "label": "Themadhood's Julery", "href": "index.html?branch=julery" },
-            { "label": "Themadhood's Stained Glass", "href": "index.html?branch=stained-glass" },
-            { "label": "Themadhood's Creations", "href": "index.html?branch=creations" },
-            { "label": "Themadhood's Trinkets", "href": "index.html?branch=trinkets" }
+            { "label": "More From Themadhood", "href": "index.html?branch=links.html" }
           ]
         }
       ]

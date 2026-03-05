@@ -5,8 +5,8 @@
     "tagline": "Video projects and visual media under Themadhood Media.",
     "metaDescription": "Themadhood's Videos is the video branch under Themadhood Media, focused on visual media projects and releases.",
     "brand": {
-      "logo": "assets/imgs/Videos/THEMADHOOD Videos O videos 2k-2k.png",
-      "heroBackground": "assets/imgs/Media/THEMADHOOD background square.png"
+      "logo": "assets/imgs/Media/THEMADHOOD Videos O videos 2k-2k.png",
+      "heroBackground": "assets/imgs/Media/THEMADHOOD Media background square.png"
     }
   },
   "nav": {
@@ -14,13 +14,11 @@
     "items": [
       { "label": "Home", "href": "index.html?branch=videos" },
       { "label": "Links", "href": "links.html?branch=videos" },
-      { "label": "Contact", "href": "index.html?branch=videos#contact" },
-      { "label": "Media", "href": "index.html?branch=media" },
-      { "label": "Pequot", "href": "index.html?branch=pequot" }
+      { "label": "Contact", "href": "index.html?branch=videos#contact" }
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Videos/THEMADHOOD Videos O videos 2k-2k.png",
+    "logo": "assets/imgs/Media/THEMADHOOD Videos O videos 2k-2k.png",
     "title": "Themadhood's Videos",
     "emailLabel": "Email",
     "email": "Themadhood.Videos@gmail.com",
@@ -31,20 +29,23 @@
     "home": {
       "hero": {
         "headline": "Themadhood's Videos",
-        "body": [
-          "Themadhood's Videos is the video branch within Themadhood Media.",
-          "",
-          "It exists to create and release video projects while keeping everything organized and connected across the Themadhood ecosystem."
-        ]
-      },
-      "about": {
-        "title": "ABOUT US",
-        "body": [
-          "This branch focuses on visual storytelling, project releases, and experimental video content.",
-          "",
-          "When a project does not maintain its own public presence, updates and releases can route through Themadhood Media while staying properly attributed."
-        ]
-      },
+		"body": [
+		  "Themadhood's Videos is the visual media production and release branch operating within Themadhood Media. It serves as the primary home for video-based projects created across the broader Themadhood ecosystem, including storytelling content, visual documentation, creative experiments, and project-focused media releases.",
+		  "",
+		  "Through this branch, video productions are developed, organized, and published in a structured environment that supports both independent releases and collaborative projects connected to other Themadhood initiatives. The goal is not only to produce video content, but to ensure that each project remains clearly cataloged, accessible, and integrated with the wider creative and technical work taking place throughout the ecosystem.",
+		  "",
+		  "By maintaining a dedicated visual media division, Themadhood's Videos provides a stable framework for managing long-term projects, evolving creative formats, and experimental media development while preserving continuity between releases and maintaining a recognizable visual identity across all productions."
+		],
+		"about": {
+		  "title": "ABOUT US",
+		  "body": [
+			"Themadhood's Videos was created to support the long-term development of visual media within the larger Themadhood creative structure. As part of Themadhood Media, the branch is responsible for organizing video production, maintaining consistent publishing practices, and providing a centralized location where visual projects can be managed and released in a clear and sustainable way.",
+			"",
+			"The branch supports a wide range of visual work, including creative storytelling, technical demonstrations, project documentation, experimental media formats, and collaborative productions that connect to other divisions within Themadhood. This structure allows individual video projects to grow and evolve while still remaining part of a larger, organized catalog of creative output.",
+			"",
+			"When individual projects or sub-series do not maintain their own dedicated public presence, releases and updates can still be managed through Themadhood's Videos while preserving proper attribution and project identity. This approach ensures that visual media remains both flexible for creators and structured for long-term accessibility, allowing Themadhood's Videos to function as a lasting archive and production platform for the ecosystem's visual work."
+		  ]      
+		  },
       "branches": {
         "title": "",
         "items": []
@@ -65,12 +66,9 @@
           ]
         },
         {
-          "title": "Other Branches",
+          "title": "Social Links",
           "links": [
-            { "label": "Themadhood Media", "href": "index.html?branch=media" },
-            { "label": "Themadhood Pequot", "href": "index.html?branch=pequot" },
-            { "label": "Themadhood's Music", "href": "index.html?branch=music" },
-            { "label": "Themadhood's Photos", "href": "index.html?branch=photos" }
+            { "label": "More From Themadhood", "href": "index.html?branch=media" }
           ]
         }
       ]
