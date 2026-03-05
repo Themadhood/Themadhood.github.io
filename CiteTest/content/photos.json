@@ -5,8 +5,8 @@
     "tagline": "Photography and visual imagery under Themadhood Media.",
     "metaDescription": "Themadhood's Photos is the photography branch under Themadhood Media, focused on visual sets, collections, and project documentation.",
     "brand": {
-      "logo": "assets/imgs/Photos/THEMADHOOD Photos O photos 2k-2k.png",
-      "heroBackground": "assets/imgs/Media/THEMADHOOD background square.png"
+      "logo": "assets/imgs/Media/THEMADHOOD Photos O photos 2k-2k.png",
+      "heroBackground": "assets/imgs/Media/THEMADHOOD Media background square.png"
     }
   },
   "nav": {
@@ -14,13 +14,11 @@
     "items": [
       { "label": "Home", "href": "index.html?branch=photos" },
       { "label": "Links", "href": "links.html?branch=photos" },
-      { "label": "Contact", "href": "index.html?branch=photos#contact" },
-      { "label": "Media", "href": "index.html?branch=media" },
-      { "label": "Pequot", "href": "index.html?branch=pequot" }
+      { "label": "Contact", "href": "index.html?branch=photos#contact" }
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Photos/THEMADHOOD Photos O photos 2k-2k.png",
+    "logo": "assets/imgs/Media/THEMADHOOD Photos O photos 2k-2k.png",
     "title": "Themadhood's Photos",
     "emailLabel": "Email",
     "email": "Themadhood.Photos@gmail.com",
@@ -32,18 +30,21 @@
       "hero": {
         "headline": "Themadhood's Photos",
         "body": [
-          "Themadhood's Photos is the photography and imagery branch within Themadhood Media.",
-          "",
-          "It exists to create, curate, and publish visual collections while keeping projects organized within the larger Themadhood ecosystem."
-        ]
-      },
-      "about": {
-        "title": "ABOUT US",
-        "body": [
-          "This branch focuses on photography, visual sets, project documentation, and curated collections.",
-          "",
-          "When a project does not maintain its own public presence, releases and updates can route through the parent media structure while staying properly attributed."
-        ]
+		  "Themadhood's Photos is the photography and visual imagery branch operating within Themadhood Media. It serves as the primary home for photographic work and curated image collections created across the broader Themadhood ecosystem, including artistic photography, project documentation, environmental captures, and visual materials connected to other creative initiatives.",
+		  "",
+		  "Through this branch, visual media is produced, organized, and published in a structured environment that supports both individual photography projects and imagery connected to larger Themadhood productions. The focus extends beyond simply capturing images, emphasizing the development of organized visual archives and curated collections that remain accessible and connected to the broader body of creative work produced throughout the ecosystem.",
+		  "",
+		  "By maintaining a dedicated photography division, Themadhood's Photos provides a stable framework for long-term visual documentation, evolving artistic photography, and curated image collections while preserving continuity between releases and maintaining a recognizable visual identity across projects."
+		],
+		"about": {
+		  "title": "ABOUT US",
+		  "body": [
+			"Themadhood's Photos was created to support the long-term development, organization, and preservation of photographic work within the wider Themadhood creative structure. As part of Themadhood Media, the branch is responsible for coordinating visual capture, maintaining structured image catalogs, and providing a centralized platform where photography projects can be organized and released in a consistent and sustainable way.",
+			"",
+			"The branch supports a wide range of visual work, including artistic photography, curated image sets, project documentation, environmental photography, and visual assets that contribute to other Themadhood productions. This structure allows photography projects to evolve independently while remaining part of a larger, organized archive of visual media.",
+			"",
+			"When individual photography projects or image series do not maintain their own dedicated public presence, releases and curated collections can still be managed through Themadhood's Photos while preserving clear attribution and project identity. This approach ensures that visual work remains flexible for creators while also maintaining a structured archive that supports long-term accessibility and continued development of the ecosystem's visual media."
+		  ]
       },
       "branches": {
         "title": "",
@@ -60,17 +61,12 @@
         {
           "title": "View",
           "links": [
-            { "label": "Instagram", "href": "https://www.instagram.com" },
-            { "label": "Themadhood Pequot - (Socials)", "href": "links.html?branch=pequot" }
           ]
         },
         {
-          "title": "Other Branches",
+          "title": "Social Links",
           "links": [
-            { "label": "Themadhood Media", "href": "index.html?branch=media" },
-            { "label": "Themadhood Pequot", "href": "index.html?branch=pequot" },
-            { "label": "Themadhood's Music", "href": "index.html?branch=music" },
-            { "label": "Themadhood's Videos", "href": "index.html?branch=videos" }
+            { "label": "More From Themadhood", "href": "index.html?branch=media" }
           ]
         }
       ]
