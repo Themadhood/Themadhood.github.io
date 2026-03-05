@@ -45,10 +45,10 @@
         "title": "Themadhood's Goods",
         "items": [
           {
-            "title": "Themadhood's Julery",
-            "href": "index.html?branch=julery",
+            "title": "Themadhood's Jewelry",
+            "href": "index.html?branch=jewelry",
             "body": "Jewelry and wearable items created under Themadhood goods, including themed pieces and limited releases.",
-            "icon": "assets/imgs/Goods/THEMADHOOD Julery O 2k-2k.png"
+            "icon": "assets/imgs/Goods/THEMADHOOD Jewelry O 2k-2k.png"
           },
 		  {
             "title": "Themadhood's Stained Glass",
@@ -66,6 +66,12 @@
             "title": "Themadgood's Trinkets",
             "href": "index.html?branch=trinkets",
             "body": "Small goods, accessories, and collectible trinkets released under Themadhood goods.",
+            "icon": "assets/imgs/Goods/THEMADHOOD Trinkets O 2k-2k.png"
+          },
+          {
+            "title": "Themadgood's Art",
+            "href": "index.html?branch=trinkets",
+            "body": "Artworks, illustrations, and visual creations produced and released under Themadhood's creative branches, including original pieces and curated visual projects.",
             "icon": "assets/imgs/Goods/THEMADHOOD Trinkets O 2k-2k.png"
           },
           {

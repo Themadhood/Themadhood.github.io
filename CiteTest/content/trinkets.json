@@ -6,7 +6,7 @@
     "metaDescription": "Themadhood's Trinkets handles small goods, accessories, and collectible trinkets released under Themadhood goods.",
     "brand": {
       "logo": "assets/imgs/Goods/THEMADHOOD Trinkets O 2k-2k.png",
-      "heroBackground": "assets/imgs/Goods/THEMADHOOD Trinkets background square.png"
+      "heroBackground": "assets/imgs/Goods/THEMADHOOD Goods background square.png"
     }
   },
   "nav": {
@@ -36,7 +36,7 @@
       "about": {
         "title": "ABOUT US",
         "body": [
-          "Themadhood's Trinkets operates as both an independent creative workshop and a structured branch within the larger Themadhood ecosystem. Its purpose is to design and produce small goods, accessories, and collectible items that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
+          "Themadhood's Trinkets operates as an independent creative workshop. Its purpose is to design and produce small goods, accessories, and collectible items that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
           "",
           "Through small releases, accessories, and collectible trinkets, Themadhood's Trinkets provides a framework for organizing small goods while allowing each product line to develop its own style and focus. This structure ensures that goods remain connected to the broader creative ecosystem while still supporting unique craftsmanship and experimentation."
         ]
