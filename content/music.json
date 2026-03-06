@@ -1,0 +1,119 @@
+{
+  "branchId": "music",
+  "site": {
+    "title": "Themadhood's Music",
+    "tagline": "Original music releases and audio projects under Themadhood Media.",
+    "metaDescription": "Themadhood's Music is the music branch under Themadhood Media, focused on original releases and audio projects.",
+    "brand": {
+      "logo": "assets/imgs/Media/THEMADHOOD Music O 2k-2k.png",
+      "heroBackground": "assets/imgs/Media/THEMADHOOD Media background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=music",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=music" },
+      { "label": "Links", "href": "links.html?branch=music" },
+      { "label": "Contact", "href": "index.html?branch=music#contact" }
+    ]
+  },
+  "footer": {
+    "logo": "assets/imgs/Media/THEMADHOOD Music O 2k-2k.png",
+    "title": "Themadhood's Music",
+    "emailLabel": "Email",
+    "email": "Themadhood.Music@gmail.com",
+    "copyright": "© 2026 Themadhood's Music. All rights reserved.",
+    "line2": "Themadhood's Music operates under Themadhood Media."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Music",
+		"body": [
+		  "Themadhood's Music is the audio production and release. Including original compositions, collaborative releases, experimental audio work, and soundtrack-style projects connected to other creative initiatives.",
+		  "",
+		  "Music is developed, organized, and released in a structured environment that supports both individual artists and ecosystem-driven productions. The focus is not only on creating music, but also on maintaining a consistent catalog of releases that remain clearly documented, accessible, and connected to the broader body of work developed through Themadhood.",
+		  "",
+		  "By maintaining a dedicated music division, Themadhood's Music provides a stable framework for long-term audio development, evolving creative styles, and experimental musical projects while preserving continuity between releases and maintaining a recognizable identity across the catalog."
+		]
+	  },
+		"about": {
+		  "title": "ABOUT US",
+		  "body": [
+			"Themadhood's Music was established to support the long-term creation and organization of audio projects within the wider Themadhood creative ecosystem. As part of Themadhood Media, the branch is responsible for coordinating music production, maintaining structured publishing practices, and providing a centralized platform where audio projects can be developed and released in a sustainable way.",
+			"",
+			"The division supports a wide range of musical work, including original compositions, collaborative projects, themed albums, experimental sound design, and audio productions connected to other branches within Themadhood. This structure allows music releases to grow and evolve while remaining part of a larger catalog of creative output.",
+			"",
+			"When individual artists or projects do not maintain their own dedicated public presence, releases and updates can still be distributed through Themadhood's Music while preserving proper attribution and project identity. This approach ensures that music remains both flexible for creators and organized for long-term accessibility, allowing Themadhood's Music to function as both a production platform and an enduring archive for the ecosystem's audio work."
+		  ]
+      },
+      "branches": {
+        "title": "Services",
+        "items": [{
+            "title": "Original Music Production",
+            "href": "",
+            "icon": "",
+            "body": "Creation and release of fully developed original compositions, from initial concept through final mastering. Each project is shaped with deliberate structure, tonal identity, and long-term artistic vision."
+          },
+		  {
+            "title": "Sound Design & Composition",
+            "href": "",
+            "icon": "",
+            "body": "Development of custom sounds and compositional frameworks tailored to specific creative goals. Emphasis is placed on atmosphere, movement, and cohesive musical identity."
+          },
+		  {
+            "title": "Mixing & Mastering",
+            "href": "",
+            "icon": "",
+            "body": "Refinement of recorded material through balance, clarity, and tonal precision. The process ensures consistency, depth, and professional-grade audio quality across all releases."
+          },
+		  {
+            "title": "Creative Music Development",
+            "href": "",
+            "icon": "",
+            "body": "Collaborative shaping of musical ideas, including arrangement, pacing, and stylistic refinement. This service supports artists and projects seeking structured growth and intentional direction."
+          }
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Listen",
+          "links": [{
+			"label": "Spotify",
+			"href": "https://open.spotify.com/artist/6AaSX29pa9OI3qUgqgIyYi"
+			},
+			{
+			"label": "YouTube Music",
+			"href": "https://music.youtube.com/channel/UC21pB2JxTsMNxXM10AvhwRg"
+			},
+			{
+			"label": "Amazon Music",
+			"href": "https://music.amazon.com/artists/B0GGBY9W18/themadhood-pequot"
+			},
+			{
+			"label": "Apple Music",
+			"href": "https://music.apple.com/us/artist/themadhood-pequot/1868037591"
+			},
+			{
+			"label": "More coming soon",
+			"href": ""
+			}
+          ]
+        },
+        {
+          "title": "Social Links",
+          "links": [
+            { "label": "More From Themadhood", "href": "index.html?branch=media" }
+          ]
+        }
+      ]
+    }
+  }
+}
