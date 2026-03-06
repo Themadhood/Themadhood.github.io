@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=executables",
     "items": [
       { "label": "Home", "href": "index.html?branch=executables" },
-      { "label": "Links", "href": "links.html?branch=executables" },
-      { "label": "Contact", "href": "index.html?branch=executables#contact" }
+      { "label": "Links", "href": "links.html?branch=executables" }
     ]
   },
   "footer": {

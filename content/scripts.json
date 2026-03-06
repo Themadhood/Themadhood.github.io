@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=scripts",
     "items": [
       { "label": "Home", "href": "index.html?branch=scripts" },
-      { "label": "Links", "href": "links.html?branch=scripts" },
-      { "label": "Contact", "href": "index.html?branch=scripts#contact" }
+      { "label": "Links", "href": "links.html?branch=scripts" }
     ]
   },
   "footer": {

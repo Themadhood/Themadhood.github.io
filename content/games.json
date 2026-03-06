@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=games",
     "items": [
       { "label": "Home", "href": "index.html?branch=games" },
-      { "label": "Links", "href": "links.html?branch=games" },
-      { "label": "Contact", "href": "index.html?branch=games#contact" }
+      { "label": "Links", "href": "links.html?branch=games" }
     ]
   },
   "footer": {

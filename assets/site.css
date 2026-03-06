@@ -33,7 +33,13 @@ a{color:inherit}
   margin-bottom:12px;
 }
 .hero{border:1px solid var(--border);border-radius:22px;overflow:hidden;background:linear-gradient(180deg, rgba(177,26,37,.15), rgba(0,0,0,0))}
-.hero-bg{min-height:220px;background-size:cover;background-position:center;border-bottom:1px solid var(--border)}
+.hero-bg{
+  height:250px;
+  background-size:cover;
+  background-position:center 80%;
+  background-repeat:no-repeat;
+  border-bottom:1px solid var(--border);
+}
 .hero-content{padding:22px}
 .hero h1{margin:0 0 10px 0;font-size:42px;line-height:1.05;white-space:pre-line}
 .hero p{margin:0 0 10px 0;color:var(--muted);max-width:70ch}
@@ -52,6 +58,16 @@ a{color:inherit}
   border:none;
   background:none;
 }
+.branch.clickable{
+  cursor:pointer;
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+
+.branch.clickable:hover{
+  transform:translateY(-2px);
+  box-shadow:0 4px 12px rgba(0,0,0,.25);
+}
+
 .list{display:flex;flex-direction:column;gap:10px}
 .badge{display:inline-block;margin-top:8px;color:var(--muted);font-size:13px}
 [data-about-body] p{

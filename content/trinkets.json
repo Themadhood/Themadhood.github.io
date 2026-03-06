@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=trinkets",
     "items": [
       { "label": "Home", "href": "index.html?branch=trinkets" },
-      { "label": "Links", "href": "links.html?branch=trinkets" },
-      { "label": "Contact", "href": "index.html?branch=trinkets#contact" }
+      { "label": "Links", "href": "links.html?branch=trinkets" }
     ]
   },
   "footer": {

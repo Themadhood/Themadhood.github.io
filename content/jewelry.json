@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=jewelry",
     "items": [
       { "label": "Home", "href": "index.html?branch=jewelry" },
-      { "label": "Links", "href": "links.html?branch=jewelry" },
-      { "label": "Contact", "href": "index.html?branch=jewelry#contact" }
+      { "label": "Links", "href": "links.html?branch=jewelry" }
     ]
   },
   "footer": {

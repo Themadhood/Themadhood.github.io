@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=videos",
     "items": [
       { "label": "Home", "href": "index.html?branch=videos" },
-      { "label": "Links", "href": "links.html?branch=videos" },
-      { "label": "Contact", "href": "index.html?branch=videos#contact" }
+      { "label": "Links", "href": "links.html?branch=videos" }
     ]
   },
   "footer": {

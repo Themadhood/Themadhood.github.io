@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=art",
     "items": [
       { "label": "Home", "href": "index.html?branch=art" },
-      { "label": "Links", "href": "links.html?branch=art" },
-      { "label": "Contact", "href": "index.html?branch=art#contact" }
+      { "label": "Links", "href": "links.html?branch=art" }
     ]
   },
   "footer": {

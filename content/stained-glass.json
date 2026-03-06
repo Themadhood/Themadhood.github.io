@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=stained-glass",
     "items": [
       { "label": "Home", "href": "index.html?branch=stained-glass" },
-      { "label": "Links", "href": "links.html?branch=stained-glass" },
-      { "label": "Contact", "href": "index.html?branch=stained-glass#contact" }
+      { "label": "Links", "href": "links.html?branch=stained-glass" }
     ]
   },
   "footer": {

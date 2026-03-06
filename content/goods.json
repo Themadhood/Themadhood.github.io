@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=goods",
     "items": [
       { "label": "Home", "href": "index.html?branch=goods" },
-      { "label": "Links", "href": "links.html?branch=goods" },
-      { "label": "Contact", "href": "index.html?branch=goods#contact" }
+      { "label": "Links", "href": "links.html?branch=goods" }
     ]
   },
   "footer": {

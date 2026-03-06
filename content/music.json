@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=music",
     "items": [
       { "label": "Home", "href": "index.html?branch=music" },
-      { "label": "Links", "href": "links.html?branch=music" },
-      { "label": "Contact", "href": "index.html?branch=music#contact" }
+      { "label": "Links", "href": "links.html?branch=music" }
     ]
   },
   "footer": {
