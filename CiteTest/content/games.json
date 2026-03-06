@@ -1,0 +1,102 @@
+{
+  "branchId": "games",
+  "site": {
+    "title": "Themadhood's Games",
+    "tagline": "Games and interactive experiences built under Themadhood's Applications.",
+    "metaDescription": "Themadhood's Games develops interactive software experiences, long-term game projects, and experimental releases under Themadhood's Applications.",
+    "brand": {
+      "logo": "assets/imgs/Codes/THEMADHOOD Games O 2k-2k.png",
+      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=games",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=games" },
+      { "label": "Links", "href": "links.html?branch=games" },
+      { "label": "Contact", "href": "index.html?branch=games#contact" }
+    ]
+  },
+  "footer": {
+    "logo": "assets/imgs/Codes/THEMADHOOD Games O 2k-2k.png",
+    "title": "Themadhood's Games",
+    "emailLabel": "Email",
+    "email": "Themadhoods.Codes@gmail.com",
+    "copyright": "© 2026 Themadhood's Games. All rights reserved.",
+    "line2": "Themadhood's Games operates under Themadhood's Applications."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Games",
+        "body": [
+          "Themadhood's Games is the game development and interactive software branch operating under Themadhood's Applications. It exists to build games and interactive experiences that connect creative vision with structured technical development.",
+          "",
+          "This branch supports long-term game projects, experimental prototypes, and interactive releases designed to evolve over time. The focus is on building experiences with clear systems, cohesive identity, and maintainable structure rather than one-off builds that cannot grow.",
+          "",
+          "By maintaining a dedicated games branch, Themadhood can develop interactive releases with consistency. Themadhood's Games provides a stable home for projects that require iteration, expansion, and long-term continuity."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "Themadhood's Games was established to support long-term game development within the Themadhood ecosystem. As part of Themadhood's Applications, it exists to create interactive projects that are structured for ongoing improvement and meaningful expansion.",
+          "",
+          "The branch supports game systems design, prototyping, long-term world building, and interactive tools that enable gameplay-driven experiences. Emphasis is placed on stable foundations, consistent project organization, and releases that remain accessible and maintainable as they evolve.",
+          "",
+          "Games is built for continuity. It provides a clear structure for iterative development while keeping interactive projects connected to the wider technical ecosystem that supports them."
+        ]
+      },
+      "branches": {
+        "title": "Services",
+        "items": [
+          {
+            "title": "Game Systems Development",
+            "href": "",
+            "icon": "",
+            "body": "Design and implementation of gameplay systems with structured rules and maintainable architecture. Systems are built to support iteration, balance, and long-term expansion."
+          },
+          {
+            "title": "Prototyping & Experimentation",
+            "href": "",
+            "icon": "",
+            "body": "Development of prototypes that test mechanics, concepts, and interaction styles quickly while keeping structure clean. The focus is on learning fast without building fragile foundations."
+          },
+          {
+            "title": "World & Content Frameworks",
+            "href": "",
+            "icon": "",
+            "body": "Creation of frameworks that support content growth over time, including modular content systems and scalable structures. These foundations allow projects to expand without breaking organization."
+          },
+          {
+            "title": "Release & Build Packaging",
+            "href": "",
+            "icon": "",
+            "body": "Preparation of stable builds for demos, testing, and public releases. Emphasis is placed on consistent packaging, maintainable release structure, and long-term accessibility."
+          }
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Resources",
+          "links": [
+            { "label": "More coming soon", "href": "" }
+          ]
+        },
+        {
+          "title": "Social Links",
+          "links": [
+            { "label": "More From Themadhood", "href": "index.html?branch=applications" }
+          ]
+        }
+      ]
+    }
+  }
+}
