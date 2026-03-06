@@ -1,0 +1,102 @@
+{
+  "branchId": "pi-relays",
+  "site": {
+    "title": "Themadhood's PI Relays",
+    "tagline": "Relay control and device switching systems under Themadhood's PI Solutions.",
+    "metaDescription": "Themadhood's PI Relays builds relay control infrastructure, switching logic, and reliable device control systems for Raspberry Pi deployments.",
+    "brand": {
+      "logo": "assets/imgs/Codes/THEMADHOOD PI Relays O 2k-2k.png",
+      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=pi-relays",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=pi-relays" },
+      { "label": "Links", "href": "links.html?branch=pi-relays" },
+      { "label": "Contact", "href": "index.html?branch=pi-relays#contact" }
+    ]
+  },
+  "footer": {
+    "logo": "assets/imgs/Codes/THEMADHOOD PI Relays O 2k-2k.png",
+    "title": "Themadhood's PI Relays",
+    "emailLabel": "Email",
+    "email": "Themadhoods.Codes@gmail.com",
+    "copyright": "© 2026 Themadhood's PI Relays. All rights reserved.",
+    "line2": "Themadhood's PI Relays operates under Themadhood's PI Solutions."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's PI Relays",
+        "body": [
+          "Themadhood's PI Relays is the relay control and device switching branch operating under Themadhood's PI Solutions. It exists to build reliable hardware control systems that can safely manage power, switching, and device actions in real-world Raspberry Pi deployments.",
+          "",
+          "This branch focuses on relay architecture, safe switching behavior, and repeatable control patterns that make hardware automation dependable over time. The goal is to support clean integration between software logic and physical device control without introducing fragile or unsafe behavior.",
+          "",
+          "By maintaining a dedicated relay branch, Themadhood can build hardware control systems with consistency. PI Relays provides structured device control that remains maintainable, expandable, and dependable as deployments evolve."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "Themadhood's PI Relays was established to support stable hardware switching and device control within Themadhood's Pi ecosystem. As part of Themadhood's PI Solutions, it exists to develop repeatable relay systems that are practical to deploy and safe to operate long-term.",
+          "",
+          "The branch supports relay control logic, device state management, switching rules, and structured control patterns that can be reused across projects. Emphasis is placed on reliability, clear behavior, and safe defaults to ensure that physical systems remain predictable.",
+          "",
+          "PI Relays is built for real operation, not just prototypes. It helps ensure hardware-integrated deployments stay organized and dependable while allowing future expansion into more complex device coordination."
+        ]
+      },
+      "branches": {
+        "title": "Services",
+        "items": [
+          {
+            "title": "Relay Control Architecture",
+            "href": "",
+            "icon": "",
+            "body": "Design of relay control structure including pin mapping, channel organization, and standardized interfaces. Systems are built to remain clear, consistent, and scalable across deployments."
+          },
+          {
+            "title": "Safe Switching Logic",
+            "href": "",
+            "icon": "",
+            "body": "Implementation of switching rules that reduce risk and prevent unsafe or conflicting operations. Emphasis is placed on predictable behavior, safe defaults, and controlled transitions."
+          },
+          {
+            "title": "Device State & Control Management",
+            "href": "",
+            "icon": "",
+            "body": "Development of systems that track device state, enforce control rules, and support reliable command execution. These patterns help keep physical control structured and maintainable."
+          },
+          {
+            "title": "Deployment-Ready Relay Modules",
+            "href": "",
+            "icon": "",
+            "body": "Creation of reusable relay modules built for long-term operation and repeatable installation. Modules are designed to integrate cleanly with broader Pi automation systems."
+          }
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Resources",
+          "links": [
+            { "label": "More coming soon", "href": "" }
+          ]
+        },
+        {
+          "title": "Social Links",
+          "links": [
+            { "label": "More From Themadhood", "href": "index.html?branch=pi-solutions" }
+          ]
+        }
+      ]
+    }
+  }
+}

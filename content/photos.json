@@ -1,0 +1,100 @@
+{
+  "branchId": "photos",
+  "site": {
+    "title": "Themadhood's Photos",
+    "tagline": "Photography and visual imagery under Themadhood Media.",
+    "metaDescription": "Themadhood's Photos is the photography branch under Themadhood Media, focused on visual sets, collections, and project documentation.",
+    "brand": {
+      "logo": "assets/imgs/Media/THEMADHOOD Photos O 2k-2k.png",
+      "heroBackground": "assets/imgs/Media/THEMADHOOD Media background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=photos",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=photos" },
+      { "label": "Links", "href": "links.html?branch=photos" },
+      { "label": "Contact", "href": "index.html?branch=photos#contact" }
+    ]
+  },
+  "footer": {
+    "logo": "assets/imgs/Media/THEMADHOOD Photos O 2k-2k.png",
+    "title": "Themadhood's Photos",
+    "emailLabel": "Email",
+    "email": "Themadhood.Photos@gmail.com",
+    "copyright": "© 2026 Themadhood's Photos. All rights reserved.",
+    "line2": "Themadhood's Photos operates under Themadhood Media."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Photos",
+        "body": [
+		  "Themadhood's Photos is the photography and visual imagery branch operating within Themadhood Media. It serves as the primary home for photographic work and curated image collections created, including artistic photography, project documentation, environmental captures, and visual materials connected to other creative initiatives.",
+		  "",
+		  "Through this branch, visual media is produced, organized, and published in a structured environment that supports both individual photography projects. The focus extends beyond simply capturing images, emphasizing the development of organized visual archives and curated collections that remain accessible and connected to the broader body of creative work produced throughout the ecosystem.",
+		  "",
+		  "By maintaining a dedicated photography division, Themadhood's Photos provides a stable framework for long-term visual documentation, evolving artistic photography, and curated image collections while preserving continuity between releases and maintaining a recognizable visual identity across projects."
+		]
+	  },
+		"about": {
+		  "title": "ABOUT US",
+		  "body": [
+			"Themadhood's Photos was created to support the long-term development, organization, and preservation of photographic work within the wider Themadhood creative structure. As part of Themadhood Media, the branch is responsible for coordinating visual capture, maintaining structured image catalogs, and providing a centralized platform where photography projects can be organized and released in a consistent and sustainable way.",
+			"",
+			"The branch supports a wide range of visual work, including artistic photography, curated image sets, project documentation, environmental photography, and visual assets that contribute to other Themadhood productions. This structure allows photography projects to evolve independently while remaining part of a larger, organized archive of visual media.",
+			"",
+			"When individual photography projects or image series do not maintain their own dedicated public presence, releases and curated collections can still be managed through Themadhood's Photos while preserving clear attribution and project identity. This approach ensures that visual work remains flexible for creators while also maintaining a structured archive that supports long-term accessibility and continued development of visual media."
+		  ]
+      },
+      "branches": {
+        "title": "Services",
+        "items": [{
+		  "title": "Photography Production",
+		  "href": "",
+		  "icon": "",
+		  "body": "Creation and release of professionally captured photographic work, from initial concept through final image preparation. Each project focuses on composition, visual clarity, and a cohesive photographic style."
+		},
+		{
+		  "title": "Visual Documentation",
+		  "href": "",
+		  "icon": "",
+		  "body": "Structured capture of images intended to document projects, environments, and creative processes. This service focuses on preserving visual records while maintaining strong photographic quality and consistency."
+		},
+		{
+		  "title": "Photo Editing & Image Processing",
+		  "href": "",
+		  "icon": "",
+		  "body": "Refinement of captured photographs through color correction, exposure balancing, and image enhancement. The process ensures visual clarity, consistency, and professional presentation across collections and releases."
+		},
+		{
+		  "title": "Curated Photo Collections",
+		  "href": "",
+		  "icon": "",
+		  "body": "Development and organization of themed photographic sets designed for publication or archival purposes. Collections are structured to present cohesive visual narratives and maintain long-term accessibility."
+		}
+		]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "View",
+          "links": [
+          ]
+        },
+        {
+          "title": "Social Links",
+          "links": [
+            { "label": "More From Themadhood", "href": "index.html?branch=media" }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "branchId": "codes",
+  "site": {
+    "title": "Themadhood's Codes",
+    "tagline": "Software, automation, and technical systems across the Themadhood ecosystem.",
+    "metaDescription": "Themadhood's Codes is the software and systems division of Themadhood, covering systems, Pi solutions, and applications.",
+    "brand": {
+      "logo": "assets/imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
+      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=codes",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=codes" },
+      { "label": "Links", "href": "links.html?branch=codes" },
+      { "label": "Contact", "href": "index.html?branch=codes#contact" }
+    ]
+  },
+  "footer": {
+    "logo": "assets/imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
+    "title": "Themadhood's Codes",
+    "emailLabel": "Email",
+    "email": "Themadhoods.Codes@gmail.com",
+    "copyright": "© 2026 Themadhood's Codes. All rights reserved.",
+    "line2": "Themadhood's Codes operates as a parent entity for affiliated projects."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Codes",
+        "body": [
+          "Themadhood's Codes is the technical development division of the Themadhood ecosystem, responsible for software systems, automation tools, and digital infrastructure. The branch focuses on building reliable, modular technologies that support both internal projects and independent software releases. Through its structure of specialized sub-branches, Themadhood's Codes provides a foundation for experimentation, development, and long-term technical growth."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "Themadhood's Codes exists to design, develop, and maintain the technical systems that power many projects within the broader Themadhood ecosystem. While operating as an independent development branch, it also functions as a shared technical foundation that supports tools, applications, and infrastructure used across multiple divisions.",
+          "",
+          "Its structure allows projects to be organized into focused areas such as systems development, Raspberry Pi solutions, and software applications. This approach keeps technical work modular and adaptable while allowing individual projects to grow independently. By maintaining a structured development environment, Themadhood's Codes ensures that tools and systems remain reliable, maintainable, and expandable as the ecosystem evolves."
+        ]
+      },
+      "branches": {
+        "title": "Themadhood's Codes",
+        "items": [
+          {
+            "title": "Themadhood Systems",
+            "href": "index.html?branch=systems",
+            "body": "Core system design, infrastructure patterns, and foundational technical architecture used across Themadhood projects.",
+            "icon": "assets/imgs/Codes/THEMADHOOD Systems O 2k-2k.png"
+          },
+          {
+            "title": "Themadhood's PI Solutions",
+            "href": "index.html?branch=pi-solutions",
+            "body": "Raspberry Pi based tools, deployments, utilities, and repeatable solutions designed for reliable real-world use.",
+            "icon": "assets/imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png"
+          },
+          {
+            "title": "Themadhood's Applications",
+            "href": "index.html?branch=applications",
+            "body": "User-facing applications and tools built under the Themadhood ecosystem, including utilities and project-specific apps.",
+            "icon": "assets/imgs/Codes/THEMADHOOD Applications O 2k-2k.png"
+          },
+          {
+            "title": "Other/ Routed Through Us",
+            "href": "",
+            "body": "Requests that don’t clearly fall under a specific codes subtree, including experimental or cross-branch technical work.",
+            "icon": ""
+          }
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Social Links",
+          "links": [
+            {
+              "label": "More From Themadhood",
+              "href": "links.html"
+            },
+            { "label": "GitHub (Project Hub)", "href": "https://github.com/themadhood" }
+          ]
+        },
+        {
+          "title": "Other Business Links",
+          "links": [
+            { "label": "Themadhood's Systems", "href": "index.html?branch=systems" },
+            { "label": "Themadhood's PI Solutions", "href": "index.html?branch=pi-solutions" },
+            { "label": "Themadhood's Applications", "href": "index.html?branch=applications" }
+          ]
+        }
+      ]
+    }
+  }
+}

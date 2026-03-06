@@ -1,0 +1,102 @@
+{
+  "branchId": "apps",
+  "site": {
+    "title": "Themadhood's Apps",
+    "tagline": "General applications and utilities under Themadhood's Applications.",
+    "metaDescription": "Themadhood's Apps builds user-facing applications, utilities, and practical software tools released under Themadhood.",
+    "brand": {
+      "logo": "assets/imgs/Codes/THEMADHOOD Apps O 2k-2k.png",
+      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=apps",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=apps" },
+      { "label": "Links", "href": "links.html?branch=apps" },
+      { "label": "Contact", "href": "index.html?branch=apps#contact" }
+    ]
+  },
+  "footer": {
+    "logo": "assets/imgs/Codes/THEMADHOOD Apps O 2k-2k.png",
+    "title": "Themadhood's Apps",
+    "emailLabel": "Email",
+    "email": "Themadhoods.Codes@gmail.com",
+    "copyright": "© 2026 Themadhood's Apps. All rights reserved.",
+    "line2": "Themadhood's Apps operates under Themadhood's Applications."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Apps",
+        "body": [
+          "Themadhood's Apps is the general applications branch operating under Themadhood's Applications. It exists to build practical software that people can use directly, including utilities, tools, and user-facing applications designed for real workflows.",
+          "",
+          "This branch supports applications that are structured for long-term use rather than short-term experiments. The focus is on clean project organization, stable behavior, and software that can evolve over time without losing maintainability.",
+          "",
+          "By maintaining a dedicated apps branch, Themadhood can release utility software with clear identity and consistent structure. Themadhood's Apps provides a stable home for practical tools that are meant to be used, updated, and improved."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "Themadhood's Apps was established to support practical software releases across Themadhood. As part of Themadhood's Applications, it exists to develop user-facing tools that remain organized, stable, and maintainable over time.",
+          "",
+          "The branch supports general utilities, workflow helpers, and applications that solve real problems while remaining connected to the broader technical ecosystem that supports them. Emphasis is placed on clarity and usability so that releases remain accessible rather than becoming overly complex.",
+          "",
+          "Apps is built for continuity. It provides an organized structure for releasing useful software while supporting long-term updates, improvement, and expansion as needs evolve."
+        ]
+      },
+      "branches": {
+        "title": "Services",
+        "items": [
+          {
+            "title": "Utility Application Development",
+            "href": "",
+            "icon": "",
+            "body": "Development of practical applications designed to support real workflows and everyday use. Tools are built for clarity, reliability, and long-term maintainability."
+          },
+          {
+            "title": "UI & Interaction Design",
+            "href": "",
+            "icon": "",
+            "body": "Creation of user-facing interfaces that emphasize clear interaction and usable structure. The goal is software that feels accessible without sacrificing capability."
+          },
+          {
+            "title": "Application Structure & Maintenance",
+            "href": "",
+            "icon": "",
+            "body": "Design of application structure that supports updates and long-term evolution. Systems focus on clean organization and maintainable growth over time."
+          },
+          {
+            "title": "Release & Distribution Support",
+            "href": "",
+            "icon": "",
+            "body": "Preparation of applications for release through packaging and distribution workflows. Emphasis is placed on stable builds, clear versions, and long-term accessibility."
+          }
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Resources",
+          "links": [
+            { "label": "More coming soon", "href": "" }
+          ]
+        },
+        {
+          "title": "Social Links",
+          "links": [
+            { "label": "More From Themadhood", "href": "index.html?branch=applications" }
+          ]
+        }
+      ]
+    }
+  }
+}
