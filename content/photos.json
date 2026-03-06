@@ -13,15 +13,14 @@
     "homePath": "index.html?branch=photos",
     "items": [
       { "label": "Home", "href": "index.html?branch=photos" },
-      { "label": "Links", "href": "links.html?branch=photos" },
-      { "label": "Contact", "href": "index.html?branch=photos#contact" }
+      { "label": "Links", "href": "links.html?branch=photos" }
     ]
   },
   "footer": {
     "logo": "assets/imgs/Media/THEMADHOOD Photos O 2k-2k.png",
     "title": "Themadhood's Photos",
     "emailLabel": "Email",
-    "email": "Themadhood.Photos@gmail.com",
+    "email": "Themadhood.Media@gmail.com",
     "copyright": "© 2026 Themadhood's Photos. All rights reserved.",
     "line2": "Themadhood's Photos operates under Themadhood Media."
   },

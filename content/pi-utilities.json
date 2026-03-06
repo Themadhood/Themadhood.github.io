@@ -13,15 +13,14 @@
     "homePath": "index.html?branch=pi-utilities",
     "items": [
       { "label": "Home", "href": "index.html?branch=pi-utilities" },
-      { "label": "Links", "href": "links.html?branch=pi-utilities" },
-      { "label": "Contact", "href": "index.html?branch=pi-utilities#contact" }
+      { "label": "Links", "href": "links.html?branch=pi-utilities" }
     ]
   },
   "footer": {
     "logo": "assets/imgs/Codes/THEMADHOOD PI Utilities O 2k-2k.png",
     "title": "Themadhood's PI Utilities",
     "emailLabel": "Email",
-    "email": "Themadhoods.Codes@gmail.com",
+    "email": "Themadhoods.PI.Solutions@gmail.com",
     "copyright": "© 2026 Themadhood's PI Utilities. All rights reserved.",
     "line2": "Themadhood's PI Utilities operates under Themadhood's PI Solutions."
   },

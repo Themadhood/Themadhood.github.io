@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=databases",
     "items": [
       { "label": "Home", "href": "index.html?branch=databases" },
-      { "label": "Links", "href": "links.html?branch=databases" },
-      { "label": "Contact", "href": "index.html?branch=databases#contact" }
+      { "label": "Links", "href": "links.html?branch=databases" }
     ]
   },
   "footer": {

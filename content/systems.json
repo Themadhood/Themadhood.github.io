@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=systems",
     "items": [
       { "label": "Home", "href": "index.html?branch=systems" },
-      { "label": "Links", "href": "links.html?branch=systems" },
-      { "label": "Contact", "href": "index.html?branch=systems#contact" }
+      { "label": "Links", "href": "links.html?branch=systems" }
     ]
   },
   "footer": {

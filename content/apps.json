@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=apps",
     "items": [
       { "label": "Home", "href": "index.html?branch=apps" },
-      { "label": "Links", "href": "links.html?branch=apps" },
-      { "label": "Contact", "href": "index.html?branch=apps#contact" }
+      { "label": "Links", "href": "links.html?branch=apps" }
     ]
   },
   "footer": {

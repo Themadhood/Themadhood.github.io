@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=development-tools",
     "items": [
       { "label": "Home", "href": "index.html?branch=development-tools" },
-      { "label": "Links", "href": "links.html?branch=development-tools" },
-      { "label": "Contact", "href": "index.html?branch=development-tools#contact" }
+      { "label": "Links", "href": "links.html?branch=development-tools" }
     ]
   },
   "footer": {

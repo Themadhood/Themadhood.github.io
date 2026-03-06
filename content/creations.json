@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=creations",
     "items": [
       { "label": "Home", "href": "index.html?branch=creations" },
-      { "label": "Links", "href": "links.html?branch=creations" },
-      { "label": "Contact", "href": "index.html?branch=creations#contact" }
+      { "label": "Links", "href": "links.html?branch=creations" }
     ]
   },
   "footer": {

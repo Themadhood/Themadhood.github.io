@@ -13,15 +13,14 @@
     "homePath": "index.html?branch=pi-relays",
     "items": [
       { "label": "Home", "href": "index.html?branch=pi-relays" },
-      { "label": "Links", "href": "links.html?branch=pi-relays" },
-      { "label": "Contact", "href": "index.html?branch=pi-relays#contact" }
+      { "label": "Links", "href": "links.html?branch=pi-relays" }
     ]
   },
   "footer": {
     "logo": "assets/imgs/Codes/THEMADHOOD PI Relays O 2k-2k.png",
     "title": "Themadhood's PI Relays",
     "emailLabel": "Email",
-    "email": "Themadhoods.Codes@gmail.com",
+    "email": "Themadhoods.PI.Solutions@gmail.com",
     "copyright": "© 2026 Themadhood's PI Relays. All rights reserved.",
     "line2": "Themadhood's PI Relays operates under Themadhood's PI Solutions."
   },

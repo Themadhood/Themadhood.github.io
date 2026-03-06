@@ -17,3 +17,6 @@ Example:
 ## Images
 Put images in `assets/img/` and reference them from JSON as:
 - `assets/img/your_file.png`
+
+
+C:\Python\python.exe -m http.server 8000

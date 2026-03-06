@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=coding-foundations",
     "items": [
       { "label": "Home", "href": "index.html?branch=coding-foundations" },
-      { "label": "Links", "href": "links.html?branch=coding-foundations" },
-      { "label": "Contact", "href": "index.html?branch=coding-foundations#contact" }
+      { "label": "Links", "href": "links.html?branch=coding-foundations" }
     ]
   },
   "footer": {

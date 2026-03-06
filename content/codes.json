@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=codes",
     "items": [
       { "label": "Home", "href": "index.html?branch=codes" },
-      { "label": "Links", "href": "links.html?branch=codes" },
-      { "label": "Contact", "href": "index.html?branch=codes#contact" }
+      { "label": "Links", "href": "links.html?branch=codes" }
     ]
   },
   "footer": {

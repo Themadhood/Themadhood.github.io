@@ -13,15 +13,14 @@
     "homePath": "index.html?branch=pi-automations",
     "items": [
       { "label": "Home", "href": "index.html?branch=pi-automations" },
-      { "label": "Links", "href": "links.html?branch=pi-automations" },
-      { "label": "Contact", "href": "index.html?branch=pi-automations#contact" }
+      { "label": "Links", "href": "links.html?branch=pi-automations" }
     ]
   },
   "footer": {
     "logo": "assets/imgs/Codes/THEMADHOOD PI Automations O 2k-2k.png",
     "title": "Themadhood's PI Automations",
     "emailLabel": "Email",
-    "email": "Themadhoods.Codes@gmail.com",
+    "email": "Themadhoods.PI.Solutions@gmail.com",
     "copyright": "© 2026 Themadhood's PI Automations. All rights reserved.",
     "line2": "Themadhood's PI Automations operates under Themadhood's PI Solutions."
   },

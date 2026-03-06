@@ -13,8 +13,7 @@
     "homePath": "index.html?branch=media",
     "items": [
       { "label": "Home", "href": "index.html?branch=media" },
-      { "label": "Links", "href": "links.html?branch=media" },
-      { "label": "Contact", "href": "index.html?branch=media#contact" }
+      { "label": "Links", "href": "links.html?branch=media" }
     ]
   },
   "footer": {
