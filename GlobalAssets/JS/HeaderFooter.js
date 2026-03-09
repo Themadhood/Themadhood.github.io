@@ -1,6 +1,6 @@
 async function loadBranch(branchId){
   const res = await fetch(`./Content/${branchId}.json`, {cache:"no-store"});
-  if(!res.ok) throw new Error(`Failed to load content/${branchId}.json`);
+  if(!res.ok) throw new Error(`Failed to load Content/${branchId}.json`);
   return await res.json();
 }
 function qs(name){
