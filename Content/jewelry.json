@@ -5,7 +5,7 @@
     "tagline": "Physical and digital goods created under the Themadhood ecosystem.",
     "metaDescription": "Themadhood's Jewelry handles jewelry and wearable items, including themed pieces and limited releases.",
     "brand": {
-      "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Jewelry O 2k-2k.png",
+      "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods O 2k-2k.png",
       "heroBackground": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods background square.png",
       "colors": {
         "bg": "#000000",
@@ -32,7 +32,7 @@
     ]
   },
   "footer": {
-    "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Jewelry O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods O 2k-2k.png",
     "title": "Themadhood's Jewelry",
     "emailLabel": "Email",
     "email": "Themadhoods.Goods@gmail.com",
