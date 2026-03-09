@@ -6,11 +6,27 @@
     "metaDescription": "Themadhood Media is the media division within Themadhood, overseeing music, video, photography, and related creative releases.",
     "brand": {
       "logo": "GlobalAssets/Imgs/Media/THEMADHOOD Media O 2k-2k.png",
-      "heroBackground": "GlobalAssets/Imgs/Media/THEMADHOOD Media background square.png"
+      "heroBackground": "GlobalAssets/Imgs/Media/THEMADHOOD Media background square.png",
+      "colors": {
+        "bg": "#ffffff",
+        "text": "#f5f5f5",
+        "muted": "#b8b8c2",
+        "card": "#17171c",
+        "border": "#2a2a34",
+        "accent": "#b11a25",
+		"accentSoft": "rgba(177,26,37,.15)",
+		"topbar-bg":"#0f0f12",
+		"footer-bg":"#0f0f12",
+		"link-color":"#0f0f12",
+		"button-bg":"#0f0f12",
+		"button-text":"#0f0f12",
+		"hero-overlay":"#0f0f12"
+	  }
     }
   },
   "nav": {
     "homePath": "index.html?branch=media",
+	
     "items": [
       { "label": "Home", "href": "index.html?branch=media" },
       { "label": "Links", "href": "links.html?branch=media" }
