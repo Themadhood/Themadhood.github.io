@@ -1,5 +1,5 @@
 :root{
-  --bg:#ffffff;
+  --bg:#000000;
   --card:#171720;
   --text:#f1f1f3;
   --muted:#b8b8c7;
@@ -13,6 +13,10 @@
   --hero-overlay:#0f0f12;
 }
 
+
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+a{color:inherit}
 
 /*-------------- Hero --------------*/
 [data-hero-body] p{
