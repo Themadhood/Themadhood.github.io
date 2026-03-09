@@ -1,0 +1,94 @@
+{
+  "branchId": "trinkets",
+  "site": {
+    "title": "Themadhood's Trinkets",
+    "tagline": "Physical and digital goods created under the Themadhood ecosystem.",
+    "metaDescription": "Themadhood's Trinkets handles small goods, accessories, and collectible trinkets released under Themadhood goods.",
+    "brand": {
+      "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Trinkets O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods background square.png"
+    }
+  },
+  "nav": {
+    "homePath": "index.html?branch=trinkets",
+    "items": [
+      { "label": "Home", "href": "index.html?branch=trinkets" },
+      { "label": "Links", "href": "links.html?branch=trinkets" }
+    ]
+  },
+  "footer": {
+    "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Trinkets O 2k-2k.png",
+    "title": "Themadhood's Trinkets",
+    "emailLabel": "Email",
+    "email": "Themadhoods.Goods@gmail.com",
+    "copyright": "© 2026 Themadhood's Trinkets. All rights reserved.",
+    "line2": "Themadhood's Trinkets operates as a parent entity for affiliated projects."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Themadhood's Trinkets",
+        "body": [
+          "Themadhood's Trinkets is the trinkets and small goods division within Themadhood's Goods, focused on producing accessories and collectible releases while maintaining the visual style and themes associated with Themadhood."
+        ]
+      },
+      "about": {
+        "title": "ABOUT US",
+        "body": [
+          "Themadhood's Trinkets operates as an independent creative workshop. Its purpose is to design and produce small goods, accessories, and collectible items that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
+          "",
+          "Through small releases, accessories, and collectible trinkets, Themadhood's Trinkets provides a framework for organizing small goods while allowing each product line to develop its own style and focus. This structure ensures that goods remain connected to the broader creative ecosystem while still supporting unique craftsmanship and experimentation."
+        ]
+      },
+      "branches": {
+        "title": "Services",
+        "items": [{
+		  "title": "Small Goods Design",
+		  "href": "",
+		  "icon": "",
+		  "body": "Development of small-scale crafted items designed with attention to detail, usability, and visual appeal. Each piece is created to maintain a balance between practical function and distinctive artistic style."
+		},
+		{
+		  "title": "Handcrafted Accessories",
+		  "href": "",
+		  "icon": "",
+		  "body": "Creation of small accessories and decorative items produced through careful assembly and finishing techniques. These works emphasize durability, craftsmanship, and refined presentation."
+		},
+		{
+		  "title": "Collectible Items",
+		  "href": "",
+		  "icon": "",
+		  "body": "Production of collectible pieces designed for display, personal use, or themed releases. These items often reflect creative motifs connected to projects and concepts within the broader Themadhood ecosystem."
+		},
+		{
+		  "title": "Limited Trinket Sets",
+		  "href": "",
+		  "icon": "",
+		  "body": "Development of small themed sets and short-run releases that explore new designs and materials. These collections allow experimental ideas to be introduced while maintaining the recognizable identity of Themadhood's Goods."
+		}
+        ]
+      },
+      "contact": {
+        "title": "CONNECT WITH US",
+        "note": "GitHub Pages is static-only. If you want submissions, wire this up to Formspree/Netlify Forms later."
+      }
+    },
+    "links": {
+      "title": "Links",
+      "sections": [
+        {
+          "title": "Shop Links",
+          "links": [
+            { "label": "Main Shop (coming soon)", "href": "" }
+          ]
+        },
+        {
+          "title": "Other Business Links",
+          "links": [
+            { "label": "More From Themadhood", "href": "index.html?branch=links.html" }
+          ]
+        }
+      ]
+    }
+  }
+}
