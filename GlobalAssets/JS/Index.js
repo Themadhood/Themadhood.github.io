@@ -1,4 +1,4 @@
-import { loadHeaderFooter,HF_main,setText,setFaviconFromLogo } from "./HeaderFooter.js";
+import { loadHeaderFooter,HF_main,setText,setFaviconFromLogo,applyBranchColors } from "./HeaderFooter.js";
 
 
 function renderHome(data){
@@ -131,6 +131,7 @@ function renderHome(data){
 async function main(){
   await loadHeaderFooter();
   const { branch, data } = await HF_main();
+  applyBranchColors(data);
   setFaviconFromLogo(data);
 
   const page = document.body.getAttribute("data-page");

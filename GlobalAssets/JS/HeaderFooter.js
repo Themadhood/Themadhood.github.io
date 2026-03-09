@@ -17,6 +17,20 @@ export function setFaviconFromLogo(data){
   }
 
 }
+export function applyBranchColors(data){
+  const colors = data.site?.brand?.colors;
+  if(!colors) return;
+
+  const root = document.documentElement;
+
+  if(colors.bg) root.style.setProperty("--bg", colors.bg);
+  if(colors.text) root.style.setProperty("--text", colors.text);
+  if(colors.muted) root.style.setProperty("--muted", colors.muted);
+  if(colors.card) root.style.setProperty("--card", colors.card);
+  if(colors.border) root.style.setProperty("--border", colors.border);
+  if(colors.accent) root.style.setProperty("--accent", colors.accent);
+  if(colors.accentSoft) root.style.setProperty("--accent-soft", colors.accentSoft);
+}
 export function setText(el, txt){ if(el) el.textContent = txt ?? ""; }
 
 function renderNav(data){
