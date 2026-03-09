@@ -1,8 +1,24 @@
 async function loadBranch(branchId){
-  const res = await fetch(`./Content/${branchId}.json`, {cache:"no-store"});
-  if(!res.ok) throw new Error(`Failed to load Content/${branchId}.json`);
-  return await res.json();
+  const cap = branchId.charAt(0).toUpperCase() + branchId.slice(1);
+
+  try{
+	//new branch check
+    const res = await fetch(`./${cap}/Settings.json`, {cache:"no-store"});
+    if(!res.ok) throw new Error();
+
+    const data = await res.json();
+    return data;
+
+  }catch{
+
+    // fallback to old system
+    const res = await fetch(`./Content/${branchId}.json`, {cache:"no-store"});
+    if(!res.ok) throw new Error(`Failed to load Content/${branchId}.json`);
+    return await res.json();
+
+  }
 }
+
 function qs(name){
   const url = new URL(window.location.href);
   return url.searchParams.get(name);
