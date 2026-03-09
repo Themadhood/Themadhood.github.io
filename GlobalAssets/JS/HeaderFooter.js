@@ -30,6 +30,12 @@ export function applyBranchColors(data){
   if(colors.border) root.style.setProperty("--border", colors.border);
   if(colors.accent) root.style.setProperty("--accent", colors.accent);
   if(colors.accentSoft) root.style.setProperty("--accent-soft", colors.accentSoft);
+  if(colors.topbar-bg) root.style.setProperty("--topbar-bg", colors.topbar-bg);
+  if(colors.footer-bg) root.style.setProperty("--footer-bg", colors.footer-bg);
+  if(colors.link-color) root.style.setProperty("--link-color", colors.link-color);
+  if(colors.button-bg) root.style.setProperty("--button-bg", colors.button-bg);
+  if(colors.button-text) root.style.setProperty("--button-text", colors.button-text);
+  if(colors.hero-overlay) root.style.setProperty("--hero-overlay", colors.hero-overlay);
 }
 export function setText(el, txt){ if(el) el.textContent = txt ?? ""; }
 
