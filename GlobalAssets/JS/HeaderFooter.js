@@ -1,83 +1,13 @@
-async function loadJson(path){
-  console.log("Loading:", path);
-  const res = await fetch(path, { cache: "no-store" });
-  console.log("Status:", res.status, path);
-  if(!res.ok) throw new Error(`Failed to load ${path}`);
-  return await res.json();
-}
-
-function normalizeSplitBranch(settings, indexData, linksData){
-  return {
-    branchId: settings.branchId,
-
-    site: {
-      title: settings.brand?.title || "",
-      tagline: settings.site?.tagline || "",
-      metaDescription: settings.site?.metaDescription || "",
-      brand: {
-        logo: settings.brand?.logo || "",
-        heroBackground: settings.brand?.background || "",
-        colors: settings.brand?.colors || {}
-      }
-    },
-
-    nav: settings.nav || {
-      homePath: "index.html",
-      items: []
-    },
-
-    footer: {
-      logo: settings.brand?.logo || "",
-      title: settings.brand?.title || "",
-      emailLabel: "Email",
-      email: settings.brand?.email || "",
-      copyright: settings.brand?.copyright || "",
-      line2: settings.brand?.brandContext || ""
-    },
-
-    pages: {
-      home: {
-        hero: indexData.hero || {
-          headline: "",
-          body: []
-        },
-        about: indexData.about || {
-          title: "",
-          body: []
-        },
-        branches: indexData.branches || {
-          title: "",
-          items: []
-        }
-      },
-
-      links: {
-        title: "Links",
-        sections: linksData.sections || []
-      }
-    }
-  };
-}
-
 async function loadBranch(branchId){
   const cap = branchId.charAt(0).toUpperCase() + branchId.slice(1);
 
   try{
 	//new branch check
-    //const res = await fetch(`./${cap}/Settings.json`, {cache:"no-store"});
-    //if(!res.ok) throw new Error();
+    const res = await fetch(`./${cap}/Settings.json`, {cache:"no-store"});
+    if(!res.ok) throw new Error();
 
-    //const data = await res.json();
-    //return data;
-	
-	const [settings, indexData, linksData] = await Promise.all([
-      loadJson(`./${cap}/Settings.json`),
-      loadJson(`./${cap}/Index.json`),
-      loadJson(`./${cap}/Links.json`)
-    ]);
-	console.log("Loaded all jsons");
-
-    return normalizeSplitBranch(settings, indexData, linksData);
+    const data = await res.json();
+    return data;
 
   }catch{
 
@@ -88,7 +18,6 @@ async function loadBranch(branchId){
 
   }
 }
-
 
 function qs(name){
   const url = new URL(window.location.href);
@@ -126,8 +55,6 @@ export function applyBranchColors(data){
 }
 export function setText(el, txt){ if(el) el.textContent = txt ?? ""; }
 
-
-
 function renderNav(data){
   const brandLogo = document.querySelector("[data-brand-logo]");
   const brandName = document.querySelector("[data-brand-name]");
@@ -154,8 +81,6 @@ function renderNav(data){
     }
   }
 }
-
-
 
 function renderFooter(data){
   const footerLogo = document.querySelector("[data-footer-logo]");
@@ -188,9 +113,6 @@ export async function HF_main(){
 
   renderNav(data);
   renderFooter(data);
-  
-  applyBranchColors(data);
-  setFaviconFromLogo(data);
   
   return {branch,data};
 
