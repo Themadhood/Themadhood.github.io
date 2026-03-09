@@ -1,20 +1,16 @@
 {
 	"branchId": "pequot",
-	
-	
 	"site": {
 		"tagline": "The primary hub and parent entity for the Themadhood network.",
-		"metaDescription": "Themadhood Pequot is the primary hub and parent entity for the Themadhood network."
+		"metaDescription": "Themadhood Pequot is the primary hub and parent entity for the Themadhood network.",
     },
-	
-	
 	"brand": {
 		"title": "Themadhood Pequot",
 		"email": "ThemadhoodPequot@gmail.com",
 		"logo": "GlobalAssets/Imgs/Pequot/THEMADHOOD Pequot O 2k-2k.png",
 		"background": "GlobalAssets/Imgs/Pequot/THEMADHOOD background square.png",
 		"copyright": "\u00a9 2026 Themadhood Pequot. All rights reserved.",
-		"brandContext": "Themadhood Pequot operates as a parent entity for affiliated projects.",
+		"brandContext": "Themadhood Pequot operates as a parent entity for affiliated projects."
 		"colors": {
 			"bg": "#000000",
 			"text": "#f5f5f5",
@@ -31,8 +27,6 @@
 			"heroOverlay":"#0f0f12"
 			}
 	},
-	
-	
 	"nav": {
 		"homePath": "index.html",
 		"items": [
