@@ -5,7 +5,7 @@
     "tagline": "Tools that support development workflows under Themadhood's Applications.",
     "metaDescription": "Themadhood's Development Tools creates software that supports building, packaging, deploying, and maintaining projects across Themadhood.",
     "brand": {
-      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Development Tools O 2k-2k.png",
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Applications O 2k-2k.png",
       "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
       "colors": {
         "bg": "#000000",
@@ -32,7 +32,7 @@
     ]
   },
   "footer": {
-    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Development Tools O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Applications O 2k-2k.png",
     "title": "Themadhood's Development Tools",
     "emailLabel": "Email",
     "email": "Themadhoods.Applications@gmail.com",

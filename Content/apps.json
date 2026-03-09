@@ -5,7 +5,7 @@
     "tagline": "General applications and utilities under Themadhood's Applications.",
     "metaDescription": "Themadhood's Apps builds user-facing applications, utilities, and practical software tools released under Themadhood.",
     "brand": {
-      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Apps O 2k-2k.png",
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Applications O 2k-2k.png",
       "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
       "colors": {
         "bg": "#000000",
@@ -32,7 +32,7 @@
     ]
   },
   "footer": {
-    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Apps O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Applications O 2k-2k.png",
     "title": "Themadhood's Apps",
     "emailLabel": "Email",
     "email": "Themadhoods.Applications@gmail.com",

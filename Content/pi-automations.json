@@ -5,7 +5,7 @@
     "tagline": "Pi-based automation workflows and device orchestration under Themadhood's PI Solutions.",
     "metaDescription": "Themadhood's PI Automations builds Raspberry Pi automation workflows, device orchestration logic, and repeatable operational routines.",
     "brand": {
-      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Automations O 2k-2k.png",
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png",
       "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
       "colors": {
         "bg": "#000000",
@@ -32,7 +32,7 @@
     ]
   },
   "footer": {
-    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Automations O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png",
     "title": "Themadhood's PI Automations",
     "emailLabel": "Email",
     "email": "Themadhoods.PI.Solutions@gmail.com",

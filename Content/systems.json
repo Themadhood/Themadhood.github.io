@@ -5,7 +5,7 @@
     "tagline": "Core architecture, standards, and technical foundations across Themadhood's software ecosystem.",
     "metaDescription": "Themadhood Systems is the systems and architecture branch under Themadhood's Codes, covering foundations, automations, scripts, and databases.",
     "brand": {
-      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Systems O 2k-2k.png",
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
       "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
       "colors": {
         "bg": "#000000",
@@ -32,7 +32,7 @@
     ]
   },
   "footer": {
-    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Systems O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
     "title": "Themadhood Systems",
     "emailLabel": "Email",
     "email": "Themadhoods.Codes@gmail.com",

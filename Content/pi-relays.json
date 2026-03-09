@@ -5,7 +5,7 @@
     "tagline": "Relay control and device switching systems under Themadhood's PI Solutions.",
     "metaDescription": "Themadhood's PI Relays builds relay control infrastructure, switching logic, and reliable device control systems for Raspberry Pi deployments.",
     "brand": {
-      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Relays O 2k-2k.png",
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png",
       "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
       "colors": {
         "bg": "#000000",
@@ -32,7 +32,7 @@
     ]
   },
   "footer": {
-    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Relays O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png",
     "title": "Themadhood's PI Relays",
     "emailLabel": "Email",
     "email": "Themadhoods.PI.Solutions@gmail.com",
