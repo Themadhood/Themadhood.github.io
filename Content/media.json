@@ -15,12 +15,12 @@
         "border": "#2a2a34",
         "accent": "#b11a25",
 		"accentSoft": "rgba(177,26,37,.15)",
-		"topbar-bg":"#0f0f12",
-		"footer-bg":"#0f0f12",
-		"link-color":"#0f0f12",
-		"button-bg":"#0f0f12",
-		"button-text":"#0f0f12",
-		"hero-overlay":"#0f0f12"
+		"topbarBg":"#0f0f12",
+		"footerBg":"#0f0f12",
+		"linkColor":"#0f0f12",
+		"buttonBg":"#0f0f12",
+		"buttonText":"#0f0f12",
+		"heroOverlay":"#0f0f12"
 	  }
     }
   },
