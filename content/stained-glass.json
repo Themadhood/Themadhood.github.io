@@ -5,8 +5,8 @@
     "tagline": "Physical and digital goods created under the Themadhood ecosystem.",
     "metaDescription": "Themadhood's Stained Glass handles stained glass pieces, including decorative panels, themed designs, and limited handcrafted works.",
     "brand": {
-      "logo": "assets/imgs/Goods/THEMADHOOD Stained Glass O 2k-2k.png",
-      "heroBackground": "assets/imgs/Goods/THEMADHOOD Goods background square.png"
+      "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Stained Glass O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Goods/THEMADHOOD Stained Glass O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Stained Glass O 2k-2k.png",
     "title": "Themadhood's Stained Glass",
     "emailLabel": "Email",
     "email": "Themadhoods.Goods@gmail.com",

@@ -1,58 +1,5 @@
-async function loadBranch(branchId){
-  const res = await fetch(`./content/${branchId}.json`, {cache:"no-store"});
-  if(!res.ok) throw new Error(`Failed to load content/${branchId}.json`);
-  return await res.json();
-}
-function qs(name){
-  const url = new URL(window.location.href);
-  return url.searchParams.get(name);
-}
-function setText(el, txt){ if(el) el.textContent = txt ?? ""; }
+import { loadHeaderFooter,HF_main,setText,setFaviconFromLogo } from "./HeaderFooter.js";
 
-function renderNav(data){
-  const brandLogo = document.querySelector("[data-brand-logo]");
-  const brandName = document.querySelector("[data-brand-name]");
-  const nav = document.querySelector("[data-nav]");
-
-  if(brandLogo && data.site?.brand?.logo){
-    brandLogo.src = data.site.brand.logo;
-    brandLogo.alt = data.site.title || "Logo";
-  }
-  setText(brandName, data.site?.title || "");
-  
-  const brandHome = document.querySelector("[data-brand-home]");
-  if (brandHome) {
-    brandHome.href = data.nav?.homePath || "index.html";
-  }
-
-  if(nav){
-    nav.innerHTML = "";
-    for(const item of (data.nav?.items || [])){
-      const a = document.createElement("a");
-      a.href = item.href;
-      a.textContent = item.label;
-      nav.appendChild(a);
-    }
-  }
-}
-
-function renderFooter(data){
-  const footerLogo = document.querySelector("[data-footer-logo]");
-
-  if (footerLogo && data.site?.brand?.logo) {
-    footerLogo.src = data.site.brand.logo;
-    footerLogo.alt = data.site.title || "Logo";
-  }
-  setText(document.querySelector("[data-footer-title]"), data.footer?.title || data.site?.title || "");
-  const emailEl = document.querySelector("[data-footer-email]");
-  if(emailEl){
-    const email = data.footer?.email || "";
-    emailEl.href = email ? `mailto:${email}` : "#";
-    emailEl.textContent = email ? email : "";
-  }
-  setText(document.querySelector("[data-footer-copy]"), data.footer?.copyright || "");
-  setText(document.querySelector("[data-footer-line2]"), data.footer?.line2 || "");
-}
 
 function renderHome(data){
   const page = data.pages?.home || {};
@@ -212,15 +159,9 @@ function renderLinks(data){
 }
 
 async function main(){
-  const branch = qs("branch") || "pequot";
-  const data = await loadBranch(branch);
-
-  document.title = data.site?.title ? `${data.site.title}` : document.title;
-  const meta = document.querySelector('meta[name="description"]');
-  if(meta && data.site?.metaDescription) meta.setAttribute("content", data.site.metaDescription);
-
-  renderNav(data);
-  renderFooter(data);
+  await loadHeaderFooter();
+  const { branch, data } = await HF_main();
+  setFaviconFromLogo(data);
 
   const page = document.body.getAttribute("data-page");
   if(page === "home") renderHome(data);

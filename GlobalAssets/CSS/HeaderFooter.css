@@ -7,6 +7,8 @@
   --accent:#b11a25;
 }
 
+
+/*-------------- Header --------------*/
 .card-link {text-decoration: underline;color: inherit;}
 .card-link:hover {opacity: 0.8;}
 
@@ -16,6 +18,8 @@ a{color:inherit}
 .container{max-width:1100px;margin:0 auto;padding:20px}
 .topbar{position:sticky;top:0;z-index:10;background:rgba(15,15,18,.85);backdrop-filter: blur(10px);border-bottom:1px solid var(--border)}
 .topbar-inner{display:flex;align-items:center;gap:14px}
+
+/*Branding*/
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
 .brand img{
   width:40px;
@@ -26,56 +30,17 @@ a{color:inherit}
   background:none;
 }
 .brand .name{font-weight:700;letter-spacing:.2px}
+
+/*Navigation*/
 .nav{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap}
 .nav a{text-decoration:none;padding:8px 10px;border:1px solid transparent;border-radius:12px;color:var(--muted)}
 .nav a:hover{border-color:var(--border);color:var(--text)}
-[data-hero-body] p{
-  margin-bottom:12px;
-}
-.hero{border:1px solid var(--border);border-radius:22px;overflow:hidden;background:linear-gradient(180deg, rgba(177,26,37,.15), rgba(0,0,0,0))}
-.hero-bg{
-  height:250px;
-  background-size:cover;
-  background-position:center 80%;
-  background-repeat:no-repeat;
-  border-bottom:1px solid var(--border);
-}
-.hero-content{padding:22px}
-.hero h1{margin:0 0 10px 0;font-size:42px;line-height:1.05;white-space:pre-line}
-.hero p{margin:0 0 10px 0;color:var(--muted);max-width:70ch}
-.grid{display:grid;gap:14px}
-.grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
-@media (max-width:900px){.grid.cols-3{grid-template-columns:1fr}}
-.card{border:1px solid var(--border);border-radius:18px;padding:16px;background:var(--card)}
-.card h1,.card h2,.card h3{margin:0 0 10px 0}
-.card p{margin:0;color:var(--muted)}
-.branch-item{display:flex;gap:12px;align-items:flex-start}
-.branch-item img{
-  width:44px;
-  height:44px;
-  border-radius:50%;
-  object-fit:contain;
-  border:none;
-  background:none;
-}
-.branch.clickable{
-  cursor:pointer;
-  transition:transform .15s ease, box-shadow .15s ease;
-}
-
-.branch.clickable:hover{
-  transform:translateY(-2px);
-  box-shadow:0 4px 12px rgba(0,0,0,.25);
-}
-
-.list{display:flex;flex-direction:column;gap:10px}
-.badge{display:inline-block;margin-top:8px;color:var(--muted);font-size:13px}
-[data-about-body] p{
-  margin-bottom:12px;
-}
 
 
-/*Footer*/
+
+
+
+/*-------------- Footer --------------*/
 @media (max-width:700px){
   .footer-layout{
     flex-direction:column;
@@ -88,9 +53,7 @@ a{color:inherit}
   gap:20px;
 }
 
-.footer-text{
-  flex:1;
-}
+.footer-text{flex:1;}
 
 .footer-logo{
   width:100px;

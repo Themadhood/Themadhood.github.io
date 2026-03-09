@@ -5,8 +5,8 @@
     "tagline": "Raspberry Pi tools, deployments, and utilities built for real-world use.",
     "metaDescription": "Themadhood's PI Solutions is the Raspberry Pi branch under Themadhood's Codes, covering relays, automations, and utilities.",
     "brand": {
-      "logo": "assets/imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png",
-      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png",
     "title": "Themadhood's PI Solutions",
     "emailLabel": "Email",
     "email": "Themadhoods.PI.Solutions@gmail.com",
@@ -53,19 +53,19 @@
             "title": "Themadhood's PI Relays",
             "href": "index.html?branch=pi-relays",
             "body": "Relay control systems, hardware switching patterns, and dependable device control infrastructure.",
-            "icon": "assets/imgs/Codes/THEMADHOOD PI Relays O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Relays O 2k-2k.png"
           },
           {
             "title": "Themadhood's PI Automations",
             "href": "index.html?branch=pi-automations",
             "body": "Pi-driven automation workflows, device orchestration, and repeatable operational routines.",
-            "icon": "assets/imgs/Codes/THEMADHOOD PI Automations O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Automations O 2k-2k.png"
           },
           {
             "title": "Themadhood's PI Utilities",
             "href": "index.html?branch=pi-utilities",
             "body": "Practical utilities for deployment, monitoring, diagnostics, and long-term device management.",
-            "icon": "assets/imgs/Codes/THEMADHOOD PI Utilities O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Utilities O 2k-2k.png"
           },
           {
             "title": "Other/ Routed Through Us",

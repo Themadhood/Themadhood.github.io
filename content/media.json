@@ -5,8 +5,8 @@
     "tagline": "Creative production across music, video, photography, and digital media.",
     "metaDescription": "Themadhood Media is the media division within Themadhood, overseeing music, video, photography, and related creative releases.",
     "brand": {
-      "logo": "assets/imgs/Media/THEMADHOOD Media O 2k-2k.png",
-      "heroBackground": "assets/imgs/Media/THEMADHOOD Media background square.png"
+      "logo": "GlobalAssets/Imgs/Media/THEMADHOOD Media O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Media/THEMADHOOD Media background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Media/THEMADHOOD Media O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Media/THEMADHOOD Media O 2k-2k.png",
     "title": "Themadhood Media",
     "emailLabel": "Email",
     "email": "Themadhood.Media@gmail.com",
@@ -47,19 +47,19 @@
             "title": "Themadhood's Music",
             "href": "index.html?branch=music",
             "body": "Original music and audio works created under the Themadhood ecosystem, including standalone releases, sound design, and project-specific compositions.",
-            "icon": "assets/imgs/Media/THEMADHOOD Music O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Media/THEMADHOOD Music O 2k-2k.png"
           },
           {
             "title": "Themadhood's Videos",
             "href": "index.html?branch=videos",
             "body": "Original video and motion content, including short-form media, long-form projects, and experimental visuals. Publishing details are handled at the branch level.",
-            "icon": "assets/imgs/Media/THEMADHOOD Video O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Media/THEMADHOOD Video O 2k-2k.png"
           },
           {
             "title": "Themadhood's Photos",
             "href": "index.html?branch=photos",
             "body": "Photography and visual imagery, including digital collections, project documentation, and curated sets. Presentation and usage details are handled at the branch level.",
-            "icon": "assets/imgs/Media/THEMADHOOD Photos O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Media/THEMADHOOD Photos O 2k-2k.png"
           },
           {
             "title": "Other/ Routed Through Us",

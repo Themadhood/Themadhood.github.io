@@ -5,8 +5,8 @@
     "tagline": "Standards, reusable patterns, and core engineering structure under Themadhood Systems.",
     "metaDescription": "Themadhood's Coding Foundations provides shared standards, utilities, and structural patterns to keep development consistent across Themadhood projects.",
     "brand": {
-      "logo": "assets/imgs/Codes/THEMADHOOD Coding Foundations O 2k-2k.png",
-      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Coding Foundations O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Codes/THEMADHOOD Coding Foundations O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Coding Foundations O 2k-2k.png",
     "title": "Themadhood's Coding Foundations",
     "emailLabel": "Email",
     "email": "Themadhoods.Codes@gmail.com",

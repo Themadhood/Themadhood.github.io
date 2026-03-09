@@ -5,8 +5,8 @@
     "tagline": "Core architecture, standards, and technical foundations across Themadhood's software ecosystem.",
     "metaDescription": "Themadhood Systems is the systems and architecture branch under Themadhood's Codes, covering foundations, automations, scripts, and databases.",
     "brand": {
-      "logo": "assets/imgs/Codes/THEMADHOOD Systems O 2k-2k.png",
-      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Systems O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Codes/THEMADHOOD Systems O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Systems O 2k-2k.png",
     "title": "Themadhood Systems",
     "emailLabel": "Email",
     "email": "Themadhoods.Codes@gmail.com",
@@ -53,25 +53,25 @@
             "title": "Themadhood's Coding Foundations",
             "href": "index.html?branch=coding-foundations",
             "body": "Core coding standards, reusable patterns, shared utilities, and foundational engineering structure.",
-            "icon": "assets/imgs/Codes/THEMADHOOD Coding Foundations O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Coding Foundations O 2k-2k.png"
           },
           {
             "title": "Themadhood's Automations",
             "href": "index.html?branch=automations",
             "body": "Automation frameworks, workflow tools, scheduling systems, and repeatable technical processes.",
-            "icon": "assets/imgs/Codes/THEMADHOOD Automations O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Automations O 2k-2k.png"
           },
           {
             "title": "Themadhood's Scripts",
             "href": "index.html?branch=scripts",
             "body": "Scripted tooling for setup, deployment, maintenance, and streamlined workflows across devices.",
-            "icon": "assets/imgs/Codes/THEMADHOOD Scripts O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Scripts O 2k-2k.png"
           },
           {
             "title": "Themadhood's Databases",
             "href": "index.html?branch=databases",
             "body": "Database structure, migration planning, schema design, and long-term data organization strategy.",
-            "icon": "assets/imgs/Codes/THEMADHOOD Databases O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Databases O 2k-2k.png"
           },
           {
             "title": "Other/ Routed Through Us",

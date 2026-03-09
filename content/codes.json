@@ -5,8 +5,8 @@
     "tagline": "Software, automation, and technical systems across the Themadhood ecosystem.",
     "metaDescription": "Themadhood's Codes is the software and systems division of Themadhood, covering systems, Pi solutions, and applications.",
     "brand": {
-      "logo": "assets/imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
-      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
     "title": "Themadhood's Codes",
     "emailLabel": "Email",
     "email": "Themadhoods.Codes@gmail.com",
@@ -47,19 +47,19 @@
             "title": "Themadhood Systems",
             "href": "index.html?branch=systems",
             "body": "Core system design, infrastructure patterns, and foundational technical architecture used across Themadhood projects.",
-            "icon": "assets/imgs/Codes/THEMADHOOD Systems O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Systems O 2k-2k.png"
           },
           {
             "title": "Themadhood's PI Solutions",
             "href": "index.html?branch=pi-solutions",
             "body": "Raspberry Pi based tools, deployments, utilities, and repeatable solutions designed for reliable real-world use.",
-            "icon": "assets/imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png"
           },
           {
             "title": "Themadhood's Applications",
             "href": "index.html?branch=applications",
             "body": "User-facing applications and tools built under the Themadhood ecosystem, including utilities and project-specific apps.",
-            "icon": "assets/imgs/Codes/THEMADHOOD Applications O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Applications O 2k-2k.png"
           },
           {
             "title": "Other/ Routed Through Us",

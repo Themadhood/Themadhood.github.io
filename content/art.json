@@ -5,8 +5,8 @@
     "tagline": "Physical and digital goods created under the Themadhood ecosystem.",
     "metaDescription": "Themadhood's Art handles original artworks, illustrations, and visual creations released under Themadhood.",
     "brand": {
-      "logo": "assets/imgs/Goods/THEMADHOOD Art O 2k-2k.png",
-      "heroBackground": "assets/imgs/Goods/THEMADHOOD Goods background square.png"
+      "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Art O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Goods/THEMADHOOD Art O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Art O 2k-2k.png",
     "title": "Themadhood's Art",
     "emailLabel": "Email",
     "email": "Themadhoods.Goods@gmail.com",

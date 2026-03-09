@@ -5,8 +5,8 @@
     "tagline": "Workflow automation and repeatable system processes under Themadhood Systems.",
     "metaDescription": "Themadhood's Automations builds repeatable automation workflows, scheduled tasks, and reliable technical processes across Themadhood projects.",
     "brand": {
-      "logo": "assets/imgs/Codes/THEMADHOOD Automations O 2k-2k.png",
-      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Automations O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Codes/THEMADHOOD Automations O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Automations O 2k-2k.png",
     "title": "Themadhood's Automations",
     "emailLabel": "Email",
     "email": "Themadhoods.Codes@gmail.com",

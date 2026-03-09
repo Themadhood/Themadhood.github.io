@@ -5,8 +5,8 @@
     "tagline": "Data structure, schema design, and long-term organization under Themadhood Systems.",
     "metaDescription": "Themadhood's Databases focuses on schema design, migration planning, and structured data foundations across Themadhood projects.",
     "brand": {
-      "logo": "assets/imgs/Codes/THEMADHOOD Databases O 2k-2k.png",
-      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Databases O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Codes/THEMADHOOD Databases O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Databases O 2k-2k.png",
     "title": "Themadhood's Databases",
     "emailLabel": "Email",
     "email": "Themadhoods.Codes@gmail.com",

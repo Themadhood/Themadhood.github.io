@@ -5,8 +5,8 @@
     "tagline": "Practical scripts and repeatable technical tooling under Themadhood Systems.",
     "metaDescription": "Themadhood's Scripts builds practical scripts for setup, deployment, maintenance, and repeatable workflows across Themadhood systems.",
     "brand": {
-      "logo": "assets/imgs/Codes/THEMADHOOD Scripts O 2k-2k.png",
-      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Scripts O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Codes/THEMADHOOD Scripts O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Scripts O 2k-2k.png",
     "title": "Themadhood's Scripts",
     "emailLabel": "Email",
     "email": "Themadhoods.Codes@gmail.com",

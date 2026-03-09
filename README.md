@@ -20,3 +20,4 @@ Put images in `assets/img/` and reference them from JSON as:
 
 
 C:\Python\python.exe -m http.server 8000
+http://localhost:8000

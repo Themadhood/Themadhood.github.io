@@ -1,0 +1,14 @@
+:root{
+  --bg:#0f0f12;
+  --card:#171720;
+  --text:#f1f1f3;
+  --muted:#b8b8c7;
+  --border:#2a2a38;
+  --accent:#b11a25;
+}
+
+
+/*-------------- Links --------------*/
+.list{display:flex;flex-direction:column;gap:10px}
+.badge{display:inline-block;margin-top:8px;color:var(--muted);font-size:13px}
+

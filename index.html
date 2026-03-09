@@ -1,34 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-  
-<!--html setup-->
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<meta name="description" content="Themadhood site" />
-<link rel="stylesheet" href="./assets/site.css" />
-
-
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Themadhood site" />
+  <link rel="icon" data-site-favicon href="">
+  <link rel="stylesheet" href="./GlobalAssets/CSS/HeaderFooter.css" />
+  <link rel="stylesheet" href="./GlobalAssets/CSS/Index.css" />
   <title>Themadhood</title>
 </head>
 <body data-page="home">
-  
-<!--header-->
-<div class="topbar">
-  <div class="container topbar-inner">
-    <a class="brand" data-brand-home href="./index.html">
-      <img data-brand-logo src="" alt="Logo" />
-      <div class="name" data-brand-name>Themadhood</div>
-    </a>
-    <nav class="nav" data-nav></nav>  <!--navigation-->
-  </div>
-</div>
 
+  <div id="shared-header"></div>
 
-
-
-	<!--Bio-->
   <div class="container" style="padding-top:22px">
     <div class="hero">
       <div class="hero-bg" data-hero-bg></div>
@@ -38,7 +22,6 @@
       </div>
     </div>
 
-	<!--About-->
     <div class="grid" style="margin-top:14px">
       <div class="card" id="about">
         <h2 data-about-title></h2>
@@ -46,37 +29,16 @@
       </div>
     </div>
 
-	<!--Branches and servises-->
     <div class="grid" style="margin-top:14px">
       <div class="card">
         <h2 data-branches-title></h2>
         <div class="grid cols-3" data-branches></div>
       </div>
     </div>
-
   </div>
-  
-  
-  
-  
-  
-<!--Page footer-->
-<div class="footer">
-  <div class="container footer-layout">
 
-	<!--Logo-->
-    <img class="footer-logo" data-footer-logo alt="Logo">
+  <div id="shared-footer"></div>
 
-	<!--Text colum-->
-    <div class="footer-text">
-      <h4 data-footer-title></h4>
-      <div class="kv"><b>Email:</b> <a data-footer-email href="#"></a></div>    <!--Email-->
-      <div class="small" data-footer-copy></div> <!--opyright-->
-      <div class="small" data-footer-line2></div>
-    </div>
-  </div>
-</div>
-
-  <script src="./assets/app.js"></script>  <!--backend translation-->
+  <script type="module" src="./GlobalAssets/JS/app.js"></script>
 </body>
 </html>

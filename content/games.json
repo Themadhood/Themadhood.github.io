@@ -5,8 +5,8 @@
     "tagline": "Games and interactive experiences built under Themadhood's Applications.",
     "metaDescription": "Themadhood's Games develops interactive software experiences, long-term game projects, and experimental releases under Themadhood's Applications.",
     "brand": {
-      "logo": "assets/imgs/Codes/THEMADHOOD Games O 2k-2k.png",
-      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Games O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png"
     }
   },
   "nav": {
@@ -17,10 +17,10 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Codes/THEMADHOOD Games O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Games O 2k-2k.png",
     "title": "Themadhood's Games",
     "emailLabel": "Email",
-    "email": "Themadhoods.Codes@gmail.com",
+    "email": "Themadhoods.Applications@gmail.com",
     "copyright": "© 2026 Themadhood's Games. All rights reserved.",
     "line2": "Themadhood's Games operates under Themadhood's Applications."
   },

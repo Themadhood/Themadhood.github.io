@@ -5,8 +5,8 @@
     "tagline": "Physical and digital goods created under the Themadhood ecosystem.",
     "metaDescription": "Themadhood's Goods handles physical and digital goods, including jewelry, creations, and trinkets.",
     "brand": {
-      "logo": "assets/imgs/Goods/THEMADHOOD Goods O 2k-2k.png",
-      "heroBackground": "assets/imgs/Goods/THEMADHOOD Goods background square.png"
+      "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Goods/THEMADHOOD Goods O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods O 2k-2k.png",
     "title": "Themadhood's Goods",
     "emailLabel": "Email",
     "email": "Themadhoods.Goods@gmail.com",
@@ -47,31 +47,31 @@
             "title": "Themadhood's Jewelry",
             "href": "index.html?branch=jewelry",
             "body": "Jewelry and wearable items created under Themadhood goods, including themed pieces and limited releases.",
-            "icon": "assets/imgs/Goods/THEMADHOOD Jewelry O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Goods/THEMADHOOD Jewelry O 2k-2k.png"
           },
 		  {
             "title": "Themadhood's Stained Glass",
             "href": "index.html?branch=stained-glass",
             "body": "Stained glass pieces created under Themadhood Goods, including decorative panels, themed designs, and limited handcrafted works.",
-            "icon": "assets/imgs/Goods/THEMADHOOD Stained Glass O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Goods/THEMADHOOD Stained Glass O 2k-2k.png"
           },
           {
             "title": "Themadhood's Creations",
             "href": "index.html?branch=creations",
             "body": "Handmade and crafted items, including mixed-media builds and unique project creations.",
-            "icon": "assets/imgs/Goods/THEMADHOOD Creations O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Goods/THEMADHOOD Creations O 2k-2k.png"
           },
           {
             "title": "Themadgood's Trinkets",
             "href": "index.html?branch=trinkets",
             "body": "Small goods, accessories, and collectible trinkets released under Themadhood goods.",
-            "icon": "assets/imgs/Goods/THEMADHOOD Trinkets O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Goods/THEMADHOOD Trinkets O 2k-2k.png"
           },
           {
             "title": "Themadgood's Art",
             "href": "index.html?branch=art",
             "body": "Artworks, illustrations, and visual creations produced and released under Themadhood's creative branches, including original pieces and curated visual projects.",
-            "icon": "assets/imgs/Goods/THEMADHOOD Art O 2k-2k.png"
+            "icon": "GlobalAssets/Imgs/Goods/THEMADHOOD Art O 2k-2k.png"
           },
           {
             "title": "Other/ Routed Through Us",

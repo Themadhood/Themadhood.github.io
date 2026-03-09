@@ -5,8 +5,8 @@
     "tagline": "Deployment, monitoring, and device utilities under Themadhood's PI Solutions.",
     "metaDescription": "Themadhood's PI Utilities builds practical tools for deployment, monitoring, diagnostics, and long-term Raspberry Pi management.",
     "brand": {
-      "logo": "assets/imgs/Codes/THEMADHOOD PI Utilities O 2k-2k.png",
-      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Utilities O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Codes/THEMADHOOD PI Utilities O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Utilities O 2k-2k.png",
     "title": "Themadhood's PI Utilities",
     "emailLabel": "Email",
     "email": "Themadhoods.PI.Solutions@gmail.com",

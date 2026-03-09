@@ -5,8 +5,8 @@
     "tagline": "Packaged builds and distributable software releases under Themadhood's Applications.",
     "metaDescription": "Themadhood's Executables focuses on stable packaged releases, distributable builds, and executable delivery workflows across Themadhood software.",
     "brand": {
-      "logo": "assets/imgs/Codes/THEMADHOOD Executables O 2k-2k.png",
-      "heroBackground": "assets/imgs/Codes/THEMADHOOD Codes background square.png"
+      "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Executables O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png"
     }
   },
   "nav": {
@@ -17,10 +17,10 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Codes/THEMADHOOD Executables O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Executables O 2k-2k.png",
     "title": "Themadhood's Executables",
     "emailLabel": "Email",
-    "email": "Themadhoods.Codes@gmail.com",
+    "email": "Themadhoods.Applications@gmail.com",
     "copyright": "© 2026 Themadhood's Executables. All rights reserved.",
     "line2": "Themadhood's Executables operates under Themadhood's Applications."
   },

@@ -5,8 +5,8 @@
     "tagline": "Physical and digital goods created under the Themadhood ecosystem.",
     "metaDescription": "Themadhood's Creations handles handmade and crafted items, including mixed-media builds and unique project creations.",
     "brand": {
-      "logo": "assets/imgs/Goods/THEMADHOOD Creations O 2k-2k.png",
-      "heroBackground": "assets/imgs/Goods/THEMADHOOD Goods background square.png"
+      "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Creations O 2k-2k.png",
+      "heroBackground": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods background square.png"
     }
   },
   "nav": {
@@ -17,7 +17,7 @@
     ]
   },
   "footer": {
-    "logo": "assets/imgs/Goods/THEMADHOOD Creations O 2k-2k.png",
+    "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Creations O 2k-2k.png",
     "title": "Themadhood's Creations",
     "emailLabel": "Email",
     "email": "Themadhoods.Goods@gmail.com",
