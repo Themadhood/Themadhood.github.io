@@ -6,7 +6,22 @@
     "metaDescription": "Themadhood Systems is the systems and architecture branch under Themadhood's Codes, covering foundations, automations, scripts, and databases.",
     "brand": {
       "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Systems O 2k-2k.png",
-      "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png"
+      "heroBackground": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
+      "colors": {
+        "bg": "#000000",
+        "text": "#f5f5f5",
+        "muted": "#b8b8c2",
+        "card": "#17171c",
+        "border": "#2a2a34",
+        "accent": "#b11a25",
+		"accentSoft": "rgba(177,26,37,.15)",
+		"topbarBg":"#242424",
+		"footerBg":"#242424",
+		"linkColor":"#0f0f12",
+		"buttonBg":"#0f0f12",
+		"buttonText":"#0f0f12",
+		"heroOverlay":"#0f0f12"
+	  }
     }
   },
   "nav": {
