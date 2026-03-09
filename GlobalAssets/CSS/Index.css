@@ -15,14 +15,27 @@
 
 
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+background:var(--bg);color:var(--text)}
 a{color:inherit}
 
 /*-------------- Hero --------------*/
 [data-hero-body] p{
   margin-bottom:12px;
 }
-.hero{border:1px solid var(--border);border-radius:22px;overflow:hidden;background:linear-gradient(180deg, rgba(177,26,37,.15), rgba(0,0,0,0))}
+
+/*
+45deg	bottom-left → top-right
+135deg	top-left → bottom-right
+180deg	top → bottom
+90deg	left → right
+*/
+.hero{
+	border:1px solid var(--border);
+	border-radius:22px;
+	overflow:hidden;
+	background:linear-gradient(45deg, var(--card), color-mix(in srgb, var(--accent) 20%, var(--card)))
+	}
 .hero-bg{
   height:250px;
   background-size:cover;

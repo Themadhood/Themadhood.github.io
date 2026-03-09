@@ -15,10 +15,28 @@
 }
 
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+background:var(--bg);color:var(--text)}
 a{color:inherit}
 
 /*-------------- Links --------------*/
 .list{display:flex;flex-direction:column;gap:10px}
 .badge{display:inline-block;margin-top:8px;color:var(--muted);font-size:13px}
 
+/*-------------- Links Panel --------------*/
+.links-panel{
+  margin-top:14px;
+}
+
+.links-body{
+  padding:16px;
+  background:var(--card);
+  border-left:1px solid var(--border);
+  border-right:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  border-radius:0 0 18px 18px;
+}
+
+.links-body .grid{
+  gap:14px;
+}
