@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Themadhood site" />
+  <link rel="icon" data-site-favicon href="">
+  <link rel="stylesheet" href="./GlobalAssets/CSS/HeaderFooter.css" />
+  <link rel="stylesheet" href="./GlobalAssets/CSS/Index.css" />
+  <title>Themadhood</title>
+</head>
+<body data-page="home">
+
+  <div id="shared-header"></div>
+
+  <div class="container" style="padding-top:22px">
+    <div class="hero">
+      <div class="hero-bg" data-hero-bg></div>
+      <div class="hero-content">
+        <h1 data-hero-headline></h1>
+        <div data-hero-body></div>
+      </div>
+    </div>
+
+    <div class="grid" style="margin-top:14px">
+      <div class="card" id="about">
+        <h2 data-about-title></h2>
+        <div data-about-body></div>
+      </div>
+    </div>
+
+    <div class="grid" style="margin-top:14px">
+      <div class="card">
+        <h2 data-branches-title></h2>
+        <div class="grid cols-3" data-branches></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="shared-footer"></div>
+
+  <script type="module" src="./GlobalAssets/JS/app.js"></script>
+</body>
+</html>
