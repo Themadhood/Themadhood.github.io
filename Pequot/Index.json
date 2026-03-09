@@ -1,0 +1,52 @@
+{
+    "hero": {
+        "headline": "Themadhood Pequot",
+        "body": [
+			"Themadhood Pequot is the primary hub and parent entity for the Themadhood network. It serves as the central point of reference for projects, products, and accounts that operate across multiple branches of the ecosystem..",
+			"",
+			"When a project does not maintain its own public presence, communication, updates, and social links route through Themadhood Pequot. In this way, Themadhood Pequot functions as the connective layer \u2014 the place where everything meets, escalates, and stays accessible."
+        ]
+    },
+	  
+	  
+    "about": {
+        "title": "ABOUT US",
+        "body": [
+			"Themadhood Pequot is both the parent brand of the Themadhood ecosystem and the creator name used across its projects. While individual branches may operate under their own identities, Themadhood Pequot remains the common point of attribution and public presence.",
+			"",
+			"In practice, a project may list a branch name for production or organization, while crediting Themadhood Pequot as the artist, author, or creator\u2014keeping structure clear without fragmenting identity."
+        ]
+    },
+	  
+	  
+    "branches": {
+        "title": "Themadhood Pequot",
+        "items": [
+			{
+			"title": "Themadhood's Goods",
+			"href": "index.html?branch=goods",
+			"body": "Physical and digital goods created under the Themadhood ecosystem, including custom items, limited releases, and project-specific products. Fulfillment and product details are handled at the branch level.",
+			"icon": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods O 2k-2k.png"
+			},
+			{
+			"title": "Themadhood Media",
+			"href": "index.html?branch=media",
+			"body": "Media and creative production across video, audio, music, and digital content. Projects may list Themadhood Media for production or platform identity, while individual creative credit may be attributed to Themadhood Pequot.",
+			"icon": "GlobalAssets/Imgs/Media/THEMADHOOD Media O 2k-2k.png"
+			},
+			{
+			"title": "Themadhood's Codes",
+			"href": "index.html?branch=codes",
+			"body": "Software, automation, and technical systems developed within the Themadhood ecosystem. This includes tools, scripts, applications, and experimental builds, with delivery and support managed through the appropriate code branch.",
+			"icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes O 2k-2k.png"
+			},
+			{
+			"title": "Other/ Routed Through Us",
+			"href": "",
+			"body": "Requests that don\u2019t clearly fall under a specific branch, including custom, experimental, or cross-disciplinary work. These are reviewed at the parent level and delegated to the appropriate branch when applicable.",
+			"icon": ""
+			}
+        ]
+    }
+
+}
