@@ -3,8 +3,8 @@
 
 # Themadhood GitHub Pages Template
 
-## What you edit
-- All text + menu + link lists live in `content/*.json`.
+## What to edit
+- All text + menu + link lists live in `Content/*.json`.
 
 ## Branch switch
 - Default: `pequot`
@@ -15,8 +15,8 @@ Example:
 - `links.html?branch=pequot`
 
 ## Images
-Put images in `assets/img/` and reference them from JSON as:
-- `assets/img/your_file.png`
+Put images in `GlobalAssets/Img/` and reference them from JSON as:
+- `GlobalAssets/Img/file.png`
 
 
 C:\Python\python.exe -m http.server 8000
