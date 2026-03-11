@@ -1,11 +1,12 @@
 import { loadHeaderFooter,HF_main,setText } from "./HeaderFooter.js";
+import { loadBranch} from "./OpenJsons.js";
 
 
-function renderHome(data){
-  const page = data.pages?.home || {};
+function renderHome(indexData,settings){
+  const page = indexData || {};
   const heroBg = document.querySelector("[data-hero-bg]");
-  if(heroBg && data.site?.brand?.heroBackground){
-    heroBg.style.backgroundImage = `url("${data.site.brand.heroBackground}")`;
+  if(heroBg && settings.brand?.background){
+    heroBg.style.backgroundImage = `url("${settings.brand.background}")`;
   }
   setText(document.querySelector("[data-hero-headline]"), page.hero?.headline || "");
   const heroBody = document.querySelector("[data-hero-body]");
@@ -130,11 +131,12 @@ function renderHome(data){
 
 async function main(){
   await loadHeaderFooter();
-  const { branch, data } = await HF_main();
+  const { branch, settings } = await HF_main();
+  const indexData = await loadBranch(branch,'Index');
   
 
   const page = document.body.getAttribute("data-page");
-  renderHome(data);
+  renderHome(indexData, settings);
   // If URL has a #hash (ex: #contact), scroll after dynamic render finishes
   if (window.location.hash) {
     const target = document.querySelector(window.location.hash);
