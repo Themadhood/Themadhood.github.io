@@ -62,7 +62,7 @@ function normalizeSplitBranch(settings, indexData, linksData){
 async function loadBranch(branchId){
   const cap = branchId.charAt(0).toUpperCase() + branchId.slice(1);
 
-  try{
+  
 	//new branch check
     //const res = await fetch(`./${cap}/Settings.json`, {cache:"no-store"});
     //if(!res.ok) throw new Error();
@@ -70,21 +70,16 @@ async function loadBranch(branchId){
     //const data = await res.json();
     //return data;
 	
-	const [settings, indexData, linksData] = await Promise.all([
-      loadJson(`./${cap}/Settings.json`),
-      loadJson(`./${cap}/Index.json`),
-      loadJson(`./${cap}/Links.json`)
-    ]);
-	console.log("Loaded all jsons");
+  const [settings, indexData, linksData] = await Promise.all([
+    loadJson(`./${cap}/Settings.json`),
+    loadJson(`./${cap}/Index.json`),
+    loadJson(`./${cap}/Links.json`)
+  ]);
+  console.log("Loaded all jsons");
 
-    return normalizeSplitBranch(settings, indexData, linksData);
+  if(!res.ok) throw new Error(`Failed to load ./${cap}/`);
 
-  }catch{
-
-    // fallback to old system
-    const res = await fetch(`./Content/${branchId}.json`, {cache:"no-store"});
-    if(!res.ok) throw new Error(`Failed to load Content/${branchId}.json`);
-    return await res.json();
+  return normalizeSplitBranch(settings, indexData, linksData);
 
   }
 }

@@ -31,6 +31,14 @@
                 {
                     "label": "Themadhood's Trinkets",
                     "href": "index.html?branch=trinkets"
+                },
+                {
+                    "label": "Themadhood's Art",
+                    "href": "index.html?branch=art"
+                },
+                {
+                    "label": "Themadhood's Leather Goods",
+                    "href": "index.html?branch=leather-goods"
                 }
             ]
         }
