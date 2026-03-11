@@ -1,0 +1,265 @@
+:root{
+  --bg:#000000;
+  --card:#171720;
+  --text:#f1f1f3;
+  --muted:#b8b8c7;
+  --border:#2a2a38;
+  --accent:#b11a25;
+  --topbar-bg:#0f0f12;
+  --footer-bg:#0f0f12;
+  --link-color:#0f0f12;
+  --button-bg:#0f0f12;
+  --button-text:#0f0f12;
+  --hero-overlay:#0f0f12;
+}
+
+
+*{box-sizing:border-box}
+body{
+  padding-top:80px;
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+a{color:inherit}
+
+
+/*-------------- Shared layout --------------*/
+.grid{display:grid;gap:14px}
+.card{
+  border:1px solid var(--border);
+  border-radius:18px;
+  padding:16px;
+  background:var(--card);
+}
+.card h1,.card h2,.card h3,.card h4{margin:0 0 10px 0}
+.card p{margin:0;color:var(--muted)}
+
+[data-showcase-body] p{
+  margin-bottom:12px;
+}
+
+
+/*-------------- Showcase sections --------------*/
+.showcase-items{
+  display:grid;
+  gap:14px;
+}
+
+.showcase-item{
+  width:100%;
+}
+
+.showcase-item-inner{
+  display:block;
+}
+
+.showcase-item-inner::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+
+/*-------------- Showcase media --------------*/
+.showcase-media{
+  float:left;
+  width:280px;
+  max-width:42%;
+  margin:0 16px 12px 0;
+}
+
+.showcase-image-button{
+  display:block;
+  width:100%;
+  padding:0;
+  border:none;
+  background:none;
+  cursor:pointer;
+}
+
+.showcase-image{
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:14px;
+  border:1px solid var(--border);
+  background:var(--card);
+}
+
+.showcase-image-button:hover .showcase-image{
+  opacity:.95;
+}
+
+.showcase-gallery-count{
+  margin-top:8px;
+  color:var(--muted);
+  font-size:.92rem;
+}
+
+
+/*-------------- Showcase content --------------*/
+.showcase-content{
+  display:block;
+}
+
+.showcase-title{
+  margin:0 0 10px 0;
+  font-size:1.25rem;
+  line-height:1.2;
+}
+
+.showcase-title a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.showcase-title a:hover{
+  text-decoration:underline;
+}
+
+.showcase-block{
+  margin-top:12px;
+}
+
+.showcase-block h4{
+  margin:0 0 6px 0;
+  font-size:1rem;
+}
+
+.showcase-block p{
+  margin:0 0 10px 0;
+  color:var(--muted);
+}
+
+
+/*-------------- Showcase meta/details --------------*/
+.showcase-meta{
+  display:grid;
+  gap:8px;
+  margin-top:14px;
+}
+
+.showcase-meta-row{
+  display:grid;
+  grid-template-columns:140px 1fr;
+  gap:10px;
+  align-items:start;
+}
+
+.showcase-meta-key{
+  font-weight:700;
+  color:var(--text);
+}
+
+.showcase-meta-value{
+  color:var(--muted);
+}
+
+
+/*-------------- Lightbox --------------*/
+.showcase-lightbox[hidden]{
+  display:none;
+}
+
+.showcase-lightbox{
+  position:fixed;
+  inset:0;
+  z-index:9999;
+}
+
+.showcase-lightbox-backdrop{
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,.82);
+}
+
+.showcase-lightbox-panel{
+  position:relative;
+  z-index:1;
+  width:min(92vw,1100px);
+  height:min(88vh,800px);
+  margin:4vh auto 0;
+  display:grid;
+  grid-template-columns:60px 1fr 60px;
+  grid-template-rows:1fr auto;
+  gap:10px;
+  align-items:center;
+}
+
+.showcase-lightbox-image{
+  grid-column:2;
+  grid-row:1;
+  display:block;
+  max-width:100%;
+  max-height:100%;
+  margin:0 auto;
+  border-radius:14px;
+  border:1px solid var(--border);
+  background:var(--card);
+}
+
+.showcase-lightbox-caption{
+  grid-column:1 / span 3;
+  grid-row:2;
+  text-align:center;
+  color:var(--text);
+}
+
+.showcase-lightbox-close{
+  position:absolute;
+  top:-8px;
+  right:0;
+  width:42px;
+  height:42px;
+  border:none;
+  border-radius:999px;
+  cursor:pointer;
+  font-size:1.5rem;
+  background:var(--card);
+  color:var(--text);
+}
+
+.showcase-lightbox-nav{
+  width:46px;
+  height:46px;
+  border:none;
+  border-radius:999px;
+  cursor:pointer;
+  font-size:2rem;
+  line-height:1;
+  background:var(--card);
+  color:var(--text);
+}
+
+.showcase-lightbox-prev{
+  grid-column:1;
+  grid-row:1;
+}
+
+.showcase-lightbox-next{
+  grid-column:3;
+  grid-row:1;
+}
+
+
+/*-------------- Responsive --------------*/
+@media (max-width:900px){
+  .showcase-media{
+    float:none;
+    width:100%;
+    max-width:100%;
+    margin:0 0 12px 0;
+  }
+
+  .showcase-meta-row{
+    grid-template-columns:1fr;
+    gap:4px;
+  }
+
+  .showcase-lightbox-panel{
+    grid-template-columns:44px 1fr 44px;
+    width:min(96vw,1100px);
+  }
+}
