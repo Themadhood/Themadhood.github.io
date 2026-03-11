@@ -1,0 +1,13 @@
+{
+  "rules": [
+    {
+      "type": "capitalize_segments",
+      "separator": "-"
+    },
+    {
+      "type": "replace_word",
+      "match": "pi",
+      "replace": "PI"
+    }
+  ]
+}
