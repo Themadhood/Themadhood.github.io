@@ -1,0 +1,69 @@
+{
+  "title": "Showcase",
+  "body": "Explore featured items, releases, and collections across this branch.",
+  "sections": [
+    {
+      "title": "Featured Collection",
+      "body": "Highlighted works currently featured in this branch.",
+      "items": [
+        {
+          "title": "Album One",
+          "href": "https://example.com/album-one",
+          "image": "Assets/Imgs/album-one-cover.png",
+          "gallery": [
+            "Assets/Imgs/album-one-cover.png",
+            "Assets/Imgs/album-one-back.png",
+            {
+              "src": "Assets/Imgs/album-one-inside.png",
+              "alt": "Album One inside view"
+            }
+          ],
+          "description": [
+            "A themed music release built around layered atmosphere and structured progression.",
+            "Designed as a unified listening experience with distinct movement between tracks."
+          ],
+          "about": [
+            "This release explores the broader sound identity of the branch while keeping a strong project-specific tone."
+          ],
+          "info": [
+            "Available through the linked release page."
+          ],
+          "notes": [
+            "Additional variants may be added later."
+          ],
+          "details": {
+            "Type": "Album",
+            "Format": "Digital",
+            "Tracks": "10",
+            "Release": "2026"
+          }
+        },
+        {
+          "title": "Single One",
+          "href": "https://example.com/single-one",
+          "image": "Assets/Imgs/single-one-cover.png",
+          "description": "A standalone release created as a focused concept piece.",
+          "details": {
+            "Type": "Single",
+            "Format": "Digital"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Additional Releases",
+      "items": [
+        {
+          "title": "Demo Collection",
+          "href": "https://example.com/demo",
+          "image": "Assets/Imgs/demo-cover.png",
+          "about": "A small set of experimental works and previews.",
+          "details": {
+            "Type": "Collection",
+            "Status": "Preview"
+          }
+        }
+      ]
+    }
+  ]
+}

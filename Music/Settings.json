@@ -35,6 +35,10 @@
                 "href": "index.html?branch=music"
             },
             {
+                "label": "Albums",
+                "href": ""
+            },
+            {
                 "label": "Links",
                 "href": "links.html?branch=music"
             }

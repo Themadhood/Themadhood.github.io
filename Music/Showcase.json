@@ -1,0 +1,304 @@
+{
+	"title": "Showcase",
+	"body": "Explore featured items, releases, and collections.",
+	"sections": [
+		{
+		"title": "Featured Collection",
+		"body": "Highlighted works currently featured in this branch.",
+		"items": [
+			{
+			"title": "Album One",
+			"href": "https://example.com/album-one",
+			"image": "Assets/Imgs/album-one-cover.png",
+			"gallery": [
+				"Assets/Imgs/album-one-cover.png",
+				"Assets/Imgs/album-one-back.png",
+				{
+				"src": "Assets/Imgs/album-one-inside.png",
+				"alt": "Album One inside view"
+				}
+			],
+			"description": [
+				"A themed music release built around layered atmosphere and structured progression.",
+				"Designed as a unified listening experience with distinct movement between tracks."
+			],
+			"about": [
+				"This release explores the broader sound identity of the branch while keeping a strong project-specific tone."
+			],
+			"info": [
+				"Available through the linked release page."
+			],
+			"notes": [
+				"Additional variants may be added later."
+			],
+			"details": {
+				"Type": "Album",
+				"Format": "Digital",
+				"Tracks": "10",
+				"Release": "2026"
+				}
+			},
+			{
+			"title": "Single One",
+			"href": "https://example.com/single-one",
+			"image": "Assets/Imgs/single-one-cover.png",
+			"description": "A standalone release created as a focused concept piece.",
+			"details": {
+				"Type": "Single",
+				"Format": "Digital"
+				}
+			}
+			]
+		},
+		
+		
+		{
+		"title": "EZEOEZED LDEZLO",
+		"body": "This album is my law of atractions for the year of 2026 since i dont have the time to say my afermations in the morning and evning i just play and sing along with this album threw out the day",
+		"image": "/Music/Assets/AlbumCovers/EZEOEZED LDEZLO Cover.png",
+		"details": {
+			"Type": "Album",
+			"Release": "2026",
+			"Tracks": 8,
+			"Format": "Digital"
+			},
+		"items": [
+			{
+			"title": "Grounded Fire",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/EZEOEZED LDEZLO Cover.png",
+			"about": "This song was writen from my afermations for confedence and being bolder.",
+			"description": "",
+			"details": {
+				"Track": 1,
+				"Length": ""
+				}
+			},
+			{
+			"title": "The Perfect One For Me",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/EZEOEZED LDEZLO Cover.png",
+			"about": "This song is made from my list of what id like in a romantic partner.",
+			"description": "This song is made from my list of what id like in a romantic partner. however im not foolesh enuf to think someone who matches exactly. im a care taker so when you listen to the song during the chorus you'll catch my little quip it sounds and reads auqwerd but i just had to add it 'She can cook, she can clean,and she can playfully get me to do it for her'.",
+			"details": {
+				"Track": 2,
+				"Length": ""
+				}
+			},
+			{
+			"title": "More Than Enough Time",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/EZEOEZED LDEZLO Cover.png",
+			"about": "This song was writen from my afermations of time.",
+			"description": "We all complain about not having enuf time.",
+			"details": {
+				"Track": 3,
+				"Length": ""
+				}
+			},
+			{
+			"title": "Alredy In Changing Motion",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/EZEOEZED LDEZLO Cover.png",
+			"about": "This song was writen about my current life.",
+			"description": "I started This year with several changes hapening and things going to happen. with no rest inbitween going from one thing to the next and otherthings starting at onece. School, Jobs, Volenteering, Buisneses, House hunting, House buying, Moving, and much more",
+			"details": {
+				"Track": 4,
+				"Length": ""
+				}
+			},
+			{
+			"title": "Easy Semester",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/EZEOEZED LDEZLO Cover.png",
+			"about": "This song is writen to get my head in the easy semmester minset.",
+			"description": "Im a full time student and i have over full semesters but im in the home streach and should be done after July",
+			"details": {
+				"Track": 5,
+				"Length": ""
+				}
+			},
+			{
+			"title": "Aligned With You",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/EZEOEZED LDEZLO Cover.png",
+			"about": "This song is for alining my energys with my intended romantic partner who ever that may be.",
+			"description": "",
+			"details": {
+				"Track": 6,
+				"Length": ""
+				}
+			},
+			{
+			"title": "Inevitable Wealth",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/EZEOEZED LDEZLO Cover.png",
+			"about": "I wrote this song to get my metal state open to making money",
+			"description": "being this is my last year in school and the other things i have going on i need money so i wrote this song",
+			"details": {
+				"Track": 7,
+				"Length": ""
+				}
+			},
+			{
+			"title": "The Right Home",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/EZEOEZED LDEZLO Cover.png",
+			"about": "i wrote this song to get in the mind set of buying a home",
+			"description": "",
+			"details": {
+				"Track": 8,
+				"Length": ""
+				}
+			}
+			]
+		},
+		
+		
+		{
+		"title": "IEIIZS",
+		"body": "This album is made up of songs i wrote and then rewrote to match the story based on the first 3 songs",
+		"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+		"details": {
+			"Type": "Album",
+			"Release": "2026",
+			"Tracks": 12,
+			"Format": "Digital"
+			},
+		"items": [
+			{
+			"title": "What Time Stole Away",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+			"about": "This song was writen to bridge Decade Search and Second Meeting for this album.",
+			"description": "",
+			"details": {
+				"Track": 1,
+				"Length": ""
+				}
+			},
+			{
+			"title": "Decade Search",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+			"about": "This song is writen from a jurnal.",
+			"description": "im a suker for the childhood frend trope and so in 2015 i started looking for a child hood friend i knew. and this song tells the storry i removed all the negitve entrys and grouped some into shorter ones. I orgenaly tryed to make the song 10 minutes long as a fun easter egg however it didnt turn out that long its actualy a few seconds short short",
+			"details": {
+				"Track": 2,
+				"Length": ""
+				}
+			},
+			{
+			"title": "Second Meeting",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+			"about": "This song was writen from an encounter i had.",
+			"description": "this song is writen about a friend who i started talking with then met for coffey.",
+			"details": {
+				"Track": 3,
+				"Length": ""
+				}
+			},
+			{
+			"title": "The Unreachable Flower",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+			"about": "",
+			"description": "",
+			"details": {
+				"Track": 4,
+				"Length": ""
+				}
+			},
+			{
+			"title": "Fortress Of My Mind",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+			"about": "This song whas writen about some one i 'Dated'.",
+			"description": "with my past i built walls as to not get hurnt and a red head i knew spent a week breaking that wall then we 'went out' for another week befor it ended and this song tells the storry.",
+			"details": {
+				"Track": 5,
+				"Length": ""
+				}
+			},
+			{
+			"title": "I Can't Get You Out Of My Head",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+			"about": "This song is prety self explanitory.",
+			"description": "i had this one person i liked and i couldent get her out of my head it was like nomater how much i tryied or what i was doing she was what i was thinking about witch kinda drove me crazy.",
+			"details": {
+				"Track": 6,
+				"Length": ""
+				}
+			},
+			{
+			"title": "Two Months And A Mesage",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+			"about": "I wrot this song about a friend i text but they resopnd when ever they want",
+			"description": "I wrot this song about a friend i text but they resopnd when ever they want. and to fit the theam i rewrote it a little.",
+			"details": {
+				"Track": 7,
+				"Length": ""
+				}
+			},
+			{
+			"title": "Knight In Shining Armor",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+			"about": "this is one of the first songs i wrote when i was young and nyeve. I rewrote it and extended it but keped the base line even tho it made me cringe.",
+			"description": "",
+			"details": {
+				"Track": 8,
+				"Length": "3:24"
+				}
+			},
+			{
+			"title": "Wild And Free",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+			"about": "",
+			"description": "this song was writen when i couldent focuse on any thing and insted my minde was always wondering and thinking up new things eventualy i learned to let it roam. i did add a line to make it fit in IEIIZS.",
+			"details": {
+				"Track": 9,
+				"Length": ""
+				}
+			},
+			{
+			"title": "The Quiet Vow",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+			"about": "This is a sword dance Song",
+			"description": "i enjoy mideval dances unfortunetly there arnt manny sword dance songs so i worte this and another but i wrote this one for the storry im telling in IEIIZS.",
+			"details": {
+				"Track": 10,
+				"Length": ""
+				}
+			},
+			{
+			"title": "The Parts You Don't See",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+			"about": "A song about me",
+			"description": "I get asked to describe my self so inorder to do so and not forget anything, this also creates a conversation starter witch is cool.",
+			"details": {
+				"Track": 11,
+				"Length": ""
+				}
+			},
+			{
+			"title": "Delightfully Late Responder",
+			"href": "",
+			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.png",
+			"about": "",
+			"description": "this song was written about the same friend who takes forever to respond but when they do they always write multiple parigraffs and are indepth. however every time i talk to them they put them selves down caling them selves a horable or bad texter but thats not true there just delightfuly late.",
+			"details": {
+				"Track": 12,
+				"Length": ""
+				}
+			}
+			]
+		}
+		]
+}
