@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "headline": "Themadhood Media",
+        "body": [
+			"Themadhood Media is the creative production division within the broader Themadhood ecosystem, dedicated to developing and distributing visual and audio media projects. Through branches such as music, video, and photography, it organizes creative work while maintaining a consistent identity across releases. The division exists to provide structure for creative projects while allowing individual works and creators to maintain their own voice and direction."
+        ]
+    },
+	  
+	  
+    "about": {
+        "title": "ABOUT US",
+        "body": [
+			"Themadhood Media operates as both an independent creative entity and a structured branch within the larger Themadhood ecosystem. Its role is to coordinate the development, presentation, and long-term organization of media-focused projects while maintaining a clear relationship between parent and child branches.",
+			"",
+			"Through specialized branches such as music, video, and photography, Themadhood Media provides a framework that allows creative projects to grow independently while still remaining connected to a unified identity. This structure helps maintain continuity across releases, simplifies project organization, and ensures that creative work remains accessible and properly attributed over time."
+        ]
+    },
+	  
+	  
+    "branches": {
+        "title": "Themadhood Media",
+        "items": [
+			{
+            "title": "Themadhood's Music",
+            "href": "index.html?branch=music",
+            "body": "Original music and audio works created under the Themadhood ecosystem, including standalone releases, sound design, and project-specific compositions.",
+            "icon": "GlobalAssets/Imgs/Media/THEMADHOOD Music O 2k-2k.png"
+			},
+			{
+            "title": "Themadhood's Videos",
+            "href": "index.html?branch=videos",
+            "body": "Original video and motion content, including short-form media, long-form projects, and experimental visuals. Publishing details are handled at the branch level.",
+            "icon": "GlobalAssets/Imgs/Media/THEMADHOOD Video O 2k-2k.png"
+			},
+			{
+            "title": "Themadhood's Photos",
+            "href": "index.html?branch=photos",
+            "body": "Photography and visual imagery, including digital collections, project documentation, and curated sets. Presentation and usage details are handled at the branch level.",
+            "icon": "GlobalAssets/Imgs/Media/THEMADHOOD Photos O 2k-2k.png"
+			},
+			{
+            "title": "Other/ Routed Through Us",
+            "href": "",
+            "body": "Requests that don’t clearly fall under a specific media branch, including custom, experimental, or cross-disciplinary work.",
+            "icon": ""
+			}
+        ]
+    }
+
+}

@@ -1,0 +1,43 @@
+{
+    "branchId": "pi-utilities",
+    "site": {
+        "tagline": "Deployment, monitoring, and device utilities under Themadhood's PI Solutions.",
+        "metaDescription": "Themadhood's PI Utilities builds practical tools for deployment, monitoring, diagnostics, and long-term Raspberry Pi management."
+    },
+    "brand": {
+        "title": "Themadhood's PI Utilities",
+        "email": "Themadhoods.PI.Solutions@gmail.com",
+        "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png",
+        "background": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
+        "copyright": "© 2026 Themadhood's PI Utilities. All rights reserved.",
+        "brandContext": "Themadhood's PI Utilities operates under Themadhood's PI Solutions.",
+        "colors": {
+            "bg": "#000000",
+            "text": "#f5f5f5",
+            "muted": "#b8b8c2",
+            "card": "#17171c",
+            "border": "#2a2a34",
+            "accent": "#242424",
+            "accentSoft": "rgba(177,26,37,.15)",
+            "topbarBg": "#242424",
+            "footerBg": "#242424",
+            "linkColor": "#0f0f12",
+            "buttonBg": "#0f0f12",
+            "buttonText": "#0f0f12",
+            "heroOverlay": "#0f0f12"
+        }
+    },
+    "nav": {
+        "homePath": "index.html?branch=pi-utilities",
+        "items": [
+            {
+                "label": "Home",
+                "href": "index.html?branch=pi-utilities"
+            },
+            {
+                "label": "Links",
+                "href": "links.html?branch=pi-utilities"
+            }
+        ]
+    }
+}

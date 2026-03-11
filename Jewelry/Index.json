@@ -1,0 +1,45 @@
+{
+    "hero": {
+        "headline": "Themadhood's Jewelry",
+        "body": [
+            "Themadhood's Jewelry is the jewelry and wearable goods division within Themadhood's Goods, focused on producing themed pieces, crafted accessories, and limited releases while maintaining the visual style and themes associated with Themadhood."
+        ]
+    },
+    "about": {
+        "title": "ABOUT US",
+        "body": [
+            "Themadhood's Jewelry operates as an independent creative workshop. Its purpose is to design and produce jewelry and wearable items that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
+            "",
+            "Through themed pieces, handcrafted works, and limited releases, Themadhood's Jewelry provides a framework for organizing wearable creations while allowing each line of designs to develop its own style and focus. This structure ensures that goods remain connected to the broader creative ecosystem while still supporting unique craftsmanship and experimentation."
+        ]
+    },
+    "branches": {
+        "title": "Services",
+        "items": [
+            {
+                "title": "Custom Jewelry Design",
+                "href": "",
+                "icon": "",
+                "body": "Development of original jewelry pieces from concept through final construction. Each design is created with attention to form, materials, and durability while maintaining a distinct visual identity."
+            },
+            {
+                "title": "Handcrafted Jewelry Production",
+                "href": "",
+                "icon": "",
+                "body": "Creation of handcrafted jewelry pieces produced with careful assembly and finishing techniques. This process emphasizes structural quality, aesthetic balance, and long-lasting craftsmanship."
+            },
+            {
+                "title": "Material & Component Integration",
+                "href": "",
+                "icon": "",
+                "body": "Selection and integration of metals, stones, glass, and other materials to create cohesive jewelry designs. Care is taken to ensure both visual harmony and functional reliability within each piece."
+            },
+            {
+                "title": "Limited Release Collections",
+                "href": "",
+                "icon": "",
+                "body": "Development of themed jewelry sets and small-batch releases tied to specific creative concepts. These collections allow designs to explore new styles while remaining connected to the broader visual identity of Themadhood."
+            }
+        ]
+    }
+}

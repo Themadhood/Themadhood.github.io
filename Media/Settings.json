@@ -1,0 +1,49 @@
+{
+	"branchId": "media",
+	
+	
+	"site": {
+		"tagline": "Creative production across music, video, photography, and digital media.",
+		"metaDescription": "Themadhood Media is the media division within Themadhood, overseeing music, video, photography, and related creative releases."
+    },
+	
+	
+	"brand": {
+		"title": "Themadhood Media",
+		"email": "Themadhood.Media@gmail.com",
+		"logo": "GlobalAssets/Imgs/Media/THEMADHOOD Media O 2k-2k.png",
+		"background": "GlobalAssets/Imgs/Media/THEMADHOOD Media background square.png",
+		"copyright": "© 2026 Themadhood Media. All rights reserved.",
+		"brandContext": "Themadhood Media operates as a parent entity for affiliated projects.",
+		"colors": {
+			"bg": "#000000",
+			"text": "#f5f5f5",
+			"muted": "#b8b8c2",
+			"card": "#17171c",
+			"border": "#2a2a34",
+			"accent": "#a709a6",
+			"accentSoft": "rgba(177,26,37,.15)",
+			"topbarBg":"#a709a6",
+			"footerBg":"#a709a6",
+			"linkColor":"#0f0f12",
+			"buttonBg":"#0f0f12",
+			"buttonText":"#0f0f12",
+			"heroOverlay":"#0f0f12"
+			}
+	},
+	
+	
+	"nav": {
+		"homePath": "index.html?branch=media",
+		"items": [
+			{
+			"label": "Home",
+			"href": "index.html?branch=media"
+			},
+			{
+			"label": "Links",
+			"href": "links.html?branch=media"
+			}
+		]
+	}
+}

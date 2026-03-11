@@ -1,0 +1,43 @@
+{
+    "branchId": "applications",
+    "site": {
+        "tagline": "User-facing software releases, tools, and applications built under Themadhood's Codes.",
+        "metaDescription": "Themadhood's Applications is the applications branch under Themadhood's Codes, covering games, development tools, apps, and executables."
+    },
+    "brand": {
+        "title": "Themadhood's Applications",
+        "email": "Themadhoods.Applications@gmail.com",
+        "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Applications O 2k-2k.png",
+        "background": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
+        "copyright": "© 2026 Themadhood's Applications. All rights reserved.",
+        "brandContext": "Themadhood's Applications operates under Themadhood's Codes.",
+        "colors": {
+            "bg": "#000000",
+            "text": "#f5f5f5",
+            "muted": "#b8b8c2",
+            "card": "#17171c",
+            "border": "#2a2a34",
+            "accent": "#242424",
+            "accentSoft": "rgba(177,26,37,.15)",
+            "topbarBg": "#242424",
+            "footerBg": "#242424",
+            "linkColor": "#0f0f12",
+            "buttonBg": "#0f0f12",
+            "buttonText": "#0f0f12",
+            "heroOverlay": "#0f0f12"
+        }
+    },
+    "nav": {
+        "homePath": "index.html?branch=applications",
+        "items": [
+            {
+                "label": "Home",
+                "href": "index.html?branch=applications"
+            },
+            {
+                "label": "Links",
+                "href": "links.html?branch=applications"
+            }
+        ]
+    }
+}

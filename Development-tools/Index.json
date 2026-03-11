@@ -1,0 +1,51 @@
+{
+    "hero": {
+        "headline": "Themadhood's Development Tools",
+        "body": [
+            "Themadhood's Development Tools is the tooling and workflow support branch operating under Themadhood's Applications. It exists to build software that improves development speed, reliability, and project organization across the Themadhood ecosystem.",
+            "",
+            "This branch focuses on tools that assist with building, packaging, deployment, synchronization, project scaffolding, and operational workflows. The goal is to create development tools that are practical, maintainable, and designed for long-term use rather than temporary scripts that break over time.",
+            "",
+            "By maintaining a dedicated development tools branch, Themadhood can standardize workflows and reduce repeated effort across projects. The result is cleaner releases, faster iteration, and stronger technical consistency."
+        ]
+    },
+    "about": {
+        "title": "ABOUT US",
+        "body": [
+            "Themadhood's Development Tools was established to support long-term engineering productivity across Themadhood projects. As part of Themadhood's Applications, it exists to create tools that make development workflows more consistent, reliable, and easier to scale.",
+            "",
+            "The branch supports tooling for project setup, asset handling, packaging, deployment processes, and repeatable workflows used across multiple codebases. Emphasis is placed on clarity and maintainability so that tools remain useful as systems evolve instead of becoming outdated quickly.",
+            "",
+            "Development Tools is built for continuity. It helps ensure that technical work moves faster without sacrificing organization, and that development workflows remain structured as the ecosystem expands."
+        ]
+    },
+    "branches": {
+        "title": "Services",
+        "items": [
+            {
+                "title": "Workflow Tool Development",
+                "href": "",
+                "icon": "",
+                "body": "Creation of tools that streamline daily development work including setup, build steps, and repeatable processes. Tools are designed to reduce friction while keeping behavior predictable."
+            },
+            {
+                "title": "Packaging & Release Tooling",
+                "href": "",
+                "icon": "",
+                "body": "Development of systems that support packaging, versioning, and stable release creation. Emphasis is placed on repeatable builds and long-term maintainability."
+            },
+            {
+                "title": "Deployment & Sync Systems",
+                "href": "",
+                "icon": "",
+                "body": "Creation of tools that manage deployment and synchronization between environments and devices. Systems focus on reliability, safe updates, and controlled rollout behavior."
+            },
+            {
+                "title": "Project Structure & Scaffolding",
+                "href": "",
+                "icon": "",
+                "body": "Development of templates and scaffolding tools that create consistent project structure from the start. This supports cleaner long-term organization and easier maintenance."
+            }
+        ]
+    }
+}

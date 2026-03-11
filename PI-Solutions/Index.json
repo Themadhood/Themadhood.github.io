@@ -1,0 +1,51 @@
+{
+    "hero": {
+        "headline": "Themadhood's PI Solutions",
+        "body": [
+            "Themadhood's PI Solutions is the Raspberry Pi development branch operating within Themadhood's Codes. It exists to build repeatable deployments, practical utilities, and real-world automation systems designed to run reliably on Pi-based infrastructure.",
+            "",
+            "This branch focuses on tools that bridge software and hardware, including relay control, Pi-focused automation frameworks, and utility tooling intended for long-term operation. The goal is solutions that can be deployed, maintained, and expanded without becoming fragile over time.",
+            "",
+            "By maintaining a dedicated Pi division, Themadhood can build hardware-integrated systems with consistency. PI Solutions provides the structure for stable deployments while supporting ongoing experimentation and growth."
+        ]
+    },
+    "about": {
+        "title": "ABOUT US",
+        "body": [
+            "Themadhood's PI Solutions was established to support dependable Raspberry Pi systems across the Themadhood ecosystem. As part of Themadhood's Codes, it exists to create repeatable hardware-friendly solutions that are practical to deploy and maintain in real environments.",
+            "",
+            "The branch supports Pi-based automation, utilities, relay systems, and structured deployments that can serve as a foundation for monitoring, response, and device coordination. Emphasis is placed on reliability, modularity, and clean system organization to keep deployments manageable over time.",
+            "",
+            "PI Solutions is built for long-term operation. It helps ensure that hardware-integrated projects remain stable, consistent, and expandable while staying organized within a clear technical structure."
+        ]
+    },
+    "branches": {
+        "title": "Themadhood's PI Solutions",
+        "items": [
+            {
+                "title": "Themadhood's PI Relays",
+                "href": "index.html?branch=pi-relays",
+                "body": "Relay control systems, hardware switching patterns, and dependable device control infrastructure.",
+                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Relays O 2k-2k.png"
+            },
+            {
+                "title": "Themadhood's PI Automations",
+                "href": "index.html?branch=pi-automations",
+                "body": "Pi-driven automation workflows, device orchestration, and repeatable operational routines.",
+                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Automations O 2k-2k.png"
+            },
+            {
+                "title": "Themadhood's PI Utilities",
+                "href": "index.html?branch=pi-utilities",
+                "body": "Practical utilities for deployment, monitoring, diagnostics, and long-term device management.",
+                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Utilities O 2k-2k.png"
+            },
+            {
+                "title": "Other/ Routed Through Us",
+                "href": "",
+                "body": "Requests that don’t clearly fall under a specific Pi subtree, including experimental Pi-based tooling.",
+                "icon": ""
+            }
+        ]
+    }
+}

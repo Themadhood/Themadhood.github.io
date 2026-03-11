@@ -1,0 +1,22 @@
+{
+    "sections": [
+        {
+            "title": "Resources",
+            "links": [
+                {
+                    "label": "More coming soon",
+                    "href": ""
+                }
+            ]
+        },
+        {
+            "title": "Social Links",
+            "links": [
+                {
+                    "label": "More From Themadhood",
+                    "href": "index.html?branch=systems"
+                }
+            ]
+        }
+    ]
+}

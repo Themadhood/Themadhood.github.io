@@ -1,0 +1,43 @@
+{
+    "branchId": "automations",
+    "site": {
+        "tagline": "Workflow automation and repeatable system processes under Themadhood Systems.",
+        "metaDescription": "Themadhood's Automations builds repeatable automation workflows, scheduled tasks, and reliable technical processes across Themadhood projects."
+    },
+    "brand": {
+        "title": "Themadhood's Automations",
+        "email": "Themadhoods.Codes@gmail.com",
+        "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
+        "background": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
+        "copyright": "© 2026 Themadhood's Automations. All rights reserved.",
+        "brandContext": "Themadhood's Automations operates under Themadhood Systems.",
+        "colors": {
+            "bg": "#000000",
+            "text": "#f5f5f5",
+            "muted": "#b8b8c2",
+            "card": "#17171c",
+            "border": "#2a2a34",
+            "accent": "#242424",
+            "accentSoft": "rgba(177,26,37,.15)",
+            "topbarBg": "#242424",
+            "footerBg": "#242424",
+            "linkColor": "#0f0f12",
+            "buttonBg": "#0f0f12",
+            "buttonText": "#0f0f12",
+            "heroOverlay": "#0f0f12"
+        }
+    },
+    "nav": {
+        "homePath": "index.html?branch=automations",
+        "items": [
+            {
+                "label": "Home",
+                "href": "index.html?branch=automations"
+            },
+            {
+                "label": "Links",
+                "href": "links.html?branch=automations"
+            }
+        ]
+    }
+}

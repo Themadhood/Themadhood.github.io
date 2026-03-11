@@ -1,0 +1,43 @@
+{
+    "branchId": "coding-foundations",
+    "site": {
+        "tagline": "Standards, reusable patterns, and core engineering structure under Themadhood Systems.",
+        "metaDescription": "Themadhood's Coding Foundations provides shared standards, utilities, and structural patterns to keep development consistent across Themadhood projects."
+    },
+    "brand": {
+        "title": "Themadhood's Coding Foundations",
+        "email": "Themadhoods.Codes@gmail.com",
+        "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
+        "background": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
+        "copyright": "© 2026 Themadhood's Coding Foundations. All rights reserved.",
+        "brandContext": "Themadhood's Coding Foundations operates under Themadhood Systems.",
+        "colors": {
+            "bg": "#000000",
+            "text": "#f5f5f5",
+            "muted": "#b8b8c2",
+            "card": "#17171c",
+            "border": "#2a2a34",
+            "accent": "#242424",
+            "accentSoft": "rgba(177,26,37,.15)",
+            "topbarBg": "#242424",
+            "footerBg": "#242424",
+            "linkColor": "#0f0f12",
+            "buttonBg": "#0f0f12",
+            "buttonText": "#0f0f12",
+            "heroOverlay": "#0f0f12"
+        }
+    },
+    "nav": {
+        "homePath": "index.html?branch=coding-foundations",
+        "items": [
+            {
+                "label": "Home",
+                "href": "index.html?branch=coding-foundations"
+            },
+            {
+                "label": "Links",
+                "href": "links.html?branch=coding-foundations"
+            }
+        ]
+    }
+}

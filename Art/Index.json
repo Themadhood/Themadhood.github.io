@@ -1,0 +1,45 @@
+{
+    "hero": {
+        "headline": "Themadhood's Art",
+        "body": [
+            "Themadhood's Art is the visual artwork division within Themadhood's Goods, focused on producing original art pieces, illustrations, and visual works that reflect the themes, ideas, and creative identity developed across Themadhood projects."
+        ]
+    },
+    "about": {
+        "title": "ABOUT US",
+        "body": [
+            "Themadhood's Art operates as an independent creative studio. Its purpose is to create and publish original artwork that expands the visual identity and storytelling present throughout Themadhood's projects.",
+            "",
+            "Through original pieces, themed collections, and experimental visual works, Themadhood's Art provides a framework for organizing artistic creations while allowing individual styles and techniques to evolve. This structure ensures that artwork remains connected to the broader creative ecosystem while still encouraging artistic exploration and development."
+        ]
+    },
+    "branches": {
+        "title": "Services",
+        "items": [
+            {
+                "title": "Original Artwork Creation",
+                "href": "",
+                "icon": "",
+                "body": "Development of original visual artwork from initial concept through final piece. Each work focuses on composition, visual balance, and a cohesive artistic style."
+            },
+            {
+                "title": "Illustration & Visual Design",
+                "href": "",
+                "icon": "",
+                "body": "Creation of illustrated works and visual designs developed to support creative storytelling and project aesthetics. Emphasis is placed on clarity, visual identity, and artistic expression."
+            },
+            {
+                "title": "Themed Art Series",
+                "href": "",
+                "icon": "",
+                "body": "Development of structured artwork collections centered around specific creative themes. These series allow visual ideas to expand across multiple pieces while maintaining a unified artistic direction."
+            },
+            {
+                "title": "Limited Artwork Releases",
+                "href": "",
+                "icon": "",
+                "body": "Production of limited artwork releases and small-batch visual collections. These releases explore new styles and creative concepts while remaining connected to the broader visual identity of Themadhood."
+            }
+        ]
+    }
+}

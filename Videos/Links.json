@@ -1,0 +1,26 @@
+{
+    "sections": [
+        {
+            "title": "Watch",
+            "links": [
+                {
+                    "label": "YouTube",
+                    "href": "https://www.youtube.com/@themadhood"
+                },
+                {
+                    "label": "TikTok",
+                    "href": "https://www.tiktok.com/@themadhood_pq?_r=1&_t=ZP-93VoRVwI7ji"
+                }
+            ]
+        },
+        {
+            "title": "Social Links",
+            "links": [
+                {
+                    "label": "More From Themadhood",
+                    "href": "index.html?branch=media"
+                }
+            ]
+        }
+    ]
+}
