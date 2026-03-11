@@ -71,9 +71,9 @@ async function loadBranch(branchId){
     //return data;
 	
   const [settings, indexData, linksData] = await Promise.all([
-    loadJson(`./${cap}/Settings.json`),
-    loadJson(`./${cap}/Index.json`),
-    loadJson(`./${cap}/Links.json`)
+    loadJson(`/${cap}/Settings.json`),
+    loadJson(`/${cap}/Index.json`),
+    loadJson(`/${cap}/Links.json`)
   ]);
   console.log("Loaded all jsons");
 
