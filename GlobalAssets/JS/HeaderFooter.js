@@ -77,8 +77,6 @@ async function loadBranch(branchId){
   ]);
   console.log("Loaded all jsons");
 
-  if(!res.ok) throw new Error(`Failed to load ./${cap}/`);
-
   return normalizeSplitBranch(settings, indexData, linksData);
 
   
