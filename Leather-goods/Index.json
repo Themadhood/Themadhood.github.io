@@ -1,0 +1,45 @@
+{
+    "hero": {
+        "headline": "Themadhood's Leather Goods",
+        "body": [
+            "Themadhood's Leather Goods is the leathercraft division within Themadhood's Goods, focused on producing handcrafted leather items, functional gear, and limited releases while maintaining the visual themes and creative identity associated with Themadhood."
+        ]
+    },
+    "about": {
+        "title": "ABOUT US",
+        "body": [
+            "Themadhood's Leather Goods operates as an independent creative workshop. Its purpose is to design and produce leather items that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
+            "",
+            "Through handcrafted pieces, functional designs, and limited releases, Themadhood's Leather Goods provides a framework for organizing leathercraft creations while allowing each product line to develop its own style and purpose. This structure ensures that goods remain connected to the broader creative ecosystem while still supporting craftsmanship and experimentation."
+        ]
+    },
+    "branches": {
+        "title": "Services",
+        "items": [
+            {
+                "title": "Custom Leather Design",
+                "href": "",
+                "icon": "",
+                "body": "Development of original leather goods from concept through final construction. Each piece is designed with attention to durability, usability, and visual character."
+            },
+            {
+                "title": "Handcrafted Leather Production",
+                "href": "",
+                "icon": "",
+                "body": "Creation of leather goods using traditional leatherworking techniques such as cutting, stitching, forming, and finishing. The focus is on long-lasting craftsmanship and structural quality."
+            },
+            {
+                "title": "Functional Leather Gear",
+                "href": "",
+                "icon": "",
+                "body": "Design and production of practical leather items such as wallets, belts, cases, and utility gear. These pieces combine functional design with durable materials and careful construction."
+            },
+            {
+                "title": "Limited Release Collections",
+                "href": "",
+                "icon": "",
+                "body": "Development of themed leather goods and small-batch releases tied to specific creative concepts. These collections allow exploration of new designs while remaining connected to the broader identity of Themadhood."
+            }
+        ]
+    }
+}
