@@ -1,0 +1,34 @@
+{
+    "sections": [
+        {
+            "title": "Social Links",
+            "links": [
+                {
+                    "label": "More From Themadhood",
+                    "href": "links.html"
+                },
+                {
+                    "label": "GitHub (Project Hub)",
+                    "href": "https://github.com/themadhood"
+                }
+            ]
+        },
+        {
+            "title": "Other Business Links",
+            "links": [
+                {
+                    "label": "Themadhood's Systems",
+                    "href": "index.html?branch=systems"
+                },
+                {
+                    "label": "Themadhood's PI Solutions",
+                    "href": "index.html?branch=pi-solutions"
+                },
+                {
+                    "label": "Themadhood's Applications",
+                    "href": "index.html?branch=applications"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "branchId": "music",
+    "site": {
+        "tagline": "Original music releases and audio projects under Themadhood Media.",
+        "metaDescription": "Themadhood's Music is the music branch under Themadhood Media, focused on original releases and audio projects."
+    },
+    "brand": {
+        "title": "Themadhood's Music",
+        "email": "Themadhood.Music@gmail.com",
+        "logo": "GlobalAssets/Imgs/Media/THEMADHOOD Music O 2k-2k.png",
+        "background": "GlobalAssets/Imgs/Media/THEMADHOOD Media background square.png",
+        "copyright": "© 2026 Themadhood's Music. All rights reserved.",
+        "brandContext": "Themadhood's Music operates under Themadhood Media.",
+        "colors": {
+            "bg": "#000000",
+            "text": "#f5f5f5",
+            "muted": "#b8b8c2",
+            "card": "#17171c",
+            "border": "#2a2a34",
+            "accent": "#a709a6",
+            "accentSoft": "rgba(177,26,37,.15)",
+            "topbarBg": "#a709a6",
+            "footerBg": "#a709a6",
+            "linkColor": "#0f0f12",
+            "buttonBg": "#0f0f12",
+            "buttonText": "#0f0f12",
+            "heroOverlay": "#0f0f12"
+        }
+    },
+    "nav": {
+        "homePath": "index.html?branch=music",
+        "items": [
+            {
+                "label": "Home",
+                "href": "index.html?branch=music"
+            },
+            {
+                "label": "Links",
+                "href": "links.html?branch=music"
+            }
+        ]
+    }
+}

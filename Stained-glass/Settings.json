@@ -1,0 +1,43 @@
+{
+    "branchId": "stained-glass",
+    "site": {
+        "tagline": "Physical and digital goods created under the Themadhood ecosystem.",
+        "metaDescription": "Themadhood's Stained Glass handles stained glass pieces, including decorative panels, themed designs, and limited handcrafted works."
+    },
+    "brand": {
+        "title": "Themadhood's Stained Glass",
+        "email": "Themadhoods.Goods@gmail.com",
+        "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods O 2k-2k.png",
+        "background": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods background square.png",
+        "copyright": "© 2026 Themadhood's Stained Glass. All rights reserved.",
+        "brandContext": "Themadhood's Stained Glass operates as a parent entity for affiliated projects.",
+        "colors": {
+            "bg": "#000000",
+            "text": "#f5f5f5",
+            "muted": "#b8b8c2",
+            "card": "#17171c",
+            "border": "#2a2a34",
+            "accent": "#2967a3",
+            "accentSoft": "rgba(177,26,37,.15)",
+            "topbarBg": "#2967a3",
+            "footerBg": "#2967a3",
+            "linkColor": "#0f0f12",
+            "buttonBg": "#0f0f12",
+            "buttonText": "#0f0f12",
+            "heroOverlay": "#0f0f12"
+        }
+    },
+    "nav": {
+        "homePath": "index.html?branch=stained-glass",
+        "items": [
+            {
+                "label": "Home",
+                "href": "index.html?branch=stained-glass"
+            },
+            {
+                "label": "Links",
+                "href": "links.html?branch=stained-glass"
+            }
+        ]
+    }
+}

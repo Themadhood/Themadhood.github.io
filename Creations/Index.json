@@ -1,0 +1,45 @@
+{
+    "hero": {
+        "headline": "Themadhood's Creations",
+        "body": [
+            "Themadhood's Creations is the handmade and crafted creations division within Themadhood's Goods, focused on producing mixed-media builds and unique project creations while maintaining the visual style and themes associated with Themadhood."
+        ]
+    },
+    "about": {
+        "title": "ABOUT US",
+        "body": [
+            "Themadhood's Creations operates as both an independent creative workshop. Its purpose is to design and produce handmade and crafted items that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
+            "",
+            "Through mixed-media builds and unique project creations, Themadhood's Creations provides a framework for organizing physical creations while allowing each line of projects to develop its own style and focus. This structure ensures that goods remain connected to the broader creative ecosystem while still supporting unique craftsmanship and experimentation."
+        ]
+    },
+    "branches": {
+        "title": "Services",
+        "items": [
+            {
+                "title": "Custom Project Design",
+                "href": "",
+                "icon": "",
+                "body": "Development of original handcrafted projects from initial concept through finalized design. Each build is planned with attention to structure, materials, and visual cohesion to ensure both durability and creative identity."
+            },
+            {
+                "title": "Handcrafted Fabrication",
+                "href": "",
+                "icon": "",
+                "body": "Construction of physical items using a range of tools, materials, and crafting techniques. The process emphasizes careful assembly, structural integrity, and refined finishing across each completed piece."
+            },
+            {
+                "title": "Mixed-Media Builds",
+                "href": "",
+                "icon": "",
+                "body": "Creation of projects that combine multiple materials and construction methods into cohesive works. These builds focus on integrating different components into unified designs that balance form, function, and aesthetic style."
+            },
+            {
+                "title": "Experimental Creations",
+                "href": "",
+                "icon": "",
+                "body": "Development of exploratory builds that test new materials, forms, or creative ideas. These projects allow new techniques and concepts to be explored."
+            }
+        ]
+    }
+}

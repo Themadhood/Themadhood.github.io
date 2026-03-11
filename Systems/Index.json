@@ -1,0 +1,57 @@
+{
+    "hero": {
+        "headline": "Themadhood Systems",
+        "body": [
+            "Themadhood Systems is the architecture and infrastructure branch operating within Themadhood's Codes. It exists to establish the foundations that keep projects consistent, maintainable, and scalable across the wider ecosystem.",
+            "",
+            "This branch focuses on the patterns that support long-term development, including technical standards, reusable system designs, automation strategy, and data structure planning. It is built to reduce reinvention between projects while improving stability, clarity, and integration.",
+            "",
+            "By maintaining a dedicated systems branch, Themadhood can evolve multiple tools and applications without losing cohesion. Themadhood Systems provides the backbone that allows technical work to grow with intent instead of growing by accident."
+        ]
+    },
+    "about": {
+        "title": "ABOUT US",
+        "body": [
+            "Themadhood Systems was created to support long-term technical growth across the Themadhood ecosystem. As part of Themadhood's Codes, it exists to define the engineering structure that keeps projects aligned, reliable, and easier to build upon over time.",
+            "",
+            "The branch supports work that sits beneath individual apps and tools, including frameworks, data foundations, automation patterns, scripting conventions, and repeatable system processes. This approach allows projects to move faster while keeping quality and maintainability high.",
+            "",
+            "Themadhood Systems is built for consistency and continuity. It ensures that as the ecosystem expands, the underlying technical work remains organized, intentional, and capable of supporting both internal infrastructure and public-facing releases."
+        ]
+    },
+    "branches": {
+        "title": "Themadhood Systems",
+        "items": [
+            {
+                "title": "Themadhood's Coding Foundations",
+                "href": "index.html?branch=coding-foundations",
+                "body": "Core coding standards, reusable patterns, shared utilities, and foundational engineering structure.",
+                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Coding Foundations O 2k-2k.png"
+            },
+            {
+                "title": "Themadhood's Automations",
+                "href": "index.html?branch=automations",
+                "body": "Automation frameworks, workflow tools, scheduling systems, and repeatable technical processes.",
+                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Automations O 2k-2k.png"
+            },
+            {
+                "title": "Themadhood's Scripts",
+                "href": "index.html?branch=scripts",
+                "body": "Scripted tooling for setup, deployment, maintenance, and streamlined workflows across devices.",
+                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Scripts O 2k-2k.png"
+            },
+            {
+                "title": "Themadhood's Databases",
+                "href": "index.html?branch=databases",
+                "body": "Database structure, migration planning, schema design, and long-term data organization strategy.",
+                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Databases O 2k-2k.png"
+            },
+            {
+                "title": "Other/ Routed Through Us",
+                "href": "",
+                "body": "Requests that don’t clearly fall under a specific systems subtree, including cross-branch architecture work.",
+                "icon": ""
+            }
+        ]
+    }
+}

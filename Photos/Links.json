@@ -1,0 +1,17 @@
+{
+    "sections": [
+        {
+            "title": "View",
+            "links": []
+        },
+        {
+            "title": "Social Links",
+            "links": [
+                {
+                    "label": "More From Themadhood",
+                    "href": "index.html?branch=media"
+                }
+            ]
+        }
+    ]
+}

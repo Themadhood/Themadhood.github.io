@@ -1,0 +1,43 @@
+{
+    "branchId": "videos",
+    "site": {
+        "tagline": "Video projects and visual media under Themadhood Media.",
+        "metaDescription": "Themadhood's Videos is the video branch under Themadhood Media, focused on visual media projects and releases."
+    },
+    "brand": {
+        "title": "Themadhood's Videos",
+        "email": "Themadhood.Videos@gmail.com",
+        "logo": "GlobalAssets/Imgs/Media/THEMADHOOD Video O 2k-2k.png",
+        "background": "GlobalAssets/Imgs/Media/THEMADHOOD Media background square.png",
+        "copyright": "© 2026 Themadhood's Videos. All rights reserved.",
+        "brandContext": "Themadhood's Videos operates under Themadhood Media.",
+        "colors": {
+            "bg": "#000000",
+            "text": "#f5f5f5",
+            "muted": "#b8b8c2",
+            "card": "#17171c",
+            "border": "#2a2a34",
+            "accent": "#a709a6",
+            "accentSoft": "rgba(177,26,37,.15)",
+            "topbarBg": "#a709a6",
+            "footerBg": "#a709a6",
+            "linkColor": "#0f0f12",
+            "buttonBg": "#0f0f12",
+            "buttonText": "#0f0f12",
+            "heroOverlay": "#0f0f12"
+        }
+    },
+    "nav": {
+        "homePath": "index.html?branch=videos",
+        "items": [
+            {
+                "label": "Home",
+                "href": "index.html?branch=videos"
+            },
+            {
+                "label": "Links",
+                "href": "links.html?branch=videos"
+            }
+        ]
+    }
+}

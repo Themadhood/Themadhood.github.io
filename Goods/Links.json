@@ -1,0 +1,38 @@
+{
+    "sections": [
+        {
+            "title": "Shop Links",
+            "links": [
+                {
+                    "label": "More From Themadhood",
+                    "href": "links.html"
+                },
+                {
+                    "label": "Main Shop (coming soon)",
+                    "href": ""
+                }
+            ]
+        },
+        {
+            "title": "Other Business Links",
+            "links": [
+                {
+                    "label": "Themadhood's Julery",
+                    "href": "index.html?branch=julery"
+                },
+                {
+                    "label": "Themadhood's Stained Glass",
+                    "href": "index.html?branch=stained-glass"
+                },
+                {
+                    "label": "Themadhood's Creations",
+                    "href": "index.html?branch=creations"
+                },
+                {
+                    "label": "Themadhood's Trinkets",
+                    "href": "index.html?branch=trinkets"
+                }
+            ]
+        }
+    ]
+}

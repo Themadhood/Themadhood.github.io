@@ -1,0 +1,38 @@
+{
+    "sections": [
+        {
+            "title": "Listen",
+            "links": [
+                {
+                    "label": "Spotify",
+                    "href": "https://open.spotify.com/artist/6AaSX29pa9OI3qUgqgIyYi"
+                },
+                {
+                    "label": "YouTube Music",
+                    "href": "https://music.youtube.com/channel/UC21pB2JxTsMNxXM10AvhwRg"
+                },
+                {
+                    "label": "Amazon Music",
+                    "href": "https://music.amazon.com/artists/B0GGBY9W18/themadhood-pequot"
+                },
+                {
+                    "label": "Apple Music",
+                    "href": "https://music.apple.com/us/artist/themadhood-pequot/1868037591"
+                },
+                {
+                    "label": "More coming soon",
+                    "href": ""
+                }
+            ]
+        },
+        {
+            "title": "Social Links",
+            "links": [
+                {
+                    "label": "More From Themadhood",
+                    "href": "index.html?branch=media"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "sections": [
+		{
+		"title": "Social Links",
+		"links": [
+			{
+			"label": "More From Themadhood",
+			"href": "links.html"
+			}
+		]
+		},
+		
+		
+		{
+		"title": "Other Business Links",
+		"links": [
+			{
+            "label": "Themadhood's Music",
+            "href": "index.html?branch=music"
+            },
+            {
+            "label": "Themadhood's Videos",
+            "href": "index.html?branch=videos"
+            },
+            {
+            "label": "Themadhood's Photos",
+            "href": "index.html?branch=photos"
+            }
+			]
+		}
+	]
+}
+
