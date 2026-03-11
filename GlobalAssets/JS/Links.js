@@ -1,8 +1,9 @@
 import { loadHeaderFooter,HF_main,setText } from "./HeaderFooter.js";
+import { loadBranch} from "./OpenJsons.js";
 
 
-function renderLinks(data){
-  const page = data.pages?.links || {};
+function renderLinks(linksData){
+  const page = linksData || {};
   setText(document.querySelector("[data-links-title]"), page.title || "Links");
   const host = document.querySelector("[data-links-sections]");
   if(!host) return;
@@ -34,11 +35,12 @@ function renderLinks(data){
 
 async function main(){
   await loadHeaderFooter();
-  const { branch, data } = await HF_main();
+  const { branch, settings } = await HF_main();
+  const linksData  = await loadBranch(branch,'Links');
   
 
   const page = document.body.getAttribute("data-page");
-  renderLinks(data);
+  renderLinks(linksData);
   // If URL has a #hash (ex: #contact), scroll after dynamic render finishes
   if (window.location.hash) {
     const target = document.querySelector(window.location.hash);

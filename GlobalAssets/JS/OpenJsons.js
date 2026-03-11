@@ -80,72 +80,26 @@ async function resolveBranchFolder(branchId){
 }
 
 
-function normalizeSplitBranch(settings, indexData, linksData){
-  return {
-    branchId: settings.branchId,
-
-    site: {
-      title: settings.brand?.title || "",
-      tagline: settings.site?.tagline || "",
-      metaDescription: settings.site?.metaDescription || "",
-      brand: {
-        logo: settings.brand?.logo || "",
-        heroBackground: settings.brand?.background || "",
-        colors: settings.brand?.colors || {}
-      }
-    },
-
-    nav: settings.nav || {
-      homePath: "index.html",
-      items: []
-    },
-
-    footer: {
-      logo: settings.brand?.logo || "",
-      title: settings.brand?.title || "",
-      emailLabel: "Email",
-      email: settings.brand?.email || "",
-      copyright: settings.brand?.copyright || "",
-      line2: settings.brand?.brandContext || ""
-    },
-
-    pages: {
-      home: {
-        hero: indexData.hero || {
-          headline: "",
-          body: []
-        },
-        about: indexData.about || {
-          title: "",
-          body: []
-        },
-        branches: indexData.branches || {
-          title: "",
-          items: []
-        }
-      },
-
-      links: {
-        title: "Links",
-        sections: linksData.sections || []
-      }
-    }
-  };
-}
 
 
-export async function loadBranch(branchId){
+export async function loadBranch(branchId, json){
 	const folder = await resolveBranchFolder(branchId);
 
-	const [settings, indexData, linksData] = await Promise.all([
-		loadJson(`/${folder}/Settings.json`),
-		loadJson(`/${folder}/Index.json`),
-		loadJson(`/${folder}/Links.json`)
-	]);
+	let fileName = String(json || "").trim();
 
-	console.log("Loaded all jsons");
+	if(!fileName){
+		throw new Error("No json file name was provided.");
+	}
 
-	return normalizeSplitBranch(settings, indexData, linksData);
+	if(!fileName.toLowerCase().endsWith(".json")){
+		fileName += ".json";
+	}
+
+	const jsonData = await loadJson(`/${folder}/${fileName}`);
+
+	console.log(`Loaded ${fileName}`);
+
+	return jsonData;
 }
 
 

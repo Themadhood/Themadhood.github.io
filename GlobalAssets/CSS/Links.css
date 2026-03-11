@@ -15,8 +15,12 @@
 }
 
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
-background:var(--bg);color:var(--text)}
+body{
+	padding-top: 80px;
+	margin:0;
+	font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+	background:var(--bg);
+	color:var(--text)}
 a{color:inherit}
 
 /*-------------- Links --------------*/
@@ -25,7 +29,7 @@ a{color:inherit}
 
 /*-------------- Links Panel --------------*/
 .links-panel{
-  margin-top:14px;
+	margin-top:14px;
 }
 
 .links-body{
