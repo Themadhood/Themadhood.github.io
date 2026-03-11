@@ -81,7 +81,7 @@ async function loadBranch(branchId){
 
   return normalizeSplitBranch(settings, indexData, linksData);
 
-  }
+  
 }
 
 
