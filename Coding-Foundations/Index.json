@@ -1,0 +1,51 @@
+{
+    "hero": {
+        "headline": "Themadhood's Coding Foundations",
+        "body": [
+            "Themadhood's Coding Foundations is the standards and engineering structure branch operating under Themadhood Systems. It exists to keep development consistent across projects by defining reusable patterns, shared practices, and foundational utilities that can be relied on long-term.",
+            "",
+            "This branch supports the core engineering decisions that shape how Themadhood builds software, including naming conventions, module structure, reliability patterns, and shared components that reduce duplicated effort. The focus is on clean foundations that make future work easier, not harder.",
+            "",
+            "By maintaining a dedicated foundations branch, Themadhood can build faster without sacrificing clarity. The result is a technical ecosystem that remains organized, scalable, and maintainable as projects grow."
+        ]
+    },
+    "about": {
+        "title": "ABOUT US",
+        "body": [
+            "Themadhood's Coding Foundations was established to support long-term technical stability across Themadhood projects. As part of Themadhood Systems, it exists to define the shared structure that keeps codebases aligned and engineering decisions consistent over time.",
+            "",
+            "The branch covers standards, foundational libraries, reusable modules, and core engineering patterns designed to improve reliability and reduce friction during development. These foundations help ensure that tools and applications share common expectations, making integration and maintenance significantly easier.",
+            "",
+            "Coding Foundations is built to prevent technical drift. It preserves continuity across releases, supports clean expansion as new projects appear, and ensures that the ecosystem remains structured instead of becoming a collection of disconnected code."
+        ]
+    },
+    "branches": {
+        "title": "Services",
+        "items": [
+            {
+                "title": "Engineering Standards & Conventions",
+                "href": "",
+                "icon": "",
+                "body": "Definition of consistent engineering rules across projects, including structure, naming, organization, and maintainability expectations. Standards are designed to scale without becoming restrictive or brittle."
+            },
+            {
+                "title": "Reusable Foundation Modules",
+                "href": "",
+                "icon": "",
+                "body": "Development of shared utilities and baseline modules intended to be reused across tools and applications. This reduces duplicated effort and increases reliability through proven components."
+            },
+            {
+                "title": "Architecture & Structure Planning",
+                "href": "",
+                "icon": "",
+                "body": "Planning and guidance for project structure, subsystem boundaries, and long-term maintainability. Emphasis is placed on clean interfaces, modular growth, and controlled complexity."
+            },
+            {
+                "title": "Quality & Reliability Patterns",
+                "href": "",
+                "icon": "",
+                "body": "Creation of repeatable patterns for error handling, logging, configuration structure, and safer operational behavior. These practices support stable releases and long-term maintenance."
+            }
+        ]
+    }
+}
