@@ -94,14 +94,12 @@ function renderFooter(settings){
 }
 
 
-
+//Header Hight tracker so body starts under it not behind
 function updateHeaderHeight() {
     const header = document.querySelector(".topbar")
-
     if (!header) {
         return
     }
-
     document.documentElement.style.setProperty(
         "--header-height",
         `${header.offsetHeight}px`
@@ -120,9 +118,7 @@ function watchHeaderHeight() {
     const resizeObserver = new ResizeObserver(() => {
         updateHeaderHeight()
     })
-
     resizeObserver.observe(header)
-
     window.addEventListener("resize", updateHeaderHeight)
 }
 
