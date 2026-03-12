@@ -2,6 +2,15 @@ import { loadHeaderFooter, HF_main, setText } from "./HeaderFooter.js";
 import { loadBranch } from "./OpenJsons.js";
 
 
+function getImageMax(value, fallback = 280){
+  const num = Number(value);
+  if(Number.isFinite(num) && num > 0){
+    return num;
+  }
+  return fallback;
+}
+
+
 function addParagraphs(host, lines){
   if(!host) return;
 
@@ -65,6 +74,52 @@ function normalizeGallery(item){
   }
 
   return gallery;
+}
+
+
+function buildMediaBlock(entry, lightbox, fallbackMax = 280){
+  const gallery = normalizeGallery(entry);
+  if(!gallery.length){
+    return null;
+  }
+
+  const media = document.createElement("div");
+  media.className = "showcase-media";
+
+  const imageMax = getImageMax(entry.imageMax, fallbackMax);
+  media.style.setProperty("--showcase-image-size", `${imageMax}px`);
+
+  const button = document.createElement("button");
+  button.className = "showcase-image-button";
+  button.type = "button";
+
+  const img = document.createElement("img");
+  img.className = "showcase-image";
+  img.src = gallery[0].src;
+  img.alt = gallery[0].alt || entry.title || "";
+
+  img.addEventListener("error", () => {
+    media.hidden = true;
+  });
+
+  button.appendChild(img);
+
+  button.addEventListener("click", () => {
+    if(lightbox){
+      lightbox.open(gallery, 0, entry.title || "");
+    }
+  });
+
+  media.appendChild(button);
+
+  if(gallery.length > 1){
+    const count = document.createElement("div");
+    count.className = "showcase-gallery-count";
+    count.textContent = `${gallery.length} images`;
+    media.appendChild(count);
+  }
+
+  return media;
 }
 
 
@@ -163,17 +218,27 @@ function createLightbox(){
   let currentTitle = "";
 
   function render(){
-    if(!currentGallery.length) return;
+	if(!currentGallery.length) return;
 
-    const current = currentGallery[currentIndex];
-    image.src = current.src;
-    image.alt = current.alt || currentTitle || "";
+	const current = currentGallery[currentIndex];
+	image.classList.remove("is-landscape", "is-portrait");
 
-    if(currentGallery.length > 1){
-      caption.textContent = `${currentTitle} (${currentIndex + 1}/${currentGallery.length})`;
-    }else{
-      caption.textContent = currentTitle;
-    }
+	image.onload = () => {
+	  if(image.naturalWidth > image.naturalHeight){
+		image.classList.add("is-landscape");
+	  }else{
+		image.classList.add("is-portrait");
+	  }
+	};
+
+	image.src = current.src;
+	image.alt = current.alt || currentTitle || "";
+
+	if(currentGallery.length > 1){
+	  caption.textContent = `${currentTitle} (${currentIndex + 1}/${currentGallery.length})`;
+	}else{
+	  caption.textContent = currentTitle;
+	}
   }
 
   function open(gallery, startIndex, title){
@@ -234,13 +299,59 @@ function createLightbox(){
 }
 
 
+function buildShowcaseContent(entry, headingLevel = "h3"){
+  const content = document.createElement("div");
+  content.className = "showcase-content";
+
+  const heading = document.createElement(headingLevel);
+  heading.className = "showcase-title";
+
+  if(entry.href){
+    const link = document.createElement("a");
+    link.href = entry.href;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.style.textDecoration = "none";
+    link.style.color = "inherit";
+    link.textContent = entry.title || "";
+    heading.appendChild(link);
+  }else{
+    heading.textContent = entry.title || "";
+  }
+
+  content.appendChild(heading);
+
+  const bodyBlock = buildTextBlock("Description", entry.body || entry.description);
+  if(bodyBlock){
+    content.appendChild(bodyBlock);
+  }
+
+  const aboutBlock = buildTextBlock("About", entry.about);
+  if(aboutBlock){
+    content.appendChild(aboutBlock);
+  }
+
+  const infoBlock = buildTextBlock("Info", entry.info);
+  if(infoBlock){
+    content.appendChild(infoBlock);
+  }
+
+  const notesBlock = buildTextBlock("Notes", entry.notes);
+  if(notesBlock){
+    content.appendChild(notesBlock);
+  }
+
+  const meta = buildMeta(entry.details);
+  if(meta){
+    content.appendChild(meta);
+  }
+
+  return content;
+}
+
+
 function renderShowcase(showcaseData){
   const page = showcaseData || {};
-
-  setText(document.querySelector("[data-showcase-title]"), page.title || "");
-
-  const bodyHost = document.querySelector("[data-showcase-body]");
-  addParagraphs(bodyHost, page.body || []);
 
   const sectionsHost = document.querySelector("[data-showcase-sections]");
   if(!sectionsHost){
@@ -257,19 +368,20 @@ function renderShowcase(showcaseData){
     grid.style.marginTop = "14px";
 
     const card = document.createElement("div");
-    card.className = "card";
+    card.className = "card showcase-section";
 
-    const title = document.createElement("h2");
-    title.textContent = section.title || "";
-    card.appendChild(title);
+    const sectionIntro = document.createElement("div");
+	sectionIntro.className = "showcase-item-inner";
 
-    if(section.body){
-      const body = document.createElement("div");
-      body.className = "small";
-      body.style.marginBottom = "12px";
-      body.textContent = section.body;
-      card.appendChild(body);
-    }
+	const sectionMedia = buildMediaBlock(section, lightbox, 320);
+	if(sectionMedia){
+	  sectionIntro.appendChild(sectionMedia);
+	}
+
+	const sectionContent = buildShowcaseContent(section, "h2");
+	sectionIntro.appendChild(sectionContent);
+
+	card.appendChild(sectionIntro);
 
     const itemsWrap = document.createElement("div");
     itemsWrap.className = "showcase-items";
@@ -281,91 +393,18 @@ function renderShowcase(showcaseData){
       const inner = document.createElement("div");
       inner.className = "showcase-item-inner";
 
-      const gallery = normalizeGallery(item);
+      const media = buildMediaBlock(item, lightbox, 280);
+	  if(media){
+	    inner.appendChild(media);
+	  }
 
-      if(gallery.length){
-        const media = document.createElement("div");
-        media.className = "showcase-media";
-
-        const button = document.createElement("button");
-        button.className = "showcase-image-button";
-        button.type = "button";
-
-        const img = document.createElement("img");
-        img.className = "showcase-image";
-        img.src = gallery[0].src;
-        img.alt = gallery[0].alt || item.title || "";
-
-        button.appendChild(img);
-
-        button.addEventListener("click", () => {
-          if(lightbox){
-            lightbox.open(gallery, 0, item.title || "");
-          }
-        });
-
-        media.appendChild(button);
-
-        if(gallery.length > 1){
-          const count = document.createElement("div");
-          count.className = "showcase-gallery-count";
-          count.textContent = `${gallery.length} images`;
-          media.appendChild(count);
-        }
-
-        inner.appendChild(media);
-      }
-
-      const content = document.createElement("div");
-      content.className = "showcase-content";
-
-      const heading = document.createElement("h3");
-      heading.className = "showcase-title";
-
-      if(item.href){
-        const link = document.createElement("a");
-        link.href = item.href;
-        link.target = "_blank";
-        link.rel = "noopener";
-        link.style.textDecoration = "none";
-        link.style.color = "inherit";
-        link.textContent = item.title || "";
-        heading.appendChild(link);
-      }else{
-        heading.textContent = item.title || "";
-      }
-
-      content.appendChild(heading);
-
-      const descriptionBlock = buildTextBlock("Description", item.description);
-      if(descriptionBlock){
-        content.appendChild(descriptionBlock);
-      }
-
-      const aboutBlock = buildTextBlock("About", item.about);
-      if(aboutBlock){
-        content.appendChild(aboutBlock);
-      }
-
-      const infoBlock = buildTextBlock("Info", item.info);
-      if(infoBlock){
-        content.appendChild(infoBlock);
-      }
-
-      const notesBlock = buildTextBlock("Notes", item.notes);
-      if(notesBlock){
-        content.appendChild(notesBlock);
-      }
-
-      const meta = buildMeta(item.details);
-      if(meta){
-        content.appendChild(meta);
-      }
-
-      inner.appendChild(content);
-      itemCard.appendChild(inner);
-      itemsWrap.appendChild(itemCard);
-    }
+	  const content = buildShowcaseContent(item, "h3");
+	  inner.appendChild(content);
+	  
+	  itemCard.appendChild(inner);
+	  itemsWrap.appendChild(itemCard);
+      
+	}
 
     card.appendChild(itemsWrap);
     grid.appendChild(card);
