@@ -91,21 +91,37 @@ def find_top_level_branch_dir(
     return None
 
 
-def copy_redirect_files(source_branch_dir: Path, target_branch_dir: Path) -> bool:
-    source_root_redirect: Path = source_branch_dir / "index_.html"
-    source_links_redirect: Path = source_branch_dir / "Links" / "index_.html"
-
+def copy_redirect_files(
+    source_branch_dir: Path,
+    target_branch_dir: Path,
+    top_level_branch_map: dict[str, Path],
+) -> bool:
     copied_anything: bool = False
 
+    #copy the root redirect if present
+    source_root_redirect: Path = source_branch_dir / "index_.html"
     if source_root_redirect.exists():
         target_branch_dir.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source_root_redirect, target_branch_dir / "index.html")
         copied_anything = True
 
-    if source_links_redirect.exists():
-        target_links_dir: Path = target_branch_dir / "Links"
-        target_links_dir.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(source_links_redirect, target_links_dir / "index.html")
+    #scan only direct child dirs of the branch
+    for child_path in sorted(source_branch_dir.iterdir()):
+        if not child_path.is_dir():
+            continue
+
+        #skip real sub-branches
+        if child_path.name.casefold() in top_level_branch_map:
+            continue
+
+        #treat everything else as a redirect dir if it has index_.html
+        source_child_redirect: Path = child_path / "index_.html"
+        if not source_child_redirect.exists():
+            continue
+
+        target_child_dir: Path = target_branch_dir / child_path.name
+        target_child_dir.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source_child_redirect, target_child_dir / "index.html")
         copied_anything = True
 
     return copied_anything
@@ -154,6 +170,7 @@ def build_branch_tree(
         copied_anything: bool = copy_redirect_files(
             child_source_branch_dir,
             child_target_dir,
+            top_level_branch_map,
         )
 
         if copied_anything:
