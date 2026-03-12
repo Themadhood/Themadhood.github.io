@@ -19,9 +19,9 @@
 .card-link:hover {opacity: 0.8;}
 
 
-.container{max-width:1100px;margin:0 auto;padding:20px}
+.container{max-width:1100px;margin:0 auto;padding:20px;}
 .topbar{
-	position:sticky !important;
+	position:fixed !important;
 	top:0;
 	width: 100%;
 	z-index:1000;
