@@ -95,6 +95,39 @@ function renderFooter(settings){
 
 
 
+function updateHeaderHeight() {
+    const header = document.querySelector(".topbar")
+
+    if (!header) {
+        return
+    }
+
+    document.documentElement.style.setProperty(
+        "--header-height",
+        `${header.offsetHeight}px`
+    )
+}
+
+function watchHeaderHeight() {
+    const header = document.querySelector(".topbar")
+
+    if (!header) {
+        return
+    }
+
+    updateHeaderHeight()
+
+    const resizeObserver = new ResizeObserver(() => {
+        updateHeaderHeight()
+    })
+
+    resizeObserver.observe(header)
+
+    window.addEventListener("resize", updateHeaderHeight)
+}
+
+
+
 
 export async function HF_main(){
 	const branch = qs("branch") || "pequot";
@@ -129,5 +162,6 @@ async function loadSharedPart(targetSelector, filePath){
 
 export async function loadHeaderFooter(){
 	await loadSharedPart("#shared-header", "./GlobalAssets/HTML/Header.html");
+	watchHeaderHeight()
 	await loadSharedPart("#shared-footer", "./GlobalAssets/HTML/Footer.html");
 }
