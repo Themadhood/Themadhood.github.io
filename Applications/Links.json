@@ -14,9 +14,74 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "index.html?branch=codes"
+                    "href": "links.html?branch=pequot"
+                }
+            ]
+        },
+        {
+            "title": "Other Business Links",
+            "links": [
+                {
+                    "label": "Themadhood's Apps",
+                    "href": "index.html?branch=apps"
+                },
+                {
+                    "label": "Themadhood's Development Tools",
+                    "href": "index.html?branch=pi-development-tools"
+                },
+				{
+                    "label": "Themadhood's Executables",
+                    "href": "index.html?branch=executables"
+                },
+				{
+                    "label": "Themadhood's Games",
+                    "href": "index.html?branch=games"
                 }
             ]
         }
-    ]
+    ],
+	"external":[
+		{
+			"branch": "pequot",
+			"sections": [
+				"Social Links",
+				"Other Business Links"
+			]
+		},
+		{
+			"branch": "codes",
+			"sections": [
+				"Social Links",
+				"Other Business Links"
+			]
+		},
+		{
+			"branch": "apps",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "development-tools",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "executables",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "games",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		}
+		]
 }

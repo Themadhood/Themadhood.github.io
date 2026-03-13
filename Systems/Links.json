@@ -14,9 +14,72 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "index.html?branch=codes"
+                    "href": "links.html?branch=pequot"
+                }
+            ]
+        },
+        {
+            "title": "Other Business Links",
+            "links": [
+                {
+                    "label": "Themadhood's Automations",
+                    "href": "index.html?branch=automations"
+                },
+                {
+                    "label": "Themadhood's Coding Foundations",
+                    "href": "index.html?branch=coding-foundations"
+                },
+                {
+                    "label": "Themadhood's Databases",
+                    "href": "index.html?branch=coding-databases"
+                },
+				{
+                    "label": "Themadhood's Scripts",
+                    "href": "index.html?branch=scripts"
                 }
             ]
         }
-    ]
+    ],
+	"external":[
+		{
+			"branch": "pequot",
+			"sections": [
+				"Social Links"
+			]
+		},
+		{
+			"branch": "codes",
+			"sections": [
+				"Social Links"
+			]
+		},
+		{
+			"branch": "automations",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "coding-foundations",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "databases",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "scripts",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		}
+		]
 }

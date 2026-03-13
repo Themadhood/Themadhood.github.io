@@ -14,9 +14,61 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "index.html?branch=codes"
+                    "href": "links.html?branch=pequot"
+                }
+            ]
+        },
+        {
+            "title": "Other Business Links",
+            "links": [
+                {
+                    "label": "Themadhood's PI Automations",
+                    "href": "index.html?branch=pi-automations"
+                },
+                {
+                    "label": "Themadhood's PI Relays",
+                    "href": "index.html?branch=pi-relays"
+                },
+				{
+                    "label": "Themadhood's PI Utilities",
+                    "href": "index.html?branch=pi-utilities"
                 }
             ]
         }
-    ]
+    ],
+	"external":[
+		{
+			"branch": "pequot",
+			"sections": [
+				"Social Links"
+			]
+		},
+		{
+			"branch": "codes",
+			"sections": [
+				"Social Links"
+			]
+		},
+		{
+			"branch": "pi-automations",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "pi-relays",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "pi-utilities",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		}
+		]
 }

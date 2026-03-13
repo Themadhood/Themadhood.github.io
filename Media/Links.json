@@ -1,11 +1,11 @@
 {
-    "sections": [
+	"sections": [
 		{
 		"title": "Social Links",
 		"links": [
 			{
 			"label": "More From Themadhood",
-			"href": "links.html"
+			"href": "links.html?branch=pequot"
 			}
 		]
 		},
@@ -28,6 +28,35 @@
             }
 			]
 		}
-	]
+	],
+	"external":[
+		{
+			"branch": "pequot",
+			"sections": [
+				"Social Links"
+			]
+		},
+		{
+			"branch": "music",
+			"sections": [
+				"Listen",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "photos",
+			"sections": [
+				"View",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "videos",
+			"sections": [
+				"Watch",
+				"Social Links"
+			]
+		}
+		]
 }
 

@@ -14,9 +14,29 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "index.html?branch=systems"
+                    "href": "links.html?branch=pequot"
                 }
             ]
         }
-    ]
+    ],
+	"external":[
+		{
+			"branch": "pequot",
+			"sections": [
+				"Social Links"
+			]
+		},
+		{
+			"branch": "codes",
+			"sections": [
+				"Social Links"
+			]
+		},
+		{
+			"branch": "systems",
+			"sections": [
+				"Social Links"
+			]
+		},
+		]
 }

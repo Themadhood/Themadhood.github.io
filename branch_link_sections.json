@@ -1,0 +1,166 @@
+[
+    {
+        "branch": "applications",
+        "sections": [
+            "Resources",
+            "Social Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "apps",
+        "sections": [
+            "Resources",
+            "Social Links"
+        ]
+    },
+    {
+        "branch": "art",
+        "sections": [
+            "Shop Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "codes",
+        "sections": [
+            "Social Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "creations",
+        "sections": [
+            "Shop Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "development-tools",
+        "sections": [
+            "Resources",
+            "Social Links"
+        ]
+    },
+    {
+        "branch": "executables",
+        "sections": [
+            "Resources",
+            "Social Links"
+        ]
+    },
+    {
+        "branch": "games",
+        "sections": [
+            "Resources",
+            "Social Links"
+        ]
+    },
+    {
+        "branch": "goods",
+        "sections": [
+            "Shop Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "jewelry",
+        "sections": [
+            "Shop Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "leather-goods",
+        "sections": [
+            "Shop Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "media",
+        "sections": [
+            "Social Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "music",
+        "sections": [
+            "Listen",
+            "Social Links"
+        ]
+    },
+    {
+        "branch": "pequot",
+        "sections": [
+            "Social Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "photos",
+        "sections": [
+            "View",
+            "Social Links"
+        ]
+    },
+    {
+        "branch": "pi-automations",
+        "sections": [
+            "Resources",
+            "Social Links"
+        ]
+    },
+    {
+        "branch": "pi-relays",
+        "sections": [
+            "Resources",
+            "Social Links"
+        ]
+    },
+    {
+        "branch": "pi-solutions",
+        "sections": [
+            "Resources",
+            "Social Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "pi-utilities",
+        "sections": [
+            "Resources",
+            "Social Links"
+        ]
+    },
+    {
+        "branch": "stained-glass",
+        "sections": [
+            "Shop Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "systems",
+        "sections": [
+            "Resources",
+            "Social Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "trinkets",
+        "sections": [
+            "Shop Links",
+            "Other Business Links"
+        ]
+    },
+    {
+        "branch": "videos",
+        "sections": [
+            "Watch",
+            "Social Links"
+        ]
+    }
+]

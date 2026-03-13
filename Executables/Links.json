@@ -14,9 +14,32 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "index.html?branch=applications"
+                    "href": "links.html?branch=pequot"
                 }
             ]
         }
-    ]
+    ],
+	"external":[
+		{
+			"branch": "pequot",
+			"sections": [
+				"Social Links",
+				"Other Business Links"
+			]
+		},
+		{
+			"branch": "codes",
+			"sections": [
+				"Social Links",
+				"Other Business Links"
+			]
+		},
+		{
+			"branch": "applications",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		}
+		]
 }
