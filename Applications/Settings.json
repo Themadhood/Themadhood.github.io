@@ -7,8 +7,8 @@
     "brand": {
         "title": "Themadhood's Applications",
         "email": "Themadhoods.Applications@gmail.com",
-        "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Applications O 2k-2k.png",
-        "background": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
+        "logo": "/Codes/Assets/Branding/THEMADHOOD Codes O 2k-2k.png",
+        "background": "/Codes/Assets/Branding/THEMADHOOD Codes background square.png",
         "copyright": "© 2026 Themadhood's Applications. All rights reserved.",
         "brandContext": "Themadhood's Applications operates under Themadhood's Codes.",
         "colors": {

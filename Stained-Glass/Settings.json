@@ -7,8 +7,8 @@
     "brand": {
         "title": "Themadhood's Stained Glass",
         "email": "Themadhoods.Goods@gmail.com",
-        "logo": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods O 2k-2k.png",
-        "background": "GlobalAssets/Imgs/Goods/THEMADHOOD Goods background square.png",
+        "logo": "/Goods/Assets/Branding/THEMADHOOD Goods O 2k-2k.png",
+        "background": "/Goods/Assets/Branding/THEMADHOOD Goods background square.png",
         "copyright": "© 2026 Themadhood's Stained Glass. All rights reserved.",
         "brandContext": "Themadhood's Stained Glass operates as a parent entity for affiliated projects.",
         "colors": {

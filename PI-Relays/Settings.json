@@ -7,8 +7,8 @@
     "brand": {
         "title": "Themadhood's PI Relays",
         "email": "Themadhoods.PI.Solutions@gmail.com",
-        "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png",
-        "background": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
+        "logo": "/PI-Solutions/Assets/Branding/THEMADHOOD PI Solutions O 2k-2k.png",
+        "background": "/Codes/Assets/Branding/THEMADHOOD Codes background square.png",
         "copyright": "© 2026 Themadhood's PI Relays. All rights reserved.",
         "brandContext": "Themadhood's PI Relays operates under Themadhood's PI Solutions.",
         "colors": {

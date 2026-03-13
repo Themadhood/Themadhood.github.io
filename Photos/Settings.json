@@ -7,8 +7,8 @@
     "brand": {
         "title": "Themadhood's Photos",
         "email": "Themadhood.Media@gmail.com",
-        "logo": "GlobalAssets/Imgs/Media/THEMADHOOD Photos O 2k-2k.png",
-        "background": "GlobalAssets/Imgs/Media/THEMADHOOD Media background square.png",
+        "logo": "/Photos/Assets/Branding/THEMADHOOD Photos O 2k-2k.png",
+        "background": "/Media/Assets/Branding/THEMADHOOD Media background square.png",
         "copyright": "© 2026 Themadhood's Photos. All rights reserved.",
         "brandContext": "Themadhood's Photos operates under Themadhood Media.",
         "colors": {
