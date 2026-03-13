@@ -24,19 +24,19 @@
             "title": "Themadhood's Music",
             "href": "index.html?branch=music",
             "body": "Original music and audio works created under the Themadhood ecosystem, including standalone releases, sound design, and project-specific compositions.",
-            "icon": "GlobalAssets/Imgs/Media/THEMADHOOD Music O 2k-2k.png"
+            "icon": "/Music/Assets/Branding/THEMADHOOD Music O 2k-2k.png"
 			},
 			{
             "title": "Themadhood's Videos",
             "href": "index.html?branch=videos",
             "body": "Original video and motion content, including short-form media, long-form projects, and experimental visuals. Publishing details are handled at the branch level.",
-            "icon": "GlobalAssets/Imgs/Media/THEMADHOOD Video O 2k-2k.png"
+            "icon": "/Video/Assets/Branding/THEMADHOOD Video O 2k-2k.png"
 			},
 			{
             "title": "Themadhood's Photos",
             "href": "index.html?branch=photos",
             "body": "Photography and visual imagery, including digital collections, project documentation, and curated sets. Presentation and usage details are handled at the branch level.",
-            "icon": "GlobalAssets/Imgs/Media/THEMADHOOD Photos O 2k-2k.png"
+            "icon": "/Photos/Assets/Branding/THEMADHOOD Photos O 2k-2k.png"
 			},
 			{
             "title": "Other/ Routed Through Us",

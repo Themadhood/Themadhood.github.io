@@ -20,19 +20,19 @@
                 "title": "Themadhood Systems",
                 "href": "index.html?branch=systems",
                 "body": "Core system design, infrastructure patterns, and foundational technical architecture used across Themadhood projects.",
-                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes O 2k-2k.png"
+                "icon": "/Codes/Assets/Branding/THEMADHOOD Codes O 2k-2k.png"
             },
             {
                 "title": "Themadhood's PI Solutions",
                 "href": "index.html?branch=pi-solutions",
                 "body": "Raspberry Pi based tools, deployments, utilities, and repeatable solutions designed for reliable real-world use.",
-                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD PI Solutions O 2k-2k.png"
+                "icon": "/PI-Solutions/Assets/Branding/THEMADHOOD PI Solutions O 2k-2k.png"
             },
             {
                 "title": "Themadhood's Applications",
                 "href": "index.html?branch=applications",
                 "body": "User-facing applications and tools built under the Themadhood ecosystem, including utilities and project-specific apps.",
-                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Applications O 2k-2k.png"
+                "icon": "/Codes/Assets/Branding/THEMADHOOD Applications O 2k-2k.png"
             },
             {
                 "title": "Other/ Routed Through Us",

@@ -26,25 +26,25 @@
                 "title": "Themadhood's Games",
                 "href": "index.html?branch=games",
                 "body": "Games and interactive experiences built under Themadhood, including long-term project releases and experiments.",
-                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Applications O 2k-2k.png"
+                "icon": "/Codes/Assets/Branding/THEMADHOOD Applications O 2k-2k.png"
             },
             {
                 "title": "Themadhood's Development Tools",
                 "href": "index.html?branch=development-tools",
                 "body": "Tools created to support development workflows, project management, deployment, and automation.",
-                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Applications O 2k-2k.png"
+                "icon": "/Codes/Assets/Branding/THEMADHOOD Applications O 2k-2k.png"
             },
             {
                 "title": "Themadhood's Apps",
                 "href": "index.html?branch=apps",
                 "body": "General applications created under Themadhood, including utilities and user-facing software tools.",
-                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Applications O 2k-2k.png"
+                "icon": "/Codes/Assets/Branding/THEMADHOOD Applications O 2k-2k.png"
             },
             {
                 "title": "Themadhood's Executables",
                 "href": "index.html?branch=executables",
                 "body": "Packaged builds and distributable executables created for releases, demos, and stable software distribution.",
-                "icon": "GlobalAssets/Imgs/Codes/THEMADHOOD Applications O 2k-2k.png"
+                "icon": "/Codes/Assets/Branding/THEMADHOOD Applications O 2k-2k.png"
             },
             {
                 "title": "Other/ Routed Through Us",
