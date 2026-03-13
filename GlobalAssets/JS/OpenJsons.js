@@ -96,7 +96,7 @@ export async function loadBranch(branchId, json){
 
 	const jsonData = await loadJson(`/${folder}/${fileName}`);
 
-	console.log(`Loaded ${fileName}`);
+	//console.log(`Loaded /${folder}/${fileName}`);
 
 	return jsonData;
 }
