@@ -46,3 +46,19 @@ a{color:inherit}
 .links-body .grid{
   gap:14px;
 }
+
+.links-section-title{
+	color:var(--accent);
+}
+
+.links-item{
+	color:var(--link-color);
+	text-decoration:underline;
+}
+
+.links-item-coming-soon{
+	color: var(--muted);
+	text-decoration: none;
+	cursor: default;
+	pointer-events: none;
+}

@@ -14,9 +14,23 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "index.html?branch=links.html"
+                    "href": "links.html?branch=pequot"
                 }
             ]
         }
-    ]
+    ],
+	"external":[
+		{
+			"branch": "pequot",
+			"sections": [
+				"Social Links"
+			]
+		},
+		{
+			"branch": "goods",
+			"sections": [
+				"Shop Links"
+			]
+		}
+		]
 }

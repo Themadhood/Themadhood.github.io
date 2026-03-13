@@ -5,7 +5,7 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "links.html"
+                    "href": "links.html?branch=pequot"
                 },
                 {
                     "label": "Main Shop (coming soon)",
@@ -17,30 +17,81 @@
             "title": "Other Business Links",
             "links": [
                 {
+                    "label": "Themadhood's Art",
+                    "href": "index.html?branch=art"
+                },
+                {
+                    "label": "Themadhood's Creations",
+                    "href": "index.html?branch=creations"
+                },
+				{
                     "label": "Themadhood's Julery",
                     "href": "index.html?branch=julery"
+                },
+                {
+                    "label": "Themadhood's Leather Goods",
+                    "href": "index.html?branch=leather-goods"
                 },
                 {
                     "label": "Themadhood's Stained Glass",
                     "href": "index.html?branch=stained-glass"
                 },
                 {
-                    "label": "Themadhood's Creations",
-                    "href": "index.html?branch=creations"
-                },
-                {
                     "label": "Themadhood's Trinkets",
                     "href": "index.html?branch=trinkets"
-                },
-                {
-                    "label": "Themadhood's Art",
-                    "href": "index.html?branch=art"
-                },
-                {
-                    "label": "Themadhood's Leather Goods",
-                    "href": "index.html?branch=leather-goods"
                 }
             ]
         }
-    ]
+    ],
+	"external":[
+		{
+			"branch": "pequot",
+			"sections": [
+				"Social Links"
+			]
+		},
+		
+		{
+			"branch": "art",
+			"sections": [
+				"Shop Links",
+				"Other Business Links"
+			]
+		},
+		{
+			"branch": "creations",
+			"sections": [
+				"Shop Links",
+				"Other Business Links"
+			]
+		},
+		{
+			"branch": "jewelry",
+			"sections": [
+				"Shop Links",
+				"Other Business Links"
+			]
+		},
+		{
+			"branch": "leather-goods",
+			"sections": [
+				"Shop Links",
+				"Other Business Links"
+			]
+		},
+		{
+			"branch": "stained-glass",
+			"sections": [
+				"Shop Links",
+				"Other Business Links"
+			]
+		},
+		{
+			"branch": "trinkets",
+			"sections": [
+				"Shop Links",
+				"Other Business Links"
+			]
+		}
+		]
 }

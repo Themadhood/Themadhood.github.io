@@ -14,9 +14,29 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "index.html?branch=pi-solutions"
+                    "href": "links.html?branch=pequot"
                 }
             ]
         }
-    ]
+    ],
+	"external":[
+		{
+			"branch": "pequot",
+			"sections": [
+				"Social Links"
+			]
+		},
+		{
+			"branch": "codes",
+			"sections": [
+				"Social Links"
+			]
+		},
+		{
+			"branch": "pi-solutions",
+			"sections": [
+				"Resources"
+			]
+		}
+		]
 }

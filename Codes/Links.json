@@ -5,7 +5,7 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "links.html"
+                    "href": "links.html?branch=pequot"
                 },
                 {
                     "label": "GitHub (Project Hub)",
@@ -17,18 +17,124 @@
             "title": "Other Business Links",
             "links": [
                 {
-                    "label": "Themadhood's Systems",
-                    "href": "index.html?branch=systems"
+                    "label": "Themadhood's Applications",
+                    "href": "index.html?branch=applications"
                 },
                 {
                     "label": "Themadhood's PI Solutions",
                     "href": "index.html?branch=pi-solutions"
                 },
-                {
-                    "label": "Themadhood's Applications",
-                    "href": "index.html?branch=applications"
+				{
+                    "label": "Themadhood's Systems",
+                    "href": "index.html?branch=systems"
                 }
             ]
         }
-    ]
+    ],
+	"external":[
+		{
+			"branch": "applications",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "pequot",
+			"sections": [
+				"Social Links"
+			]
+		},
+		{
+			"branch": "apps",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "automations",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "coding-foundations",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "databases",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "development-tools",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "executables",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "games",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "pi-automations",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "pi-relays",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "pi-solutions",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "pi-utilities",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "scripts",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		},
+		{
+			"branch": "systems",
+			"sections": [
+				"Resources",
+				"Social Links"
+			]
+		}
+		]
 }
