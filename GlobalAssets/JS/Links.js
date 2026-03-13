@@ -96,78 +96,93 @@ async function mergeExternalSections(linksData, currentBranch) {
     return page;
   }
 
-  for (const ext of page.external) {
-    const branchName = ext?.branch;
-    const wantedSections = Array.isArray(ext?.sections) ? ext.sections : [];
+	const externalResults = await Promise.all(
+		page.external.map(async (ext) => {
+			const branchName = ext?.branch;
+			const wantedSections = Array.isArray(ext?.sections) ? ext.sections : [];
 
-    if (!branchName || wantedSections.length === 0) {
-      continue;
-    }
+			if(!branchName || wantedSections.length === 0){
+				return null;
+			}
 
-    try {
-      const externalLinksData = await loadBranch(branchName, "Links");
-      const externalSections = Array.isArray(externalLinksData?.sections)
-        ? externalLinksData.sections
-        : [];
+			try{
+				const externalLinksData = await loadBranch(branchName, "Links");
+				const externalSections = Array.isArray(externalLinksData?.sections)
+					? externalLinksData.sections
+					: [];
 
-      for (const sectionName of wantedSections) {
-		  const matchedSection = externalSections.find(
-			(sec) => sec?.title === sectionName
-		  );
+				return {
+					branchName,
+					wantedSections,
+					externalSections
+				};
+			}catch(err){
+				console.warn(`Failed to load external branch "${branchName}" Links.json`, err);
+				return null;
+			}
+		})
+	);
 
-		  if (!matchedSection) {
+	for(const result of externalResults){
+		if(!result){
 			continue;
-		  }
-
-		  const existingSection = page.sections.find(
-			(sec) => sec?.title === sectionName
-		  );
-
-		  if (existingSection) {
-			// Section already exists, so append only valid non-duplicate links
-			if (!Array.isArray(existingSection.links)) {
-			  existingSection.links = [];
-			}
-
-			for (const link of (matchedSection.links || [])) {
-			  if (isBranchLink(link?.href, branchName)) {
-				continue;
-			  }
-
-			  if (hasDuplicateLink(existingSection.links, link)) {
-				continue;
-			  }
-
-			  existingSection.links.push(structuredClone(link));
-			}
-		  } else {
-			// Section does not exist yet, so add the section with filtered links
-			const filteredLinks = [];
-
-			for (const link of (matchedSection.links || [])) {
-			  if (isBranchLink(link?.href, branchName)) {
-				continue;
-			  }
-
-			  if (hasDuplicateLink(filteredLinks, link)) {
-				continue;
-			  }
-
-			  filteredLinks.push(structuredClone(link));
-			}
-
-			if (filteredLinks.length > 0) {
-			  page.sections.push({
-				...structuredClone(matchedSection),
-				links: filteredLinks
-			  });
-			}
-		  }
 		}
-    } catch (err) {
-      console.warn(`Failed to load external branch "${branchName}" Links.json`, err);
-    }
-  }
+
+		const { branchName, wantedSections, externalSections } = result;
+
+		for(const sectionName of wantedSections){
+			const matchedSection = externalSections.find(
+				(sec) => sec?.title === sectionName
+			);
+
+			if(!matchedSection){
+				continue;
+			}
+
+			const existingSection = page.sections.find(
+				(sec) => sec?.title === sectionName
+			);
+
+			if(existingSection){
+				if(!Array.isArray(existingSection.links)){
+					existingSection.links = [];
+				}
+
+				for(const link of (matchedSection.links || [])){
+					if(isBranchLink(link?.href, branchName)){
+						continue;
+					}
+
+					if(hasDuplicateLink(existingSection.links, link)){
+						continue;
+					}
+
+					existingSection.links.push(structuredClone(link));
+				}
+			}else{
+				const filteredLinks = [];
+
+				for(const link of (matchedSection.links || [])){
+					if(isBranchLink(link?.href, branchName)){
+						continue;
+					}
+
+					if(hasDuplicateLink(filteredLinks, link)){
+						continue;
+					}
+
+					filteredLinks.push(structuredClone(link));
+				}
+
+				if(filteredLinks.length > 0){
+					page.sections.push({
+						...structuredClone(matchedSection),
+						links: filteredLinks
+					});
+				}
+			}
+		}
+	}
 
   return page;
 }
