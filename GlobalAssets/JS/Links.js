@@ -67,7 +67,6 @@ const isBranchLink = (href, branchName) => {
 };
 
 async function mergeExternalSections(linksData, currentBranch) {
-  console.log("mergeExternalSections branch:", currentBranch);
   const page = linksData || {};
 
 
