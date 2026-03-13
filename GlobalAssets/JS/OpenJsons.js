@@ -1,7 +1,6 @@
 async function loadJson(path){
-	console.log("Loading:", path);
 	const res = await fetch(path, { cache: "no-store" });
-	console.log("Status:", res.status, path);
+	console.log("Loaded Status:", res.status, path);
 
 	if(!res.ok){
 		throw new Error(`Failed to load ${path} (${res.status})`);
@@ -62,7 +61,7 @@ function applyBranchFolderRules(branchId, rulesData){
 				.join("-");
 		}
 	}
-	console.log("after Branch rules aplyed:",result);
+	//console.log("after Branch rules aplyed:",result);
 	return result;
 }
 
@@ -71,10 +70,10 @@ async function resolveBranchFolder(branchId){
 	const rulesData = await loadBranchRules();
 	const folderName = applyBranchFolderRules(branchId, rulesData);
 
-	console.log("Branch resolve:", {
+	/*console.log("Branch resolve:", {
 		branchId,
 		folderName
-	});
+	});*/
 
 	return folderName;
 }
