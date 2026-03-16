@@ -2,6 +2,24 @@ import { loadHeaderFooter, HF_main, setText } from "./HeaderFooter.js";
 import { loadBranch } from "./OpenJsons.js";
 
 
+
+function getURLParam(name){
+	const params = new URLSearchParams(window.location.search);
+	return params.get(name);
+}
+
+function getJsonFileName(){
+	const fromURL = getURLParam("data-json");
+
+	if(fromURL && fromURL.trim()){
+		return fromURL.trim();
+	}
+
+	// fallback if none specified
+	return "Showcase";
+}
+
+
 function getImageMax(value, fallback = 280){
   const num = Number(value);
   if(Number.isFinite(num) && num > 0){
@@ -298,55 +316,108 @@ function createLightbox(){
   return { open };
 }
 
+function formatBlockTitle(key){
+	if(!key) return "";
+
+	const text = String(key).trim();
+	if(!text){
+		return "";
+	}
+
+	return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+
+function getEntryTextBlocks(entry){
+	if(!entry || typeof entry !== "object"){
+		return [];
+	}
+
+	const blocks = [];
+
+	for(const [key, value] of Object.entries(entry)){
+		if(key === "title") continue;
+		if(key === "href") continue;
+		if(key === "image") continue;
+		if(key === "imageMax") continue;
+		if(key === "gallery") continue;
+		if(key === "items") continue;
+		if(key === "sections") continue;
+
+		// handled separately as meta/details
+		if(key.toLowerCase() === "details") continue;
+
+		const isString = typeof value === "string" && value.trim();
+
+		const isTextList =
+			Array.isArray(value) &&
+			value.length > 0 &&
+			value.every(line => typeof line === "string");
+
+		if(isString || isTextList){
+			blocks.push({
+				title: formatBlockTitle(key),
+				value: value
+			});
+		}
+	}
+
+	return blocks;
+}
+
+
+function getEntryDetails(entry){
+	if(!entry || typeof entry !== "object"){
+		return null;
+	}
+
+	for(const [key, value] of Object.entries(entry)){
+		if(key.toLowerCase() === "details" && value && typeof value === "object" && !Array.isArray(value)){
+			return value;
+		}
+	}
+
+	return null;
+}
+
 
 function buildShowcaseContent(entry, headingLevel = "h3"){
-  const content = document.createElement("div");
-  content.className = "showcase-content";
+	const content = document.createElement("div");
+	content.className = "showcase-content";
 
-  const heading = document.createElement(headingLevel);
-  heading.className = "showcase-title";
+	const heading = document.createElement(headingLevel);
+	heading.className = "showcase-title";
 
-  if(entry.href){
-    const link = document.createElement("a");
-    link.href = entry.href;
-    link.target = "_blank";
-    link.rel = "noopener";
-    link.style.textDecoration = "none";
-    link.style.color = "inherit";
-    link.textContent = entry.title || "";
-    heading.appendChild(link);
-  }else{
-    heading.textContent = entry.title || "";
-  }
+	if(entry.href){
+		const link = document.createElement("a");
+		link.href = entry.href;
+		link.target = "_blank";
+		link.rel = "noopener";
+		link.style.textDecoration = "none";
+		link.style.color = "inherit";
+		link.textContent = entry.title || "";
+		heading.appendChild(link);
+	}else{
+		heading.textContent = entry.title || "";
+	}
 
-  content.appendChild(heading);
+	content.appendChild(heading);
 
-  const bodyBlock = buildTextBlock("Description", entry.body || entry.description);
-  if(bodyBlock){
-    content.appendChild(bodyBlock);
-  }
+	const textBlocks = getEntryTextBlocks(entry);
 
-  const aboutBlock = buildTextBlock("About", entry.about);
-  if(aboutBlock){
-    content.appendChild(aboutBlock);
-  }
+	for(const blockData of textBlocks){
+		const block = buildTextBlock(blockData.title, blockData.value);
+		if(block){
+			content.appendChild(block);
+		}
+	}
 
-  const infoBlock = buildTextBlock("Info", entry.info);
-  if(infoBlock){
-    content.appendChild(infoBlock);
-  }
+	const meta = buildMeta(getEntryDetails(entry));
+	if(meta){
+		content.appendChild(meta);
+	}
 
-  const notesBlock = buildTextBlock("Notes", entry.notes);
-  if(notesBlock){
-    content.appendChild(notesBlock);
-  }
-
-  const meta = buildMeta(entry.details);
-  if(meta){
-    content.appendChild(meta);
-  }
-
-  return content;
+	return content;
 }
 
 
@@ -362,6 +433,7 @@ function renderShowcase(showcaseData){
 
   const lightbox = createLightbox();
 
+  // sections
   for(const section of (page.sections || [])){
     const grid = document.createElement("div");
     grid.className = "grid";
@@ -386,6 +458,7 @@ function renderShowcase(showcaseData){
     const itemsWrap = document.createElement("div");
     itemsWrap.className = "showcase-items";
 
+	// items in sections
     for(const item of (section.items || [])){
       const itemCard = document.createElement("div");
       itemCard.className = "card showcase-item";
@@ -414,11 +487,13 @@ function renderShowcase(showcaseData){
 
 
 async function main(){
-  await loadHeaderFooter();
-  const { branch } = await HF_main();
-  const showcaseData = await loadBranch(branch, "Showcase");
+	await loadHeaderFooter();
+	const { branch } = await HF_main();
+  
+	const jsonFile = getJsonFileName();
+	const showcaseData = await loadBranch(branch, jsonFile);
 
-  renderShowcase(showcaseData);
+	renderShowcase(showcaseData);
 }
 
 
