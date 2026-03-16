@@ -40,6 +40,10 @@
 			"label": "Home",
 			"href": "index.html"
 			},
+            {
+                "label": "Our Story",
+                "href": "showcase.html?branch=pequot&data-json=OurStory"
+            },
 			{
 			"label": "Links",
 			"href": "links.html"
