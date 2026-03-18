@@ -20,7 +20,7 @@
                 "title": "Themadhood's Jewelry",
                 "href": "index.html?branch=jewelry",
                 "body": "Jewelry and wearable items created under Themadhood goods, including themed pieces and limited releases.",
-                "icon": "/Goods/Assets/Branding/THEMADHOOD Goods O 2k-2k.png"
+                "icon": "/Jewelry/Assets/Branding/THEMADHOOD Jewelry O 2k-2k.png"
             },
             {
                 "title": "Themadhood's Stained Glass",
@@ -32,25 +32,25 @@
                 "title": "Themadhood's Creations",
                 "href": "index.html?branch=creations",
                 "body": "Handmade and crafted items, including mixed-media builds and unique project creations.",
-                "icon": "/Goods/Assets/Branding/THEMADHOOD Goods O 2k-2k.png"
+                "icon": "/Creations/Assets/Branding/THEMADHOOD Creations O 2k-2k.png"
             },
             {
                 "title": "Themadgood's Trinkets",
                 "href": "index.html?branch=trinkets",
                 "body": "Small goods, accessories, and collectible trinkets released under Themadhood goods.",
-                "icon": "/Goods/Assets/Branding/THEMADHOOD Goods O 2k-2k.png"
+                "icon": "/Trinkets/Assets/Branding/THEMADHOOD Trinkets O 2k-2k.png"
             },
             {
                 "title": "Themadgood's Art",
                 "href": "index.html?branch=art",
                 "body": "Artworks, illustrations, and visual creations produced and released under Themadhood's creative branches, including original pieces and curated visual projects.",
-                "icon": "/Goods/Assets/Branding/THEMADHOOD Goods O 2k-2k.png"
+                "icon": "/Art/Assets/Branding/THEMADHOOD Art O 2k-2k.png"
             },
             {
                 "title": "Themadgood's Leather Goods",
                 "href": "index.html?branch=leather-goods",
                 "body": "Leather goods, handcrafted items, and physical creations produced and released under Themadhood's creative branches, including original designs and curated functional pieces.",
-                "icon": "/Goods/Assets/Branding/THEMADHOOD Goods O 2k-2k.png"
+                "icon": "/Leather-Goods/Assets/Branding/THEMADHOOD Leather Goods O 2k-2k.png"
             },
             {
                 "title": "Other/ Routed Through Us",
