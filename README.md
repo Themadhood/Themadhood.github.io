@@ -48,3 +48,11 @@ Main Repository
 
 C:\Python\python.exe -m http.server 8000
 http://localhost:8000
+
+
+
+Official public source repository for Themadhood.github.io.
+
+This repository is published publicly to support GitHub Pages hosting.
+Source code, branding, design, and site content are proprietary unless otherwise stated.
+See LICENSE.txt for terms.

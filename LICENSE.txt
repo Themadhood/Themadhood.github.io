@@ -1,0 +1,50 @@
+Copyright © 2026 Themadhood. All Rights Reserved.
+
+This repository and website, including all source code, HTML, CSS, JavaScript, text, graphics, branding, logos, designs, downloadable assets, and other content (collectively, the “Content”), are the property of Themadhood unless otherwise stated.
+
+PUBLIC REPOSITORY NOTICE
+
+This repository is publicly visible on GitHub for the purpose of hosting and publishing the official Themadhood website through GitHub Pages.
+
+Because this repository is public, and because GitHub’s platform functionality may allow actions such as viewing, cloning, caching, and forking within GitHub, this notice does not prohibit uses that are automatically required or permitted by GitHub’s Terms of Service in connection with public repositories and GitHub Pages.
+
+PERMITTED USE
+
+You may:
+
+1. View this repository and website in your browser.
+2. Access, clone, or fork this repository only as permitted through GitHub’s platform functionality and Terms of Service.
+3. Make temporary or incidental copies necessary for normal browser viewing, caching, or GitHub platform use.
+4. Refer to or link to the public website and repository.
+
+RESTRICTIONS
+
+Except as required for GitHub public repository functionality or otherwise required by law, you may not:
+
+1. Copy, republish, redistribute, or mirror this website or repository outside GitHub without prior written permission.
+2. Modify and republish this website, in whole or in substantial part, as your own website or template.
+3. Sell, sublicense, or commercially exploit any part of this website or repository.
+4. Use Themadhood name, logos, branding, visual identity, or distinctive design elements in a way that suggests affiliation, sponsorship, or endorsement.
+5. Reuse downloadable assets, graphics, written content, or code from this repository in another project, product, or website without prior written permission, unless a specific file states otherwise.
+6. Use this repository or website content to create a competing branded website, imitation site, or misleading derivative.
+
+NO OPEN SOURCE GRANT
+
+No open-source license is granted for this repository unless a specific file, folder, or component expressly states otherwise.
+No trademark rights, branding rights, or other intellectual property rights are granted.
+
+THIRD-PARTY CONTENT
+
+Any third-party libraries, frameworks, fonts, images, or other materials included in this repository remain subject to their own respective licenses and terms. You are responsible for complying with those terms for any permitted use.
+
+NO WARRANTY
+
+This repository and website are provided “AS IS” without warranties of any kind, express or implied, including but not limited to fitness for a particular purpose, merchantability, and noninfringement.
+
+LIMITATION OF LIABILITY
+
+To the maximum extent permitted by law, Themadhood shall not be liable for any damages arising from or related to the use of this repository or website.
+
+RESERVATION OF RIGHTS
+
+All rights not expressly granted above are reserved by Themadhood.
