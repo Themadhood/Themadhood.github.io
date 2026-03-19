@@ -7,8 +7,8 @@
     "brand": {
         "title": "Themadhood's Automations",
         "email": "Themadhoods.Codes@gmail.com",
-        "logo": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes O 2k-2k.png",
-        "background": "GlobalAssets/Imgs/Codes/THEMADHOOD Codes background square.png",
+        "logo": "/Automations/Assets/Branding/THEMADHOOD Automations O 2k-2k.png",
+        "background": "/Codes/Assets/Branding/THEMADHOOD Codes background square.png",
         "copyright": "© 2026 Themadhood's Automations. All rights reserved.",
         "brandContext": "Themadhood's Automations operates under Themadhood Systems.",
         "colors": {
