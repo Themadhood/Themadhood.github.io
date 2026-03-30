@@ -1,0 +1,180 @@
+:root{
+	--bg:#000000;
+	--card:#171720;
+	--text:#f1f1f3;
+	--muted:#b8b8c7;
+	--border:#2a2a38;
+	--accent:#b11a25;
+}
+
+*{box-sizing:border-box}
+body{
+	margin:0;
+	font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+	background:
+		radial-gradient(circle at top, color-mix(in srgb, var(--accent) 18%, transparent), transparent 35%),
+		var(--bg);
+	color:var(--text);
+	padding-top:var(--header-height, 0px);
+}
+
+a{color:inherit}
+
+.business-card-wrap{
+	min-height:calc(100vh - var(--header-height, 0px));
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding-top:28px;
+	padding-bottom:28px;
+}
+
+.business-card{
+	position:relative;
+	overflow:hidden;
+	width:min(100%, 460px);
+	padding:28px;
+	border:1px solid var(--border);
+	border-radius:28px;
+	background:linear-gradient(180deg, color-mix(in srgb, var(--card) 94%, white 6%), var(--card));
+	box-shadow:0 20px 40px rgba(0,0,0,.35);
+	text-align:center;
+}
+
+.business-card-banner{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:150px; /* CHANGE THIS to control banner height */
+	background-size:cover;
+	background-position:center 80%;
+	background-repeat:no-repeat;
+	border-bottom:1px solid var(--border);
+	z-index:0;
+}
+
+.business-card-headshot{
+	position:relative;
+	z-index:1;
+	width:132px;
+	height:132px;
+	display:block;
+	margin:48px auto 18px auto; /* CHANGE THIS to move the headshot up/down against the banner */
+	border-radius:50%;
+	border:3px solid var(--border);
+	object-fit:cover;
+	object-position:center;
+	background:transparent;
+}
+
+.eyebrow{
+	margin:0 0 8px 0;
+	color:var(--muted);
+	font-size:.85rem;
+	letter-spacing:.08em;
+	text-transform:uppercase;
+}
+
+.business-card h1{
+	margin:0;
+	font-size:2.2rem;
+	line-height:1.05;
+}
+
+.subtitle{
+	margin:10px 0 0 0;
+	font-size:1.05rem;
+	color:var(--text);
+}
+
+.tagline{
+	margin:14px 0 0 0;
+	color:var(--muted);
+	line-height:1.5;
+}
+
+.tagline p{
+	margin:0 0 10px 0;
+}
+
+.action-list{
+	margin-top:24px;
+	display:grid;
+	gap:12px;
+}
+
+.action-button{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height:56px;
+	padding:14px 18px;
+	border:1px solid var(--border);
+	border-radius:18px;
+	background:color-mix(in srgb, var(--button-bg, var(--card)) 88%, white 12%);
+	color:var(--button-text, var(--text));
+	text-decoration:none;
+	font-weight:600;
+	transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+
+.action-button:hover{
+	transform:translateY(-2px);
+	border-color:color-mix(in srgb, var(--accent) 35%, var(--border));
+	box-shadow:0 10px 20px rgba(0,0,0,.25);
+}
+
+.meta-list{
+	margin-top:22px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	gap:10px 14px;
+	color:var(--muted);
+	font-size:.95rem;
+}
+
+.meta-list a{
+	text-decoration:none;
+}
+
+.meta-list a:hover{
+	text-decoration:underline;
+}
+
+@media (max-width: 768px){
+	.business-card-wrap{
+		padding-top:18px;
+		padding-bottom:18px;
+	}
+
+	.business-card{
+		width:min(100%, 420px);
+		padding:22px 18px;
+		border-radius:24px;
+	}
+
+	.business-card-headshot{
+		width:108px;
+		height:108px;
+		margin:42px auto 16px auto; /* CHANGE THIS if you also change the mobile banner height */
+	}
+	
+	.business-card-banner{
+		height:92px; /* CHANGE THIS for mobile banner height */
+	}
+
+	.business-card h1{
+		font-size:1.9rem;
+	}
+
+	.subtitle{
+		font-size:1rem;
+	}
+
+	.action-button{
+		min-height:52px;
+		border-radius:16px;
+	}
+}
