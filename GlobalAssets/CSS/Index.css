@@ -76,6 +76,20 @@ a{color:inherit}
 .grid{display:grid;gap:14px}
 .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
 
+@media (max-width: 768px) {
+	.hero-headshot{
+		right:16px;
+		top:100px;
+		width:96px;
+		height:96px;
+	}
+
+	.hero-content{
+		padding-right:22px;
+		padding-top:60px;
+	}
+}
+
 
 /*-------------- About --------------*/
 [data-about-body] p{
