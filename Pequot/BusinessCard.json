@@ -1,0 +1,34 @@
+{
+	"eyebrow": "Digital Business Card",
+	"title": "Themadhood Pequot",
+	"subtitle": "Projects, media, tools, and goods",
+	"tagline": [
+		"I create practical things that solve real problems.",
+		"From digital projects to media, goods, and integrated systems, I focus on things people actually use."
+	],
+	"actions": [
+		{
+			"label": "View Links",
+			"href": "Links.html?branch=pequot"
+		},
+		{
+			"label": "Email Me",
+			"href": "mailto:themadhoodpequot@gmail.com"
+		},
+		{
+			"label": "GitHub",
+			"href": "https://github.com/Themadhood",
+			"newTab": true
+		}
+	],
+	"meta": [
+		{
+			"label": "ThemadhoodPequot@gmail.com",
+			"href": "mailto:themadhoodpequot@gmail.com"
+		},
+		{
+			"label": "Home Page",
+			"href": "index.html"
+		}
+	]
+}

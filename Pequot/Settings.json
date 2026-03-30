@@ -41,9 +41,13 @@
 			"href": "index.html"
 			},
             {
-                "label": "Our Story",
-                "href": "showcase.html?branch=pequot&data-json=OurStory"
+            "label": "Our Story",
+            "href": "showcase.html?branch=pequot&data-json=OurStory"
             },
+			{
+			"label": "Card",
+			"href": "BizCard.html"
+			},
 			{
 			"label": "Links",
 			"href": "links.html"
