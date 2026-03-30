@@ -2,12 +2,27 @@ import { loadHeaderFooter,HF_main,setText } from "./HeaderFooter.js";
 import { loadBranch} from "./OpenJsons.js";
 
 
+function renderHeroHeadshot(settings){
+	const headshotImg = document.querySelector("[data-hero-headshot]");
+	const headshotSrc = settings.brand?.logo || "";
+
+	if(!headshotImg || !headshotSrc){
+		return;
+	}
+
+	headshotImg.src = headshotSrc;
+	headshotImg.alt = `${settings.brand?.title || "Profile"} headshot`;
+}
+
 function renderHome(indexData,settings){
   const page = indexData || {};
   const heroBg = document.querySelector("[data-hero-bg]");
   if(heroBg && settings.brand?.background){
     heroBg.style.backgroundImage = `url("${settings.brand.background}")`;
   }
+  
+  renderHeroHeadshot(settings);
+  
   setText(document.querySelector("[data-hero-headline]"), page.hero?.headline || "");
   const heroBody = document.querySelector("[data-hero-body]");
   if(heroBody){
