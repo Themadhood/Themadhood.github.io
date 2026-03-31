@@ -1,5 +1,5 @@
-import { loadHeaderFooter, HF_main } from "/GlobalAssets/js/HeaderFooter.js";
-import { loadBranch } from "/GlobalAssets/js/OpenJsons.js";
+import { loadHeaderFooter, HF_main } from "/GlobalAssets/JS/HeaderFooter.js";
+import { loadBranch } from "/GlobalAssets/JS/OpenJsons.js";
 
 function renderHeadshot(settings){
 	const headshot = document.querySelector("[data-card-headshot]");
