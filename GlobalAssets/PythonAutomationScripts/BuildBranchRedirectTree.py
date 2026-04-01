@@ -1,3 +1,6 @@
+#Builds the branch redirect tree makes /Pequot/Media/...
+
+
 import json
 import shutil
 from pathlib import Path

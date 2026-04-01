@@ -1,3 +1,5 @@
+#reads all link files and builds a sections json
+
 from __future__ import annotations
 
 import json
