@@ -1,3 +1,6 @@
+#reads all jsonsin local jsons and builds files
+#now irevivent
+
 import json
 from pathlib import Path
 
