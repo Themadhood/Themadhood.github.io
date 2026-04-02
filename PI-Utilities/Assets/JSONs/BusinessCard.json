@@ -1,0 +1,34 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods PI Utilities",
+	"subtitle": "Pi utilities, tools, and device management",
+	"tagline": [
+		"I build tools that make working with Pi devices easier and more efficient.",
+		"From system utilities to device helpers, I focus on practical tools that support everyday use."
+	],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=pi-utilities"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhoods.PI.Solutions@gmail.com"
+        },
+        {
+            "label": "GitHub",
+            "href": "https://github.com/Themadhood",
+            "newTab": true
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhoods.PI.Solutions@gmail.com",
+            "href": "mailto:Themadhoods.PI.Solutions@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

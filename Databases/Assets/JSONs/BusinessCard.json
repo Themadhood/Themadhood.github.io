@@ -1,0 +1,34 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods Databases",
+	"subtitle": "Database design, data modeling, and storage systems",
+	"tagline": [
+		"I build structured databases for efficient storage and retrieval.",
+		"From schema design to query optimization, I focus on clean, scalable data systems."
+	],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=databases"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhoods.Codes@gmail.com"
+        },
+        {
+            "label": "GitHub",
+            "href": "https://github.com/Themadhood",
+            "newTab": true
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhoods.Codes@gmail.com",
+            "href": "mailto:Themadhoods.Codes@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

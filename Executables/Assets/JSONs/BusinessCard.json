@@ -1,0 +1,34 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods Executables",
+	"subtitle": "Packaged software and standalone programs",
+	"tagline": [
+		"I build software that runs cleanly and independently.",
+		"From compiled tools to distributable programs, I focus on reliable executables ready to use."
+	],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=executables"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhoods.Applications@gmail.com"
+        },
+        {
+            "label": "GitHub",
+            "href": "https://github.com/Themadhood",
+            "newTab": true
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhoods.Applications@gmail.com",
+            "href": "mailto:Themadhoods.Applications@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

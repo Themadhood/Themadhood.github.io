@@ -1,0 +1,34 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods Scripts",
+	"subtitle": "Lightweight scripts and utility tools",
+	"tagline": [
+		"I create scripts that handle tasks simply and efficiently.",
+		"From quick fixes to repeatable tasks, I focus on tools that just work."
+	],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=scripts"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhoods.Codes@gmail.com"
+        },
+        {
+            "label": "GitHub",
+            "href": "https://github.com/Themadhood",
+            "newTab": true
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhoods.Codes@gmail.com",
+            "href": "mailto:Themadhoods.Codes@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

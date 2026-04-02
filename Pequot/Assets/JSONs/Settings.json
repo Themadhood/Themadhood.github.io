@@ -1,0 +1,57 @@
+{
+	"branchId": "pequot",
+	
+	
+	"site": {
+		"tagline": "The primary hub and parent entity for the Themadhood network.",
+		"metaDescription": "Themadhood Pequot is the primary hub and parent entity for the Themadhood network."
+    },
+	
+	
+	"brand": {
+		"title": "Themadhood Pequot",
+		"email": "ThemadhoodPequot@gmail.com",
+		"logo": "/Pequot/Assets/Branding/THEMADHOOD Pequot CIR 2k-2k.png",
+		"background": "/Pequot/Assets/Branding/THEMADHOOD SQ background 2K-2K.jpg",
+		"copyright": "\u00a9 2026 Themadhood Pequot. All rights reserved.",
+		"brandContext": "Themadhood Pequot operates as a parent entity for affiliated projects.",
+		"colors": {
+			"bg": "#000000",
+			"text": "#f5f5f5",
+			"muted": "#b8b8c2",
+			"card": "#17171c",
+			"border": "#2a2a34",
+			"accent": "#74131c",
+			"accentSoft": "rgba(177,26,37,.15)",
+			"topbarBg":"#74131c",
+			"footerBg":"#74131c",
+			"linkColor":"#f5f5f5",
+			"buttonBg":"#0f0f12",
+			"buttonText":"#f5f5f5",
+			"heroOverlay":"#0f0f12"
+			}
+	},
+	
+	
+	"nav": {
+		"homePath": "index.html",
+		"items": [
+			{
+			"label": "Home",
+			"href": "index.html"
+			},
+            {
+            "label": "Our Story",
+            "href": "showcase.html?branch=pequot&data-json=OurStory"
+            },
+			{
+			"label": "Card",
+			"href": "BizCard.html"
+			},
+			{
+			"label": "Links",
+			"href": "links.html"
+			}
+		]
+	}
+}

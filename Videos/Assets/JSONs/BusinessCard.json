@@ -1,0 +1,34 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods Videos",
+	"subtitle": "Video content, visuals, and storytelling",
+	"tagline": [
+		"I create video content that is clear, engaging, and purposeful.",
+		"From short clips to full projects, I focus on videos people actually watch and connect with."
+	],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=videos"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhood.Videos@gmail.com"
+        },
+        {
+			"label": "YouTube",
+			"href": "https://www.youtube.com/@themadhood",
+			"newTab": true
+		}
+    ],
+    "meta": [
+        {
+            "label": "Themadhood.Videos@gmail.com",
+            "href": "mailto:Themadhood.Videos@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

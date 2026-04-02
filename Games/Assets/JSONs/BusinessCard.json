@@ -1,0 +1,34 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods Games",
+	"subtitle": "Interactive games and player experiences",
+	"tagline": [
+		"I build games that are engaging, interactive, and fun to play.",
+		"From core mechanics to full experiences, I focus on gameplay people enjoy and come back to."
+	],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=games"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhoods.Applications@gmail.com"
+        },
+        {
+            "label": "GitHub",
+            "href": "https://github.com/Themadhood",
+            "newTab": true
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhoods.Applications@gmail.com",
+            "href": "mailto:Themadhoods.Applications@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

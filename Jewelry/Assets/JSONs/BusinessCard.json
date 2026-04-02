@@ -1,0 +1,29 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods Jewelry",
+    "subtitle": "Handmade pieces, creative work, and crafted goods",
+    "tagline": [
+        "I create crafted pieces with character, function, and detail.",
+        "From handmade jewelry pieces to creative pieces, I focus on things people can enjoy, use, and show off."
+    ],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=jewelry"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhoods.Goods@gmail.com"
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhoods.Goods@gmail.com",
+            "href": "mailto:Themadhoods.Goods@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

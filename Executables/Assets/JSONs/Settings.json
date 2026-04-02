@@ -1,0 +1,47 @@
+{
+    "branchId": "executables",
+    "site": {
+        "tagline": "Packaged builds and distributable software releases under Themadhood's Applications.",
+        "metaDescription": "Themadhood's Executables focuses on stable packaged releases, distributable builds, and executable delivery workflows across Themadhood software."
+    },
+    "brand": {
+        "title": "Themadhood's Executables",
+        "email": "Themadhoods.Applications@gmail.com",
+        "logo": "/Executables/Assets/Branding/THEMADHOOD Executables O 2k-2k.png",
+        "background": "/Codes/Assets/Branding/THEMADHOOD Codes SQ background 2K-2K.jpg",
+        "copyright": "© 2026 Themadhood's Executables. All rights reserved.",
+        "brandContext": "Themadhood's Executables operates under Themadhood's Applications.",
+        "colors": {
+            "bg": "#000000",
+            "text": "#f5f5f5",
+            "muted": "#b8b8c2",
+            "card": "#17171c",
+            "border": "#2a2a34",
+            "accent": "#242424",
+            "accentSoft": "rgba(177,26,37,.15)",
+            "topbarBg": "#242424",
+            "footerBg": "#242424",
+            "linkColor": "#f5f5f5",
+            "buttonBg": "#0f0f12",
+            "buttonText": "#0f0f12",
+            "heroOverlay": "#0f0f12"
+        }
+    },
+    "nav": {
+        "homePath": "index.html?branch=executables",
+        "items": [
+            {
+                "label": "Home",
+                "href": "index.html?branch=executables"
+            },
+			{
+			"label": "Card",
+			"href": "BizCard.html?branch=executables"
+			},
+            {
+                "label": "Links",
+                "href": "links.html?branch=executables"
+            }
+        ]
+    }
+}
