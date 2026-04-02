@@ -1,0 +1,34 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods Applications",
+    "subtitle": "Games, apps, executables, and development tools",
+    "tagline": [
+        "I build software people can use, run, and interact with directly.",
+        "From games and tools to packaged applications, I focus on practical digital experiences."
+    ],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=applications"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhoods.Applications@gmail.com"
+        },
+        {
+            "label": "GitHub",
+            "href": "https://github.com/Themadhood",
+            "newTab": true
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhoods.Applications@gmail.com",
+            "href": "mailto:Themadhoods.Applications@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhood Systems",
+	"subtitle": "Core systems, tools, and technical structure",
+	"tagline": [
+		"I build systems that keep things working and organized.",
+		"From scripts to full system foundations, I focus on tools that make projects easier to build and maintain."
+	],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=systems"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhoods.Codes@gmail.com"
+        },
+        {
+            "label": "GitHub",
+            "href": "https://github.com/Themadhood",
+            "newTab": true
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhoods.Codes@gmail.com",
+            "href": "mailto:Themadhoods.Codes@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

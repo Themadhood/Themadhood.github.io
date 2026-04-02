@@ -1,0 +1,33 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods Music",
+    "subtitle": "Music",
+    "tagline": [
+        "I create Music that is expressive, and memorable.",
+        "From writing to production, I create music that people actually enjoy, connect with, and come back to."
+    ],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=music"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhood.Music@gmail.com"
+        },
+        {
+            "label": "View Albums",
+            "href": "showcase.html?branch=music&data-json=Albums"
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhood.Music@gmail.com",
+            "href": "mailto:Themadhood.Music@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

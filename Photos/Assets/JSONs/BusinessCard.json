@@ -1,0 +1,29 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods Photos",
+	"subtitle": "Photography, captured moments, and visual detail",
+	"tagline": [
+		"I capture moments that are clear, meaningful, and worth keeping.",
+		"From everyday shots to intentional compositions, I focus on photos people connect with and come back to."
+	],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=photos"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhood.Media@gmail.com"
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhood.Media@gmail.com",
+            "href": "mailto:Themadhood.Media@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

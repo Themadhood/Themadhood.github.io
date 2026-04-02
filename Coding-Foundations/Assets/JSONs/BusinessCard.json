@@ -1,0 +1,34 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods Coding Foundations",
+    "subtitle": "Core code structures and reusable foundations",
+	"tagline": [
+		"I build clean, reusable code that other systems are built on.",
+		"From base structures to shared logic, I focus on foundations that make development faster and more reliable."
+	],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=coding-foundations"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhoods.Codes@gmail.com"
+        },
+        {
+            "label": "GitHub",
+            "href": "https://github.com/Themadhood",
+            "newTab": true
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhoods.Codes@gmail.com",
+            "href": "mailto:Themadhoods.Codes@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

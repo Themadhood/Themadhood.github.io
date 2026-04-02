@@ -1,0 +1,34 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods Automations",
+	"subtitle": "Automation systems, workflows, and task handling",
+	"tagline": [
+		"I build systems that handle tasks automatically and reliably.",
+		"From simple workflows to full automation systems, I focus on reducing manual work and keeping things running smoothly."
+	],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=automations"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhoods.Codes@gmail.com"
+        },
+        {
+            "label": "GitHub",
+            "href": "https://github.com/Themadhood",
+            "newTab": true
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhoods.Codes@gmail.com",
+            "href": "mailto:Themadhoods.Codes@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}

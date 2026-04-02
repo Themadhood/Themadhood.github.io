@@ -1,0 +1,34 @@
+{
+    "eyebrow": "Digital Business Card",
+    "title": "Themadhoods Codes",
+    "subtitle": "Development, systems, automation, and technical work",
+    "tagline": [
+        "I build practical technical solutions that solve real problems.",
+        "From coding systems to automation and tools, I focus on things people actually use."
+    ],
+    "actions": [
+        {
+            "label": "View Links",
+            "href": "Links.html?branch=codes"
+        },
+        {
+            "label": "Email Me",
+            "href": "mailto:Themadhoods.Codes@gmail.com"
+        },
+        {
+            "label": "GitHub",
+            "href": "https://github.com/Themadhood",
+            "newTab": true
+        }
+    ],
+    "meta": [
+        {
+            "label": "Themadhoods.Codes@gmail.com",
+            "href": "mailto:Themadhoods.Codes@gmail.com"
+        },
+        {
+            "label": "Home Page",
+            "href": "index.html"
+        }
+    ]
+}
