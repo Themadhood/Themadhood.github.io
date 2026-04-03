@@ -44,11 +44,97 @@
 .brand .name{font-weight:700;letter-spacing:.2px}
 
 /*Navigation*/
-.nav{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap}
-.nav a{text-decoration:none;padding:8px 10px;border:1px solid transparent;border-radius:12px;color:var(--muted)}
-.nav a:hover{border-color:var(--border);color:var(--text)}
+/*Navigation*/
+.nav{
+	margin-left:auto;
+	display:flex;
+	gap:10px;
+	flex-wrap:wrap;
+}
+.nav a{
+	text-decoration:none;
+	padding:8px 10px;
+	border:1px solid transparent;
+	border-radius:12px;
+	color:var(--muted);
+}
+.nav a:hover{
+	border-color:var(--border);
+	color:var(--text);
+}
 
+/* Toggle button */
+.nav-toggle{
+	display:none;
+	margin-left:auto;
+	width:44px;
+	height:44px;
+	padding:0;
+	border:1px solid var(--border);
+	border-radius:12px;
+	background:transparent;
+	cursor:pointer;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	gap:5px;
+}
 
+.nav-toggle span{
+	display:block;
+	width:20px;
+	height:2px;
+	background:var(--text);
+	border-radius:2px;
+}
+
+/* Desktop inline mode */
+.topbar.nav-mode-inline .nav{
+	display:flex;
+	margin-left:auto;
+	flex-direction:row;
+	width:auto;
+	padding-top:0;
+}
+
+.topbar.nav-mode-inline .nav-toggle{
+	display:none;
+}
+
+/* Collapsible mode */
+.topbar.nav-mode-collapsible .nav-toggle{
+	display:flex;
+}
+
+.topbar.nav-mode-collapsible .nav{
+	display:none;
+	width:100%;
+	margin-left:0;
+	padding-top:12px;
+	flex-direction:column;
+	gap:8px;
+}
+
+.topbar.nav-mode-collapsible .nav.is-open{
+	display:flex;
+}
+
+.topbar.nav-mode-collapsible .nav a{
+	width:100%;
+	box-sizing:border-box;
+}
+
+/* Let wrapped menu drop below brand/toggle */
+.topbar.nav-mode-collapsible .topbar-inner{
+	flex-wrap:wrap;
+}
+
+/* Mobile always collapsible */
+@media (max-width:900px){
+	.topbar .topbar-inner{
+		flex-wrap:wrap;
+	}
+}
 
 
 
