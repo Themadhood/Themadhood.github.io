@@ -1,7 +1,7 @@
 import { loadBranch} from "./OpenJsons.js";
 
 
-
+// set value functions
 function qs(name){
 	const url = new URL(window.location.href);
 	return url.searchParams.get(name);
@@ -39,10 +39,83 @@ function applyBranchColors(settings){
 	if(colors.buttonText) root.style.setProperty("--button-text", colors.buttonText);
 	if(colors.heroOverlay) root.style.setProperty("--hero-overlay", colors.heroOverlay);
 }
+
+
 export function setText(el, txt){ if(el) el.textContent = txt ?? ""; }
 
 
 
+// navigation
+function applyNavMode() {
+	const header = document.querySelector(".topbar");
+	const nav = document.querySelector("[data-nav]");
+	const toggle = document.querySelector("[data-nav-toggle]");
+
+	if (!header || !nav || !toggle) {
+		return;
+	}
+
+	const linkCount = nav.querySelectorAll("a").length;
+	const isMobile = window.innerWidth <= 900;
+	const useCollapsed = isMobile || linkCount > 4;
+
+	header.classList.remove("nav-mode-inline", "nav-mode-collapsible");
+	header.classList.add(useCollapsed ? "nav-mode-collapsible" : "nav-mode-inline");
+
+	if (!useCollapsed) {
+		nav.classList.remove("is-open");
+		toggle.classList.remove("is-open");
+		toggle.setAttribute("aria-expanded", "false");
+	}
+
+	updateHeaderHeight();
+}
+
+function setupNavToggle() {
+	const toggle = document.querySelector("[data-nav-toggle]");
+	const nav = document.querySelector("[data-nav]");
+
+	if (!toggle || !nav) {
+		return;
+	}
+
+	toggle.addEventListener("click", () => {
+		const isOpen = nav.classList.contains("is-open");
+
+		nav.classList.toggle("is-open", !isOpen);
+		toggle.classList.toggle("is-open", !isOpen);
+		toggle.setAttribute("aria-expanded", String(!isOpen));
+
+		updateHeaderHeight();
+	});
+
+	for (const link of nav.querySelectorAll("a")) {
+		link.addEventListener("click", () => {
+			if (window.innerWidth <= 900) {
+				nav.classList.remove("is-open");
+				toggle.classList.remove("is-open");
+				toggle.setAttribute("aria-expanded", "false");
+				updateHeaderHeight();
+			}
+		});
+	}
+
+	window.addEventListener("resize", () => {
+		applyNavMode();
+	});
+}
+
+
+
+
+
+
+
+
+
+
+
+// render
 function renderNav(settings){
 	const brandLogo = document.querySelector("[data-brand-logo]");
 	const brandName = document.querySelector("[data-brand-name]");
@@ -135,6 +208,8 @@ export async function HF_main(){
 	if(meta && settings.site?.metaDescription) meta.setAttribute("Content", settings.site.metaDescription);
 
 	renderNav(settings);
+	setupNavToggle();
+	applyNavMode();
 	renderFooter(settings);
 
 	applyBranchColors(settings);
