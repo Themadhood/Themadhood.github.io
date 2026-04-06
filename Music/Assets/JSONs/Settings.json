@@ -36,7 +36,7 @@
             },
             {
                 "label": "Albums",
-                "href": "showcase.html?branch=music&data-json=Albums"
+                "href": "Showcase.html?branch=music&data-json=Albums"
             },
 			{
 			"label": "Card",

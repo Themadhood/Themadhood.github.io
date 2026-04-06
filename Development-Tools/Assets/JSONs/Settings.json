@@ -28,19 +28,23 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=development-tools",
+        "homePath": "/index.html?branch=development-tools",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=development-tools"
+                "href": "/index.html?branch=development-tools"
             },
 			{
+			"label": "Projects",
+			"href": "/Showcase.html?branch=development-tools&data-json=Projects"
+			},
+			{
 			"label": "Card",
-			"href": "BizCard.html?branch=development-tools"
+			"href": "/BizCard.html?branch=development-tools"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=development-tools"
+                "href": "/links.html?branch=development-tools"
             }
         ]
     }

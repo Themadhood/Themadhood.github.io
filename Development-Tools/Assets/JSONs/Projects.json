@@ -1,19 +1,53 @@
 {
 	"sections": [
 		{
-		"title": "",
-		"body": "",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {}
-			}
+			"title": "Active Projects",
+			"": "A collection of active development tools focused on streamlining project workflows, organizing files, and reducing repetitive setup or maintenance work during development.",
+			"items": [
+				{
+				"title": "Repo Sync",
+				"href": "/GlobalAssets/HTML/Project.html?branch=development-tools&data-json=Repo-Sync",
+				"image": "/Development-Tools/Assets/Projects/RepoSync/RepoSyncIcon.png",
+				"imageMax": 200,
+				"description": [
+					"A development utility designed to keep repository content organized and easier to maintain across projects.",
+					"It focuses on simplifying repetitive sync-related tasks so project structures stay more consistent over time."
+					],
+				"about": [
+					"Repo Sync was created to reduce the manual work involved in keeping development repositories aligned, especially when similar assets, templates, or shared structures are used across multiple projects.",
+					"The goal is to make repository maintenance faster, clearer, and less error-prone during active development."
+					],
+				"details": {
+					"Type": "Development Tool",
+					"Status": "Active Development",
+					"Focus": "Repository Management",
+					"Use": "Workflow Automation"
+					}
+				},
+				
+			
+				{
+				"title": "Directory-Tools",
+				"href": "/GlobalAssets/HTML/Project.html?branch=development-tools&data-json=Directory-Tools",
+				"image": "",
+				"imageMax": 200,
+				"description": [
+					"A collection of directory utilities designed to quickly retrieve information and support common file system workflows.",
+					"Core functionality includes listing all files within a directory and generating structured directory trees for easier inspection."
+					],
+				"about": [
+					"Directory-Tools focuses on simplifying how directory data is accessed and used during development. It provides lightweight tools for gathering file information and representing folder structures in a clear, usable format.",
+					"Currently, the primary features include scanning directories to list all files and recursively building directory trees. These outputs can be used for debugging, automation, or integrating into other systems that depend on consistent directory structure handling."
+					],
+				"details": {
+					"Type": "Development Tool",
+					"Status": "Active Development",
+					"Focus": "Directory Management",
+					"Use": "Project Organization"
+					}
+				}
 			]
 		}
-		]
+		
+	]
 }
