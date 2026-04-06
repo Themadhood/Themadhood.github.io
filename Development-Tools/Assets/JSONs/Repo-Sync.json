@@ -1,97 +1,138 @@
 {
-	"title": "My Project",
-	"subtitle": "Short one-line summary",
-	"heroImage": "/Projects/Assets/Images/MyProject.png",
-	"status": "In Progress",
+	"title": "Repo Sync",
+	"subtitle": "Repository structure syncing and workflow automation tool",
+	"heroImage": "/Development-Tools/Assets/Projects/RepoSync/RepoSyncIcon.png",
+	"status": "Active Development",
 
 	"primaryLinks": [
-		{ "title": "GitHub", "href": "https://github.com/example/repo" },
-		{ "title": "Live Demo", "href": "https://example.com/demo" }
+		{ "title": "", "href": "" }
 	],
 
 	"description": [
-		"What the project is",
-		"What problem it solves"
+		"A development tool focused on keeping repository structures consistent across projects and devices.",
+		"It helps automate repetitive tasks involved in syncing files, templates, and shared project layouts."
 	],
 
 	"features": [
-		"Feature one",
-		"Feature two",
-		"Feature three"
+		"Synchronize files and structures across multiple repositories",
+		"Synchronize files and structures across multiple devices",
+		"Reduce manual duplication of shared assets and templates",
+		"Support consistent project organization across branches",
+		"Designed to integrate into development workflows and automation scripts",
+		"synchronize one or all repositories it manages",
+		"Ability to report errors encountered during use",
+		"Ability to submit suggestions and improvement ideas"
 	],
 
 	"statusDetails": [
-		"Core system complete",
-		"UI polish in progress",
-		"Export tools planned"
+		"Recording Demo",
+		"Recording Tutorial",
+		"Bundling for sale"
 	],
 
 	"screenshots": [
-		{
-			"src": "/Projects/Assets/Screenshots/shot1.png",
-			"title": "Main screen",
-			"body": "Primary dashboard view"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		}
-	],
+		"/Development-Tools/Assets/Projects/RepoSync/RepoSyncMainPage.png",
+		"/Development-Tools/Assets/Projects/RepoSync/RepoSyncManege ReposInfo).png",
+		"/Development-Tools/Assets/Projects/RepoSync/RepoSyncSingleRepoSync.png"
+		],
 
 	"downloadLinks": [
 		{
-			"title": "Windows Build",
-			"body": "Latest packaged version for Windows",
-			"href": "/downloads/project-win.zip",
-			"buttonText": "Download"
-		},
-		{
-			"title": "Source Code",
-			"body": "Repository and development files",
-			"href": "https://github.com/example/repo",
-			"buttonText": "Open Repo"
+			"title": "",
+			"body": "",
+			"href": "",
+			"buttonText": ""
 		}
 	],
 
+
+
+
+
 	"documentation": {
 		"howItWorks": [
-			"Explain the main system flow here."
+			"Repo Sync compares directory structures and file sets between repositories.",
+			"It identifies differences and applies updates to keep projects aligned with a defined structure."
 		],
 		"setupInstall": [
-			"Step 1...",
-			"Step 2..."
+			"Clone the repository",
+			"Configure source and target directories",
+			"Run the sync process"
 		],
 		"apiStructure": [
-			"Describe modules, API endpoints, or project structure here."
+			"Core modules handle directory comparison and file operations.",
+			"Functions are designed to be reusable for scripting and automation workflows."
 		]
 	},
 
+
+
+
 	"devLogs": [
 		{
-			"title": "UI rewrite finished",
-			"date": "2026-04-01",
 			"progressNotes": [
-				"Rebuilt the layout system.",
-				"Connected image viewer."
+				"Issue Identification & Planning (2024-03-28)",
+				"Identified delays within existing workflows",
+				"Analyzed current workflow structure and process steps",
+				"Broke down processes into reusable functional components"
 			]
 		},
 		{
-			"title": "Initial prototype",
-			"date": "2026-03-18",
 			"progressNotes": [
-				"Set up base project files."
+				"Development Preparation (2024-04-07)",
+				"Selected Python as the primary development language",
+				"Researched Python integration with Git",
+				"Created a GitHub repository for testing and validation"
+			]
+		},
+		{
+			"progressNotes": [
+				"Core Support Function Development (2024-09-20)",
+				"Designed foundational helper functions for file and directory handling",
+				"Implemented reusable utility functions for workflow support",
+				"Tested functions across multiple directory structures"
+			]
+		},
+		{
+			"progressNotes": [
+				"Git Workflow Implementation (2025-05-17)",
+				"Developed automated Git interaction processes",
+				"Built functions for repository inspection and state handling",
+				"Tested workflow behavior against real repositories"
+			]
+		},
+		{
+			"progressNotes": [
+				"GUI Development (2025-05-22)",
+				"Designed initial interface layout and structure",
+				"Implemented core UI components for user interaction",
+				"Connected UI elements to internal logic"
+			]
+		},
+		{
+			"progressNotes": [
+				"UI Backend Integration (2025-05-22)",
+				"Built communication layer between interface and backend systems",
+				"Connected user actions to workflow execution functions",
+				"Tested interaction flow between UI and core logic"
+			]
+		},
+		{
+			"progressNotes": [
+				"Compilation & Testing (2025-06-02)",
+				"Compiled application for testing and validation",
+				"Ran functional tests across implemented features",
+				"Identified and resolved initial integration issues"
+			]
+		},
+		{
+			"progressNotes": [
+				"Cross-Platform Builds (2026-04-02)",
+				"Built application for Windows, Linux, and Raspberry Pi 4B",
+				"Verified compatibility across different environments",
+				"Adjusted platform-specific behaviors and configurations"
 			]
 		}
+
 	]
 }

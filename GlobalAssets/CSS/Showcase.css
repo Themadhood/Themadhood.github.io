@@ -26,6 +26,8 @@ body{
 a{color:inherit}
 
 
+
+
 /*-------------- Shared layout --------------*/
 .grid{display:grid;gap:14px}
 .card{
@@ -161,6 +163,9 @@ a{color:inherit}
 
 .showcase-dropdown-toggle{
 	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
 	padding:16px;
 	border:none;
 	border-radius:0;
@@ -171,6 +176,14 @@ a{color:inherit}
 	font:inherit;
 	font-weight:700;
 	font-size:1.1rem;
+}
+
+.showcase-dropdown-icon{
+	flex-shrink:0;
+	margin-left:12px;
+	font-weight:700;
+	font-size:1.1rem;
+	line-height:1;
 }
 
 .showcase-dropdown-body{
@@ -385,4 +398,22 @@ a{color:inherit}
     grid-template-columns:44px 1fr 44px;
     width:min(96vw,1100px);
   }
+}
+
+
+
+/* keep footer at botom*/
+body{
+	min-height:100vh;
+	display:flex;
+	flex-direction:column;
+}
+
+.container{
+	flex:1;
+	width:100%
+}
+
+.footer-layout{
+	margin-top:auto;
 }

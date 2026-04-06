@@ -522,7 +522,16 @@ function buildDropdownBlock(dropdown, lightbox){
 	button.type = "button";
 	button.className = "showcase-dropdown-toggle";
 	button.setAttribute("aria-expanded", "false");
-	button.textContent = title;
+
+	const buttonLabel = document.createElement("span");
+	buttonLabel.textContent = title;
+
+	const buttonIcon = document.createElement("span");
+	buttonIcon.className = "showcase-dropdown-icon";
+	buttonIcon.textContent = "+";
+
+	button.appendChild(buttonLabel);
+	button.appendChild(buttonIcon);
 
 	const body = document.createElement("div");
 	body.className = "showcase-dropdown-body";
@@ -546,6 +555,7 @@ function buildDropdownBlock(dropdown, lightbox){
 		const isOpen = button.getAttribute("aria-expanded") === "true";
 		button.setAttribute("aria-expanded", String(!isOpen));
 		body.hidden = isOpen;
+		buttonIcon.textContent = isOpen ? "+" : "−";
 	});
 
 	block.appendChild(button);
