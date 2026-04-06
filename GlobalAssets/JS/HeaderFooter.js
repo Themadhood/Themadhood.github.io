@@ -232,7 +232,7 @@ async function loadSharedPart(targetSelector, filePath){
 }
 
 export async function loadHeaderFooter(){
-	await loadSharedPart("#shared-header", "./GlobalAssets/HTML/Header.html");
+	await loadSharedPart("#shared-header", "/GlobalAssets/HTML/Header.html");
 	watchHeaderHeight()
-	await loadSharedPart("#shared-footer", "./GlobalAssets/HTML/Footer.html");
+	await loadSharedPart("#shared-footer", "/GlobalAssets/HTML/Footer.html");
 }

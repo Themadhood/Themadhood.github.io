@@ -150,6 +150,81 @@ a{color:inherit}
 }
 
 
+/*-------------- Showcase dropdowns --------------*/
+.showcase-dropdown{
+	border:1px solid var(--border);
+	border-radius:18px;
+	background:var(--card);
+	overflow:hidden;
+	padding:0;
+}
+
+.showcase-dropdown-toggle{
+	width:100%;
+	padding:16px;
+	border:none;
+	border-radius:0;
+	background:transparent;
+	color:var(--text);
+	cursor:pointer;
+	text-align:left;
+	font:inherit;
+	font-weight:700;
+	font-size:1.1rem;
+}
+
+.showcase-dropdown-body{
+	margin-top:0;
+	padding:0 16px 16px 16px;
+	border:none;
+	background:transparent;
+}
+
+.showcase-dropdown-body > .showcase-item-inner{
+	margin:0;
+}
+
+.showcase-dropdown-body .showcase-media{
+	margin-top:0;
+}
+
+.showcase-dropdown-body .showcase-content{
+	padding-top:0;
+}
+
+.showcase-dropdown-toggle:hover{
+	opacity:.95;
+}
+
+.showcase-dropdown-body{
+	margin-top:8px;
+	padding:12px 14px;
+	border:1px solid var(--border);
+	border-radius:12px;
+	background:rgba(255,255,255,.02);
+}
+
+.showcase-dropdown-body p{
+	margin:0 0 10px 0;
+	color:var(--muted);
+	white-space:pre-wrap;
+}
+
+.showcase-dropdown-spacer{
+	height:10px;
+}
+
+.showcase-dropdown-list{
+	margin:0;
+	padding-left:20px;
+	color:var(--muted);
+}
+
+.showcase-dropdown-list li{
+	margin:0 0 8px 0;
+}
+
+
 /*-------------- Showcase meta/details --------------*/
 .showcase-meta{
   display:grid;

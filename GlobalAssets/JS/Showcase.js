@@ -21,300 +21,301 @@ function getJsonFileName(){
 
 
 function getImageMax(value, fallback = 280){
-  const num = Number(value);
-  if(Number.isFinite(num) && num > 0){
-    return num;
-  }
-  return fallback;
+	const num = Number(value);
+	if(Number.isFinite(num) && num > 0){
+		return num;
+	}
+	return fallback;
 }
 
 
 function addParagraphs(host, lines){
-  if(!host) return;
+	if(!host) return;
 
-  host.innerHTML = "";
+	host.innerHTML = "";
 
-  if(Array.isArray(lines)){
-    for(const p of lines){
-      if(!String(p || "").trim()){
-        const spacer = document.createElement("div");
-        spacer.style.height = "12px";
-        host.appendChild(spacer);
-        continue;
-      }
+	if(Array.isArray(lines)){
+		for(const p of lines){
+			if(!String(p || "").trim()){
+				const spacer = document.createElement("div");
+				spacer.style.height = "12px";
+				host.appendChild(spacer);
+				continue;
+			}
 
-      const el = document.createElement("p");
-      el.textContent = p;
-      host.appendChild(el);
-    }
-    return;
-  }
+			const el = document.createElement("p");
+			el.textContent = p;
+			host.appendChild(el);
+		}
+		return;
+	}
 
-  if(String(lines || "").trim()){
-    const el = document.createElement("p");
-    el.textContent = lines;
-    host.appendChild(el);
-  }
+	if(String(lines || "").trim()){
+		const el = document.createElement("p");
+		el.textContent = lines;
+		host.appendChild(el);
+	}
 }
 
 
 function normalizeGallery(item){
-  const gallery = [];
+	const gallery = [];
 
-  if(item.image && String(item.image).trim()){
-    gallery.push({
-      src: item.image,
-      alt: item.title || ""
-    });
-  }
+	if(item.image && String(item.image).trim()){
+		gallery.push({
+			src: item.image,
+			alt: item.title || ""
+		});
+	}
 
-  if(Array.isArray(item.gallery)){
-    for(const entry of item.gallery){
-      if(!entry) continue;
+	if(Array.isArray(item.gallery)){
+		for(const entry of item.gallery){
+			if(!entry) continue;
 
-      if(typeof entry === "string"){
-        if(entry.trim()){
-          gallery.push({
-            src: entry,
-            alt: item.title || ""
-          });
-        }
-        continue;
-      }
+			if(typeof entry === "string"){
+				if(entry.trim()){
+					gallery.push({
+						src: entry,
+						alt: item.title || ""
+					});
+				}
+				continue;
+			}
 
-      if(typeof entry === "object" && entry.src){
-        gallery.push({
-          src: entry.src,
-          alt: entry.alt || item.title || ""
-        });
-      }
-    }
-  }
+			if(typeof entry === "object" && entry.src){
+				gallery.push({
+					src: entry.src,
+					alt: entry.alt || item.title || ""
+				});
+			}
+		}
+	}
 
-  return gallery;
+	return gallery;
 }
 
 
 function buildMediaBlock(entry, lightbox, fallbackMax = 280){
-  const gallery = normalizeGallery(entry);
-  if(!gallery.length){
-    return null;
-  }
+	const gallery = normalizeGallery(entry);
+	if(!gallery.length){
+		return null;
+	}
 
-  const media = document.createElement("div");
-  media.className = "showcase-media";
+	const media = document.createElement("div");
+	media.className = "showcase-media";
 
-  const imageMax = getImageMax(entry.imageMax, fallbackMax);
-  media.style.setProperty("--showcase-image-size", `${imageMax}px`);
+	const imageMax = getImageMax(entry.imageMax, fallbackMax);
+	media.style.setProperty("--showcase-image-size", `${imageMax}px`);
 
-  const button = document.createElement("button");
-  button.className = "showcase-image-button";
-  button.type = "button";
+	const button = document.createElement("button");
+	button.className = "showcase-image-button";
+	button.type = "button";
 
-  const img = document.createElement("img");
-  img.className = "showcase-image";
-  img.src = gallery[0].src;
-  img.alt = gallery[0].alt || entry.title || "";
+	const img = document.createElement("img");
+	img.className = "showcase-image";
+	img.src = gallery[0].src;
+	img.alt = gallery[0].alt || entry.title || "";
 
-  img.addEventListener("error", () => {
-    media.hidden = true;
-  });
+	img.addEventListener("error", () => {
+		media.hidden = true;
+	});
 
-  button.appendChild(img);
+	button.appendChild(img);
 
-  button.addEventListener("click", () => {
-    if(lightbox){
-      lightbox.open(gallery, 0, entry.title || "");
-    }
-  });
+	button.addEventListener("click", () => {
+		if(lightbox){
+			lightbox.open(gallery, 0, entry.title || "");
+		}
+	});
 
-  media.appendChild(button);
+	media.appendChild(button);
 
-  if(gallery.length > 1){
-    const count = document.createElement("div");
-    count.className = "showcase-gallery-count";
-    count.textContent = `${gallery.length} images`;
-    media.appendChild(count);
-  }
+	if(gallery.length > 1){
+		const count = document.createElement("div");
+		count.className = "showcase-gallery-count";
+		count.textContent = `${gallery.length} images`;
+		media.appendChild(count);
+	}
 
-  return media;
+	return media;
 }
 
 
 function buildMeta(details){
-  if(!details || typeof details !== "object"){
-    return null;
-  }
+	if(!details || typeof details !== "object"){
+		return null;
+	}
 
-  const entries = Object.entries(details).filter(([, value]) => {
-    if(value === null || value === undefined) return false;
-    if(value === "") return false;
-    if(Array.isArray(value) && value.length === 0) return false;
-    return true;
-  });
+	const entries = Object.entries(details).filter(([, value]) => {
+		if(value === null || value === undefined) return false;
+		if(value === "") return false;
+		if(Array.isArray(value) && value.length === 0) return false;
+		return true;
+	});
 
-  if(!entries.length){
-    return null;
-  }
+	if(!entries.length){
+		return null;
+	}
 
-  const wrap = document.createElement("div");
-  wrap.className = "showcase-meta";
+	const wrap = document.createElement("div");
+	wrap.className = "showcase-meta";
 
-  for(const [key, value] of entries){
-    const row = document.createElement("div");
-    row.className = "showcase-meta-row";
+	for(const [key, value] of entries){
+		const row = document.createElement("div");
+		row.className = "showcase-meta-row";
 
-    const left = document.createElement("div");
-    left.className = "showcase-meta-key";
-    left.textContent = key;
+		const left = document.createElement("div");
+		left.className = "showcase-meta-key";
+		left.textContent = key;
 
-    const right = document.createElement("div");
-    right.className = "showcase-meta-value";
+		const right = document.createElement("div");
+		right.className = "showcase-meta-value";
 
-    if(Array.isArray(value)){
-      right.textContent = value.join(", ");
-    }else{
-      right.textContent = String(value);
-    }
+		if(Array.isArray(value)){
+			right.textContent = value.join(", ");
+		}else{
+			right.textContent = String(value);
+		}
 
-    row.appendChild(left);
-    row.appendChild(right);
-    wrap.appendChild(row);
-  }
+		row.appendChild(left);
+		row.appendChild(right);
+		wrap.appendChild(row);
+	}
 
-  return wrap;
+	return wrap;
 }
 
 
 function buildTextBlock(title, value){
-  if(!value) return null;
+	if(!value) return null;
 
-  const block = document.createElement("div");
-  block.className = "showcase-block";
+	const block = document.createElement("div");
+	block.className = "showcase-block";
 
-  const heading = document.createElement("h4");
-  heading.textContent = title;
-  block.appendChild(heading);
+	const heading = document.createElement("h4");
+	heading.textContent = title;
+	block.appendChild(heading);
 
-  if(Array.isArray(value)){
-    for(const line of value){
-      if(!String(line || "").trim()){
-        const spacer = document.createElement("div");
-        spacer.style.height = "10px";
-        block.appendChild(spacer);
-        continue;
-      }
+	if(Array.isArray(value)){
+		for(const line of value){
+			if(!String(line || "").trim()){
+				const spacer = document.createElement("div");
+				spacer.style.height = "10px";
+				block.appendChild(spacer);
+				continue;
+			}
 
-      const p = document.createElement("p");
-      p.textContent = line;
-      block.appendChild(p);
-    }
-  }else{
-    const p = document.createElement("p");
-    p.textContent = value;
-    block.appendChild(p);
-  }
+			const p = document.createElement("p");
+			p.textContent = line;
+			block.appendChild(p);
+		}
+	}else{
+		const p = document.createElement("p");
+		p.textContent = value;
+		block.appendChild(p);
+	}
 
-  return block;
+	return block;
 }
 
 
 function createLightbox(){
-  const lightbox = document.querySelector("[data-showcase-lightbox]");
-  const image = document.querySelector("[data-showcase-lightbox-image]");
-  const caption = document.querySelector("[data-showcase-lightbox-caption]");
-  const closeButtons = document.querySelectorAll("[data-showcase-lightbox-close]");
-  const prevButton = document.querySelector("[data-showcase-prev]");
-  const nextButton = document.querySelector("[data-showcase-next]");
+	const lightbox = document.querySelector("[data-showcase-lightbox]");
+	const image = document.querySelector("[data-showcase-lightbox-image]");
+	const caption = document.querySelector("[data-showcase-lightbox-caption]");
+	const closeButtons = document.querySelectorAll("[data-showcase-lightbox-close]");
+	const prevButton = document.querySelector("[data-showcase-prev]");
+	const nextButton = document.querySelector("[data-showcase-next]");
 
-  if(!lightbox || !image || !caption){
-    return null;
-  }
-
-  let currentGallery = [];
-  let currentIndex = 0;
-  let currentTitle = "";
-
-  function render(){
-	if(!currentGallery.length) return;
-
-	const current = currentGallery[currentIndex];
-	image.classList.remove("is-landscape", "is-portrait");
-
-	image.onload = () => {
-	  if(image.naturalWidth > image.naturalHeight){
-		image.classList.add("is-landscape");
-	  }else{
-		image.classList.add("is-portrait");
-	  }
-	};
-
-	image.src = current.src;
-	image.alt = current.alt || currentTitle || "";
-
-	if(currentGallery.length > 1){
-	  caption.textContent = `${currentTitle} (${currentIndex + 1}/${currentGallery.length})`;
-	}else{
-	  caption.textContent = currentTitle;
+	if(!lightbox || !image || !caption){
+		return null;
 	}
-  }
 
-  function open(gallery, startIndex, title){
-    currentGallery = Array.isArray(gallery) ? gallery : [];
-    currentIndex = startIndex || 0;
-    currentTitle = title || "";
+	let currentGallery = [];
+	let currentIndex = 0;
+	let currentTitle = "";
 
-    if(!currentGallery.length){
-      return;
-    }
+	function render(){
+		if(!currentGallery.length) return;
 
-    render();
-    lightbox.hidden = false;
-    document.body.style.overflow = "hidden";
-  }
+		const current = currentGallery[currentIndex];
+		image.classList.remove("is-landscape", "is-portrait");
 
-  function close(){
-    lightbox.hidden = true;
-    image.src = "";
-    image.alt = "";
-    caption.textContent = "";
-    document.body.style.overflow = "";
-  }
+		image.onload = () => {
+			if(image.naturalWidth > image.naturalHeight){
+				image.classList.add("is-landscape");
+			}else{
+				image.classList.add("is-portrait");
+			}
+		};
 
-  function prev(){
-    if(!currentGallery.length) return;
-    currentIndex = (currentIndex - 1 + currentGallery.length) % currentGallery.length;
-    render();
-  }
+		image.src = current.src;
+		image.alt = current.alt || currentTitle || "";
 
-  function next(){
-    if(!currentGallery.length) return;
-    currentIndex = (currentIndex + 1) % currentGallery.length;
-    render();
-  }
+		if(currentGallery.length > 1){
+			caption.textContent = `${currentTitle} (${currentIndex + 1}/${currentGallery.length})`;
+		}else{
+			caption.textContent = currentTitle;
+		}
+	}
 
-  for(const button of closeButtons){
-    button.addEventListener("click", close);
-  }
+	function open(gallery, startIndex, title){
+		currentGallery = Array.isArray(gallery) ? gallery : [];
+		currentIndex = startIndex || 0;
+		currentTitle = title || "";
 
-  if(prevButton){
-    prevButton.addEventListener("click", prev);
-  }
+		if(!currentGallery.length){
+			return;
+		}
 
-  if(nextButton){
-    nextButton.addEventListener("click", next);
-  }
+		render();
+		lightbox.hidden = false;
+		document.body.style.overflow = "hidden";
+	}
 
-  document.addEventListener("keydown", event => {
-    if(lightbox.hidden) return;
+	function close(){
+		lightbox.hidden = true;
+		image.src = "";
+		image.alt = "";
+		caption.textContent = "";
+		document.body.style.overflow = "";
+	}
 
-    if(event.key === "Escape") close();
-    if(event.key === "ArrowLeft") prev();
-    if(event.key === "ArrowRight") next();
-  });
+	function prev(){
+		if(!currentGallery.length) return;
+		currentIndex = (currentIndex - 1 + currentGallery.length) % currentGallery.length;
+		render();
+	}
 
-  return { open };
+	function next(){
+		if(!currentGallery.length) return;
+		currentIndex = (currentIndex + 1) % currentGallery.length;
+		render();
+	}
+
+	for(const button of closeButtons){
+		button.addEventListener("click", close);
+	}
+
+	if(prevButton){
+		prevButton.addEventListener("click", prev);
+	}
+
+	if(nextButton){
+		nextButton.addEventListener("click", next);
+	}
+
+	document.addEventListener("keydown", event => {
+		if(lightbox.hidden) return;
+
+		if(event.key === "Escape") close();
+		if(event.key === "ArrowLeft") prev();
+		if(event.key === "ArrowRight") next();
+	});
+
+	return { open };
 }
+
 
 function formatBlockTitle(key){
 	if(!key) return "";
@@ -328,6 +329,27 @@ function formatBlockTitle(key){
 }
 
 
+function isReservedEntryKey(key){
+	if(key === "title") return true;
+	if(key === "href") return true;
+	if(key === "image") return true;
+	if(key === "imageMax") return true;
+	if(key === "gallery") return true;
+	if(key === "items") return true;
+	if(key === "sections") return true;
+	if(key === "dropdowns") return true;
+	if(key === "render") return true;
+	if(key === "type") return true;
+	if(key === "content") return true;
+	if(key === "text") return true;
+	if(key === "lines") return true;
+	if(key === "_hideInnerTitle") return true;
+	if(key.toLowerCase() === "details") return true;
+
+	return false;
+}
+
+
 function getEntryTextBlocks(entry){
 	if(!entry || typeof entry !== "object"){
 		return [];
@@ -336,16 +358,9 @@ function getEntryTextBlocks(entry){
 	const blocks = [];
 
 	for(const [key, value] of Object.entries(entry)){
-		if(key === "title") continue;
-		if(key === "href") continue;
-		if(key === "image") continue;
-		if(key === "imageMax") continue;
-		if(key === "gallery") continue;
-		if(key === "items") continue;
-		if(key === "sections") continue;
-
-		// handled separately as meta/details
-		if(key.toLowerCase() === "details") continue;
+		if(isReservedEntryKey(key)){
+			continue;
+		}
 
 		const isString = typeof value === "string" && value.trim();
 
@@ -381,27 +396,29 @@ function getEntryDetails(entry){
 }
 
 
-function buildShowcaseContent(entry, headingLevel = "h3"){
+function buildShowcaseContent(entry, headingLevel = "h3", lightbox = null){
 	const content = document.createElement("div");
 	content.className = "showcase-content";
 
-	const heading = document.createElement(headingLevel);
-	heading.className = "showcase-title";
+	if(!entry._hideInnerTitle){
+		const heading = document.createElement(headingLevel);
+		heading.className = "showcase-title";
 
-	if(entry.href){
-		const link = document.createElement("a");
-		link.href = entry.href;
-		link.target = "_blank";
-		link.rel = "noopener";
-		link.style.textDecoration = "none";
-		link.style.color = "inherit";
-		link.textContent = entry.title || "";
-		heading.appendChild(link);
-	}else{
-		heading.textContent = entry.title || "";
+		if(entry.href){
+			const link = document.createElement("a");
+			link.href = entry.href;
+			link.target = "_blank";
+			link.rel = "noopener";
+			link.style.textDecoration = "none";
+			link.style.color = "inherit";
+			link.textContent = entry.title || "";
+			heading.appendChild(link);
+		}else{
+			heading.textContent = entry.title || "";
+		}
+
+		content.appendChild(heading);
 	}
-
-	content.appendChild(heading);
 
 	const textBlocks = getEntryTextBlocks(entry);
 
@@ -417,79 +434,193 @@ function buildShowcaseContent(entry, headingLevel = "h3"){
 		content.appendChild(meta);
 	}
 
+	const dropdownBlocks = buildDropdownBlocks(entry, lightbox);
+	for(const block of dropdownBlocks){
+		content.appendChild(block);
+	}
+
 	return content;
 }
 
 
+function buildEntryRender(entry, lightbox, headingLevel = "h3", fallbackMax = 280){
+	const wrap = document.createElement("div");
+	wrap.className = "showcase-item-inner";
+
+	const media = buildMediaBlock(entry, lightbox, fallbackMax);
+	if(media){
+		wrap.appendChild(media);
+	}
+
+	const content = buildShowcaseContent(entry, headingLevel, lightbox);
+	wrap.appendChild(content);
+
+	return wrap;
+}
+
+
+function buildDropdownTextBody(value){
+	const body = document.createElement("div");
+
+	const lines = Array.isArray(value)
+		? value
+		: [String(value || "")];
+
+	for(const line of lines){
+		if(!String(line || "").trim()){
+			const spacer = document.createElement("div");
+			spacer.className = "showcase-dropdown-spacer";
+			body.appendChild(spacer);
+			continue;
+		}
+
+		const p = document.createElement("p");
+		p.textContent = line;
+		body.appendChild(p);
+	}
+
+	return body;
+}
+
+
+function buildDropdownListBody(value){
+	const ul = document.createElement("ul");
+	ul.className = "showcase-dropdown-list";
+
+	for(const item of value){
+		const li = document.createElement("li");
+		li.textContent = String(item || "");
+		ul.appendChild(li);
+	}
+
+	return ul;
+}
+
+
+function buildDropdownBlock(dropdown, lightbox){
+	if(!dropdown || typeof dropdown !== "object"){
+		return null;
+	}
+
+	const title = String(dropdown.title || "").trim();
+	if(!title){
+		return null;
+	}
+
+	const renderType = String(dropdown.render || dropdown.type || "").trim().toLowerCase();
+
+	const payload =
+		dropdown.content ??
+		dropdown.body ??
+		dropdown.lines ??
+		dropdown.text;
+
+	const block = document.createElement("div");
+	block.className = "showcase-block showcase-dropdown";
+
+	const button = document.createElement("button");
+	button.type = "button";
+	button.className = "showcase-dropdown-toggle";
+	button.setAttribute("aria-expanded", "false");
+	button.textContent = title;
+
+	const body = document.createElement("div");
+	body.className = "showcase-dropdown-body";
+	body.hidden = true;
+
+	if(renderType === "list" && Array.isArray(payload)){
+		body.appendChild(buildDropdownListBody(payload));
+
+	}else if(renderType === "text" || payload !== undefined){
+		body.appendChild(buildDropdownTextBody(payload));
+
+	}else{
+		const entryData = {
+			...dropdown
+		};
+
+		body.appendChild(buildEntryRender(entryData, lightbox, "h4", 220));
+	}
+
+	button.addEventListener("click", () => {
+		const isOpen = button.getAttribute("aria-expanded") === "true";
+		button.setAttribute("aria-expanded", String(!isOpen));
+		body.hidden = isOpen;
+	});
+
+	block.appendChild(button);
+	block.appendChild(body);
+
+	return block;
+}
+
+
+function buildDropdownBlocks(entry, lightbox){
+	if(!entry || typeof entry !== "object"){
+		return [];
+	}
+
+	if(!Array.isArray(entry.dropdowns)){
+		return [];
+	}
+
+	const blocks = [];
+
+	for(const dropdown of entry.dropdowns){
+		const block = buildDropdownBlock(dropdown, lightbox);
+		if(block){
+			blocks.push(block);
+		}
+	}
+
+	return blocks;
+}
+
+
 function renderShowcase(showcaseData){
-  const page = showcaseData || {};
+	const page = showcaseData || {};
 
-  const sectionsHost = document.querySelector("[data-showcase-sections]");
-  if(!sectionsHost){
-    return;
-  }
-
-  sectionsHost.innerHTML = "";
-
-  const lightbox = createLightbox();
-
-  // sections
-  for(const section of (page.sections || [])){
-    const grid = document.createElement("div");
-    grid.className = "grid";
-    grid.style.marginTop = "14px";
-
-    const card = document.createElement("div");
-    card.className = "card showcase-section";
-
-    const sectionIntro = document.createElement("div");
-	sectionIntro.className = "showcase-item-inner";
-
-	const sectionMedia = buildMediaBlock(section, lightbox, 320);
-	if(sectionMedia){
-	  sectionIntro.appendChild(sectionMedia);
+	const sectionsHost = document.querySelector("[data-showcase-sections]");
+	if(!sectionsHost){
+		return;
 	}
 
-	const sectionContent = buildShowcaseContent(section, "h2");
-	sectionIntro.appendChild(sectionContent);
+	sectionsHost.innerHTML = "";
 
-	card.appendChild(sectionIntro);
+	const lightbox = createLightbox();
 
-    const itemsWrap = document.createElement("div");
-    itemsWrap.className = "showcase-items";
+	for(const section of (page.sections || [])){
+		const grid = document.createElement("div");
+		grid.className = "grid";
+		grid.style.marginTop = "14px";
 
-	// items in sections
-    for(const item of (section.items || [])){
-      const itemCard = document.createElement("div");
-      itemCard.className = "card showcase-item";
+		const card = document.createElement("div");
+		card.className = "card showcase-section";
 
-      const inner = document.createElement("div");
-      inner.className = "showcase-item-inner";
+		card.appendChild(buildEntryRender(section, lightbox, "h2", 320));
 
-      const media = buildMediaBlock(item, lightbox, 280);
-	  if(media){
-	    inner.appendChild(media);
-	  }
+		const itemsWrap = document.createElement("div");
+		itemsWrap.className = "showcase-items";
 
-	  const content = buildShowcaseContent(item, "h3");
-	  inner.appendChild(content);
-	  
-	  itemCard.appendChild(inner);
-	  itemsWrap.appendChild(itemCard);
-      
+		for(const item of (section.items || [])){
+			const itemCard = document.createElement("div");
+			itemCard.className = "card showcase-item";
+
+			itemCard.appendChild(buildEntryRender(item, lightbox, "h3", 280));
+			itemsWrap.appendChild(itemCard);
+		}
+
+		card.appendChild(itemsWrap);
+		grid.appendChild(card);
+		sectionsHost.appendChild(grid);
 	}
-
-    card.appendChild(itemsWrap);
-    grid.appendChild(card);
-    sectionsHost.appendChild(grid);
-  }
 }
 
 
 async function main(){
 	await loadHeaderFooter();
 	const { branch } = await HF_main();
-  
+
 	const jsonFile = getJsonFileName();
 	const showcaseData = await loadBranch(branch, jsonFile);
 
@@ -498,6 +629,6 @@ async function main(){
 
 
 main().catch(err => {
-  console.error(err);
-  document.body.innerHTML = `<div class="container"><h1>Site failed to load</h1><p>${err.message}</p></div>`;
+	console.error(err);
+	document.body.innerHTML = `<div class="container"><h1>Site failed to load</h1><p>${err.message}</p></div>`;
 });
