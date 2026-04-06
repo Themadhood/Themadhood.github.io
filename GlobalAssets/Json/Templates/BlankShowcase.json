@@ -52,7 +52,7 @@
     },
     {
       "title": "Additional Releases",
-      "items": [
+      "dropdowns": [
         {
           "title": "Demo Collection",
           "href": "https://example.com/demo",
