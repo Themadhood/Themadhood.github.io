@@ -1,0 +1,74 @@
+{
+	"title": "Repo Sync",
+	"subtitle": "Repository structure syncing and workflow automation tool",
+	"heroImage": "/Development-Tools/Assets/Projects/RepoSync/RepoSyncIcon.png",
+	"status": "Active Development",
+
+	"primaryLinks": [
+		{ "title": "", "href": "" }
+	],
+
+	"description": [
+		"",
+		""
+	],
+
+	"features": [
+		"",
+		""
+	],
+
+	"statusDetails": [
+		"Recording Demo",
+		"Recording Tutorial",
+		"Bundling for sale"
+	],
+
+	"screenshots": [
+		"/Development-Tools/Assets/Projects/RepoSync/RepoSyncMainPage.png",
+		"/Development-Tools/Assets/Projects/RepoSync/RepoSyncManege ReposInfo).png",
+		"/Development-Tools/Assets/Projects/RepoSync/RepoSyncSingleRepoSync.png"
+		],
+
+	"downloadLinks": [
+		{
+			"title": "",
+			"body": "",
+			"href": "",
+			"buttonText": ""
+		}
+	],
+
+
+
+
+
+	"documentation": {
+		"howItWorks": [
+			"Repo Sync compares directory structures and file sets between repositories.",
+			"It identifies differences and applies updates to keep projects aligned with a defined structure."
+		],
+		"setupInstall": [
+			"Clone the repository",
+			"Configure source and target directories",
+			"Run the sync process"
+		],
+		"apiStructure": [
+			"Core modules handle directory comparison and file operations.",
+			"Functions are designed to be reusable for scripting and automation workflows."
+		]
+	},
+
+
+
+
+	"devLogs": [
+		{
+			"progressNotes": [
+				"Title (2020-00-00)",
+				"Identified delays within existing workflows"
+			]
+		}
+
+	]
+}

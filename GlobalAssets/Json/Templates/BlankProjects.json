@@ -1,0 +1,31 @@
+{
+	"sections": [
+		{
+			"title": "Active Projects",
+			"": "A collection of active development tools focused on streamlining project workflows, organizing files, and reducing repetitive setup or maintenance work during development.",
+			"items": [
+				{
+				"title": "Repo Sync",
+				"href": "/GlobalAssets/HTML/Project.html?branch=development-tools&data-json=Repo-Sync",
+				"image": "/Development-Tools/Assets/Projects/RepoSync/RepoSyncIcon.png",
+				"imageMax": 200,
+				"description": [
+					"",
+					""
+					],
+				"about": [
+					"",
+					""
+					],
+				"details": {
+					"Type": "Development Tool",
+					"Status": "Active Development",
+					"Focus": "Repository Management",
+					"Use": "Workflow Automation"
+					}
+				}
+			]
+		}
+		
+	]
+}
