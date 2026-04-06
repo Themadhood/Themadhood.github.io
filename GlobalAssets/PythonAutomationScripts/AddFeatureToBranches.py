@@ -29,14 +29,12 @@ def get_existing_dir(prompt: str) -> Path:
 		print("Invalid directory. Please enter an existing folder path.")
 
 
-
 def get_non_empty_input(prompt: str) -> str:
 	while True:
 		value: str = input(prompt).strip()
 		if value:
 			return value
 		print("Please enter a value.")
-
 
 
 def collect_top_level_branches(root_dir: Path) -> dict[str, Path]:
@@ -50,7 +48,6 @@ def collect_top_level_branches(root_dir: Path) -> dict[str, Path]:
 			branch_map[item_path.name.casefold()] = item_path
 
 	return branch_map
-
 
 
 def get_source_branch_dir(branch_map: dict[str, Path]) -> Path:
@@ -70,7 +67,6 @@ def get_source_branch_dir(branch_map: dict[str, Path]) -> Path:
 			return source_branch_dir
 
 		print("Branch not found. Enter one of the branch names listed above.")
-
 
 
 def find_feature_dir_in_branch(feature_name: str, source_branch_dir: Path) -> Path | None:
@@ -105,10 +101,8 @@ def find_feature_dir_in_branch(feature_name: str, source_branch_dir: Path) -> Pa
 		print("Invalid selection.")
 
 
-
 def is_text_file(file_path: Path) -> bool:
 	return file_path.suffix.casefold() in TEXT_SUFFIXES
-
 
 
 def replace_branch_targets(text: str, source_branch_name: str, target_branch_name: str) -> str:
@@ -130,7 +124,6 @@ def replace_branch_targets(text: str, source_branch_name: str, target_branch_nam
 		updated_text = re.sub(pattern, replacement, updated_text)
 
 	return updated_text
-
 
 
 def update_text_file_for_target(
@@ -159,31 +152,26 @@ def update_text_file_for_target(
 	return True
 
 
+def get_json_file_in_branch(source_branch_dir: Path, json_name: str) -> Path | None:
+	jsons_dir: Path = source_branch_dir / "Assets" / "JSONs"
 
-def find_matching_json_files(source_feature_dir: Path) -> list[Path]:
-	json_matches: list[Path] = []
-	feature_name_cf: str = source_feature_dir.name.casefold()
+	if not jsons_dir.exists() or not jsons_dir.is_dir():
+		return None
 
-	for child_path in source_feature_dir.parent.iterdir():
-		if not child_path.is_file():
-			continue
+	json_filename: str = json_name if json_name.casefold().endswith(".json") else f"{json_name}.json"
+	source_json_path: Path = jsons_dir / json_filename
 
-		if child_path.suffix.casefold() != ".json":
-			continue
+	if source_json_path.exists() and source_json_path.is_file():
+		return source_json_path
 
-		if child_path.stem.casefold() != feature_name_cf:
-			continue
-
-		json_matches.append(child_path)
-
-	return sorted(json_matches, key=lambda p: p.name.casefold())
-
+	return None
 
 
 def copy_feature_dir_to_branch(
 	source_branch_dir: Path,
 	source_feature_dir: Path,
 	target_branch_dir: Path,
+	source_json_path: Path | None = None,
 ) -> tuple[Path, int, list[Path]]:
 	relative_feature_path: Path = source_feature_dir.relative_to(source_branch_dir)
 	target_feature_dir: Path = target_branch_dir / relative_feature_path
@@ -207,8 +195,12 @@ def copy_feature_dir_to_branch(
 			updated_file_count += 1
 
 	copied_json_paths: list[Path] = []
-	for source_json_path in find_matching_json_files(source_feature_dir):
-		target_json_path: Path = target_branch_dir / source_json_path.name
+
+	if source_json_path is not None:
+		target_jsons_dir: Path = target_branch_dir / "Assets" / "JSONs"
+		target_jsons_dir.mkdir(parents=True, exist_ok=True)
+
+		target_json_path: Path = target_jsons_dir / source_json_path.name
 		shutil.copy2(source_json_path, target_json_path)
 		copied_json_paths.append(target_json_path)
 
@@ -222,7 +214,6 @@ def copy_feature_dir_to_branch(
 	return target_feature_dir, updated_file_count, copied_json_paths
 
 
-
 def main() -> None:
 	print("Feature Branch Copier\n")
 
@@ -231,6 +222,9 @@ def main() -> None:
 	)
 	feature_name: str = get_non_empty_input(
 		"Enter the feature folder name to copy (example: BizCard): "
+	)
+	json_name: str = get_non_empty_input(
+		"Enter the JSON file name to copy from Assets/JSONs (with or without .json): "
 	)
 
 	branch_map: dict[str, Path] = collect_top_level_branches(root_dir)
@@ -246,8 +240,16 @@ def main() -> None:
 		)
 		return
 
+	source_json_path: Path | None = get_json_file_in_branch(source_branch_dir, json_name)
+	if source_json_path is None:
+		print(
+			f"No JSON file named '{json_name}' was found in '{source_branch_dir / 'Assets' / 'JSONs'}'."
+		)
+		return
+
 	print(f"\nSource branch: {source_branch_dir.name}")
 	print(f"Source feature path: {source_feature_dir}")
+	print(f"Source JSON path: {source_json_path}")
 	print("\nCopying to the other top-level branches...\n")
 
 	for target_branch_dir in sorted(branch_map.values(), key=lambda p: p.name.casefold()):
@@ -258,6 +260,7 @@ def main() -> None:
 			source_branch_dir=source_branch_dir,
 			source_feature_dir=source_feature_dir,
 			target_branch_dir=target_branch_dir,
+			source_json_path=source_json_path,
 		)
 
 		json_note: str = ""

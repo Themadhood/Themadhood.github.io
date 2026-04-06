@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="Themadhood project page" />
+	<link rel="icon" data-site-favicon href="">
+	<link rel="stylesheet" href="../CSS/HeaderFooter.css" />
+	<link rel="stylesheet" href="../CSS/Project.css" />
+	<title>Themadhood Project</title>
+</head>
+<body data-page="project">
+
+	<div id="shared-header"></div>
+
+	<div class="container" style="padding-top:22px">
+
+		<div class="grid">
+			<div class="card project-hero">
+				<div class="project-hero-inner">
+					<div class="project-hero-media" data-project-hero-media></div>
+
+					<div class="project-hero-content">
+						<h1 data-project-title></h1>
+						<p class="project-subtitle" data-project-subtitle></p>
+
+						<div class="project-status-row" data-project-status-row hidden>
+							<span class="project-status-label">Status</span>
+							<span class="project-status-badge" data-project-status></span>
+						</div>
+
+						<div class="project-links-row" data-project-primary-links></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="grid" style="margin-top:14px">
+			<div class="card">
+				<h2>Description</h2>
+				<div data-project-description></div>
+			</div>
+		</div>
+
+		<div class="grid cols-2" style="margin-top:14px">
+			<div class="card">
+				<h2>Features</h2>
+				<div data-project-features></div>
+			</div>
+
+			<div class="card">
+				<h2>Status</h2>
+				<div data-project-status-details></div>
+			</div>
+		</div>
+
+		<div class="grid" style="margin-top:14px">
+			<div class="card">
+				<h2>Screenshots</h2>
+				<div class="project-gallery" data-project-screenshots></div>
+			</div>
+		</div>
+
+		<div class="grid" style="margin-top:14px">
+			<div class="card">
+				<h2>Resources</h2>
+
+				<div class="project-accordion-group" data-project-downloads-wrap hidden>
+					<button class="project-accordion-toggle" type="button" data-accordion-toggle="downloads">
+						<span>Download Links</span>
+						<span class="project-accordion-icon">+</span>
+					</button>
+					<div class="project-accordion-body" data-accordion-body="downloads" hidden>
+						<div data-project-downloads></div>
+					</div>
+				</div>
+
+				<div class="project-accordion-group" data-project-docs-wrap hidden>
+					<button class="project-accordion-toggle" type="button" data-accordion-toggle="docs">
+						<span>Documentation</span>
+						<span class="project-accordion-icon">+</span>
+					</button>
+					<div class="project-accordion-body" data-accordion-body="docs" hidden>
+						<div class="project-doc-sections" data-project-docs></div>
+					</div>
+				</div>
+
+				<div class="project-accordion-group" data-project-devlogs-wrap hidden>
+					<button class="project-accordion-toggle" type="button" data-accordion-toggle="devlogs">
+						<span>Dev Logs</span>
+						<span class="project-accordion-icon">+</span>
+					</button>
+					<div class="project-accordion-body" data-accordion-body="devlogs" hidden>
+						<div data-project-devlogs></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="shared-footer"></div>
+
+	<div class="project-lightbox" data-project-lightbox hidden>
+		<div class="project-lightbox-backdrop" data-project-lightbox-close></div>
+
+		<div class="project-lightbox-panel">
+			<button class="project-lightbox-close" type="button" data-project-lightbox-close>×</button>
+
+			<button class="project-lightbox-nav project-lightbox-prev" type="button" data-project-prev>‹</button>
+
+			<img class="project-lightbox-image" data-project-lightbox-image src="" alt="">
+
+			<button class="project-lightbox-nav project-lightbox-next" type="button" data-project-next>›</button>
+
+			<div class="project-lightbox-caption" data-project-lightbox-caption></div>
+		</div>
+	</div>
+
+	<script type="module" src="../JS/Project.js"></script>
+</body>
+</html>
