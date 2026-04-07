@@ -1,12 +1,11 @@
 {
-	"title": "My Project",
-	"subtitle": "Short one-line summary",
-	"heroImage": "/Projects/Assets/Images/MyProject.png",
+	"title": "Game Stats",
+	"subtitle": "a repository for things like mobs,titles, items",
+	"heroImage": "",
 	"status": "In Progress",
 
 	"primaryLinks": [
-		{ "title": "GitHub", "href": "https://github.com/example/repo" },
-		{ "title": "Live Demo", "href": "https://example.com/demo" }
+		{ "title": "", "href": "" }
 	],
 
 	"description": [
@@ -31,36 +30,15 @@
 			"src": "/Projects/Assets/Screenshots/shot1.png",
 			"title": "Main screen",
 			"body": "Primary dashboard view"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
 		}
 	],
 
 	"downloadLinks": [
 		{
-			"title": "Windows Build",
-			"body": "Latest packaged version for Windows",
-			"href": "/downloads/project-win.zip",
-			"buttonText": "Download"
-		},
-		{
-			"title": "Source Code",
-			"body": "Repository and development files",
-			"href": "https://github.com/example/repo",
-			"buttonText": "Open Repo"
+			"title": "",
+			"body": "",
+			"href": "",
+			"buttonText": ""
 		}
 	],
 
