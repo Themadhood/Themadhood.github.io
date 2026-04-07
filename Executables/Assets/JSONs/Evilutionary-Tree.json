@@ -1,16 +1,11 @@
 {
-	"title": "My Project",
-	"subtitle": "Short one-line summary",
-	"heroImage": "/Projects/Assets/Images/MyProject.png",
-	"status": "In Progress",
-
-	"primaryLinks": [
-		{ "title": "GitHub", "href": "https://github.com/example/repo" },
-		{ "title": "Live Demo", "href": "https://example.com/demo" }
-	],
+	"title": "Evolutionary Tree",
+	"subtitle": "this project is a repository that can be used as game stats or actual information",
+	"heroImage": "",
+	"status": "On Hold",
 
 	"description": [
-		"What the project is",
+		"what it dose",
 		"What problem it solves"
 	],
 
@@ -31,37 +26,10 @@
 			"src": "/Projects/Assets/Screenshots/shot1.png",
 			"title": "Main screen",
 			"body": "Primary dashboard view"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
 		}
 	],
 
 	"downloadLinks": [
-		{
-			"title": "Windows Build",
-			"body": "Latest packaged version for Windows",
-			"href": "/downloads/project-win.zip",
-			"buttonText": "Download"
-		},
-		{
-			"title": "Source Code",
-			"body": "Repository and development files",
-			"href": "https://github.com/example/repo",
-			"buttonText": "Open Repo"
-		}
 	],
 
 	"documentation": {
