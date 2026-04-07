@@ -28,23 +28,23 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=music",
+        "homePath": "/index.html?branch=music",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=music"
+                "href": "/index.html?branch=music"
             },
             {
                 "label": "Albums",
-                "href": "Showcase.html?branch=music&data-json=Albums"
+                "href": "/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=music"
+			"href": "/BizCard.html?branch=music"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=music"
+                "href": "/links.html?branch=music"
             }
         ]
     }
