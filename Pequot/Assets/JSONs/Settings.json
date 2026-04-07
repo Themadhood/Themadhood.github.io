@@ -34,23 +34,23 @@
 	
 	
 	"nav": {
-		"homePath": "index.html",
+		"homePath": "/index.html",
 		"items": [
 			{
 			"label": "Home",
-			"href": "index.html"
+			"href": "/index.html"
 			},
             {
             "label": "Our Story",
-            "href": "showcase.html?branch=pequot&data-json=OurStory"
+            "href": "/Showcase.html?branch=pequot&data-json=OurStory"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html"
+			"href": "/BizCard.html"
 			},
 			{
 			"label": "Links",
-			"href": "links.html"
+			"href": "/links.html"
 			}
 		]
 	}
