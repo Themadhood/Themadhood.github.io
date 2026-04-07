@@ -1,8 +1,8 @@
 {
-	"title": "My Project",
-	"subtitle": "Short one-line summary",
-	"heroImage": "/Projects/Assets/Images/MyProject.png",
-	"status": "In Progress",
+	"title": "4-H Evaluation",
+	"subtitle": "this project was designed to make copying MN 4-H Evaluations easyer",
+	"heroImage": "/Executables/assets/Projects/4-H Evaluations",
+	"status": "Canceled",
 
 	"primaryLinks": [
 		{ "title": "GitHub", "href": "https://github.com/example/repo" },
@@ -15,37 +15,22 @@
 	],
 
 	"features": [
-		"Feature one",
-		"Feature two",
-		"Feature three"
+		"reads all files in a given directory",
+		"a easy partisapant selection Ui",
+		"a copy and rename function"
 	],
 
 	"statusDetails": [
-		"Core system complete",
-		"UI polish in progress",
-		"Export tools planned"
+		"Canceled by client",
+		"UI complete",
+		"functions complete"
 	],
 
 	"screenshots": [
 		{
-			"src": "/Projects/Assets/Screenshots/shot1.png",
-			"title": "Main screen",
-			"body": "Primary dashboard view"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
+			"src": "",
+			"title": "",
+			"body": ""
 		}
 	],
 
@@ -66,7 +51,9 @@
 
 	"documentation": {
 		"howItWorks": [
-			"Explain the main system flow here."
+			"every year on first start up it asks for the path to all the Evaluations",
+"it opens a UI with a bunch of filters that open as each is answered and a copy list",
+"there is a safety that won't let you copy unless there is a destination"
 		],
 		"setupInstall": [
 			"Step 1...",
