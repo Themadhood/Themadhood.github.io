@@ -38,29 +38,26 @@
 		{
 			"title": "Windows Build",
 			"body": "Latest packaged version for Windows",
-			"href": "/downloads/project-win.zip",
-			"buttonText": "Download"
+			"href": "",
+			"buttonText": "Download Page"
 		},
 		{
 			"title": "Source Code",
 			"body": "Repository and development files",
-			"href": "https://github.com/example/repo",
+			"href": "",
 			"buttonText": "Open Repo"
 		}
 	],
 
 	"documentation": {
 		"howItWorks": [
-			"every year on first start up it asks for the path to all the Evaluations",
+			"every year on first start up it asks for the path to all the Evaluations and partisapant list",
 "it opens a UI with a bunch of filters that open as each is answered and a copy list",
 "there is a safety that won't let you copy unless there is a destination"
 		],
 		"setupInstall": [
-			"Step 1...",
-			"Step 2..."
-		],
-		"apiStructure": [
-			"Describe modules, API endpoints, or project structure here."
+			"download the .exe",
+			"run the exe and answer the questions"
 		]
 	},
 
