@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=jewelry",
+        "homePath": "/index.html?branch=jewelry",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=jewelry"
+                "href": "/index.html?branch=jewelry"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=jewelry"
+			"href": "/BizCard.html?branch=jewelry"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=jewelry"
+                "href": "/links.html?branch=jewelry"
             }
         ]
     }

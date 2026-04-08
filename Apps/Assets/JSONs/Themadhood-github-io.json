@@ -1,0 +1,83 @@
+{
+    "title": "Themadhood.github.io",
+    "subtitle": "Scalable web platform for Themadhood projects and systems",
+    "heroImage": "",
+    "status": "In Progress",
+    "primaryLinks": [
+        {
+            "title": "Project Page",
+            "href": "https://github.com/Themadhood/Themadhood.github.io"
+        },
+		{
+            "title": "Main Page",
+            "href": "https://Themadhood.github.io"
+        }
+    ],
+    "description": [
+        "A scalable web platform designed to host and organize all Themadhood projects and systems.",
+        "Built as a fast recovery solution after previous hosting platforms became unavailable, with plans to evolve into a full-stack system."
+    ],
+    "features": [
+        "Lightweight scalable site structure",
+        "JSON-driven content system for easy updates",
+        "Central hub for all projects and branches",
+        "Designed for fast deployment and recovery",
+        "Planned migration path to full-stack architecture"
+    ],
+    "statusDetails": [
+        "Core site rebuilt and operational",
+        "Content system actively being expanded",
+        "Structure designed for future full-stack migration",
+        "Assets and pages being gradually restored"
+    ],
+    "screenshots": [
+        {
+            "src": "",
+            "title": "",
+            "body": ""
+        }
+    ],
+    "downloadLinks": [],
+    "documentation": {
+        "howItWorks": [],
+        "setupInstall": [],
+        "apiStructure": []
+    },
+    "devLogs": [
+        {
+            "progressNotes": [
+                "Initial hosting disruption and transition planning (Dec 2025 bitween Jan 2026)",
+                "Maintained multiple active sites across previous hosting platform.",
+                "Discovered hosting platform shutdown and loss of support.",
+                "Evaluated replacement options and recovery strategies."
+            ]
+        },
+        {
+            "progressNotes": [
+                "Wix evaluation and limitations (Jan 2026 to Feb 2026)",
+                "Attempted to rebuild sites using Wix platform.",
+                "Encountered limitations with asset management and scalability.",
+                "Determined Wix workflow was too slow for project needs.",
+                "Decided to abandon Wix approach."
+            ]
+        },
+        {
+            "progressNotes": [
+                "Rapid rebuild using custom scalable site (March 2026 to Early April 2026)",
+                "Designed and implemented a custom browser-based site system.",
+                "Built JSON-driven structure for dynamic content loading.",
+                "Focused on fast deployment to restore project visibility.",
+                "Re-established core pages and project structure."
+            ]
+        },
+        {
+            "progressNotes": [
+                "Expansion and refinement (April 2026 to Present)",
+                "Continuing to restore assets and project pages.",
+                "Improving structure and maintainability.",
+                "Preparing system for transition to full-stack architecture.",
+                "Planning backend integration for future scalability."
+            ]
+        }
+    ]
+}

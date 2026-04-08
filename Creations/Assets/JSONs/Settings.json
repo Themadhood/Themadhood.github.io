@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=creations",
+        "homePath": "/index.html?branch=creations",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=creations"
+                "href": "/index.html?branch=creations"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=creations"
+			"href": "/BizCard.html?branch=creations"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=creations"
+                "href": "/links.html?branch=creations"
             }
         ]
     }

@@ -28,19 +28,23 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=pi-utilities",
+        "homePath": "/index.html?branch=pi-utilities",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=pi-utilities"
+                "href": "/index.html?branch=pi-utilities"
             },
 			{
+			"label": "Projects",
+			"href": "/GlobalAssets/HTML/Showcase.html?branch=PI-Utilities&data-json=Projects"
+			},
+			{
 			"label": "Card",
-			"href": "BizCard.html?branch=pi-utilities"
+			"href": "/BizCard.html?branch=pi-utilities"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=pi-utilities"
+                "href": "/links.html?branch=pi-utilities"
             }
         ]
     }

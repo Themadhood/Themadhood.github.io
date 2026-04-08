@@ -1,0 +1,46 @@
+{
+	"title": "Idle-Battle",
+	"subtitle": "An automated battle system focused on idle progression",
+	"heroImage": "",
+	"status": "On Hold",
+
+	"primaryLinks": [
+		{ "title": "", "href": "" }
+	],
+
+	"description": [
+		"A system designed around automated combat and progression with minimal player input.",
+		"Focuses on passive gameplay loops, scaling systems, and stat-driven outcomes."
+	],
+
+	"features": [
+		"Automated combat system",
+		"Idle progression and scaling mechanics",
+		"Stat-based outcome calculations",
+		"Expandable entity and upgrade systems"
+	],
+
+	"statusDetails": [
+		"Core combat concepts being developed",
+		"Progression systems being defined",
+		"Structure not finalized"
+	],
+
+	"screenshots": [
+		{
+			"src": "",
+			"title": "",
+			"body": ""
+		}
+	],
+
+	"downloadLinks": [],
+
+	"documentation": {
+		"howItWorks": [],
+		"setupInstall": [],
+		"apiStructure": []
+	},
+
+	"devLogs": []
+}

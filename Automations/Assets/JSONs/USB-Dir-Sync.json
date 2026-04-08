@@ -1,97 +1,40 @@
 {
-	"title": "My Project",
-	"subtitle": "Short one-line summary",
-	"heroImage": "/Projects/Assets/Images/MyProject.png",
+	"title": "USB Dir Sync",
+	"subtitle": "USB-triggered directory synchronization utility",
+	"heroImage": "",
 	"status": "In Progress",
-
 	"primaryLinks": [
-		{ "title": "GitHub", "href": "https://github.com/example/repo" },
-		{ "title": "Live Demo", "href": "https://example.com/demo" }
+		{
+			"title": "Project Page",
+			"href": ""
+		}
 	],
-
 	"description": [
-		"What the project is",
-		"What problem it solves"
+		"A utility that combines USB detection with directory synchronization so file copy tasks can begin when a target drive is connected.",
+		"Built to reduce manual backup steps and make portable sync workflows easier to run."
 	],
-
 	"features": [
-		"Feature one",
-		"Feature two",
-		"Feature three"
+		"Automatic USB drive detection",
+		"Directory sync triggered by device connection",
+		"Portable backup workflow with less manual setup"
 	],
-
 	"statusDetails": [
-		"Core system complete",
-		"UI polish in progress",
-		"Export tools planned"
+		"Combined USB and sync workflow still being defined",
+		"Integration details may change as the project develops",
+		"Project documentation has not been fully written yet"
 	],
-
 	"screenshots": [
 		{
-			"src": "/Projects/Assets/Screenshots/shot1.png",
-			"title": "Main screen",
-			"body": "Primary dashboard view"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
+			"src": "",
+			"title": "",
+			"body": ""
 		}
 	],
-
-	"downloadLinks": [
-		{
-			"title": "Windows Build",
-			"body": "Latest packaged version for Windows",
-			"href": "/downloads/project-win.zip",
-			"buttonText": "Download"
-		},
-		{
-			"title": "Source Code",
-			"body": "Repository and development files",
-			"href": "https://github.com/example/repo",
-			"buttonText": "Open Repo"
-		}
-	],
-
+	"downloadLinks": [],
 	"documentation": {
-		"howItWorks": [
-			"Explain the main system flow here."
-		],
-		"setupInstall": [
-			"Step 1...",
-			"Step 2..."
-		],
-		"apiStructure": [
-			"Describe modules, API endpoints, or project structure here."
-		]
+		"howItWorks": [],
+		"setupInstall": [],
+		"apiStructure": []
 	},
-
-	"devLogs": [
-		{
-			"title": "UI rewrite finished",
-			"date": "2026-04-01",
-			"progressNotes": [
-				"Rebuilt the layout system.",
-				"Connected image viewer."
-			]
-		},
-		{
-			"title": "Initial prototype",
-			"date": "2026-03-18",
-			"progressNotes": [
-				"Set up base project files."
-			]
-		}
-	]
+	"devLogs": []
 }

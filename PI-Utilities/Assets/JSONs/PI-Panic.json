@@ -1,97 +1,101 @@
 {
-	"title": "My Project",
-	"subtitle": "Short one-line summary",
-	"heroImage": "/Projects/Assets/Images/MyProject.png",
-	"status": "In Progress",
-
-	"primaryLinks": [
-		{ "title": "GitHub", "href": "https://github.com/example/repo" },
-		{ "title": "Live Demo", "href": "https://example.com/demo" }
-	],
-
-	"description": [
-		"What the project is",
-		"What problem it solves"
-	],
-
-	"features": [
-		"Feature one",
-		"Feature two",
-		"Feature three"
-	],
-
-	"statusDetails": [
-		"Core system complete",
-		"UI polish in progress",
-		"Export tools planned"
-	],
-
-	"screenshots": [
-		{
-			"src": "/Projects/Assets/Screenshots/shot1.png",
-			"title": "Main screen",
-			"body": "Primary dashboard view"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		}
-	],
-
-	"downloadLinks": [
-		{
-			"title": "Windows Build",
-			"body": "Latest packaged version for Windows",
-			"href": "/downloads/project-win.zip",
-			"buttonText": "Download"
-		},
-		{
-			"title": "Source Code",
-			"body": "Repository and development files",
-			"href": "https://github.com/example/repo",
-			"buttonText": "Open Repo"
-		}
-	],
-
-	"documentation": {
-		"howItWorks": [
-			"Explain the main system flow here."
-		],
-		"setupInstall": [
-			"Step 1...",
-			"Step 2..."
-		],
-		"apiStructure": [
-			"Describe modules, API endpoints, or project structure here."
-		]
-	},
-
-	"devLogs": [
-		{
-			"title": "UI rewrite finished",
-			"date": "2026-04-01",
-			"progressNotes": [
-				"Rebuilt the layout system.",
-				"Connected image viewer."
-			]
-		},
-		{
-			"title": "Initial prototype",
-			"date": "2026-03-18",
-			"progressNotes": [
-				"Set up base project files."
-			]
-		}
-	]
+    "title": "PI Panic",
+    "subtitle": "Distributed alert and monitoring system for networked devices",
+    "heroImage": "",
+    "status": "Deployed",
+    "primaryLinks": [
+        {
+            "title": "",
+            "href": ""
+        }
+    ],
+    "description": [
+        "A distributed alert system designed to monitor device states and trigger escalations based on severity and priority.",
+        "Supports real-time communication between nodes and integrates with both UI displays and external systems."
+    ],
+    "features": [
+        "Distributed node communication (MQTT-based)",
+        "Real-time alert and panic escalation system",
+        "GUI and optional web interface support",
+        "Expandable API for external trigger integration",
+        "IO integration for lights, sensors, and external hardware"
+    ],
+    "statusDetails": [
+        "Core system complete and functional",
+        "API layer in development for external triggers",
+        "IO integration in progress for hardware interaction",
+        "System being refined for usability and expansion"
+    ],
+    "screenshots": [
+        {
+            "src": "",
+            "title": "",
+            "body": ""
+        }
+    ],
+    "downloadLinks": [],
+    "documentation": {
+        "howItWorks": [],
+        "setupInstall": [],
+        "apiStructure": []
+    },
+    "devLogs": [
+        {
+            "progressNotes": [
+                "Initial concept and system design (July 2025)",
+                "Designed distributed alert system structure.",
+                "Defined panic states, priorities, and message format.",
+                "Planned communication model between nodes and master system."
+            ]
+        },
+        {
+            "progressNotes": [
+                "Core communication and backend development (July 2025 to Aug 2025)",
+                "Implemented MQTT-based communication system.",
+                "Built message handling for panic states and updates.",
+                "Established continuous listener and transmit loops."
+            ]
+        },
+        {
+            "progressNotes": [
+                "Alert handling and escalation logic (Aug 2025 to Sep 2025)",
+                "Developed priority-based alert system.",
+                "Implemented escalation rules for panic conditions.",
+                "Standardized event data format across system."
+            ]
+        },
+        {
+            "progressNotes": [
+                "GUI system and display integration (Sep 2025 to Oct 2025)",
+                "Built fullscreen GUI for alert display.",
+                "Added flashing states and visual indicators.",
+                "Integrated dynamic updates from backend events."
+            ]
+        },
+        {
+            "progressNotes": [
+                "System expansion and modular structure (Oct 2025 to Dec 2025)",
+                "Refactored system into modular components.",
+                "Added support for optional modules and hooks.",
+                "Improved reliability and handling of multiple nodes."
+            ]
+        },
+        {
+            "progressNotes": [
+                "Testing, debugging, and stability improvements (Dec 2025 to Jan 2026)",
+                "Tested system across multiple nodes and conditions.",
+                "Resolved communication edge cases and failures.",
+                "Improved reconnection and error handling behavior."
+            ]
+        },
+        {
+            "progressNotes": [
+                "Completion and post-build improvements (Jan 2026 to Feb 2026)",
+                "Finalized core system functionality.",
+                "Prepared system for real-world usage.",
+                "Began development of external API for triggering alerts.",
+                "Started integration of IO for lights and sensors."
+            ]
+        }
+    ]
 }

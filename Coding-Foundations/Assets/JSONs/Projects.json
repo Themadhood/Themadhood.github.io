@@ -1,19 +1,27 @@
 {
-	"sections": [
-		{
-		"title": "",
-		"body": "",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {}
-			}
-			]
-		}
-		]
+    "sections": [
+        {
+            "title": "Projects",
+            "body": "A growing collection of active and in-progress projects focused on systems, tools, data organization, and related development work.",
+            "items": [
+                {
+                    "title": "Game Stats",
+                    "href": "/GlobalAssets/HTML/Project.html?branch=coding-foundations&data-json=Game-Stats",
+                    "image": "",
+                    "imageMax": 320,
+                    "description": [
+                        "A structured repository for storing and organizing game-related data such as mobs, titles, items, and other records.",
+                        "Designed to make game data easier to manage, expand, and reference across connected systems."
+                    ],
+                    "about": [
+                        "An in-progress data repository for organizing core game records and related information."
+                    ],
+                    "details": {
+                        "status": "Paused",
+                        "type": "Project"
+                    }
+                }
+            ]
+        }
+    ]
 }

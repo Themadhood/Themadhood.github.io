@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=systems",
+        "homePath": "/index.html?branch=systems",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=systems"
+                "href": "/index.html?branch=systems"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=systems"
+			"href": "/BizCard.html?branch=systems"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=systems"
+                "href": "/links.html?branch=systems"
             }
         ]
     }

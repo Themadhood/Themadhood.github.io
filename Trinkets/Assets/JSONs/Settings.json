@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=trinkets",
+        "homePath": "/index.html?branch=trinkets",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=trinkets"
+                "href": "/index.html?branch=trinkets"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=trinkets"
+			"href": "/BizCard.html?branch=trinkets"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=trinkets"
+                "href": "/links.html?branch=trinkets"
             }
         ]
     }
