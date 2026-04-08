@@ -238,14 +238,14 @@ def main() -> None:
 		print(
 			f"No feature folder named '{feature_name}' was found inside the source branch '{source_branch_dir.name}'."
 		)
-		return
+		
 
 	source_json_path: Path | None = get_json_file_in_branch(source_branch_dir, json_name)
 	if source_json_path is None:
 		print(
 			f"No JSON file named '{json_name}' was found in '{source_branch_dir / 'Assets' / 'JSONs'}'."
 		)
-		return
+		
 
 	print(f"\nSource branch: {source_branch_dir.name}")
 	print(f"Source feature path: {source_feature_dir}")
