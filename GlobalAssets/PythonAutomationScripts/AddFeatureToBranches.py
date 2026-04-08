@@ -1,5 +1,3 @@
-#Copyes a featur fom one branch to all of them
-
 from __future__ import annotations
 
 import re
@@ -37,6 +35,24 @@ def get_non_empty_input(prompt: str) -> str:
 		print("Please enter a value.")
 
 
+def get_yes_no(prompt: str, default: bool = True) -> bool:
+	default_text: str = "Y/n" if default else "y/N"
+
+	while True:
+		raw_value: str = input(f"{prompt} [{default_text}]: ").strip().casefold()
+
+		if not raw_value:
+			return default
+
+		if raw_value in {"y", "yes"}:
+			return True
+
+		if raw_value in {"n", "no"}:
+			return False
+
+		print("Please enter yes or no.")
+
+
 def collect_top_level_branches(root_dir: Path) -> dict[str, Path]:
 	branch_map: dict[str, Path] = {}
 
@@ -50,14 +66,22 @@ def collect_top_level_branches(root_dir: Path) -> dict[str, Path]:
 	return branch_map
 
 
-def get_source_branch_dir(branch_map: dict[str, Path]) -> Path:
+def print_available_branches(branch_map: dict[str, Path]) -> None:
 	branch_names: list[str] = sorted(path.name for path in branch_map.values())
+
 	print("\nAvailable branches:")
 	for branch_name in branch_names:
 		print(f"- {branch_name}")
 
+
+def get_source_branch_dir(branch_map: dict[str, Path]) -> Path:
+	print_available_branches(branch_map)
+
 	while True:
-		source_branch_name: str = input("\nEnter the SOURCE branch name the feature is currently in: ").strip()
+		source_branch_name: str = input(
+			"\nEnter the SOURCE branch name the feature is currently in: "
+		).strip()
+
 		if not source_branch_name:
 			print("Please enter a branch name.")
 			continue
@@ -167,6 +191,104 @@ def get_json_file_in_branch(source_branch_dir: Path, json_name: str) -> Path | N
 	return None
 
 
+def find_sub_branches_for_branch(
+	branch_dir: Path,
+	branch_map: dict[str, Path],
+) -> list[Path]:
+	found_branch_dirs: dict[str, Path] = {}
+	source_branch_name_cf: str = branch_dir.name.casefold()
+
+	for dir_path in branch_dir.rglob("*"):
+		if not dir_path.is_dir():
+			continue
+
+		dir_name_cf: str = dir_path.name.casefold()
+
+		if dir_name_cf == source_branch_name_cf:
+			continue
+
+		matching_branch_dir: Path | None = branch_map.get(dir_name_cf)
+		if matching_branch_dir is None:
+			continue
+
+		found_branch_dirs[dir_name_cf] = matching_branch_dir
+
+	return sorted(found_branch_dirs.values(), key=lambda p: p.name.casefold())
+
+
+def parse_branch_names_input(raw_value: str) -> list[str]:
+	cleaned_value: str = raw_value.strip()
+
+	if not cleaned_value:
+		return []
+
+	if cleaned_value.casefold() == "all":
+		return ["all"]
+
+	return [part.strip() for part in cleaned_value.split(", ") if part.strip()]
+
+
+def get_target_branch_dirs(
+	branch_map: dict[str, Path],
+	source_branch_dir: Path,
+) -> list[Path]:
+	print_available_branches(branch_map)
+
+	raw_targets: str = input(
+		"\nEnter target branch name(s) separated by ', ' or press Enter for all: "
+	).strip()
+
+	requested_names: list[str] = parse_branch_names_input(raw_targets)
+
+	if not requested_names or requested_names == ["all"]:
+		target_branch_dirs: list[Path] = sorted(
+			[
+				path
+				for path in branch_map.values()
+				if path != source_branch_dir
+			],
+			key=lambda p: p.name.casefold(),
+		)
+	else:
+		target_name_map: dict[str, Path] = {}
+		missing_names: list[str] = []
+
+		for branch_name in requested_names:
+			matched_branch_dir: Path | None = branch_map.get(branch_name.casefold())
+			if matched_branch_dir is None:
+				missing_names.append(branch_name)
+				continue
+
+			if matched_branch_dir == source_branch_dir:
+				continue
+
+			target_name_map[matched_branch_dir.name.casefold()] = matched_branch_dir
+
+		if missing_names:
+			print(f"\nThese branches were not found: {', '.join(missing_names)}")
+			print("Please try again.")
+			return get_target_branch_dirs(branch_map, source_branch_dir)
+
+		include_sub_branches: bool = get_yes_no(
+			"Also include sub-branches found in each selected branch?",
+			default=True,
+		)
+
+		if include_sub_branches:
+			for selected_branch_dir in list(target_name_map.values()):
+				for sub_branch_dir in find_sub_branches_for_branch(selected_branch_dir, branch_map):
+					if sub_branch_dir == source_branch_dir:
+						continue
+					target_name_map[sub_branch_dir.name.casefold()] = sub_branch_dir
+
+		target_branch_dirs = sorted(
+			target_name_map.values(),
+			key=lambda p: p.name.casefold(),
+		)
+
+	return target_branch_dirs
+
+
 def copy_feature_dir_to_branch(
 	source_branch_dir: Path,
 	source_feature_dir: Path,
@@ -229,10 +351,11 @@ def main() -> None:
 
 	branch_map: dict[str, Path] = collect_top_level_branches(root_dir)
 	if not branch_map:
-		print("No top-level branches with Index.json were found.")
+		print("No top-level branches with Assets folders were found.")
 		return
 
 	source_branch_dir: Path = get_source_branch_dir(branch_map)
+
 	source_feature_dir: Path | None = find_feature_dir_in_branch(feature_name, source_branch_dir)
 	if source_feature_dir is None:
 		print(
@@ -247,15 +370,26 @@ def main() -> None:
 		)
 		
 
+	target_branch_dirs: list[Path] = get_target_branch_dirs(
+		branch_map=branch_map,
+		source_branch_dir=source_branch_dir,
+	)
+
+	if not target_branch_dirs:
+		print("\nNo target branches selected.")
+		return
+
 	print(f"\nSource branch: {source_branch_dir.name}")
 	print(f"Source feature path: {source_feature_dir}")
 	print(f"Source JSON path: {source_json_path}")
-	print("\nCopying to the other top-level branches...\n")
 
-	for target_branch_dir in sorted(branch_map.values(), key=lambda p: p.name.casefold()):
-		if target_branch_dir == source_branch_dir:
-			continue
+	print("\nTarget branches:")
+	for branch_dir in target_branch_dirs:
+		print(f"- {branch_dir.name}")
 
+	print("\nCopying...\n")
+
+	for target_branch_dir in target_branch_dirs:
 		target_feature_dir, updated_file_count, copied_json_paths = copy_feature_dir_to_branch(
 			source_branch_dir=source_branch_dir,
 			source_feature_dir=source_feature_dir,
