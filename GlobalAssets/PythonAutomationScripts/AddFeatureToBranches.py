@@ -44,7 +44,7 @@ def collect_top_level_branches(root_dir: Path) -> dict[str, Path]:
 		if not item_path.is_dir():
 			continue
 
-		if (item_path / "Index.json").exists():
+		if (item_path / "Assets").exists():
 			branch_map[item_path.name.casefold()] = item_path
 
 	return branch_map
