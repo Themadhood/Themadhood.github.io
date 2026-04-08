@@ -1,7 +1,7 @@
 {
     "title": "EVG",
     "subtitle": "A sandbox board-style system with layered mechanics and world structures",
-    "heroImage": "",
+    "heroImage": "/Games/Assets/Projects/EVG/flame_dragon.png",
     "status": "On Hold",
     "primaryLinks": [
         {
@@ -26,7 +26,32 @@
     ],
     "screenshots": [
         {
-            "src": "",
+            "src": "/Games/Assets/Projects/EVG/info.png",
+            "title": "",
+            "body": ""
+        },
+		{
+            "src": "/Games/Assets/Projects/EVG/stats.png",
+            "title": "",
+            "body": ""
+        },
+		{
+            "src": "/Games/Assets/Projects/EVG/Skills.png",
+            "title": "",
+            "body": ""
+        },
+		{
+            "src": "/Games/Assets/Projects/EVG/Magic.png",
+            "title": "",
+            "body": ""
+        },
+		{
+            "src": "/Games/Assets/Projects/EVG/inventory.png",
+            "title": "",
+            "body": ""
+        },
+		{
+            "src": "/Games/Assets/Projects/EVG/functions.png",
             "title": "",
             "body": ""
         }

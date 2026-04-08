@@ -21,10 +21,8 @@
                         "status": "Canceled",
                         "type": "Executable Tool"
                     }
-                }
-            ]
-        },
-        {
+                },
+				{
                     "title": "Evolutionary-Tree",
                     "href": "/GlobalAssets/HTML/Project.html?branch=apps&data-json=Evolutionary-Tree",
                     "image": "",
@@ -52,5 +50,7 @@
                         ]
                     }
                 }
+            ]
+        }
     ]
 }

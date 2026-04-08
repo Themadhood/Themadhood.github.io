@@ -2,7 +2,7 @@
 	"title": "Repo Sync",
 	"subtitle": "Repository structure syncing and workflow automation tool",
 	"heroImage": "/Development-Tools/Assets/Projects/RepoSync/RepoSyncIcon.png",
-	"status": "Active Development",
+	"status": "Complete",
 
 	"primaryLinks": [
 		{ "title": "", "href": "" }

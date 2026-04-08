@@ -24,7 +24,7 @@
 				{
 					"title": "EVG",
 					"href": "/GlobalAssets/HTML/Project.html?branch=Games&data-json=EVG",
-					"image": "",
+					"image": "/Games/Assets/Projects/EVG/flame_dragon.png",
 					"imageMax": 320,
 					"description": [
 						"A sandbox-style board system combining structured world spaces with flexible gameplay systems.",
