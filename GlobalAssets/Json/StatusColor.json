@@ -1,0 +1,37 @@
+{
+	"_NOTE": "Core statuses used across all project types",
+
+	"Concept": "#6b7280",
+	"Planning": "#64748b",
+	"In Progress": "#2563eb",
+	"Testing": "#7c3aed",
+	"Complete": "#16a34a",
+	"On Hold": "#ea580c",
+
+	"_Codes": "Software-specific",
+
+	"Deprecated": "#dc2626",
+	"Active Development": "#16a34a",
+
+	"_Media": "Media workflow",
+
+	"Idea": "#6b7280",
+	"Drafting": "#64748b",
+	"Producing": "#2563eb",
+	"Editing": "#7c3aed",
+	"Released": "#16a34a",
+	"Removed": "#dc2626",
+
+	"_Goods": "Physical goods",
+
+	"Designing": "#64748b",
+	"Building": "#2563eb",
+	"Finishing": "#7c3aed",
+	"Available": "#16a34a",
+	"Scrapped": "#dc2626",
+
+	"_General": "Fallback",
+
+	"Reviewing": "#7c3aed",
+	"Archived": "#dc2626"
+}

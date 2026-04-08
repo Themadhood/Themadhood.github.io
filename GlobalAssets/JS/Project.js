@@ -1,6 +1,58 @@
 import { loadHeaderFooter, HF_main, setText } from "./HeaderFooter.js";
 import { loadBranch } from "./OpenJsons.js";
 
+const STATUS_COLOR_JSON_PATH = "/GlobalAssets/Json/StatusColor.json";
+
+/*
+Codes
+	Concept → Gray
+	Planning → Blue-gray
+	In Progress → Blue
+	Testing → Purple
+	Complete → Green
+	Active Development → Green
+	On Hold → Orange
+	Deprecated → Red
+
+Media
+	Idea → Gray
+	Drafting → Blue-gray
+	Producing → Blue
+	Editing → Purple
+	Released → Green
+	On Hold → Orange
+	Removed → Red
+
+Goods (Physical / Crafts)
+	Concept → Gray
+	Designing → Blue-gray
+	Building → Blue
+	Finishing → Purple
+	Available → Green
+	On Hold → Orange
+	Scrapped → Red
+
+General (fallback / mixed)
+	Concept → Gray
+	Planning → Blue-gray
+	In Progress → Blue
+	Reviewing → Purple
+	Complete → Green
+	On Hold → Orange
+	Archived → Red
+
+What this follows
+	Within each type → no duplicate colors
+	Across types → same colors reused intentionally
+	Colors match common meaning:
+	Gray = not started
+	Blue = active work
+	Purple = refining
+	Green = done
+	Orange = paused
+	Red = dead/removed
+*/
+
 
 function getURLParam(name){
 	const params = new URLSearchParams(window.location.search);
@@ -15,6 +67,86 @@ function getJsonFileName(){
 	}
 
 	return "Project";
+}
+
+function normalizeKey(value){
+	return String(value || "")
+		.trim()
+		.toLowerCase();
+}
+
+function normalizeColorName(value){
+	return String(value || "")
+		.trim()
+		.toLowerCase()
+		.replace(/\s+/g, "-");
+}
+
+function isPaletteColor(value){
+	const colorName = normalizeColorName(value);
+	return Boolean(STATUS_COLOR_PALETTE[colorName]);
+}
+
+function buildStatusColorLookup(jsonData){
+	const lookup = {};
+
+	for(const [key, value] of Object.entries(jsonData)){
+		// skip notes / sections
+		if(key.startsWith("_")) continue;
+
+		// only accept valid hex colors
+		if(typeof value === "string" && value.startsWith("#")){
+			lookup[key.toLowerCase()] = value;
+		}
+	}
+
+	return lookup;
+}
+
+async function loadStatusColors(){
+	try{
+		const response = await fetch(STATUS_COLOR_JSON_PATH, { cache: "no-cache" });
+
+		if(!response.ok){
+			console.warn(`Failed to load status colors: ${response.status} ${response.statusText}`, err);
+			return {};
+		}
+
+		const jsonData = await response.json();
+		const lookup = buildStatusColorLookup(jsonData);
+
+		return lookup;
+	}catch(err){
+		console.warn("Status color JSON failed to load.", err);
+		return {};
+	}
+}
+
+function getStatusColor(status, statusColorLookup){
+	const fallback = {
+		background: "#374151",
+		text: "#ffffff",
+		border: "#1f2937"
+	};
+
+	const key = normalizeKey(status);
+
+	if(!key){
+		return fallback;
+	}
+
+	return statusColorLookup[key] || fallback;
+}
+
+function applyStatusBadgeColor(badge, status, lookup){
+	if(!badge) return;
+
+	const key = String(status || "").trim().toLowerCase();
+	const color = lookup[key] || "#374151";
+
+	badge.style.backgroundColor = color;
+	badge.style.color = "#ffffff";
+	badge.style.borderColor = color;
 }
 
 
@@ -255,7 +387,7 @@ function renderPrimaryLinks(project){
 }
 
 
-function renderStatus(project){
+function renderStatus(project, statusColorLookup){
 	const badgeWrap = document.querySelector("[data-project-status-row]");
 	const badge = document.querySelector("[data-project-status]");
 	const host = document.querySelector("[data-project-status-details]");
@@ -264,6 +396,7 @@ function renderStatus(project){
 		if(project.status){
 			badgeWrap.hidden = false;
 			badge.textContent = project.status;
+			applyStatusBadgeColor(badge, project.status, statusColorLookup);
 		}else{
 			badgeWrap.hidden = true;
 		}
@@ -498,7 +631,7 @@ function setupAccordions(){
 }
 
 
-function renderProject(projectData, settings){
+function renderProject(projectData, settings, statusColorLookup){
 	const project = projectData || {};
 
 	setText(document.querySelector("[data-project-title]"), project.title || "");
@@ -510,7 +643,7 @@ function renderProject(projectData, settings){
 	addList(document.querySelector("[data-project-description]"), project.description || []);
 	addList(document.querySelector("[data-project-features]"), project.features || []);
 
-	renderStatus(project);
+	renderStatus(project, statusColorLookup);
 }
 
 
@@ -519,11 +652,15 @@ async function main(){
 	const { branch, settings } = await HF_main();
 
 	const jsonFile = getJsonFileName();
-	const projectData = await loadBranch(branch, jsonFile);
+
+	const [projectData, statusColorLookup] = await Promise.all([
+		loadBranch(branch, jsonFile),
+		loadStatusColors()
+	]);
 
 	const lightbox = createLightbox();
 
-	renderProject(projectData, settings);
+	renderProject(projectData, settings, statusColorLookup);
 	renderScreenshots(projectData, lightbox);
 	renderDownloadLinks(projectData);
 	renderDocumentation(projectData);
@@ -536,3 +673,56 @@ main().catch(err => {
 	console.error(err);
 	document.body.innerHTML = `<div class="container"><h1>Site failed to load</h1><p>${err.message}</p></div>`;
 });
+
+
+
+/*
+Codes
+	Concept → Gray
+	Planning → Blue-gray
+	In Progress → Blue
+	Testing → Purple
+	Complete → Green
+	On Hold → Orange
+	Deprecated → Red
+
+Media
+	Idea → Gray
+	Drafting → Blue-gray
+	Producing → Blue
+	Editing → Purple
+	Released → Green
+	On Hold → Orange
+	Removed → Red
+
+Goods (Physical / Crafts)
+	Concept → Gray
+	Designing → Blue-gray
+	Building → Blue
+	Finishing → Purple
+	Available → Green
+	On Hold → Orange
+	Scrapped → Red
+
+General (fallback / mixed)
+	Concept → Gray
+	Planning → Blue-gray
+	In Progress → Blue
+	Reviewing → Purple
+	Complete → Green
+	On Hold → Orange
+	Archived → Red
+
+What this follows
+	Within each type → no duplicate colors
+	Across types → same colors reused intentionally
+	Colors match common meaning:
+	Gray = not started
+	Blue = active work
+	Purple = refining
+	Green = done
+	Orange = paused
+	Red = dead/removed
+*/
+
+
