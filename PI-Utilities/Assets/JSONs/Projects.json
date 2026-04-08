@@ -1,19 +1,44 @@
 {
-	"sections": [
-		{
-		"title": "",
-		"body": "",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {}
-			}
-			]
-		}
-		]
+    "sections": [
+        {
+            "title": "Projects",
+            "body": "A collection of systems focused on automation, monitoring, and scalable infrastructure.",
+            "items": [
+                {
+                    "title": "PI-Panic",
+                    "href": "/GlobalAssets/HTML/Project.html?branch=PI-Utilities&data-json=PI-Panic",
+                    "image": "",
+                    "imageMax": 320,
+                    "description": [
+                        "A system designed to monitor states across multiple devices and trigger alerts based on severity and priority.",
+                        "Focused on real-time communication, escalation logic, and flexible UI display systems."
+                    ],
+                    "about": [
+                        "A distributed alert and monitoring system for networked devices."
+                    ],
+                    "details": {
+                        "status": "Deployed",
+                        "type": "System"
+                    }
+                },
+                {
+                    "title": "PI-Updater",
+                    "href": "/GlobalAssets/HTML/Project.html?branch=PI-Utilities&data-json=PI-Updater",
+                    "image": "",
+                    "imageMax": 320,
+                    "description": [
+                        "A system designed to manage updates across remote or distributed devices.",
+                        "Focuses on simplifying deployment, syncing versions, and maintaining consistency."
+                    ],
+                    "about": [
+                        "A system for automating updates and syncing remote devices."
+                    ],
+                    "details": {
+                        "status": "Deployed",
+                        "type": "System"
+                    }
+                }
+            ]
+        }
+    ]
 }

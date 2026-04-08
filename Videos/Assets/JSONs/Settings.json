@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=videos",
+        "homePath": "/index.html?branch=videos",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=videos"
+                "href": "/index.html?branch=videos"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=videos"
+			"href": "/BizCard.html?branch=videos"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=videos"
+                "href": "/links.html?branch=videos"
             }
         ]
     }

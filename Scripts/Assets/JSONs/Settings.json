@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=scripts",
+        "homePath": "/index.html?branch=scripts",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=scripts"
+                "href": "/index.html?branch=scripts"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=scripts"
+			"href": "/BizCard.html?branch=scripts"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=scripts"
+                "href": "/links.html?branch=scripts"
             }
         ]
     }

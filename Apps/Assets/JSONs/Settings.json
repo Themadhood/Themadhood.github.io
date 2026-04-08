@@ -7,7 +7,7 @@
     "brand": {
         "title": "Themadhood's Apps",
         "email": "Themadhoods.Applications@gmail.com",
-        "logo": "/Apps/Assets/Branding/THEMADHOOD Apps O 2k-2k.png",
+        "logo": "/Apps/Assets/Branding/THEMADHOOD Apps CIR 2k-2k.png",
         "background": "/Codes/Assets/Branding/THEMADHOOD Codes SQ background 2K-2K.jpg",
         "copyright": "© 2026 Themadhood's Apps. All rights reserved.",
         "brandContext": "Themadhood's Apps operates under Themadhood's Applications.",
@@ -28,19 +28,23 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=apps",
+        "homePath": "/index.html?branch=apps",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=apps"
+                "href": "/index.html?branch=apps"
             },
 			{
+			"label": "Projects",
+			"href": "/GlobalAssets/HTML/Showcase.html?branch=apps&data-json=Projects"
+			},
+			{
 			"label": "Card",
-			"href": "BizCard.html?branch=apps"
+			"href": "/BizCard.html?branch=apps"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=apps"
+                "href": "/links.html?branch=apps"
             }
         ]
     }

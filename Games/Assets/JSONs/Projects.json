@@ -1,19 +1,44 @@
 {
 	"sections": [
 		{
-		"title": "",
-		"body": "",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {}
-			}
+			"title": "Projects",
+			"body": "A collection of active and experimental systems exploring automation, data structures, and interactive design.",
+			"items": [
+				{
+					"title": "Idle Battle",
+					"href": "/GlobalAssets/HTML/Project.html?branch=Games&data-json=Idle-Battle",
+					"image": "",
+					"imageMax": 320,
+					"description": [
+						"A system designed around automated combat and progression with minimal player input.",
+						"Focuses on passive gameplay loops, scaling systems, and stat-driven outcomes."
+					],
+					"about": [
+						"An idle-based combat system focused on automation and progression."
+					],
+					"details": {
+						"status": "On Hold",
+						"type": "Game System"
+					}
+				},
+				{
+					"title": "EVG",
+					"href": "/GlobalAssets/HTML/Project.html?branch=Games&data-json=EVG",
+					"image": "",
+					"imageMax": 320,
+					"description": [
+						"A sandbox-style board system combining structured world spaces with flexible gameplay systems.",
+						"Designed to support evolving mechanics, entities, and layered game interactions."
+					],
+					"about": [
+						"A modular sandbox system with layered world and gameplay structures."
+					],
+					"details": {
+						"status": "On Hold",
+						"type": "Game System"
+					}
+				}
 			]
 		}
-		]
+	]
 }

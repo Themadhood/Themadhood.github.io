@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=photos",
+        "homePath": "/index.html?branch=photos",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=photos"
+                "href": "/index.html?branch=photos"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=photos"
+			"href": "/BizCard.html?branch=photos"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=photos"
+                "href": "/links.html?branch=photos"
             }
         ]
     }

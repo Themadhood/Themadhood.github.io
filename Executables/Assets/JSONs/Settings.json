@@ -7,7 +7,7 @@
     "brand": {
         "title": "Themadhood's Executables",
         "email": "Themadhoods.Applications@gmail.com",
-        "logo": "/Executables/Assets/Branding/THEMADHOOD Executables O 2k-2k.png",
+        "logo": "/Executables/Assets/Branding/THEMADHOOD Executables CIR 2k-2k.png",
         "background": "/Codes/Assets/Branding/THEMADHOOD Codes SQ background 2K-2K.jpg",
         "copyright": "© 2026 Themadhood's Executables. All rights reserved.",
         "brandContext": "Themadhood's Executables operates under Themadhood's Applications.",
@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=executables",
+        "homePath": "/index.html?branch=executables",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=executables"
+                "href": "/index.html?branch=executables"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=executables"
+			"href": "/BizCard.html?branch=executables"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=executables"
+                "href": "/links.html?branch=executables"
             }
         ]
     }

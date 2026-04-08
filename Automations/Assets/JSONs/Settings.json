@@ -28,19 +28,23 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=automations",
+        "homePath": "/index.html?branch=automations",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=automations"
+                "href": "/index.html?branch=automations"
             },
 			{
+			"label": "Projects",
+			"href": "/GlobalAssets/HTML/Showcase.html?branch=automations&data-json=Projects"
+			},
+			{
 			"label": "Card",
-			"href": "BizCard.html?branch=automations"
+			"href": "/BizCard.html?branch=automations"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=automations"
+                "href": "/links.html?branch=automations"
             }
         ]
     }

@@ -28,19 +28,23 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=coding-foundations",
+        "homePath": "/index.html?branch=coding-foundations",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=coding-foundations"
+                "href": "/index.html?branch=coding-foundations"
             },
 			{
+			"label": "Projects",
+			"href": "/GlobalAssets/HTML/Showcase.html?branch=coding-foundations&data-json=Projects"
+			},
+			{
 			"label": "Card",
-			"href": "BizCard.html?branch=coding-foundations"
+			"href": "/BizCard.html?branch=coding-foundations"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=coding-foundations"
+                "href": "/links.html?branch=coding-foundations"
             }
         ]
     }

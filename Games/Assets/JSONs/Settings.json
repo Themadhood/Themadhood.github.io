@@ -7,7 +7,7 @@
     "brand": {
         "title": "Themadhood's Games",
         "email": "Themadhoods.Applications@gmail.com",
-        "logo": "/Games/Assets/Branding/THEMADHOOD Games O 2k-2k.png",
+        "logo": "/Games/Assets/Branding/THEMADHOOD Games CIR 2k-2k.png",
         "background": "/Codes/Assets/Branding/THEMADHOOD Codes SQ background 2K-2K.jpg",
         "copyright": "© 2026 Themadhood's Games. All rights reserved.",
         "brandContext": "Themadhood's Games operates under Themadhood's Applications.",
@@ -28,19 +28,23 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=games",
+        "homePath": "/index.html?branch=games",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=games"
+                "href": "/index.html?branch=games"
             },
 			{
+			"label": "Projects",
+			"href": "/GlobalAssets/HTML/Showcase.html?branch=Games&data-json=Projects"
+			},
+			{
 			"label": "Card",
-			"href": "BizCard.html?branch=games"
+			"href": "/BizCard.html?branch=games"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=games"
+                "href": "/links.html?branch=games"
             }
         ]
     }

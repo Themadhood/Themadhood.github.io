@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=pi-relays",
+        "homePath": "/index.html?branch=pi-relays",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=pi-relays"
+                "href": "/index.html?branch=pi-relays"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=pi-relays"
+			"href": "/BizCard.html?branch=pi-relays"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=pi-relays"
+                "href": "/links.html?branch=pi-relays"
             }
         ]
     }

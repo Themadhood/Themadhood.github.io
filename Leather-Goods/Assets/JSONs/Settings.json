@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=leather-goods",
+        "homePath": "/index.html?branch=leather-goods",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=leather-goods"
+                "href": "/index.html?branch=leather-goods"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=leather-goods"
+			"href": "/BizCard.html?branch=leather-goods"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=leather-goods"
+                "href": "/links.html?branch=leather-goods"
             }
         ]
     }

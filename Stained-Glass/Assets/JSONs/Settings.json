@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=stained-glass",
+        "homePath": "/index.html?branch=stained-glass",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=stained-glass"
+                "href": "/index.html?branch=stained-glass"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=stained-glass"
+			"href": "/BizCard.html?branch=stained-glass"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=stained-glass"
+                "href": "/links.html?branch=stained-glass"
             }
         ]
     }

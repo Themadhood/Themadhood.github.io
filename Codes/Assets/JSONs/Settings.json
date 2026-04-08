@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=codes",
+        "homePath": "/index.html?branch=codes",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=codes"
+                "href": "/index.html?branch=codes"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=codes"
+			"href": "/BizCard.html?branch=codes"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=codes"
+                "href": "/links.html?branch=codes"
             }
         ]
     }

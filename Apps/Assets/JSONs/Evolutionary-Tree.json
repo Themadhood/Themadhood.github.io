@@ -1,0 +1,109 @@
+{
+    "title": "Evilutionary-Tree",
+    "subtitle": "A flexible data project for exploring evolutionary paths and related information across science and fantasy settings.",
+    "heroImage": "",
+    "status": "In Progress",
+    "primaryLinks": [
+        {
+            "title": "Project Page N/A",
+            "href": ""
+        }
+    ],
+    "description": [
+        "Stores collections of real, fantasy, and other kinds of data in one place.",
+        "Designed to make evolutionary paths and related information easier to explore, compare, and understand across both science and fantasy settings."
+    ],
+    "features": [
+        "Easy information lookup",
+        "Filtering and browsing tools",
+        "Structured storage for real and fantasy data",
+        "Clear viewing of evolutionary paths and related information",
+		"Centralized data storage for mixed (real + fantasy) datasets",
+		"Evolution path visualization (multi-branch relationships)",
+		"Search and filtering for fast data lookup",
+		"Expandable stat system with flexible schema",
+		"Designed for future database-driven queries instead of hardcoded logic"
+    ],
+    "statusDetails": [
+		"Database structure currently being redesigned",
+		"Transitioning from static storage to query-driven system",
+		"Improving data relationships and evolution linking",
+		"Planning scalable backend for future expansion"
+    ],
+    "screenshots": [
+        {
+            "src": "",
+            "title": "",
+            "body": ""
+        }
+    ],
+    "downloadLinks": [],
+    "documentation": {
+        "howItWorks": [],
+        "setupInstall": [],
+        "apiStructure": [
+            "The project is currently centered around redesigning how data is stored, managed, and organized for future expansion."
+        ]
+    },
+    "devLogs": [
+		{
+			"progressNotes": [
+				"Initial hardcoded stat system (Spring 2021 → Fall 2021)",
+				"Built first version using nested Python dictionaries.",
+				"Defined core stats: HP, MP, moves, range, attack, defense.",
+				"Organized entities by name and basic categories like gods and people."
+			]
+		},
+		{
+			"progressNotes": [
+				"Expansion of hardcoded system (Fall 2021 → Spring 2022)",
+				"Gradually added more entities and stat variations.",
+				"Improved organization of data structures.",
+				"Started seeing limitations of hardcoded approach."
+			]
+		},
+		{
+			"progressNotes": [
+				"Pre-migration restructuring (Spring 2022 → Early 2023)",
+				"Refined stat categories and naming consistency.",
+				"Prepared data for external storage.",
+				"Began planning for scalable data management."
+			]
+		},
+		{
+			"progressNotes": [
+				"Google Sheets migration + system expansion (2023)",
+				"Moved all stat storage to Google Sheets.",
+				"Downloaded data into Python as dict-based variables.",
+				"Added new systems: titles, classes, skills, and magic.",
+				"Replaced moves with SP (skill-based system)."
+			]
+		},
+		{
+			"progressNotes": [
+				"Helper classes and early evolution system (2023 → Early 2024)",
+				"Created helper classes to wrap and access stat dictionaries.",
+				"Encapsulated data with getter-based access patterns.",
+				"Built first evolution system using linked multi-branch relationships."
+			]
+		},
+		{
+			"progressNotes": [
+				"JSON data system rewrite (July 2024 → Late 2024)",
+				"Reworked downloader to output JSON instead of Python files.",
+				"Decoupled data from code structure.",
+				"Updated helpers to retrieve data through callable references.",
+				"Improved internal data handling and flexibility."
+			]
+		},
+		{
+			"progressNotes": [
+				"Database architecture transition (Nov 2025 → Present)",
+				"Unified all data into a single structured Google Sheet.",
+				"Shifted from static storage to database-oriented design.",
+				"Planning full DB-backed system for dynamic queries.",
+				"Replacing hardcoded logic with query-driven data access."
+			]
+		}
+	]
+}

@@ -1,80 +1,130 @@
 {
-	"title": "4-H Evaluation",
-	"subtitle": "this project was designed to make copying MN 4-H Evaluations easyer",
-	"heroImage": "/Executables/assets/Projects/4-H Evaluations",
-	"status": "Canceled",
-
-	"primaryLinks": [
-		{ "title": "GitHub", "href": "https://github.com/example/repo" },
-		{ "title": "Live Demo", "href": "https://example.com/demo" }
-	],
-
-	"description": [
-		"What the project is",
-		"What problem it solves"
-	],
-
-	"features": [
-		"reads all files in a given directory",
-		"a easy partisapant selection Ui",
-		"a copy and rename function"
-	],
-
-	"statusDetails": [
-		"Canceled by client",
-		"UI complete",
-		"functions complete"
-	],
-
-	"screenshots": [
+    "title": "4H-Evaluations",
+    "subtitle": "A desktop tool built to make copying and organizing MN 4-H evaluations easier.",
+    "heroImage": "/Executables/assets/Projects/4-H Evaluations",
+    "status": "Canceled",
+    "primaryLinks": [
+        {
+            "title": "GitHub",
+            "href": "https://github.com/Themadhood/4H_Exhibits_Juging_Template"
+        },
 		{
-			"src": "",
-			"title": "",
-			"body": ""
-		}
-	],
-
-	"downloadLinks": [
+            "title": "Download Prototype",
+            "href": "https://github.com/Themadhood/4H_Exhibits_Juging_Template/releases/tag/Test_Release"
+        }
+    ],
+    "description": [
+        "A utility built to simplify the yearly process of handling MN 4-H evaluation files.",
+        "It reduces manual searching, filtering, copying, and renaming so evaluation packets can be prepared faster and with fewer mistakes."
+    ],
+    "features": [
+        "Reads all files in a selected evaluation directory",
+        "Participant selection UI with progressive filtering",
+        "Copy and rename workflow for evaluation files"
+    ],
+    "statusDetails": [
+        "Canceled by client",
+        "Core UI completed",
+        "Core file-handling functions completed"
+    ],
+    "screenshots": [
+        {
+            "src": "/Executables/Assets/Projects/4H-Evaluations/4-H-Clover transparent.png",
+            "title": "4-H Logo",
+            "body": ""
+        },
 		{
-			"title": "Windows Build",
-			"body": "Latest packaged version for Windows",
-			"href": "",
-			"buttonText": "Download Page"
-		},
+            "src": "/Executables/Assets/Projects/4H-Evaluations/Diagram.png",
+            "title": "diagram",
+            "body": "striped down diagram for explaining how it works"
+        },
 		{
-			"title": "Source Code",
-			"body": "Repository and development files",
-			"href": "",
-			"buttonText": "Open Repo"
-		}
-	],
-
-	"documentation": {
-		"howItWorks": [
-			"every year on first start up it asks for the path to all the Evaluations and partisapant list",
-"it opens a UI with a bunch of filters that open as each is answered and a copy list",
-"there is a safety that won't let you copy unless there is a destination"
-		],
-		"setupInstall": [
-			"download the .exe",
-			"run the exe and answer the questions"
-		]
-	},
-
-	"devLogs": [
+            "src": "/Executables/Assets/Projects/4H-Evaluations/GUI Draft 1.jpg",
+            "title": "UI diaggram",
+            "body": "this is the UI that was agreed upon"
+        }
+    ],
+    "downloadLinks": [
+        {
+            "title": "Windows Build",
+            "body": "Packaged executable build for Windows.",
+            "href": "https://github.com/Themadhood/4H_Exhibits_Juging_Template/releases/tag/Test_Release",
+            "buttonText": "Download Page"
+        },
+        {
+            "title": "Source Code",
+            "body": "Project source and development files.",
+            "href": "https://github.com/Themadhood/4H_Exhibits_Juging_Template",
+            "buttonText": "Open Repo"
+        }
+    ],
+    "documentation": {
+        "howItWorks": [
+            "On first startup each year, the program asks for the evaluations directory and participant list path.",
+            "It opens a UI with layered filters that appear as earlier selections are made.",
+            "The copy workflow includes a safety check that prevents copying until a valid destination is selected."
+        ],
+        "setupInstall": [
+            "Download the executable build.",
+            "Run the program and answer the startup path questions."
+        ],
+        "apiStructure": []
+    },
+    "devLogs": [
 		{
-			"title": "UI rewrite finished",
-			"date": "2026-04-01",
 			"progressNotes": [
-				"Rebuilt the layout system.",
-				"Connected image viewer."
+				"Project setup and data foundation (2023-09)",
+				"Created initial project structure and clarified requirements.",
+				"Built system to read Excel format rows into structured records.",
+				"Implemented entry record handling and parsing logic."
 			]
 		},
 		{
-			"title": "Initial prototype",
-			"date": "2026-03-18",
 			"progressNotes": [
-				"Set up base project files."
+				"Core functionality development (2023-12)",
+				"Developed functions to find, copy, clone, and rename evaluation files.",
+				"Built core backend automation logic.",
+				"Established main data processing workflow."
+			]
+		},
+		{
+			"progressNotes": [
+				"System configuration and persistence (2023-12 to 2024-01)",
+				"Implemented settings system with save and load functionality.",
+				"Improved project structure for repeat yearly use.",
+				"Added safety checks for required inputs and destinations."
+			]
+		},
+		{
+			"progressNotes": [
+				"Frontend GUI development (2024-01)",
+				"Built main user interface with participant selection.",
+				"Created dynamic filtering system that expands based on input.",
+				"Developed GUI driver logic and interaction handling."
+			]
+		},
+		{
+			"progressNotes": [
+				"Integration and testing (2024-01-26)",
+				"Connected frontend UI with backend systems.",
+				"Tested full application workflow and edge cases.",
+				"Refined usability and interaction flow."
+			]
+		},
+		{
+			"progressNotes": [
+				"Debugging and system refinement (2024-02)",
+				"Identified and resolved bugs across UI and backend.",
+				"Improved reliability of file operations and data handling.",
+				"Optimized performance and stability."
+			]
+		},
+		{
+			"progressNotes": [
+				"Final structure and deployment setup (Feb 2024)",
+				"Built server/client structure for deployment.",
+				"Prepared application for real-world usage.",
+				"Finalized system behavior before project cancellation."
 			]
 		}
 	]

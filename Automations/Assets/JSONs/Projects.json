@@ -1,19 +1,64 @@
 {
 	"sections": [
 		{
-		"title": "",
-		"body": "",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {}
-			}
+			"title": "Projects",
+			"body": "A growing collection of in-progress tools and systems focused on automation, syncing, and utility-driven workflows. These projects are being built to reduce manual steps, improve repeatability, and support practical day-to-day use.",
+			"items": [
+				{
+					"title": "Dir Sync",
+					"href": "/GlobalAssets/HTML/Project.html?branch=automations&data-json=Dir-Sync",
+					"image": "",
+					"imageMax": 320,
+					"description": [
+						"A utility for comparing directories and copying file changes from one location to another.",
+						"Focused on making file synchronization easier, safer, and more reliable without requiring constant manual work."
+					],
+					"about": [
+						"A file synchronization project focused on copying changed data between directories.",
+						"Built around practical syncing and backup-style workflows."
+					],
+					"details": {
+						"status": "In Progress",
+						"type": "Project"
+					}
+				},
+				{
+					"title": "USB Auto Detect",
+					"href": "/GlobalAssets/HTML/Project.html?branch=automations&data-json=USB-Auto-Detect",
+					"image": "",
+					"imageMax": 320,
+					"description": [
+						"A utility for detecting USB device connections and triggering related actions when drives are inserted or removed.",
+						"Designed to simplify workflows that depend on removable storage being recognized automatically."
+					],
+					"about": [
+						"A utility project centered on recognizing USB device connections automatically.",
+						"Designed to support automation that begins when removable media is detected."
+					],
+					"details": {
+						"status": "In Progress",
+						"type": "Project"
+					}
+				},
+				{
+					"title": "USB Dir Sync",
+					"href": "/GlobalAssets/HTML/Project.html?branch=automations&data-json=USB-Dir-Sync",
+					"image": "",
+					"imageMax": 320,
+					"description": [
+						"A utility that combines USB detection with directory synchronization so file copy tasks can begin when a target drive is connected.",
+						"Built to reduce manual backup steps and make portable sync workflows easier to run."
+					],
+					"about": [
+						"A combined utility that links USB detection with directory synchronization.",
+						"Intended to simplify portable backup and transfer workflows."
+					],
+					"details": {
+						"status": "In Progress",
+						"type": "Project"
+					}
+				}
 			]
 		}
-		]
+	]
 }

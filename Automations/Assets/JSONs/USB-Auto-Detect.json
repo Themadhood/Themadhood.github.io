@@ -1,97 +1,40 @@
 {
-	"title": "My Project",
-	"subtitle": "Short one-line summary",
-	"heroImage": "/Projects/Assets/Images/MyProject.png",
+	"title": "USB Auto Detect",
+	"subtitle": "Automatic USB device detection utility",
+	"heroImage": "",
 	"status": "In Progress",
-
 	"primaryLinks": [
-		{ "title": "GitHub", "href": "https://github.com/example/repo" },
-		{ "title": "Live Demo", "href": "https://example.com/demo" }
+		{
+			"title": "",
+			"href": ""
+		}
 	],
-
 	"description": [
-		"What the project is",
-		"What problem it solves"
+		"A utility for detecting USB device connections and triggering related actions when drives are inserted or removed.",
+		"Designed to simplify workflows that depend on removable storage being recognized automatically."
 	],
-
 	"features": [
-		"Feature one",
-		"Feature two",
-		"Feature three"
+		"Automatic detection of connected USB devices",
+		"Trigger-ready workflow for insert and removal events",
+		"Designed to support automation tied to removable media"
 	],
-
 	"statusDetails": [
-		"Core system complete",
-		"UI polish in progress",
-		"Export tools planned"
+		"Detection workflow still being defined",
+		"Trigger behavior and supported actions may expand",
+		"Project details have not been fully documented yet"
 	],
-
 	"screenshots": [
 		{
-			"src": "/Projects/Assets/Screenshots/shot1.png",
-			"title": "Main screen",
-			"body": "Primary dashboard view"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
-		},
-		{
-			"src": "/Projects/Assets/Screenshots/shot2.png",
-			"title": "Settings",
-			"body": "Configuration screen"
+			"src": "",
+			"title": "",
+			"body": ""
 		}
 	],
-
-	"downloadLinks": [
-		{
-			"title": "Windows Build",
-			"body": "Latest packaged version for Windows",
-			"href": "/downloads/project-win.zip",
-			"buttonText": "Download"
-		},
-		{
-			"title": "Source Code",
-			"body": "Repository and development files",
-			"href": "https://github.com/example/repo",
-			"buttonText": "Open Repo"
-		}
-	],
-
+	"downloadLinks": [],
 	"documentation": {
-		"howItWorks": [
-			"Explain the main system flow here."
-		],
-		"setupInstall": [
-			"Step 1...",
-			"Step 2..."
-		],
-		"apiStructure": [
-			"Describe modules, API endpoints, or project structure here."
-		]
+		"howItWorks": [],
+		"setupInstall": [],
+		"apiStructure": []
 	},
-
-	"devLogs": [
-		{
-			"title": "UI rewrite finished",
-			"date": "2026-04-01",
-			"progressNotes": [
-				"Rebuilt the layout system.",
-				"Connected image viewer."
-			]
-		},
-		{
-			"title": "Initial prototype",
-			"date": "2026-03-18",
-			"progressNotes": [
-				"Set up base project files."
-			]
-		}
-	]
+	"devLogs": []
 }

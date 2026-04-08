@@ -28,19 +28,19 @@
         }
     },
     "nav": {
-        "homePath": "index.html?branch=databases",
+        "homePath": "/index.html?branch=databases",
         "items": [
             {
                 "label": "Home",
-                "href": "index.html?branch=databases"
+                "href": "/index.html?branch=databases"
             },
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=databases"
+			"href": "/BizCard.html?branch=databases"
 			},
             {
                 "label": "Links",
-                "href": "links.html?branch=databases"
+                "href": "/links.html?branch=databases"
             }
         ]
     }

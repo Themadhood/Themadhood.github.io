@@ -1,36 +1,56 @@
 {
-	"sections": [
-		{
-		"title": "4-H Evaluations",
-		"body": "",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {}
-			}
-			]
-		},
-
-
-		{
-		"title": "Evolutionary Tree",
-		"body": "",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {}
-			}
-			]
-		}
-		]
+    "sections": [
+        {
+            "title": "4-H Evaluations",
+            "body": "Projects in this section focus on practical tools built to solve specific workflow problems with clear, usable interfaces.",
+            "items": [
+                {
+                    "title": "4H-Evaluations",
+                    "href": "/GlobalAssets/HTML/Project.html?branch=executables&data-json=4H-Evaluations",
+                    "image": "/Executables/assets/Projects/4-H-Clover transparent.png",
+                    "imageMax": 320,
+                    "description": [
+                        "A utility built to simplify the yearly process of handling MN 4-H evaluation files.",
+                        "It reduces manual searching, filtering, copying, and renaming so evaluation packets can be prepared faster and with fewer mistakes."
+                    ],
+                    "about": [
+                        "A utility for simplifying the yearly MN 4-H evaluation file workflow.",
+                        "Built to reduce manual sorting, copying, and renaming work."
+                    ],
+                    "details": {
+                        "status": "Canceled",
+                        "type": "Executable Tool"
+                    }
+                }
+            ]
+        },
+        {
+                    "title": "Evolutionary-Tree",
+                    "href": "/GlobalAssets/HTML/Project.html?branch=apps&data-json=Evolutionary-Tree",
+                    "image": "",
+                    "imageMax": 320,
+                    "description": [
+                        "Stores collections of real, fantasy, and other kinds of data in one place.",
+                        "Designed to make evolutionary paths and related information easier to explore, compare, and understand across both science and fantasy settings."
+                    ],
+                    "about": [
+                        "A flexible data project for exploring evolutionary paths and related information across science and fantasy settings.",
+                        "Current status: In Progress."
+                    ],
+                    "details": {
+                        "status": "In Progress",
+                        "features": [
+                            "Easy information lookup",
+                            "Filtering and browsing tools",
+                            "Structured storage for real and fantasy data",
+                            "Clear viewing of evolutionary paths and related information"
+                        ],
+                        "statusDetails": [
+                            "Database structure is being redesigned.",
+                            "Management systems are being reworked.",
+                            "Stored information categories and layout are still being refined."
+                        ]
+                    }
+                }
+    ]
 }

@@ -34,19 +34,19 @@
 	
 	
 	"nav": {
-		"homePath": "index.html?branch=media",
+		"homePath": "/index.html?branch=media",
 		"items": [
 			{
 			"label": "Home",
-			"href": "index.html?branch=media"
+			"href": "/index.html?branch=media"
 			},
 			{
 			"label": "Card",
-			"href": "BizCard.html?branch=media"
+			"href": "/BizCard.html?branch=media"
 			},
 			{
 			"label": "Links",
-			"href": "links.html?branch=media"
+			"href": "/links.html?branch=media"
 			}
 		]
 	}
