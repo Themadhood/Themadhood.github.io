@@ -30,10 +30,6 @@ Main Repository
 │	│	└─ each htmls fnctions and behaver java scripts  
 │	└─ Imgs  
 │		└─ imige resorses used by all branches  
-├─ Content  
-│	└─ holds the foundation branch .jsons  
-│		└─ thease are the quick jsons that where created when all my cites whent down  
-│			without warrning and i needed a quick fix and wix wasnt going fast enufe  
 ├─ branch  
 │	├─ sub branch redirects with same redirect layout  
 │	│	└─ themadhood.github.io/branch/sub_branch (will redirect to that branch)  
