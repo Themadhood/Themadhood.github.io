@@ -37,8 +37,13 @@ Main Repository
 │	│	└─ themadhood.github.io/branch/branch_page (will redirect to this branches pages: home,links...)  
 │	├─ index.html  
 │	│	└─ branch redirect that takes you to that spesific branch  
-│	└─ the branch page.json that holds info thats used to load and put on a page  
-└─ page.htmls  
+│	└─ assets  
+│		├─ Branding  
+│		│	└─ (all branding files)
+│		├─ JSONs  
+│		│	└─ (all JSON files used for that branches pages info)
+│		└─ other (other directory assets used such as imiges, code, and others)
+└─ page.html  
 
 
 
