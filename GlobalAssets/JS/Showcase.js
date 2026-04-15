@@ -8,6 +8,48 @@ function getURLParam(name){
 	return params.get(name);
 }
 
+function openItemFromURL(){
+	const path = getURLParam("path") || getURLParam("item");
+	if(!path) return;
+
+	const parts = String(path)
+		.split("/")
+		.map(part => part.trim())
+		.filter(Boolean);
+
+	if(!parts.length) return;
+
+	let currentPath = "";
+	let lastTarget = null;
+
+	for(const part of parts){
+		currentPath = currentPath ? `${currentPath}/${part}` : part;
+
+		const target = document.querySelector(`[data-showcase-path="${currentPath}"]`);
+		if(!target) return;
+
+		lastTarget = target;
+
+		const dropdown = target.classList.contains("showcase-dropdown")
+			? target
+			: target.closest(".showcase-dropdown");
+
+		if(dropdown){
+			const button = dropdown.querySelector(".showcase-dropdown-toggle");
+			if(button && button.getAttribute("aria-expanded") !== "true"){
+				button.click();
+			}
+		}
+	}
+
+	if(lastTarget){
+		lastTarget.scrollIntoView({
+			behavior: "smooth",
+			block: "center"
+		});
+	}
+}
+
 function getJsonFileName(){
 	const fromURL = getURLParam("data-json");
 
@@ -17,6 +59,24 @@ function getJsonFileName(){
 
 	// fallback if none specified
 	return "Showcase";
+}
+
+function makeSlug(text){
+	return String(text || "")
+		.toLowerCase()
+		.trim()
+		.replace(/[^a-z0-9]+/g, "-")
+		.replace(/^-+|-+$/g, "");
+}
+
+function getItemTargetId(section, item){
+	if(item && item.id && String(item.id).trim()){
+		return String(item.id).trim();
+	}
+
+	const sectionSlug = makeSlug(section?.title || "section");
+	const itemSlug = makeSlug(item?.title || "item");
+	return `${sectionSlug}__${itemSlug}`;
 }
 
 
@@ -396,7 +456,7 @@ function getEntryDetails(entry){
 }
 
 
-function buildShowcaseContent(entry, headingLevel = "h3", lightbox = null){
+function buildShowcaseContent(entry, headingLevel = "h3", lightbox = null, parentPath = ""){
 	const content = document.createElement("div");
 	content.className = "showcase-content";
 
@@ -434,7 +494,7 @@ function buildShowcaseContent(entry, headingLevel = "h3", lightbox = null){
 		content.appendChild(meta);
 	}
 
-	const dropdownBlocks = buildDropdownBlocks(entry, lightbox);
+	const dropdownBlocks = buildDropdownBlocks(entry, lightbox, parentPath);
 	for(const block of dropdownBlocks){
 		content.appendChild(block);
 	}
@@ -443,16 +503,20 @@ function buildShowcaseContent(entry, headingLevel = "h3", lightbox = null){
 }
 
 
-function buildEntryRender(entry, lightbox, headingLevel = "h3", fallbackMax = 280){
+function buildEntryRender(entry, lightbox, headingLevel = "h3", fallbackMax = 280, parentPath = ""){
 	const wrap = document.createElement("div");
 	wrap.className = "showcase-item-inner";
+
+	if(parentPath){
+		wrap.dataset.showcasePath = parentPath;
+	}
 
 	const media = buildMediaBlock(entry, lightbox, fallbackMax);
 	if(media){
 		wrap.appendChild(media);
 	}
 
-	const content = buildShowcaseContent(entry, headingLevel, lightbox);
+	const content = buildShowcaseContent(entry, headingLevel, lightbox, parentPath);
 	wrap.appendChild(content);
 
 	return wrap;
@@ -497,7 +561,7 @@ function buildDropdownListBody(value){
 }
 
 
-function buildDropdownBlock(dropdown, lightbox){
+function buildDropdownBlock(dropdown, lightbox, parentPath = ""){
 	if(!dropdown || typeof dropdown !== "object"){
 		return null;
 	}
@@ -517,6 +581,10 @@ function buildDropdownBlock(dropdown, lightbox){
 
 	const block = document.createElement("div");
 	block.className = "showcase-block showcase-dropdown";
+
+	const slug = makeSlug(dropdown.id || title);
+	const currentPath = parentPath ? `${parentPath}/${slug}` : slug;
+	block.dataset.showcasePath = currentPath;
 
 	const button = document.createElement("button");
 	button.type = "button";
@@ -548,7 +616,8 @@ function buildDropdownBlock(dropdown, lightbox){
 			...dropdown
 		};
 
-		body.appendChild(buildEntryRender(entryData, lightbox, "h4", 220));
+		const entryWrap = buildEntryRender(entryData, lightbox, "h4", 220, currentPath);
+		body.appendChild(entryWrap);
 	}
 
 	button.addEventListener("click", () => {
@@ -565,7 +634,7 @@ function buildDropdownBlock(dropdown, lightbox){
 }
 
 
-function buildDropdownBlocks(entry, lightbox){
+function buildDropdownBlocks(entry, lightbox, parentPath = ""){
 	if(!entry || typeof entry !== "object"){
 		return [];
 	}
@@ -577,7 +646,7 @@ function buildDropdownBlocks(entry, lightbox){
 	const blocks = [];
 
 	for(const dropdown of entry.dropdowns){
-		const block = buildDropdownBlock(dropdown, lightbox);
+		const block = buildDropdownBlock(dropdown, lightbox, parentPath);
 		if(block){
 			blocks.push(block);
 		}
@@ -607,7 +676,10 @@ function renderShowcase(showcaseData){
 		const card = document.createElement("div");
 		card.className = "card showcase-section";
 
-		card.appendChild(buildEntryRender(section, lightbox, "h2", 320));
+		const sectionSlug = makeSlug(section.title);
+		card.dataset.showcasePath = sectionSlug;
+
+		card.appendChild(buildEntryRender(section, lightbox, "h2", 320, sectionSlug));
 
 		const itemsWrap = document.createElement("div");
 		itemsWrap.className = "showcase-items";
@@ -616,10 +688,15 @@ function renderShowcase(showcaseData){
 			const itemCard = document.createElement("div");
 			itemCard.className = "card showcase-item";
 
-			itemCard.appendChild(buildEntryRender(item, lightbox, "h3", 280));
+			const targetId = getItemTargetId(section, item);
+			itemCard.id = targetId;
+			itemCard.dataset.itemId = targetId;
+			itemCard.dataset.showcasePath = targetId;
+
+			itemCard.appendChild(buildEntryRender(item, lightbox, "h3", 280, targetId));
 			itemsWrap.appendChild(itemCard);
 		}
-
+		
 		card.appendChild(itemsWrap);
 		grid.appendChild(card);
 		sectionsHost.appendChild(grid);
@@ -635,6 +712,7 @@ async function main(){
 	const showcaseData = await loadBranch(branch, jsonFile);
 
 	renderShowcase(showcaseData);
+	openItemFromURL();
 }
 
 
