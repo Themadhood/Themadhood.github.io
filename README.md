@@ -1,11 +1,7 @@
-# Themadhood
-
-
 # Themadhood GitHub Pages Template
 
 ## What to edit
-- All text + menu + link lists live in `Content/*.json`.
-- All text + menu + link lists live in `branch_name/*.json`.
+- All text + menu + link lists live in `branch_name/Assets/JSONs/*.json`.
 
 ## Branch switch
 - Default: `pequot`
@@ -17,7 +13,7 @@ Example:
 
 ## Images
 Put images in `branch_name/Assets/Img/` and reference them from JSON as:
-- `GlobalAssets/Img/file.png`
+- `GlobalAssets/Imgs/file.png`
 
 ## Layout
 Main Repository  
