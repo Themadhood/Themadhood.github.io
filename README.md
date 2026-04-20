@@ -38,7 +38,7 @@ Main Repository
 │		│	└─ (all branding files)
 │		├─ JSONs  
 │		│	└─ (all JSON files used for that branches pages info)
-│		└─ other (other directory assets used such as imiges, code, and others)
+│		└─ other (other directory assets used such as imiges, code, and others)  
 └─ page.html  
 
 
