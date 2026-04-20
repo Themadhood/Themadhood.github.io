@@ -1,0 +1,32 @@
+{
+	"sections": [
+		{
+		"title": "Windows",
+		"body": "",
+		"items": [
+			{
+			"title": "School of Shaolin Kung Fu",
+			"href": "https://schoolofshaolin.com/",
+			"image": "/Stained-Glass/Assets/Projects/School-of-Shaolin-Kung-Fu/Completed-SOSKF.jpg",
+			"imageMax": 320,
+			"gallery": [
+            "/Stained-Glass/Assets/Projects/School-of-Shaolin-Kung-Fu/Displayed-SOSKF-Window.jpg"
+			],
+			"description": ["This stained glass window was created for the School of Shaolin Kung Fu, combining traditional symbolism with martial arts philosophy. The circular design represents unity and balance, enclosing key elements that reflect discipline, strength, and harmony.",
+			"At the center, crossed weapons form an “X,” symbolizing training, discipline, and the mastery of martial skill. Beneath them sits the yin-yang, representing the balance between opposing forces—strength and control, motion and stillness—which are core principles in kung fu practice.",
+			"Flanking the center are two powerful creatures: a dragon and a tiger. The dragon represents wisdom, agility, and internal strength, while the tiger symbolizes power, courage, and external force. Together, they illustrate the balance between internal and external martial arts.",
+			"The piece is framed with stylized lettering and Chinese characters, reinforcing its cultural roots and identity. The use of bold colors—greens for the dragon, orange for the tiger, and red accents—adds energy and contrast while maintaining visual harmony."],
+			"about": ["This stained glass piece was created for the School of Shaolin Kung Fu as a visual representation of the philosophy and discipline behind the art. The design brings together traditional symbols to reflect the balance, strength, and continuous growth that define kung fu practice.",
+			"The dragon and tiger represent the dual nature of martial arts—internal and external power—working together rather than in opposition. At the center, the yin-yang reinforces this idea of balance, while the crossed weapons symbolize dedication to training and the pursuit of mastery.",
+			"The circular form unifies all elements, emphasizing that kung fu is not just physical technique, but a complete system of mind, body, and spirit. Every piece of glass was chosen and shaped to contribute to that harmony, making the window both a decorative work and a reflection of the school’s identity."],
+			"details": {"Medium": "Stained glass with lead came construction",
+			"Approximate Size": "~2 to 3 feet in diameter",
+			"Design Shape": "Circular, symbolizing unity and continuity",
+			"Primary Symbols":"Dragon (left) – internal strength, wisdom\nTiger (right) – external power, courage\nCrossed weapons – discipline and martial training\nYin-yang – balance and duality",
+			"Color Palette":"Green (dragon) – growth, control\nOrange/black (tiger) – power, intensity\nRed accents – energy, tradition\nStyle: Traditional martial arts symbolism with decorative glasswork"
+			}
+			}
+			]
+		}
+		]
+}
