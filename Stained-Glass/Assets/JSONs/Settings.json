@@ -34,6 +34,10 @@
                 "label": "Home",
                 "href": "/index.html?branch=stained-glass"
             },
+            {
+                "label": "Showcase",
+                "href": "/index.html?branch=stained-glass"
+            },
 			{
 			"label": "Card",
 			"href": "/BizCard.html?branch=stained-glass"
