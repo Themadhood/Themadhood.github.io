@@ -36,11 +36,11 @@
             },
 			{
 			"label": "Card",
-			"href": "/BizCard.html?branch=leather-goods"
+			"href": "/GlobalAssets/HTML/BizCard.html?branch=leather-goods"
 			},
             {
                 "label": "Links",
-                "href": "/links.html?branch=leather-goods"
+                "href": "/GlobalAssets/HTML/Links.html?branch=leather-goods"
             }
         ]
     }

@@ -40,11 +40,11 @@
 			},
 			{
 			"label": "Card",
-			"href": "/BizCard.html?branch=games"
+			"href": "/GlobalAssets/HTML/BizCard.html?branch=games"
 			},
             {
                 "label": "Links",
-                "href": "/links.html?branch=games"
+                "href": "/GlobalAssets/HTML/Links.html?branch=games"
             }
         ]
     }

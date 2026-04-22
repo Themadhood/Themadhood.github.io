@@ -40,11 +40,11 @@
 			},
 			{
 			"label": "Card",
-			"href": "/BizCard.html?branch=apps"
+			"href": "/GlobalAssets/HTML/BizCard.html?branch=apps"
 			},
             {
                 "label": "Links",
-                "href": "/links.html?branch=apps"
+                "href": "/GlobalAssets/HTML/Links.html?branch=apps"
             }
         ]
     }

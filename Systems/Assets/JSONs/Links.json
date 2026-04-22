@@ -14,7 +14,7 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "links.html?branch=pequot"
+                    "href": "/GlobalAssets/HTML/Links.html?branch=pequot"
                 }
             ]
         },
@@ -23,19 +23,19 @@
             "links": [
                 {
                     "label": "Themadhood's Automations",
-                    "href": "index.html?branch=automations"
+                    "href": "/index.html?branch=automations"
                 },
                 {
                     "label": "Themadhood's Coding Foundations",
-                    "href": "index.html?branch=coding-foundations"
+                    "href": "/index.html?branch=coding-foundations"
                 },
                 {
                     "label": "Themadhood's Databases",
-                    "href": "index.html?branch=coding-databases"
+                    "href": "/index.html?branch=databases"
                 },
 				{
                     "label": "Themadhood's Scripts",
-                    "href": "index.html?branch=scripts"
+                    "href": "/index.html?branch=scripts"
                 }
             ]
         }

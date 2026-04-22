@@ -36,11 +36,11 @@
             },
 			{
 			"label": "Card",
-			"href": "/BizCard.html?branch=trinkets"
+			"href": "/GlobalAssets/HTML/BizCard.html?branch=trinkets"
 			},
             {
                 "label": "Links",
-                "href": "/links.html?branch=trinkets"
+                "href": "/GlobalAssets/HTML/Links.html?branch=trinkets"
             }
         ]
     }

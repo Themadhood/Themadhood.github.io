@@ -36,11 +36,11 @@
             },
 			{
 			"label": "Card",
-			"href": "/BizCard.html?branch=pi-automations"
+			"href": "/GlobalAssets/HTML/BizCard.html?branch=pi-automations"
 			},
             {
                 "label": "Links",
-                "href": "/links.html?branch=pi-automations"
+                "href": "/GlobalAssets/HTML/Links.html?branch=pi-automations"
             }
         ]
     }

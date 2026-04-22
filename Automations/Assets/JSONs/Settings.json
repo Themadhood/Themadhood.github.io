@@ -40,11 +40,11 @@
 			},
 			{
 			"label": "Card",
-			"href": "/BizCard.html?branch=automations"
+			"href": "/GlobalAssets/HTML/BizCard.html?branch=automations"
 			},
             {
                 "label": "Links",
-                "href": "/links.html?branch=automations"
+                "href": "/GlobalAssets/HTML/Links.html?branch=automations"
             }
         ]
     }

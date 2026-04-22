@@ -14,7 +14,7 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "links.html?branch=pequot"
+                    "href": "/GlobalAssets/HTML/Links.html?branch=pequot"
                 }
             ]
         },
@@ -23,19 +23,19 @@
             "links": [
                 {
                     "label": "Themadhood's Apps",
-                    "href": "index.html?branch=apps"
+                    "href": "/index.html?branch=apps"
                 },
                 {
                     "label": "Themadhood's Development Tools",
-                    "href": "index.html?branch=pi-development-tools"
+                    "href": "/index.html?branch=development-tools"
                 },
 				{
                     "label": "Themadhood's Executables",
-                    "href": "index.html?branch=executables"
+                    "href": "/index.html?branch=executables"
                 },
 				{
                     "label": "Themadhood's Games",
-                    "href": "index.html?branch=games"
+                    "href": "/index.html?branch=games"
                 }
             ]
         }

@@ -1,4 +1,4 @@
-#reads all jsonsin local jsons and builds files
+#reads all jsons in local jsons and builds files
 #now irevivent
 
 import json

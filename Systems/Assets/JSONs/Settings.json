@@ -36,11 +36,11 @@
             },
 			{
 			"label": "Card",
-			"href": "/BizCard.html?branch=systems"
+			"href": "/GlobalAssets/HTML/BizCard.html?branch=systems"
 			},
             {
                 "label": "Links",
-                "href": "/links.html?branch=systems"
+                "href": "/GlobalAssets/HTML/Links.html?branch=systems"
             }
         ]
     }
