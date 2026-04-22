@@ -1,0 +1,121 @@
+{
+    "sections": [
+        {
+            "title": "Featured Items",
+            "": "Featured pieces represent a selection of standout designs from Themadhood's Jewelry collection. These items highlight distinctive craftsmanship, unique material use, and the overall direction of the gallery. Each featured piece or collection is chosen to showcase the range, creativity, and quality of the work, offering a clear introduction to the style and identity of the collection.",
+            "items": [
+                {
+                    "title": "22 Shell Necklace Collection",
+                    "href": "",
+                    "image": "/Jewelry/Assets/Gallery/Necklaces/22-Shell-wing-Necklace.jpg",
+                    "imageMax": 320,
+                    "gallery": [
+                        "/Jewelry/Assets/Gallery/Necklaces/22-Shell-Necklace-Simple.jpg"
+                    ],
+                    "about": [
+                        "A collection of 22 Shell based necklaces grouped"
+                    ],
+                    "description": [
+                        "This collection features handcrafted 22 Shell necklace variations, each offering a natural aesthetic with subtle design differences."
+                    ],
+                    "details": {
+                        "type": "necklace collection",
+                        "group": "Necklaces",
+                        "count": 2
+                    }
+                },
+                {
+                    "title": "Poptab Bracelet Collection",
+                    "href": "poptab-bracelet-collection",
+                    "image": "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Black-Red-Poptab-Bracelets.jpg",
+                    "imageMax": 320,
+                    "gallery": [
+                        "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Blue-Poptab-Bracelets.jpg",
+                        "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Gold-Black-Poptab-Bracelets.jpg",
+                        "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Pink-Blue-Poptab-Bracelets.jpg",
+                        "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Red-Black-Poptab-Bracelets.jpg",
+                        "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Silver-Black-Poptab-Bracelets.jpg",
+                        "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Silver-Pink-Poptab-Bracelets.jpg"
+                    ],
+                    "about": [
+                        "A collection of handcrafted bracelets created using pop tab elements and woven connections."
+                    ],
+                    "description": [
+                        "These bracelets combine recycled materials with bold color pairings, resulting in distinctive pieces with a strong, handcrafted character."
+                    ],
+                    "details": {
+                        "type": "bracelet collection",
+                        "group": "Bracelets/Poptab-Bracelets",
+                        "count": 7
+                    }
+                },
+				{
+                    "title": "Paperclip Bracelet Collection",
+                    "href": "",
+                    "image": "/Jewelry/Assets/Gallery/Bracelets/Paperclip-Bracelets/Hematite-Paperclip-Bracelets.jpg",
+                    "imageMax": 320,
+                    "gallery": [
+                        "/Jewelry/Assets/Gallery/Bracelets/Paperclip-Bracelets/Butterfly-Roses-Paperclip-Bracelets.jpg",
+                        "/Jewelry/Assets/Gallery/Bracelets/Paperclip-Bracelets/Hematite-Ball-Paperclip-Bracelets.jpg"
+                    ],
+                    "about": [
+						"A collection of handcrafted bracelets made from paperclips, shaped and assembled into a refined design.",
+						"The original materials are transformed in a way that is not immediately recognizable."
+					],
+					"description": [
+						"These bracelets are constructed from paperclips that have been reworked into a smooth, cohesive form.",
+						"The finished pieces present a clean, polished look, with the underlying materials only apparent on closer inspection."
+					],
+                    "details": {
+                        "type": "bracelet collection",
+                        "group": "Bracelets/Paperclip-Bracelets",
+                        "count": 3
+                    }
+                },
+                {
+                    "title": "Hematite Anklet",
+                    "href": "",
+                    "image": "/Jewelry/Assets/Gallery/Anklets/Hematite-Anklet.jpg",
+                    "imageMax": 320,
+                    "gallery": [],
+                    "about": [
+                        "A handcrafted anklet inspired by the clean, metallic look of hematite."
+                    ],
+                    "description": [
+                        "A minimalist anklet designed for everyday wear, offering a subtle and refined accent."
+                    ],
+                    "details": {
+                        "type": "anklet",
+                        "group": "Anklets"
+                    }
+                }
+            ]
+        },
+		
+		
+		
+		{
+            "title": "Gallerys",
+            "items": [
+                {
+                    "title": "Bracelets Gallery",
+                    "href": "/GlobalAssets/HTML/Showcase.html?branch=jewelry&data-json=Bracelets-Gallery",
+                    "image": "/Jewelry/Assets/Gallery/Bracelets/Paperclip-Bracelets/Hematite-Paperclip-Bracelets.jpg",
+                    "imageMax": 100
+                },
+                {
+                    "title": "Necklaces Gallery",
+                    "href": "/GlobalAssets/HTML/Showcase.html?branch=jewelry&data-json=Necklaces-Gallery",
+                    "image": "/Jewelry/Assets/Gallery/Necklaces/22-Shell-wing-Necklace.jpg",
+                    "imageMax": 100
+                },
+                {
+                    "title": "Other Gallery",
+                    "href": "/GlobalAssets/HTML/Showcase.html?branch=jewelry&data-json=Other-Gallery",
+                    "image": "/Jewelry/Assets/Gallery/Anklets/Hematite-Anklet.jpg",
+                    "imageMax": 100
+                }
+            ]
+        }
+    ]
+}

@@ -1,24 +1,90 @@
 {
-	"sections": [
-		{
-		"title": "Featured Collection",
-		"body": "A selection of works that highlight key themes and projects. These pieces represent both personal milestones and defining creative moments.",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {
-				"Type": "Song",
-				"Album": "IEIIZS",
-				"Track": 4,
-				"Length": "3:07"
-				}
-			}
-			]
-		}
-		]
+    "sections": [
+        {
+            "title": "Galery",
+            "": "Themadhood's Photo Gallery is a curated collection of visual works presented across a range of styles and formats. The gallery may include original photography, edited images, generated artwork, and other visual pieces, organized in a way that keeps related versions connected. Some entries present alternate formats or treatments of the same image, while others highlight distinct subjects or compositions, creating a gallery that is both flexible and visually consistent.",
+            "items": [
+                {
+                    "title": "Pink Flower Set",
+                    "href": "",
+                    "image": "/Photos/Assets/Gallery/pink flower.png",
+                    "imageMax": 320,
+                    "gallery": [
+                        "/Photos/Assets/Gallery/pink flowers.png"
+                    ],
+                    "about": [
+						"A paired image set featuring the same floral subject presented in two related versions."
+					],
+					"description": [
+						"This set highlights variation in presentation rather than subject, with each image showing the same core floral design in a slightly different form."
+					],
+                    "details": {
+                        "type": "photo set",
+                        "group": "Pink Flower",
+                        "count": 2
+                    }
+                },
+                {
+                    "title": "Purple Spiral Flower Set",
+                    "href": "",
+                    "image": "/Photos/Assets/Gallery/purple spirale flower.png",
+                    "imageMax": 320,
+                    "gallery": [
+                        "/Photos/Assets/Gallery/purple spirale.jpg"
+                    ],
+                    "about": [
+						"A paired image set featuring the same purple spiral floral image presented in two formats."
+					],
+					"description": [
+						"Both images are based on the same visual design, with the difference coming from format and presentation rather than changes to the subject itself."
+					],
+                    "details": {
+                        "type": "photo set",
+                        "group": "Purple Spirale Flower",
+                        "count": 2
+                    }
+                },
+                {
+                    "title": "White Spiral Flower Set",
+                    "href": "",
+                    "image": "/Photos/Assets/Gallery/white spirale flower.png",
+                    "imageMax": 320,
+                    "gallery": [
+                        "/Photos/Assets/Gallery/white spirale.jpg"
+                    ],
+                    "about": [
+						"A paired image set featuring the same white spiral floral image presented in two formats."
+					],
+					"description": [
+						"This set keeps the same underlying image together while showing alternate presentation styles, allowing the format difference to be viewed as part of the piece."
+					],
+                    "details": {
+                        "type": "photo set",
+                        "group": "White Spirale Flower",
+                        "count": 2
+                    }
+                },
+                {
+                    "title": "Yellow Spiral Flower Set",
+                    "href": "",
+                    "image": "/Photos/Assets/Gallery/yello spiral flower.png",
+                    "imageMax": 320,
+                    "gallery": [
+                        "/Photos/Assets/Gallery/yello spiral.jpg"
+                    ],
+                    "about": [
+						"A paired image set featuring the same yellow spiral floral image presented in two formats."
+					],
+					"description": [
+						"Both images share the same central design, with the variation coming from the file presentation and overall framing rather than the artwork itself."
+					],
+                    "details": {
+                        "type": "photo set",
+                        "group": "Yello Spiral Flower",
+                        "count": 2
+                    }
+                }
+            ]
+        }
+    ]
 }
