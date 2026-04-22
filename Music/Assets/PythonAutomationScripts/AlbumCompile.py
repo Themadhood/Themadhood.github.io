@@ -311,11 +311,11 @@ def build_featured_items(
                 ),
                 "image": album_record.get("image", ""),
                 "imageMax": 320,
-                "description": normalize_text_field_to_list(
-                    song_record.get("description", [])
-                ),
                 "about": normalize_text_field_to_list(
                     song_record.get("about", [])
+                ),
+                "description": normalize_text_field_to_list(
+                    song_record.get("description", [])
                 ),
                 "details": {
                     "Type": "Song",
