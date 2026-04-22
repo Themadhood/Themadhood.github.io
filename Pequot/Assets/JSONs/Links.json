@@ -36,15 +36,15 @@
 		"links": [
 			{
 			"label": "Themadhood's Goods",
-			"href": "index.html?branch=goods"
+			"href": "/index.html?branch=goods"
 			},
 			{
 			"label": "Themadhood's Media",
-			"href": "index.html?branch=media"
+			"href": "/index.html?branch=media"
 			},
 			{
 			"label": "Themadhood's Codes",
-			"href": "index.html?branch=codes"
+			"href": "/index.html?branch=codes"
 			}
 			]
 		}

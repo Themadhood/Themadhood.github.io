@@ -36,11 +36,11 @@
             },
 			{
 			"label": "Card",
-			"href": "/BizCard.html?branch=pi-relays"
+			"href": "/GlobalAssets/HTML/BizCard.html?branch=pi-relays"
 			},
             {
                 "label": "Links",
-                "href": "/links.html?branch=pi-relays"
+                "href": "/GlobalAssets/HTML/Links.html?branch=pi-relays"
             }
         ]
     }

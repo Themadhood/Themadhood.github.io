@@ -14,7 +14,7 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "links.html?branch=pequot"
+                    "href": "/GlobalAssets/HTML/Links.html?branch=pequot"
                 }
             ]
         },
@@ -23,15 +23,15 @@
             "links": [
                 {
                     "label": "Themadhood's PI Automations",
-                    "href": "index.html?branch=pi-automations"
+                    "href": "/index.html?branch=pi-automations"
                 },
                 {
                     "label": "Themadhood's PI Relays",
-                    "href": "index.html?branch=pi-relays"
+                    "href": "/index.html?branch=pi-relays"
                 },
 				{
                     "label": "Themadhood's PI Utilities",
-                    "href": "index.html?branch=pi-utilities"
+                    "href": "/index.html?branch=pi-utilities"
                 }
             ]
         }

@@ -5,7 +5,7 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "links.html?branch=pequot"
+                    "href": "/GlobalAssets/HTML/Links.html?branch=pequot"
                 },
                 {
                     "label": "Main Shop (coming soon)",
@@ -18,27 +18,27 @@
             "links": [
                 {
                     "label": "Themadhood's Art",
-                    "href": "index.html?branch=art"
+                    "href": "/index.html?branch=art"
                 },
                 {
                     "label": "Themadhood's Creations",
-                    "href": "index.html?branch=creations"
+                    "href": "/index.html?branch=creations"
                 },
 				{
                     "label": "Themadhood's Jewelry",
-                    "href": "index.html?branch=jewelry"
+                    "href": "/index.html?branch=jewelry"
                 },
                 {
                     "label": "Themadhood's Leather Goods",
-                    "href": "index.html?branch=leather-goods"
+                    "href": "/index.html?branch=leather-goods"
                 },
                 {
                     "label": "Themadhood's Stained Glass",
-                    "href": "index.html?branch=stained-glass"
+                    "href": "/index.html?branch=stained-glass"
                 },
                 {
                     "label": "Themadhood's Trinkets",
-                    "href": "index.html?branch=trinkets"
+                    "href": "/index.html?branch=trinkets"
                 }
             ]
         }

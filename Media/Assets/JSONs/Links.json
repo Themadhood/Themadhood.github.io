@@ -5,7 +5,7 @@
 		"links": [
 			{
 			"label": "More From Themadhood",
-			"href": "links.html?branch=pequot"
+			"href": "/GlobalAssets/HTML/Links.html?branch=pequot"
 			}
 		]
 		},
@@ -16,15 +16,15 @@
 		"links": [
 			{
             "label": "Themadhood's Music",
-            "href": "index.html?branch=music"
+            "href": "/index.html?branch=music"
             },
             {
             "label": "Themadhood's Videos",
-            "href": "index.html?branch=videos"
+            "href": "/index.html?branch=videos"
             },
             {
             "label": "Themadhood's Photos",
-            "href": "index.html?branch=photos"
+            "href": "/index.html?branch=photos"
             }
 			]
 		}

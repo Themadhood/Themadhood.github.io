@@ -1,5 +1,5 @@
-import { loadHeaderFooter,HF_main,setText } from "./HeaderFooter.js";
-import { loadBranch} from "./OpenJsons.js";
+import { loadHeaderFooter,HF_main,setText } from "/GlobalAssets/JS/HeaderFooter.js";
+import { loadBranch} from "/GlobalAssets/JS/OpenJsons.js";
 
 
 function renderLinks(linksData){

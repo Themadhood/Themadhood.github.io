@@ -42,11 +42,11 @@
 			},
 			{
 			"label": "Card",
-			"href": "/BizCard.html?branch=media"
+			"href": "/GlobalAssets/HTML/BizCard.html?branch=media"
 			},
 			{
 			"label": "Links",
-			"href": "/links.html?branch=media"
+			"href": "/GlobalAssets/HTML/Links.html?branch=media"
 			}
 		]
 	}

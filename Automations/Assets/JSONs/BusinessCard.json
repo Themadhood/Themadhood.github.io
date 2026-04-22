@@ -9,7 +9,7 @@
     "actions": [
         {
             "label": "View Links",
-            "href": "Links.html?branch=automations"
+            "href": "LLinks.html?branch=automations"
         },
         {
             "label": "Email Me",

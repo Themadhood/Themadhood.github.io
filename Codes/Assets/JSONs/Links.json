@@ -5,7 +5,7 @@
             "links": [
                 {
                     "label": "More From Themadhood",
-                    "href": "links.html?branch=pequot"
+                    "href": "/GlobalAssets/HTML/Links.html?branch=pequot"
                 },
                 {
                     "label": "GitHub (Project Hub)",
@@ -18,15 +18,15 @@
             "links": [
                 {
                     "label": "Themadhood's Applications",
-                    "href": "index.html?branch=applications"
+                    "href": "/index.html?branch=applications"
                 },
                 {
                     "label": "Themadhood's PI Solutions",
-                    "href": "index.html?branch=pi-solutions"
+                    "href": "/index.html?branch=pi-solutions"
                 },
 				{
                     "label": "Themadhood's Systems",
-                    "href": "index.html?branch=systems"
+                    "href": "/index.html?branch=systems"
                 }
             ]
         }

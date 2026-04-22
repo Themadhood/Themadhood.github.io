@@ -40,11 +40,11 @@
             },
 			{
 			"label": "Card",
-			"href": "/BizCard.html?branch=music"
+			"href": "/GlobalAssets/HTML/BizCard.html?branch=music"
 			},
             {
                 "label": "Links",
-                "href": "/links.html?branch=music"
+                "href": "/GlobalAssets/HTML/Links.html?branch=music"
             }
         ]
     }
