@@ -51,7 +51,7 @@ def build_branch_list(parent_dir: Path) -> list[dict]:
         if not item.is_dir():
             continue
 
-        links_path = item / "Links.json"
+        links_path = item / "Assets/JSONs/Links.json"
         if not links_path.exists():
             continue
 
