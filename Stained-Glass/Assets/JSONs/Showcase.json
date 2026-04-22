@@ -1,16 +1,16 @@
 {
 	"sections": [
 		{
-		"title": "Showcase",
+		"title": "Stained Glass",
 		"": "A collection of stained glass pieces built to last. Each design is planned, shaped, and assembled with both structure and visual impact in mind.",
 		"items": [
 			{
 			"title": "School of Shaolin Kung Fu",
 			"href": "https://schoolofshaolin.com/",
-			"image": "/Stained-Glass/Assets/Projects/School-of-Shaolin-Kung-Fu/Completed-SOSKF.jpg",
+			"image": "/Stained-Glass/Assets/StainedGlass/School-of-Shaolin-Kung-Fu/Completed-SOSKF.jpg",
 			"imageMax": 320,
 			"gallery": [
-            "/Stained-Glass/Assets/Projects/School-of-Shaolin-Kung-Fu/Displayed-SOSKF-Window.jpg"
+            "/Stained-Glass/Assets/StainedGlass/School-of-Shaolin-Kung-Fu/Displayed-SOSKF-Window.jpg"
 			],
 			"about": [
 "This piece was created as a stained glass adaptation of the School of Shaolin Kung Fu’s logo. The goal was not to redesign, but to accurately represent it in glass.",

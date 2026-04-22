@@ -34,6 +34,10 @@
                 "label": "Home",
                 "href": "/index.html?branch=photos"
             },
+            {
+                "label": "Gallery",
+                "href": "/GlobalAssets/HTML/Showcase.html?branch=photos&data-json=Gallery"
+            },
 			{
 			"label": "Card",
 			"href": "/BizCard.html?branch=photos"

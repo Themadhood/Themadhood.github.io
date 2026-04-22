@@ -1,0 +1,44 @@
+{
+    "sections": [
+		{
+            "title": "Other",
+            "": "Themadhood's Other Collection is a curated grouping of handcrafted accessories that extend beyond traditional jewelry categories. This section includes functional and decorative pieces such as chains and specialty items, each designed with the same attention to detail and craftsmanship. These items are presented individually, offering unique additions that complement the broader collection.",
+            "items": [
+                {
+                    "title": "Hematite Anklet",
+                    "href": "",
+                    "image": "/Jewelry/Assets/Gallery/Anklets/Hematite-Anklet.jpg",
+                    "imageMax": 320,
+                    "gallery": [],
+                    "about": [
+                        "A handcrafted anklet inspired by the clean, metallic look of hematite."
+                    ],
+                    "description": [
+                        "A minimalist anklet designed for everyday wear, offering a subtle and refined accent."
+                    ],
+                    "details": {
+                        "type": "anklet",
+                        "group": "Anklets"
+                    }
+                },
+                {
+                    "title": "Silver Wallet Chain",
+                    "href": "",
+                    "image": "/Jewelry/Assets/Gallery/Silver-Wallet-Chain.jpg",
+                    "imageMax": 320,
+                    "gallery": [],
+                    "about": [
+                        "A standalone chain accessory with a clean, durable design."
+                    ],
+                    "description": [
+                        "A silver-tone wallet chain that combines function with a bold, straightforward style."
+                    ],
+                    "details": {
+                        "type": "chain",
+                        "group": "Gallery Root"
+                    }
+                }
+            ]
+        }
+    ]
+}

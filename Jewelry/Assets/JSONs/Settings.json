@@ -34,6 +34,10 @@
                 "label": "Home",
                 "href": "/index.html?branch=jewelry"
             },
+            {
+                "label": "Gallery",
+                "href": "/GlobalAssets/HTML/Showcase.html?branch=jewelry&data-json=Gallery"
+            },
 			{
 			"label": "Card",
 			"href": "/BizCard.html?branch=jewelry"

@@ -1,0 +1,59 @@
+{
+    "sections": [
+        {
+            "title": "Bracelets",
+            "": "Themadhood's Bracelet Collection is a curated selection of handcrafted wristwear designed with both structure and individuality in mind. The collection includes a range of styles, from minimalist designs to more detailed, material-driven pieces. Some bracelets are presented as coordinated sets, while others stand as individual creations, offering a balance between cohesive collections and one-of-a-kind handmade work.",
+            "items": [
+                {
+                    "title": "Paperclip Bracelet Collection",
+                    "href": "",
+                    "image": "/Jewelry/Assets/Gallery/Bracelets/Paperclip-Bracelets/Hematite-Paperclip-Bracelets.jpg",
+                    "imageMax": 320,
+                    "gallery": [
+                        "/Jewelry/Assets/Gallery/Bracelets/Paperclip-Bracelets/Butterfly-Roses-Paperclip-Bracelets.jpg",
+                        "/Jewelry/Assets/Gallery/Bracelets/Paperclip-Bracelets/Hematite-Ball-Paperclip-Bracelets.jpg"
+                    ],
+                    "about": [
+						"A collection of handcrafted bracelets made from paperclips, shaped and assembled into a refined design.",
+						"The original materials are transformed in a way that is not immediately recognizable."
+					],
+					"description": [
+						"These bracelets are constructed from paperclips that have been reworked into a smooth, cohesive form.",
+						"The finished pieces present a clean, polished look, with the underlying materials only apparent on closer inspection."
+					],
+                    "details": {
+                        "type": "bracelet collection",
+                        "group": "Bracelets/Paperclip-Bracelets",
+                        "count": 3
+                    }
+                },
+                {
+                    "title": "Poptab Bracelet Collection",
+                    "href": "poptab-bracelet-collection",
+                    "image": "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Black-Red-Poptab-Bracelets.jpg",
+                    "imageMax": 320,
+                    "gallery": [
+                        "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Blue-Poptab-Bracelets.jpg",
+                        "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Gold-Black-Poptab-Bracelets.jpg",
+                        "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Pink-Blue-Poptab-Bracelets.jpg",
+                        "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Red-Black-Poptab-Bracelets.jpg",
+                        "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Silver-Black-Poptab-Bracelets.jpg",
+                        "/Jewelry/Assets/Gallery/Bracelets/Poptab-Bracelets/Silver-Pink-Poptab-Bracelets.jpg"
+                    ],
+                    "about": [
+                        "A collection of handcrafted bracelets created using pop tab elements and woven connections."
+                    ],
+                    "description": [
+                        "These bracelets combine recycled materials with bold color pairings, resulting in distinctive pieces with a strong, handcrafted character."
+                    ],
+                    "details": {
+                        "type": "bracelet collection",
+                        "group": "Bracelets/Poptab-Bracelets",
+                        "count": 7
+                    }
+                }
+                
+            ]
+        }
+    ]
+}

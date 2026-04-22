@@ -1,0 +1,100 @@
+{
+    "sections": [
+        {
+            "title": "Necklaces",
+            "": "Themadhood's Necklace Collection is a curated assortment of handcrafted pieces designed to highlight form, symbolism, and simplicity. The collection includes a variety of pendant and chain designs, ranging from subtle everyday wear to more distinctive statement pieces. Some necklaces are grouped as themed sets, while others remain individual designs, creating a balance between cohesive collections and unique handcrafted expressions.",
+            "items": [
+                {
+                    "title": "22 Shell Necklace Collection",
+                    "href": "",
+                    "image": "/Jewelry/Assets/Gallery/Necklaces/22-Shell-wing-Necklace.jpg",
+                    "imageMax": 320,
+                    "gallery": [
+                        "/Jewelry/Assets/Gallery/Necklaces/22-Shell-Necklace-Simple.jpg"
+                    ],
+                    "about": [
+                        "A collection of 22 Shell based necklaces grouped"
+                    ],
+                    "description": [
+                        "This collection features handcrafted 22 Shell necklace variations, each offering a natural aesthetic with subtle design differences."
+                    ],
+                    "details": {
+                        "type": "necklace collection",
+                        "group": "Necklaces",
+                        "count": 2
+                    }
+                },
+                {
+                    "title": "Arrow Dangle Necklace",
+                    "href": "",
+                    "image": "/Jewelry/Assets/Gallery/Necklaces/Arrow-Dangle-Necklace.jpg",
+                    "imageMax": 320,
+                    "gallery": [],
+                    "about": [
+                        "A handcrafted necklace featuring a Arrow pendant."
+                    ],
+                    "description": [
+                        "A clean, elongated design that creates a subtle statement through its shape and movement."
+                    ],
+                    "details": {
+                        "type": "necklace",
+                        "group": "Necklaces"
+                    }
+                },
+                {
+                    "title": "Crescent Moon Necklace",
+                    "href": "",
+                    "image": "/Jewelry/Assets/Gallery/Necklaces/Crescent-Moon-Necklace.jpg",
+                    "imageMax": 320,
+                    "gallery": [],
+                    "about": [
+                        "A handcrafted necklace featuring a crescent moon inspired design."
+                    ],
+                    "description": [
+                        "A lightweight and understated piece that incorporates a classic crescent moon form into a wearable design."
+                    ],
+                    "details": {
+                        "type": "necklace",
+                        "group": "Necklaces"
+                    }
+                },
+                {
+                    "title": "Heart Cross Necklace",
+                    "href": "",
+                    "image": "/Jewelry/Assets/Gallery/Necklaces/Heart-Cross-Necklace.jpg",
+                    "imageMax": 320,
+                    "gallery": [],
+                    "about": [
+                        "A handcrafted necklace featuring a combined heart and cross pendant.",
+                        "The Heart-Cross pendant is custom made, giving each piece a distinct handcrafted character."
+                    ],
+                    "description": [
+                        "A symbolic design that blends heart and cross elements into a single form.",
+                        "The custom-made pendant offers a balanced look that is both meaningful and refined."
+                    ],
+                    "details": {
+                        "type": "necklace",
+                        "group": "Necklaces"
+                    }
+                },
+                {
+                    "title": "Simple Washer Necklace",
+                    "href": "",
+                    "image": "/Jewelry/Assets/Gallery/Necklaces/Simple-Washer-Necklace.jpg",
+                    "imageMax": 320,
+                    "gallery": [],
+                    "about": [
+                        "A minimalist necklace built around a washer-style centerpiece."
+                    ],
+                    "description": [
+                        "A clean and understated design that emphasizes simplicity and everyday versatility."
+                    ],
+                    "details": {
+                        "type": "necklace",
+                        "group": "Necklaces"
+                    }
+                }
+            ]
+        }
+    ]
+}
