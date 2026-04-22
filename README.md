@@ -25,7 +25,7 @@ Main Repository
 │	├─ JS  
 │	│	└─ each htmls fnctions and behaver java scripts  
 │	└─ Imgs  
-│		└─ imige resorses used by all branches  
+│		  └─ imige resorses used by all branches  
 ├─ branch  
 │	├─ sub branch redirects with same redirect layout  
 │	│	└─ themadhood.github.io/branch/sub_branch (will redirect to that branch)  
@@ -34,11 +34,11 @@ Main Repository
 │	├─ index.html  
 │	│	└─ branch redirect that takes you to that spesific branch  
 │	└─ assets  
-│		├─ Branding  
-│		│	└─ (all branding files)
-│		├─ JSONs  
-│		│	└─ (all JSON files used for that branches pages info)  
-│		└─ other (other directory assets used such as imiges, code, and others)  
+│		 ├─ Branding  
+│		 │	└─ (all branding files)
+│		 ├─ JSONs  
+│		 │	└─ (all JSON files used for that branches pages info)  
+│		 └─ other (other directory assets used such as imiges, code, and others)  
 └─ page.html  
 
 
