@@ -16,6 +16,7 @@ Put images in `branch_name/Assets/Img/` and reference them from JSON as:
 - `GlobalAssets/Imgs/file.png`
 
 ## Layout
+<pre> ```text id="treefmt"
 Main Repository  
 ├─ GlobalAssets  
 │   ├─ HTML  
@@ -39,7 +40,8 @@ Main Repository
 │      ├─ JSONs  
 │      │   └─ (all JSON files used for that branches pages info)  
 │      └─ other (other directory assets used such as imiges, code, and others)  
-└─ page.html  
+└─ page.html
+``` </pre>
 
 
 
