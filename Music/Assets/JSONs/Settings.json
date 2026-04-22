@@ -36,7 +36,7 @@
             },
             {
                 "label": "Albums",
-                "href": "/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums"
+                "href": "/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase"
             },
 			{
 			"label": "Card",
