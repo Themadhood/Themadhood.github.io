@@ -9,11 +9,11 @@
                     "href": "http://localhost:8000/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=ieiizs/the-unreachable-flower",
                     "image": "/Music/Assets/AlbumCovers/IEIIZS Cover.jpg",
                     "imageMax": 320,
-                    "description": [
-                        "This song explores the emotional tension between hope and acceptance. It focuses on pursuing something beautiful or meaningful while recognizing that it may never fully be attained."
-                    ],
                     "about": [
                         "A reflection on longing for something meaningful that may always remain out of reach."
+                    ],
+                    "description": [
+                        "This song explores the emotional tension between hope and acceptance. It focuses on pursuing something beautiful or meaningful while recognizing that it may never fully be attained."
                     ],
                     "details": {
                         "Type": "Song",
@@ -27,11 +27,11 @@
                     "href": "http://localhost:8000/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=ieiizs/decade-search",
                     "image": "/Music/Assets/AlbumCovers/IEIIZS Cover.jpg",
                     "imageMax": 320,
-                    "description": [
-                        "In 2015 I began searching for a childhood friend I had lost contact with. Over the years I wrote journal entries documenting the search and the thoughts that came with it. This song adapts those entries into a condensed narrative, shaping years of reflection into a single story-driven track."
-                    ],
                     "about": [
                         "A narrative song based on journal entries documenting a long search for a childhood friend."
+                    ],
+                    "description": [
+                        "In 2015 I began searching for a childhood friend I had lost contact with. Over the years I wrote journal entries documenting the search and the thoughts that came with it. This song adapts those entries into a condensed narrative, shaping years of reflection into a single story-driven track."
                     ],
                     "details": {
                         "Type": "Song",
@@ -45,11 +45,11 @@
                     "href": "http://localhost:8000/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=ezeoezed-ldezlo/already-in-changing-motion",
                     "image": "/Music/Assets/AlbumCovers/EZEOEZED LDEZLO Cover.png",
                     "imageMax": 320,
-                    "description": [
-                        "This song was written about a period where multiple major life changes were happening at once. School, work, volunteering, business projects, and searching for a home all began moving forward simultaneously, creating the feeling of constant momentum."
-                    ],
                     "about": [
                         "A reflection on a year filled with overlapping life transitions."
+                    ],
+                    "description": [
+                        "This song was written about a period where multiple major life changes were happening at once. School, work, volunteering, business projects, and searching for a home all began moving forward simultaneously, creating the feeling of constant momentum."
                     ],
                     "details": {
                         "Type": "Song",
@@ -63,11 +63,11 @@
                     "href": "http://localhost:8000/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=ieiizs/the-parts-you-dont-see",
                     "image": "/Music/Assets/AlbumCovers/IEIIZS Cover.jpg",
                     "imageMax": 320,
-                    "description": [
-                        "People often ask how to describe yourself, but most introductions only capture surface details. This song explores the deeper motivations, experiences, and perspectives that shape who I really am."
-                    ],
                     "about": [
                         "A personal reflection on the deeper aspects of identity."
+                    ],
+                    "description": [
+                        "People often ask how to describe yourself, but most introductions only capture surface details. This song explores the deeper motivations, experiences, and perspectives that shape who I really am."
                     ],
                     "details": {
                         "Type": "Song",
@@ -78,6 +78,7 @@
                 }
             ]
         },
+        
         {
             "title": "EZEOEZED LDEZLO",
             "href": "",
