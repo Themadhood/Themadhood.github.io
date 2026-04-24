@@ -1,5 +1,93 @@
 {
     "records": [
+		{
+			"title": "Who I Am",
+			"href": "",
+			"about": "A track centered on internal code, decision-making, and how I process the world before I act.",
+			"description": "Who I Am breaks down the way I think, observe, and decide. It focuses on patience, pattern recognition, and understanding before action. Instead of reacting to noise or pressure, the track shows a mindset built on consistency, independence, and clarity. It reflects a moral code that doesn’t change for the room, where decisions are made quietly over time and executed without hesitation once they’re clear.",
+			"details": {
+				"Track": 1,
+				"Length": "3:18",
+				"Album": "ZOLLZIS P ZIE"
+			}
+		},
+		{
+			"title": "Built Different",
+			"href": "",
+			"about": "A track about structured thinking, system design, and building things that actually last.",
+			"description": "Built Different focuses on a systems-based mindset where everything is intentional, modular, and designed for long-term stability. It highlights the balance between structure and adaptability—building with precision, but never forcing something that no longer works. Instead of following existing systems, the track reflects creating, refining, and redesigning them when needed.",
+			"details": {
+				"Track": 2,
+				"Length": "1:57",
+				"Album": "ZOLLZIS P ZIE"
+			}
+		},
+		{
+			"title": "Fire in the Water",
+			"href": "",
+			"about": "A track about contradiction, duality, and balancing opposing sides of identity.",
+			"description": "Fire in the Water explores the internal contrast between logic and emotion, control and chaos, introversion and expression. It shows how opposing traits can coexist without canceling each other out. Instead of choosing one side, the track embraces both, presenting contradiction as balance rather than conflict.",
+			"details": {
+				"Track": 3,
+				"Length": "3:09",
+				"Album": "ZOLLZIS P ZIE"
+			}
+		},
+		{
+			"title": "Through Me First",
+			"href": "",
+			"about": "A track about protection, awareness, and stepping in before problems reach others.",
+			"description": "Through Me First reflects a mindset of taking responsibility and acting early when something feels off. It focuses on reading situations before they fully surface and choosing to step in, even when the line isn’t always clear. The track shows a willingness to take impact, carry weight, and handle problems directly rather than letting them reach others.",
+			"details": {
+				"Track": 4,
+				"Length": "3:09",
+				"Album": "ZOLLZIS P ZIE"
+			}
+		},
+		{
+			"title": "Force Of Will",
+			"href": "",
+			"about": "A track about internal strength, determination, and moving forward without needing motivation.",
+			"description": "Force Of Will centers on the idea that action doesn’t come from emotion or external pressure, but from decision. It highlights resilience under weight, pushing forward without hesitation, and choosing direction regardless of obstacles. The track presents strength as something constant and controlled, not dependent on circumstances.",
+			"details": {
+				"Track": 5,
+				"Length": "2:44",
+				"Album": "ZOLLZIS P ZIE"
+			}
+		},
+		{
+			"title": "I Don’t Quit",
+			"href": "",
+			"about": "A track about persistence, endurance, and continuing forward no matter the conditions.",
+			"description": "I Don’t Quit reinforces the idea of never stopping, even through failure, exhaustion, or long-term pressure. It focuses on repetition, resilience, and the ability to keep moving regardless of how many times things fall apart. The track shows persistence not as a moment, but as a constant state.",
+			"details": {
+				"Track": 6,
+				"Length": "5:05",
+				"Album": "ZOLLZIS P ZIE"
+			}
+		},
+		{
+			"title": "Keep it Moving",
+			"href": "",
+			"about": "A track about constant motion, growth, and never staying in one place for too long.",
+			"description": "Keep it Moving reflects a mindset of always progressing to the next thing once something is complete. It focuses on evolution, adaptation, and not staying attached to past work. Whether building, creating, or moving physically, the track shows a need for forward momentum and continuous change.",
+			"details": {
+				"Track": 7,
+				"Length": "04:04",
+				"Album": "ZOLLZIS P ZIE"
+			}
+		},
+		{
+			"title": "Alive & Free",
+			"href": "",
+			"about": "A track about freedom, presence, and fully stepping into who I am.",
+			"description": "Alive & Free acts as the release point of the album, focusing on living in the moment without restriction. It reflects clarity, confidence, and ownership of identity after everything that came before it. The track closes the progression by showing what it feels like to move freely without needing approval or direction from anything external.",
+			"details": {
+				"Track": 8,
+				"Length": "2:21",
+				"Album": "ZOLLZIS P ZIE"
+			}
+		},
         {
             "title": "What They Remember of Me",
             "href": "",

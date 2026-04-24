@@ -1,6 +1,44 @@
 {
     "records": [
         {
+            "title": "ZOLLZIS P ZIE",
+            "href": "",
+            "about": "A digital album built around identity, mindset, and the internal code that defines how I think, act, and move through life. Each track reflects a core part of who I am, from logic and contradiction to drive, persistence, and freedom.",
+			"body": [
+				"ZOLLZIS P ZIE is an identity-driven album built from the systems, beliefs, and patterns that shape me.",
+				"Each song represents a different layer of who I am, from how I think and process the world to how I act and push forward.",
+				"The tracks move through structure, contradiction, accountability, willpower, persistence, and constant motion.",
+				"It starts with foundation and self-definition, builds through pressure and drive, and ends in movement and freedom as the result of it all."
+			],
+            "image": "/Music/Assets/AlbumCovers/ZOLLZIS P ZIE Cover.jpg",
+            "imageMax": 320,
+            "details": {
+                "Type": "Album",
+                "Release": "2026",
+                "Tracks": 8,
+                "Format": "Digital"
+            }
+        },
+        {
+            "title": "ZIDBZLIZEZDD",
+            "href": "",
+            "about": "A digital album built around the defining moments, shifts, losses, struggles, and identity changes that shaped my life. Each track reflects a time, state of mind, or turning point that stood out as significant in my story.",
+            "body": [
+                "ZIDBZLIZEZDD is a story-driven album built from different parts of my life.",
+				"Each song represents a meaningful period, emotional state, or defining event that helped shape who I became.",
+				"The tracks move through memory, struggle, pressure, loss, identity, and growth.",
+				"The opening section stands apart slightly, acting as a collection of early memories shared by family that I turned into a song, rather than one single sharply defined event."
+            ],
+            "image": "/Music/Assets/AlbumCovers/ZIDBZLIZEZDD Cover.jpeg",
+            "imageMax": 320,
+            "details": {
+                "Type": "Album",
+                "Release": "2026",
+                "Tracks": 9,
+                "Format": "Digital"
+            }
+        },
+        {
             "title": "EZEOEZED LDEZLO",
             "href": "",
             "about": "An affirmation-driven album designed to reinforce confidence, direction, and personal growth throughout the year.",
