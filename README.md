@@ -12,7 +12,9 @@ Example:
 - `links.html?branch=pequot`
 
 ## Images
-Put images in `branch_name/Assets/Img/` and reference them from JSON as:
+Put branch images in `branch_name/Assets/Img/` and reference them from JSON as:
+- `branch_name/Assets/Img/file.png`
+Put global images in `GlobalAssets/Imgs` and reference them from JSON as:
 - `GlobalAssets/Imgs/file.png`
 
 ## Layout
