@@ -6,7 +6,7 @@
             "items": [
                 {
                     "title": "The Unreachable Flower",
-                    "href": "http://localhost:8000/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=ieiizs/the-unreachable-flower",
+                    "href": "/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=ieiizs/the-unreachable-flower",
                     "image": "/Music/Assets/AlbumCovers/IEIIZS Cover.jpg",
                     "imageMax": 320,
                     "about": [
@@ -24,7 +24,7 @@
                 },
                 {
                     "title": "Decade Search",
-                    "href": "http://localhost:8000/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=ieiizs/decade-search",
+                    "href": "/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=ieiizs/decade-search",
                     "image": "/Music/Assets/AlbumCovers/IEIIZS Cover.jpg",
                     "imageMax": 320,
                     "about": [
@@ -42,7 +42,7 @@
                 },
                 {
                     "title": "Free To Be Me",
-                    "href": "http://localhost:8000/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=zidbzlizezdd/free-to-be-me",
+                    "href": "/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=zidbzlizezdd/free-to-be-me",
                     "image": "/Music/Assets/AlbumCovers/ZIDBZLIZEZDD Cover.jpeg",
                     "imageMax": 320,
                     "about": [
@@ -60,7 +60,7 @@
                 },
                 {
                     "title": "Already In Changing Motion",
-                    "href": "http://localhost:8000/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=ezeoezed-ldezlo/already-in-changing-motion",
+                    "href": "/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=ezeoezed-ldezlo/already-in-changing-motion",
                     "image": "/Music/Assets/AlbumCovers/EZEOEZED LDEZLO Cover.png",
                     "imageMax": 320,
                     "about": [
@@ -78,7 +78,7 @@
                 },
                 {
                     "title": "The Parts You Don't See",
-                    "href": "http://localhost:8000/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=ieiizs/the-parts-you-dont-see",
+                    "href": "/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=ieiizs/the-parts-you-dont-see",
                     "image": "/Music/Assets/AlbumCovers/IEIIZS Cover.jpg",
                     "imageMax": 320,
                     "about": [
@@ -96,7 +96,7 @@
                 },
                 {
                     "title": "Under the Tree",
-                    "href": "http://localhost:8000/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=zidbzlizezdd/under-the-tree",
+                    "href": "/GlobalAssets/HTML/Showcase.html?branch=music&data-json=Albums_Showcase&path=zidbzlizezdd/under-the-tree",
                     "image": "/Music/Assets/AlbumCovers/ZIDBZLIZEZDD Cover.jpeg",
                     "imageMax": 320,
                     "about": [
