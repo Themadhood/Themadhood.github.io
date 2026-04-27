@@ -26,7 +26,7 @@ FEATURED_JSON_PATH = JSON_DIR / "Featured.json"
 
 OUTPUT_JSON_PATH = JSON_DIR / "Albums_Showcase.json"
 
-SHOWCASE_BASE_URL = "http://localhost:8000/GlobalAssets/HTML/Showcase.html"
+SHOWCASE_BASE_URL = "/GlobalAssets/HTML/Showcase.html"
 BRANCH_NAME = "music"
 DATA_JSON_NAME = "Albums_Showcase"
 
