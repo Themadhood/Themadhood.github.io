@@ -25,7 +25,7 @@ REDIRECT_REGEX = re.compile(
 # ------------------------------------------------------------------
 
 def is_index_file(file_path: Path) -> bool:
-	return file_path.name.casefold() == "index.html"
+	return file_path.name.casefold() in ["index.html", "index_.html"]
 
 
 def read_file_safe(file_path: Path) -> str | None:
@@ -101,8 +101,12 @@ def main():
 	if not ROOT_DIR.exists():
 		print("Invalid root directory.")
 		return
+	files = list({
+            *ROOT_DIR.rglob("index.html"),
+            *ROOT_DIR.rglob("index_.html"),
+        })
 
-	for file_path in ROOT_DIR.rglob("index.html"):
+	for file_path in files:
 		if is_index_file(file_path):
 			process_file(file_path)
 
