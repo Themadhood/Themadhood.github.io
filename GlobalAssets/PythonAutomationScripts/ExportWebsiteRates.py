@@ -28,8 +28,6 @@ from THEMADHOOD.URLsCredentals import PursonalCredentals as CREDENTALS,RatesURL
 
 from Google_APIs import Sheets_API
 
-Error.AddVersion(**__ErrorInfo__,**__ModuleInfo__)
-del __ModuleInfo__
 
 
 
