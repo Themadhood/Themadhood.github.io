@@ -242,7 +242,7 @@ def Main():
         print("Themadhood Site Rates Exporter")
         data = FetchSheetData()
 
-        rootDir = input("Website root directory: ").strip().strip('"')
+        rootDir = input("root directory: ").strip().strip('"')
         if not rootDir:
             print("No root directory entered. Export cancelled.")
             return
