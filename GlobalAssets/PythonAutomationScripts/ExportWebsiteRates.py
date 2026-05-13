@@ -36,76 +36,54 @@ from Google_APIs import Sheets_API
 ###########################################################################
 
 def CleanId(record,*keys):
-    try:
-        for key in keys:
-            value = record.get(key,"")
-            if value not in (None,""):
-                return str(value).strip()
-        return ""
-    except Exception:
-        return ""
+    for key in keys:
+        value = record.get(key,"")
+        if value not in (None,""):
+            return str(value).strip()
+    return ""
 
 
 def IsBlankRecord(record):
-    try:
-        if not isinstance(record,dict):
-            return True
-        for value in record.values():
-            if str(value).strip() not in ("","FALSE","None"):
-                return False
+    if not isinstance(record,dict):
         return True
-    except Exception:
-        return True
+    for value in record.values():
+        if str(value).strip() not in ("","FALSE","None"):
+            return False
+    return True
 
 
 
 def FetchSheetData():
-    try:
-        return Sheets_API.FetchAllFrombook(URL=RatesURL,credentials=CREDENTALS,
+    return Sheets_API.FetchAllFrombook(URL=RatesURL,credentials=CREDENTALS,
                                            prRt=True)
-    except Exception as e:
-        return {}
 
 
 def NormalizeDatabase(data):
-    try:
-        db = data.get("sheets",data) if isinstance(data,dict) else {}
-        output = deepcopy(db)
-        output["Branches"] = [r for r in output.get("Branches",[]) if not IsBlankRecord(r)] or deepcopy(DEFAULT_BRANCHES)
-        output["Rates"] = [r for r in output.get("Rates",[]) if not IsBlankRecord(r) and CleanId(r,"ID","rateId")]
-        output["Tiers"] = [r for r in output.get("Tiers",[]) if not IsBlankRecord(r) and CleanId(r,"ID","tierId")] or deepcopy(DEFAULT_TIERS)
-        output["Modifiers"] = [r for r in output.get("Modifiers",[]) if not IsBlankRecord(r) and CleanId(r,"modifierId","ID")] or deepcopy(DEFAULT_MODIFIERS)
-        return output
-    except Exception as e:
-        return {"Branches":deepcopy(DEFAULT_BRANCHES),"Rates":[],"Tiers":deepcopy(DEFAULT_TIERS),"Modifiers":deepcopy(DEFAULT_MODIFIERS)}
-
+    db = data.get("sheets",data) if isinstance(data,dict) else {}
+    output = deepcopy(db)
+    output["Branches"] = [r for r in output.get("Branches",[]) if not IsBlankRecord(r)] or deepcopy(DEFAULT_BRANCHES)
+    output["Rates"] = [r for r in output.get("Rates",[]) if not IsBlankRecord(r) and CleanId(r,"ID","rateId")]
+    output["Tiers"] = [r for r in output.get("Tiers",[]) if not IsBlankRecord(r) and CleanId(r,"ID","tierId")] or deepcopy(DEFAULT_TIERS)
+    output["Modifiers"] = [r for r in output.get("Modifiers",[]) if not IsBlankRecord(r) and CleanId(r,"modifierId","ID")] or deepcopy(DEFAULT_MODIFIERS)
+    return output
 
 def MoneyToNumber(value):
-    try:
-        if isinstance(value,(int,float)):
-            return value
-        clean = str(value).replace("$","").replace(",","").strip()
-        if clean == "":
-            return 0
-        return float(clean)
-    except Exception:
+    if isinstance(value,(int,float)):
+        return value
+    clean = str(value).replace("$","").replace(",","").strip()
+    if clean == "":
         return 0
+    return float(clean)
 
 
 def BoolValue(value):
-    try:
-        return str(value).strip().upper() in ("TRUE","YES","1","Y")
-    except Exception:
-        return False
+    return str(value).strip().upper() in ("TRUE","YES","1","Y")
 
 
 def FolderName(displayName):
-    try:
-        name = displayName.replace("’","").replace("'","")
-        name = re.sub(r"[^A-Za-z0-9]+","",name)
-        return name or "Branch"
-    except Exception:
-        return "Branch"
+    name = displayName.replace("’","").replace("'","")
+    name = re.sub(r"[^A-Za-z0-9]+","",name)
+    return name or "Branch"
 
 ###########################################################################
 ############################ Tree Resolver ################################
@@ -168,87 +146,67 @@ class RateTree:
 ###########################################################################
 
 def PublicTier(tier):
-    try:
-        #No changes to tiers except blank records have already been removed.
-        return dict(tier)
-    except Exception:
-        return {}
+    return dict(tier)
 
 
 def PublicModifier(modifier):
-    try:
-        item = dict(modifier)
-        item.pop("appliesTo",None)
-        return item
-    except Exception:
-        return {}
+    item = dict(modifier)
+    item.pop("appliesTo",None)
+    return item
 
 
 def PublicRate(rate):
-    try:
-        item = dict(rate)
-        #Remove hidden/internal fields not needed by the site.
-        for key in ("ID","id","rateId","branchId","mode","inheritanceDirection"):
-            item.pop(key,None)
-        if "rate" in item:
-            item["rate"] = MoneyToNumber(item["rate"])
-        if "tierSupport" in item:
-            item["tierSupport"] = BoolValue(item["tierSupport"])
-        return item
-    except Exception as e:
-        return {}
+    item = dict(rate)
+    #Remove hidden/internal fields not needed by the site.
+    for key in ("ID","id","rateId","branchId","mode","inheritanceDirection"):
+        item.pop(key,None)
+    if "rate" in item:
+        item["rate"] = MoneyToNumber(item["rate"])
+    if "tierSupport" in item:
+        item["tierSupport"] = BoolValue(item["tierSupport"])
+    return item
 
 
 def BuildBranchJson(db,branchId):
-    try:
-        tree = RateTree(db.get("Branches",[]),db.get("Rates",[]))
-        return {
-            "tiers":[PublicTier(t) for t in db.get("Tiers",[])],
-            "modifiers":[PublicModifier(m) for m in db.get("Modifiers",[])],
-            "rates":[PublicRate(r) for r in tree.ResolvedRates(branchId)]
-        }
-    except Exception as e:
-        return {"tiers":[],"modifiers":[],"rates":[]}
+    tree = RateTree(db.get("Branches",[]),db.get("Rates",[]))
+    return {
+        "tiers":[PublicTier(t) for t in db.get("Tiers",[])],
+        "modifiers":[PublicModifier(m) for m in db.get("Modifiers",[])],
+        "rates":[PublicRate(r) for r in tree.ResolvedRates(branchId)]
+    }
 
 
 def ExportAll(db,rootDir):
-    try:
-        count = 0
-        for branch in db.get("Branches",[]):
-            branchId = CleanId(branch,"ID","branchId")
-            if not branchId:
-                continue
-            branchName = FolderName(branch.get("displayName",branchId))
-            jsonDir = os.path.join(rootDir,branchName,"Assets","JSONs")
-            os.makedirs(jsonDir,exist_ok=True)
-            path = os.path.join(jsonDir,"Rates.json")
-            data = BuildBranchJson(db,branchId)
-            with open(path,"w",encoding="utf-8") as file:
-                json.dump(data,file,indent=4,ensure_ascii=False)
-            Log(f"Wrote {path}")
-            count += 1
-        return count
-    except Exception as e:
-        return 0
+    count = 0
+    for branch in db.get("Branches",[]):
+        branchId = CleanId(branch,"ID","branchId")
+        if not branchId:
+            continue
+        branchName = FolderName(branch.get("displayName",branchId))
+        jsonDir = os.path.join(rootDir,branchName,"Assets","JSONs")
+        os.makedirs(jsonDir,exist_ok=True)
+        path = os.path.join(jsonDir,"Rates.json")
+        data = BuildBranchJson(db,branchId)
+        with open(path,"w",encoding="utf-8") as file:
+            json.dump(data,file,indent=4,ensure_ascii=False)
+        count += 1
+    return count
 
 ###########################################################################
 ################################ Program ##################################
 ###########################################################################
 
 def Main():
-    try:
-        print("Themadhood Site Rates Exporter")
-        data = FetchSheetData()
+    print("Themadhood Site Rates Exporter")
+    data = FetchSheetData()
 
-        rootDir = input("root directory: ").strip().strip('"')
-        if not rootDir:
-            print("No root directory entered. Export cancelled.")
-            return
-        db = NormalizeDatabase(data)
-        count = ExportAll(db,rootDir)
-        print(f"Export complete. Wrote {count} Rates.json files.")
-    except Exception as e:
-        pass
+    rootDir = input("root directory: ").strip().strip('"')
+    if not rootDir:
+        print("No root directory entered. Export cancelled.")
+        return
+    db = NormalizeDatabase(data)
+    count = ExportAll(db,rootDir)
+    print(f"Export complete. Wrote {count} Rates.json files.")
 
 
 if __name__ == "__main__":
