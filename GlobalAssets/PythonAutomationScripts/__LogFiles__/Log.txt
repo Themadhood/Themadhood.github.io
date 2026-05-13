@@ -1,0 +1,21 @@
+(2026/05/13 12:05:01):  fetching records from Quotes/Orders
+(2026/05/13 12:05:05):  fetching records from Service
+(2026/05/13 12:05:09):  fetching records from Rates
+(2026/05/13 12:05:14):  fetching records from Modifiers
+(2026/05/13 12:05:18):  fetching records from Tiers
+(2026/05/13 12:05:23):  fetching records from Branches
+(2026/05/13 12:05:29):  Fetch all records from google sheet Rates run time: 30s
+(2026/05/13 12:08:29):  fetching records from Quotes/Orders
+(2026/05/13 12:08:33):  fetching records from Service
+(2026/05/13 12:08:38):  fetching records from Rates
+(2026/05/13 12:08:42):  fetching records from Modifiers
+(2026/05/13 12:08:47):  fetching records from Tiers
+(2026/05/13 12:08:51):  fetching records from Branches
+(2026/05/13 12:08:56):  Fetch all records from google sheet Rates run time: 28s
+(2026/05/13 12:09:55):  fetching records from Quotes/Orders
+(2026/05/13 12:10:00):  fetching records from Service
+(2026/05/13 12:10:04):  fetching records from Rates
+(2026/05/13 12:10:09):  fetching records from Modifiers
+(2026/05/13 12:10:13):  fetching records from Tiers
+(2026/05/13 12:10:18):  fetching records from Branches
+(2026/05/13 12:10:22):  Fetch all records from google sheet Rates run time: 28s

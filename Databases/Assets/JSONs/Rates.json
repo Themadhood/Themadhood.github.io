@@ -1,0 +1,144 @@
+{
+    "tiers": [
+        {
+            "ID": "basic",
+            "displayName": "Basic Tier",
+            "multiplier": 1.0,
+            "description": "Essential functionality only; minimal documentation; no UI unless required"
+        },
+        {
+            "ID": "standard",
+            "displayName": "Standard Tier",
+            "multiplier": 1.5,
+            "description": "Stability improvements, error handling, polish, configuration options"
+        },
+        {
+            "ID": "premium",
+            "displayName": "Premium Tier",
+            "multiplier": 2.5,
+            "description": "Full-featured builds, GUI, packaging, documentation, maintainability"
+        },
+        {
+            "ID": "detailed",
+            "displayName": "Detailed",
+            "multiplier": 1.5,
+            "description": ""
+        },
+        {
+            "ID": "intricate",
+            "displayName": "Intricate",
+            "multiplier": 2.0,
+            "description": ""
+        },
+        {
+            "ID": "complicated",
+            "displayName": "Complicated",
+            "multiplier": 2.5,
+            "description": ""
+        }
+    ],
+    "modifiers": [
+        {
+            "modifierId": "no_ai_assisted",
+            "displayName": "No AI Assisted Work",
+            "multiplier": 1.5,
+            "notes": "Higher cost because work is fully manual with no AI assistance"
+        },
+        {
+            "modifierId": "rush",
+            "displayName": "Rush Order",
+            "multiplier": 1.25,
+            "notes": ""
+        }
+    ],
+    "rates": [
+        {
+            "displayName": "API Integration",
+            "rate": 1.5,
+            "unit": "minute",
+            "category": "industrial",
+            "tierSupport": true,
+            "notes": "External API systems"
+        },
+        {
+            "displayName": "Consultation / Planning",
+            "rate": 1.0,
+            "unit": "minute",
+            "category": "fabrication",
+            "tierSupport": true,
+            "notes": "Global consultation baseline"
+        },
+        {
+            "displayName": "Custom Data Processing Tools",
+            "rate": 1.0,
+            "unit": "minute",
+            "category": "industrial",
+            "tierSupport": true,
+            "notes": "Parsing and data tools"
+        },
+        {
+            "displayName": "DefaltWorkRate",
+            "rate": 1.0,
+            "unit": "minute",
+            "category": "NA",
+            "tierSupport": true,
+            "notes": "if there is no spesific rate"
+        },
+        {
+            "displayName": "General Programming",
+            "rate": 1.0,
+            "unit": "minute",
+            "category": "fabrication",
+            "tierSupport": true,
+            "notes": "Base programming rate"
+        },
+        {
+            "displayName": "Maintenance / Updates",
+            "rate": 1.0,
+            "unit": "minute",
+            "category": "fabrication",
+            "tierSupport": true,
+            "notes": "Updating and maintaining projects"
+        },
+        {
+            "displayName": "Programming Bug Fixing",
+            "rate": 1.0,
+            "unit": "minute",
+            "category": "fabrication",
+            "tierSupport": true,
+            "notes": "Debugging and repairs"
+        },
+        {
+            "displayName": "Server / Client Tools",
+            "rate": 1.5,
+            "unit": "minute",
+            "category": "industrial",
+            "tierSupport": true,
+            "notes": "Networking and update tools"
+        },
+        {
+            "displayName": "System Setup / Environment Setup",
+            "rate": 1.0,
+            "unit": "minute",
+            "category": "programming",
+            "tierSupport": false,
+            "notes": "Environment setup"
+        },
+        {
+            "displayName": "Testing & Optimization (Advanced)",
+            "rate": 3.0,
+            "unit": "minute",
+            "category": "programming",
+            "tierSupport": true,
+            "notes": "Deep optimization work"
+        },
+        {
+            "displayName": "Testing & Optimization (Basic)",
+            "rate": 2.0,
+            "unit": "minute",
+            "category": "programming",
+            "tierSupport": true,
+            "notes": "Standard optimization"
+        }
+    ]
+}

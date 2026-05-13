@@ -1,0 +1,55 @@
+{
+    "tiers": [
+        {
+            "ID": "basic",
+            "displayName": "Basic Tier",
+            "multiplier": 1.0,
+            "description": "Essential functionality only; minimal documentation; no UI unless required"
+        },
+        {
+            "ID": "standard",
+            "displayName": "Standard Tier",
+            "multiplier": 1.5,
+            "description": "Stability improvements, error handling, polish, configuration options"
+        },
+        {
+            "ID": "premium",
+            "displayName": "Premium Tier",
+            "multiplier": 2.5,
+            "description": "Full-featured builds, GUI, packaging, documentation, maintainability"
+        },
+        {
+            "ID": "detailed",
+            "displayName": "Detailed",
+            "multiplier": 1.5,
+            "description": ""
+        },
+        {
+            "ID": "intricate",
+            "displayName": "Intricate",
+            "multiplier": 2.0,
+            "description": ""
+        },
+        {
+            "ID": "complicated",
+            "displayName": "Complicated",
+            "multiplier": 2.5,
+            "description": ""
+        }
+    ],
+    "modifiers": [
+        {
+            "modifierId": "no_ai_assisted",
+            "displayName": "No AI Assisted Work",
+            "multiplier": 1.5,
+            "notes": "Higher cost because work is fully manual with no AI assistance"
+        },
+        {
+            "modifierId": "rush",
+            "displayName": "Rush Order",
+            "multiplier": 1.25,
+            "notes": ""
+        }
+    ],
+    "rates": []
+}
