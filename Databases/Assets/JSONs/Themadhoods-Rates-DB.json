@@ -1,0 +1,70 @@
+{
+	"title": "Themadhood's Rates Database",
+	"subtitle": "Google Sheets rate database for pricing, estimates, and quote data.",
+	"heroImage": "/Pequot/Assets/Branding/THEMADHOOD Pequot CIR 500-500.png",
+	"status": "In Progress",
+	"primaryLinks": [
+	],
+	"description": [
+		"Themadhood's Rates DB is a Google Sheets based database used to store rate, pricing, estimate, and quote information in one central place.",
+		"A connected Google app is used to manage the database, while other applications and automations can read the sheet data when they need current rate information."
+	],
+	"features": [
+		"Central Google Sheets database for rate and pricing records",
+		"Google app management layer for easier updates and maintenance",
+		"Readable data source for other applications, scripts, and automations",
+		"Keeps estimate logic separated from the apps that consume the data"
+	],
+	"statusDetails": [
+		"Database structure is being organized for project use",
+		"Google Sheets is the main storage layer",
+		"Google app management tools are part of the workflow",
+		"Application and automation integrations may expand over time"
+	],
+	"screenshots": [
+		{
+			"src": "",
+			"title": "Rates Sheet",
+			"body": "Google Sheets database view for rate and pricing records"
+		},
+		{
+			"src": "",
+			"title": "Management App",
+			"body": "Google app used to manage and update rate data"
+		}
+	],
+	"downloadLinks": [],
+	"documentation": {
+		"howItWorks": [
+			"Rate and pricing records are stored in Google Sheets.",
+			"The Google app provides the management interface for editing and maintaining the database.",
+			"Other applications and automations read the sheet data when they need current rates or estimate values."
+		],
+		"setupInstall": [
+			"Create or connect the Google Sheet used as the rate database.",
+			"Connect the management Google app to the sheet.",
+			"Give approved applications or automations read access to the sheet data."
+		],
+		"apiStructure": [
+			"Storage layer: Google Sheets.",
+			"Management layer: Google app.",
+			"Consumer layer: applications and automations that read the database for rate data."
+		]
+	},
+	"devLogs": [
+		{
+			"progressNotes": [
+				"Plan and Generate (2026-05-11)",
+				"Database structure and workflow planning",
+				"Core schema and record system implementation",
+				"Management application development"
+			]
+		},
+		{
+			"progressNotes": [
+				"Data Loading (2026-05-13)",
+				"Initial dataset integration"
+			]
+		}
+	]
+}

@@ -5,7 +5,9 @@
 	"status": "Complete",
 
 	"primaryLinks": [
-		{ "title": "", "href": "" }
+		{ "title": "Demo", "href": "https://youtu.be/zb_RDVww8_0?si=DQQ6sWra2Kf2JC9G" },
+		{ "title": "User Manual", "href": "https://docs.google.com/document/d/1wkQAU4QziUAZwK6SY-PeAN0JqWJBwLBfKQIR4Fmu270/edit?usp=sharing" },
+		{ "title": "Product Listing (Pending Reveiw)", "href": "" }
 	],
 
 	"description": [
@@ -25,9 +27,7 @@
 	],
 
 	"statusDetails": [
-		"Recording Demo",
-		"Recording Tutorial",
-		"Bundling for sale"
+		"Application Pending Reveiw for sale"
 	],
 
 	"screenshots": [
@@ -38,10 +38,10 @@
 
 	"downloadLinks": [
 		{
-			"title": "",
+			"title": "Product Listing",
 			"body": "",
 			"href": "",
-			"buttonText": ""
+			"buttonText": "(Pending Reveiw)"
 		}
 	],
 
