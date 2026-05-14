@@ -1,19 +1,58 @@
 {
 	"sections": [
 		{
-		"title": "",
-		"body": "",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {}
-			}
+			"title": "Database Project Showcase",
+			"": "A collection of database and data-management systems designed for structured storage, synchronization, automation support, and cross-application data access across multiple platforms and technologies.",
+			"items": [
+				{
+					"title": "Themadhoods Rates Database",
+					"href": "/GlobalAssets/HTML/Project.html?branch=databases&data-json=Themadhoods-Rates-DB.json",
+					"image": "/Pequot/Assets/Branding/THEMADHOOD Pequot CIR 500-500.png",
+					"imageMax": 320,
+					"description": [
+						"Central rate and pricing database for Themadhood projects.",
+						"Stored in Google Sheets and managed through a Google App."
+					],
+					"about": [
+						"Themadhoods Rates DB keeps pricing, rate rules, and estimate-related values in one shared database.",
+						"Applications and automations can read from this database instead of hardcoding pricing information in separate tools."
+					],
+					"details": {
+						"type": "Google Sheets Database",
+						"manager": "Google App",
+						"usedBy": [
+							"Pricing tools",
+							"Estimate workflows",
+							"Business automations"
+						],
+						"status": "In Progress"
+					}
+				},
+				{
+					"title": "Prism Bloom Exercise Event Database",
+					"href": "/GlobalAssets/HTML/Project.html?branch=databases&data-json=PBE-Event-DB.json",
+					"image": "/GlobalAssets/Imgs/PrismBloomExerciseLogo.png",
+					"imageMax": 320,
+					"description": [
+						"Main event database for Prism Bloom Exercise.",
+						"Stores event information that can be reused by apps and automations."
+					],
+					"about": [
+						"PBE Event DB is the structured event data source for Prism Bloom Exercise.",
+						"It is stored in Google Sheets, managed through a Google App, and designed so other tools can read event data without duplicating it."
+					],
+					"details": {
+						"type": "Google Sheets Database",
+						"manager": "Google App",
+						"usedBy": [
+							"PBE event tools",
+							"Discord/event automations",
+							"Calendar or schedule workflows"
+						],
+						"status": "In Progress"
+					}
+				}
 			]
 		}
-		]
+	]
 }

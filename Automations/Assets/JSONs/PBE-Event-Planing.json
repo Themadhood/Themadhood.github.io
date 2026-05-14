@@ -1,0 +1,90 @@
+{
+	"title": "Prism Bloom Exercise Event Planning Automation",
+	"subtitle": "Automation that reads the Prism Bloom Exercise Event Database and posts upcoming events to Discord.",
+	"heroImage": "/GlobalAssets/Imgs/PrismBloomExerciseLogo.png",
+	"status": "In Progress",
+	"primaryLinks": [
+		{
+			"title": "Event Database",
+			"href": ""
+		},
+		{
+			"title": "Discord Events",
+			"href": ""
+		}
+	],
+	"description": [
+		"PBE Event Planning Automation is a scheduling tool for Prism Bloom Exercise that reads the Prism Bloom Exercise Event Database and generates upcoming event entries.",
+		"The automation is designed to prepare events for the upcoming second week, or the week after the next, then automatically post them to the Discord events page.",
+		"Future expansion is planned to add calendar posting based on event location, allowing events to be routed to the correct calendar when generated."
+	],
+	"features": [
+		"Reads event records from the Prism Bloom Exercise Event Database",
+		"Generates scheduled event entries for the upcoming second week or the week after the next",
+		"Automatically posts generated events to the Discord events page",
+		"Supports repeatable event scheduling from stored database records",
+		"Planned calendar integration that posts events to different calendars depending on location"
+	],
+	"statusDetails": [
+		"Current workflow reads from the Prism Bloom Exercise Event Database",
+		"Discord event posting is implemented for upcoming generated events",
+		"Calendar routing by location is planned as a future feature"
+	],
+	"screenshots": [
+		{
+			"src": "",
+			"title": "Automation Workflow",
+			"body": "Reads stored event data, generates upcoming event entries, and posts them to Discord"
+		},
+		{
+			"src": "",
+			"title": "Database Source",
+			"body": "Uses the Prism Bloom Exercise Event Database as the event data source"
+		},
+		{
+			"src": "",
+			"title": "Discord Event Posting",
+			"body": "Generated events are automatically posted to the Discord events page"
+		}
+	],
+	"downloadLinks": [],
+	"documentation": {
+		"howItWorks": [
+			"The automation reads event and scheduling data from the Prism Bloom Exercise Event Database.",
+			"It builds event entries for the upcoming second week or the week after the next, depending on the selected scheduling window.",
+			"Generated event entries are automatically posted to the Discord events page.",
+			"A planned calendar layer will route generated events to the correct calendar based on event location."
+		],
+		"setupInstall": [
+			"Connect the automation to the Prism Bloom Exercise Event Database.",
+			"Configure the scheduling window for the upcoming second week or the week after the next.",
+			"Connect the Discord posting workflow to the correct Discord events page.",
+			"Add calendar routing rules when location-based calendar posting is implemented."
+		],
+		"apiStructure": [
+			"Database layer: Prism Bloom Exercise Event Database stores event data used by the automation.",
+			"Automation layer: Reads records, calculates the target week, and generates event entries.",
+			"Discord layer: Posts generated events to the Discord events page.",
+			"Planned calendar layer: Routes generated events to a calendar based on location."
+		]
+	},
+	"devLogs": [
+		{
+			"progressNotes": [
+				"Automation design and implementation (2026-05-08)",
+				"Designed the automation workflow for generating Prism Bloom Exercise events from stored database records.",
+				"Implemented database reading from the Prism Bloom Exercise Event Database.",
+				"Added scheduling logic for generating events for the upcoming second week or the week after the next.",
+				"Implemented automatic posting to the Discord events page."
+			]
+		},
+		{
+			"progressNotes": [
+				"Planned calendar routing expansion (2026-05-14)",
+				"Planned future calendar integration for generated Prism Bloom Exercise events.",
+				"Outlined location-based routing so events can post to different calendars depending on where they take place.",
+				"Prepared the project documentation to reflect Discord posting as the current output and calendar posting as a future expansion."
+			]
+		}
+	]
+}

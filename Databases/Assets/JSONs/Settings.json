@@ -35,6 +35,10 @@
                 "href": "/index.html?branch=databases"
             },
 			{
+			"label": "Projects",
+			"href": "/GlobalAssets/HTML/Showcase.html?branch=databases&data-json=Projects"
+			},
+			{
 			"label": "Card",
 			"href": "/GlobalAssets/HTML/BizCard.html?branch=databases"
 			},

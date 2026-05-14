@@ -57,6 +57,30 @@
 						"status": "In Progress",
 						"type": "Project"
 					}
+				},
+				{
+					"title": "Prism Bloom Exercise Event Planning",
+					"href": "/GlobalAssets/HTML/Project.html?branch=automations&data-json=PBE-Event-Planing.json",
+					"image": "/GlobalAssets/Imgs/PrismBloomExerciseLogo.png",
+					"imageMax": 320,
+					"description": [
+						"Planning database for Prism Bloom Exercise event ideas and scheduling support.",
+						"Helps organize parks, activities, distances, and planning notes."
+					],
+					"about": [
+						"PBE Event Planning supports the planning side of Prism Bloom Exercise by keeping reusable planning records in Google Sheets.",
+						"The database can feed future automations that help mix, match, and prepare event options."
+					],
+					"details": {
+						"type": "Google Sheets Database",
+						"manager": "Google App",
+						"usedBy": [
+							"Event planning workflows",
+							"PBE scheduling tools",
+							"Future automation helpers"
+						],
+						"status": "In Progress"
+					}
 				}
 			]
 		}

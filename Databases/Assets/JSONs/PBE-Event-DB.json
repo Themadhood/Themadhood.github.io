@@ -1,0 +1,65 @@
+{
+	"title": "Prism Bloom Exercise Event DB",
+	"subtitle": "Prism Bloom Exercise event database stored in Google Sheets.",
+	"heroImage": "/GlobalAssets/Imgs/PrismBloomExerciseLogo.png",
+	"status": "In Progress",
+	"primaryLinks": [
+	],
+	"description": [
+		"PBE Event DB is the Prism Bloom Exercise event database used to store event-related records in Google Sheets.",
+		"A connected Google app manages the database, while other applications and automations read the data for event creation, scheduling, and display workflows."
+	],
+	"features": [
+		"Central event database for Prism Bloom Exercise",
+		"Google Sheets storage for easy access and editing",
+		"Google app management interface for maintaining event data",
+		"Data source for event automations, calendars, posts, and other tools"
+	],
+	"statusDetails": [
+		"Database is being used as a structured event data source",
+		"Google Sheets is the main storage system",
+		"Google app management tools support updates and organization",
+		"Additional apps and automations can read the database as needed"
+	],
+	"screenshots": [
+		{
+			"src": "",
+			"title": "Event Database",
+			"body": "Google Sheets view for Prism Bloom Exercise event records"
+		},
+		{
+			"src": "",
+			"title": "Event Manager",
+			"body": "Google app used to manage PBE event data"
+		}
+	],
+	"downloadLinks": [],
+	"documentation": {
+		"howItWorks": [
+			"Prism Bloom Exercise event records are stored in a Google Sheets database.",
+			"The Google app is used to manage, update, and organize the event records.",
+			"Other applications and automations read from the database to support event planning, calendar workflows, and social/event posting tools."
+		],
+		"setupInstall": [
+			"Create or connect the Prism Bloom Exercise event Google Sheet.",
+			"Connect the Google app management layer to the event sheet.",
+			"Allow approved apps and automations to read the event data."
+		],
+		"apiStructure": [
+			"Storage layer: Google Sheets event records.",
+			"Management layer: Google app for editing and maintaining the database.",
+			"Consumer layer: event tools, automations, and applications that read event data."
+		]
+	},
+	"devLogs": [
+		{
+			"progressNotes": [
+				"Plan and Generate (2026-05-07)",
+				"Database structure and workflow planning",
+				"Core schema and record system implementation",
+				"Management application development",
+				"Initial dataset integration"
+			]
+		}
+	]
+}
