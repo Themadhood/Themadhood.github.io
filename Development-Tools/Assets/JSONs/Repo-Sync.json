@@ -27,7 +27,11 @@
 	],
 
 	"statusDetails": [
-		"Application Pending Reveiw for sale"
+		"Complete: Git workflow automation",
+		"Complete: Settings and repository manager",
+		"Complete: UI",
+		"Pending: Single repo overwrite: Overwrite target repo with source",
+		"Pending: Commit message: Commit message for synced changes"
 	],
 
 	"screenshots": [
@@ -39,7 +43,7 @@
 	"downloadLinks": [
 		{
 			"title": "Product Listing",
-			"body": "",
+			"body": "Automated Git repository sync, backup, and management tool designed for cross-device workflows, version tracking, and easy deployment.",
 			"href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/669c16e3-da08-4e30-bcfe-0cf95e7e7405",
 			"buttonText": "Purchase Page"
 		}
