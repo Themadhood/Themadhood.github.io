@@ -7,7 +7,7 @@
 	"primaryLinks": [
 		{ "title": "Demo", "href": "https://youtu.be/zb_RDVww8_0?si=DQQ6sWra2Kf2JC9G" },
 		{ "title": "User Manual", "href": "https://docs.google.com/document/d/e/2PACX-1vR5t44eNekfAYDNvz9YX_7jP4Di-YDJzfEsB7Y5flgtztyjwULRetjfyxoXqRK0XnoSwhS3waaUhL3X/pub" },
-		{ "title": "Product Listing (Pending Reveiw)", "href": "" }
+		{ "title": "Product Listing", "href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/669c16e3-da08-4e30-bcfe-0cf95e7e7405" }
 	],
 
 	"description": [
@@ -40,8 +40,8 @@
 		{
 			"title": "Product Listing",
 			"body": "",
-			"href": "",
-			"buttonText": "(Pending Reveiw)"
+			"href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/669c16e3-da08-4e30-bcfe-0cf95e7e7405",
+			"buttonText": "Purchase Page"
 		}
 	],
 
