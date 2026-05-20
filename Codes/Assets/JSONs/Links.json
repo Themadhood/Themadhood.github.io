@@ -1,16 +1,25 @@
 {
     "sections": [
         {
+            "title": "Resources",
+            "links": [
+                {
+                    "label": "GitHub (Project Hub)",
+                    "href": "https://github.com/themadhood"
+                },
+				{
+                    "label": "Store",
+                    "href": "https://Themadhoods-Codes.lemonsqueezy.com"
+                }
+            ]
+        },
+		{
             "title": "Social Links",
             "links": [
                 {
                     "label": "More From Themadhood",
                     "href": "/GlobalAssets/HTML/Links.html?branch=pequot"
-                },
-                {
-                    "label": "GitHub (Project Hub)",
-                    "href": "https://github.com/themadhood"
-                }
+                } 
             ]
         },
         {

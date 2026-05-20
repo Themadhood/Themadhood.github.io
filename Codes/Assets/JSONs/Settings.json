@@ -35,8 +35,12 @@
                 "href": "/index.html?branch=codes"
             },
 			{
-			"label": "Card",
-			"href": "/GlobalAssets/HTML/BizCard.html?branch=codes"
+				"label": "Card",
+				"href": "/GlobalAssets/HTML/BizCard.html?branch=codes"
+			},
+			{
+				"label": "Store",
+				"href": "https://Themadhoods-Codes.lemonsqueezy.com"
 			},
             {
                 "label": "Links",
