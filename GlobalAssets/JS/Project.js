@@ -3,6 +3,11 @@ import { loadBranch } from "./OpenJsons.js";
 
 const STATUS_COLOR_JSON_PATH = "/GlobalAssets/Json/StatusColor.json";
 
+const GOOGLE_FORM_BASE =
+	"https://docs.google.com/forms/d/e/1FAIpQLSdRZCt41QLngkr-B8nM5fj6neqX2hQETLPYu-gNyj4OuuVU5A/viewform";
+
+const GOOGLE_FORM_PROJECT_ENTRY = "entry.321387468";
+
 /*
 Codes
 	Concept → Gray
@@ -82,11 +87,6 @@ function normalizeColorName(value){
 		.replace(/\s+/g, "-");
 }
 
-function isPaletteColor(value){
-	const colorName = normalizeColorName(value);
-	return Boolean(STATUS_COLOR_PALETTE[colorName]);
-}
-
 function buildStatusColorLookup(jsonData){
 	const lookup = {};
 
@@ -108,7 +108,7 @@ async function loadStatusColors(){
 		const response = await fetch(STATUS_COLOR_JSON_PATH, { cache: "no-cache" });
 
 		if(!response.ok){
-			console.warn(`Failed to load status colors: ${response.status} ${response.statusText}`, err);
+			console.warn(`Failed to load status colors: ${response.status} ${response.statusText}`);
 			return {};
 		}
 
@@ -120,22 +120,6 @@ async function loadStatusColors(){
 		console.warn("Status color JSON failed to load.", err);
 		return {};
 	}
-}
-
-function getStatusColor(status, statusColorLookup){
-	const fallback = {
-		background: "#374151",
-		text: "#ffffff",
-		border: "#1f2937"
-	};
-
-	const key = normalizeKey(status);
-
-	if(!key){
-		return fallback;
-	}
-
-	return statusColorLookup[key] || fallback;
 }
 
 function applyStatusBadgeColor(badge, status, lookup){
@@ -607,6 +591,85 @@ function renderDevLogs(project){
 	}
 }
 
+function renderCommonQuestions(project){
+	const wrap = document.querySelector("[data-project-common-questions-wrap]");
+	const host = document.querySelector("[data-project-common-questions]");
+
+	if(!wrap || !host) return;
+
+	host.innerHTML = "";
+
+	const questions = Array.isArray(project.commonQuestions)
+		? project.commonQuestions
+		: [];
+
+	if(!questions.length){
+		wrap.hidden = true;
+		return;
+	}
+
+	wrap.hidden = false;
+
+	for(const item of questions){
+		const block = document.createElement("div");
+		block.className = "project-question-block";
+
+		const question = document.createElement("h4");
+		question.textContent = item.question || "Question";
+
+		const answer = document.createElement("p");
+		answer.textContent = item.answer || "";
+
+		block.appendChild(question);
+		block.appendChild(answer);
+
+		host.appendChild(block);
+	}
+}
+
+function renderFeedbackForm(project){
+	const section = document.querySelector("[data-project-qa-section]");
+	const wrap = document.querySelector("[data-project-feedback-wrap]");
+	const title = document.querySelector("[data-project-feedback-title]");
+	const desc = document.querySelector("[data-project-feedback-description]");
+	const iframe = document.querySelector("[data-project-feedback-form]");
+
+	if(!section || !wrap || !iframe) return;
+
+	const feedback = project.feedback || {};
+	const enabled = feedback.enabled !== false;
+
+	if(!enabled){
+		section.hidden = true;
+		wrap.hidden = true;
+		return;
+	}
+
+	const formBase = feedback.formBase || GOOGLE_FORM_BASE;
+	const projectEntry = feedback.projectEntry || GOOGLE_FORM_PROJECT_ENTRY;
+	const projectName = feedback.projectName || project.title || "Unknown Project";
+
+	const params = new URLSearchParams({
+		usp: "pp_url",
+		[projectEntry]: projectName,
+		embedded: "true"
+	});
+
+	iframe.src = `${formBase}?${params.toString()}`;
+	iframe.hidden = false;
+
+	//if(title){
+	//	title.textContent = feedback.title || "Questions / Feedback";
+	//}
+
+	if(desc){
+		addParagraphs(desc, feedback.description || []);
+	}
+
+	section.hidden = false;
+	wrap.hidden = false;
+}
+
 
 function setupAccordions(){
 	const toggles = document.querySelectorAll("[data-accordion-toggle]");
@@ -662,6 +725,8 @@ async function main(){
 
 	renderProject(projectData, settings, statusColorLookup);
 	renderScreenshots(projectData, lightbox);
+	renderCommonQuestions(projectData);
+	renderFeedbackForm(projectData);
 	renderDownloadLinks(projectData);
 	renderDocumentation(projectData);
 	renderDevLogs(projectData);
@@ -673,56 +738,4 @@ main().catch(err => {
 	console.error(err);
 	document.body.innerHTML = `<div class="container"><h1>Site failed to load</h1><p>${err.message}</p></div>`;
 });
-
-
-
-/*
-Codes
-	Concept → Gray
-	Planning → Blue-gray
-	In Progress → Blue
-	Testing → Purple
-	Complete → Green
-	On Hold → Orange
-	Deprecated → Red
-
-Media
-	Idea → Gray
-	Drafting → Blue-gray
-	Producing → Blue
-	Editing → Purple
-	Released → Green
-	On Hold → Orange
-	Removed → Red
-
-Goods (Physical / Crafts)
-	Concept → Gray
-	Designing → Blue-gray
-	Building → Blue
-	Finishing → Purple
-	Available → Green
-	On Hold → Orange
-	Scrapped → Red
-
-General (fallback / mixed)
-	Concept → Gray
-	Planning → Blue-gray
-	In Progress → Blue
-	Reviewing → Purple
-	Complete → Green
-	On Hold → Orange
-	Archived → Red
-
-What this follows
-	Within each type → no duplicate colors
-	Across types → same colors reused intentionally
-	Colors match common meaning:
-	Gray = not started
-	Blue = active work
-	Purple = refining
-	Green = done
-	Orange = paused
-	Red = dead/removed
-*/
-
 

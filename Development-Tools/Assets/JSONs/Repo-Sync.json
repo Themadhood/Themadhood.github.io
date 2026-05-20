@@ -3,18 +3,32 @@
 	"subtitle": "Repository structure syncing and workflow automation tool",
 	"heroImage": "/Development-Tools/Assets/Projects/RepoSync/RepoSyncIcon.png",
 	"status": "Complete",
-
 	"primaryLinks": [
-		{ "title": "Demo", "href": "https://youtu.be/zb_RDVww8_0?si=DQQ6sWra2Kf2JC9G" },
-		{ "title": "User Manual", "href": "https://docs.google.com/document/d/e/2PACX-1vR5t44eNekfAYDNvz9YX_7jP4Di-YDJzfEsB7Y5flgtztyjwULRetjfyxoXqRK0XnoSwhS3waaUhL3X/pub" },
-		{ "title": "Product Listing", "href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/669c16e3-da08-4e30-bcfe-0cf95e7e7405" }
+		{
+			"title": "Demo",
+			"href": "https://youtu.be/zb_RDVww8_0?si=DQQ6sWra2Kf2JC9G"
+		},
+		{
+			"title": "User Manual",
+			"href": "https://docs.google.com/document/d/e/2PACX-1vR5t44eNekfAYDNvz9YX_7jP4Di-YDJzfEsB7Y5flgtztyjwULRetjfyxoXqRK0XnoSwhS3waaUhL3X/pub"
+		},
+		{
+			"title": "Product Listing",
+			"href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/669c16e3-da08-4e30-bcfe-0cf95e7e7405"
+		},
+		{
+			"title": "Report Error",
+			"href": "https://docs.google.com/forms/d/e/1FAIpQLScEL9fV2zCqk1_qBACD8_d3n6YZijVtsHfBHn9kJ6lQaOSi2A/viewform?usp=pp_url&entry.180804820=Repo+Sync+V0.13.53"
+		},
+		{
+			"title": "Make Sugestion",
+			"href": "https://docs.google.com/forms/d/e/1FAIpQLSeViY94cExAC7dNsvKy0YPLbiTOZnYgReZQxtwrXzIdXc3wnw/viewform?usp=pp_url&entry.276126743=Repo+Sync+V0.13.53"
+		}
 	],
-
 	"description": [
 		"A development tool focused on keeping repository structures consistent across projects and devices.",
 		"It helps automate repetitive tasks involved in syncing files, templates, and shared project layouts."
 	],
-
 	"features": [
 		"Synchronize files and structures across multiple repositories",
 		"Synchronize files and structures across multiple devices",
@@ -25,7 +39,6 @@
 		"Ability to report errors encountered during use",
 		"Ability to submit suggestions and improvement ideas"
 	],
-
 	"statusDetails": [
 		"Complete: Git workflow automation",
 		"Complete: Settings and repository manager",
@@ -33,13 +46,11 @@
 		"Pending: Single repo overwrite: Overwrite target repo with source",
 		"Pending: Commit message: Commit message for synced changes"
 	],
-
 	"screenshots": [
 		"/Development-Tools/Assets/Projects/RepoSync/RepoSyncMainPage.png",
 		"/Development-Tools/Assets/Projects/RepoSync/RepoSyncManege ReposInfo).png",
 		"/Development-Tools/Assets/Projects/RepoSync/RepoSyncSingleRepoSync.png"
-		],
-
+	],
 	"downloadLinks": [
 		{
 			"title": "Product Listing",
@@ -48,11 +59,6 @@
 			"buttonText": "Purchase Page"
 		}
 	],
-
-
-
-
-
 	"documentation": {
 		"howItWorks": [
 			"Repo Sync compares directory structures and file sets between repositories.",
@@ -68,10 +74,6 @@
 			"Functions are designed to be reusable for scripting and automation workflows."
 		]
 	},
-
-
-
-
 	"devLogs": [
 		{
 			"progressNotes": [
@@ -137,6 +139,19 @@
 				"Adjusted platform-specific behaviors and configurations"
 			]
 		}
-
-	]
+	],
+	"commonQuestions": [
+			{
+				"question": "Does Repo Sync support private repositories?",
+				"answer": "Yes, private repositories are supported through your local Git configuration and authentication."
+			},
+			{
+				"question": "Does it overwrite files automatically?",
+				"answer": "No. Repo Sync uses Git push and pull operations for synchronization. Full overwrite syncing is currently in development."
+			},
+			{
+				"question": "Does it support Linux?",
+				"answer": "Yes. Windows and Linux builds are available."
+			}
+		]
 }
