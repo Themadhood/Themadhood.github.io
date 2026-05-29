@@ -24,7 +24,7 @@
 					"Use": "Workflow Automation"
 					}
 				},
-				
+								
 			
 				{
 				"title": "Directory-Tools",
@@ -47,7 +47,32 @@
 					}
 				}
 			]
+		},
+		{
+			"title": "Completed Projects",
+			"description": "A collection of completed applications, utilities, and development tools designed to improve workflows, automate repetitive tasks, and provide practical solutions for everyday technical needs.",
+			"items": [
+				{
+					"title": "Directory Inventory",
+					"href": "/GlobalAssets/HTML/Project.html?branch=development-tools&data-json=Directory-Inventory",
+					"image": "/Development-Tools/Assets/Projects/DirectoryInventory/DirectoryInventoryIcon.png",
+					"imageMax": 200,
+					"description": [
+						"A utility for generating inventories of files and folders from a selected directory.",
+						"It can export either a simple file list or a complete folder structure report in a readable text format."
+					],
+					"about": [
+						"Directory Inventory was created to simplify documenting and reviewing directory contents without manually listing files and folders.",
+						"It provides a quick way to generate inventories, project overviews, support reports, backup references, and folder structure documentation from any directory."
+					],
+					"details": {
+						"Type": "Development Tool",
+						"Status": "Complete",
+						"Focus": "Directory Documentation",
+						"Use": "Inventory Generation"
+					}
+				}
+			]
 		}
-		
 	]
 }
