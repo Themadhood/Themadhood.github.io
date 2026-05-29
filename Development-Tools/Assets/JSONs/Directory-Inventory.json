@@ -1,0 +1,136 @@
+{
+	"title": "Directory Inventory",
+	"subtitle": "Directory inventory and folder structure export utility",
+	"heroImage": "",
+	"status": "Complete",
+	"primaryLinks": [
+		{
+			"title": "Demo",
+			"href": "https://youtu.be/SvqwlMEY27o"
+		},
+		{
+			"title": "GitHub Repository",
+			"href": "https://github.com/Themadhood/Directory_Inventory"
+		},
+		{
+			"title": "Download",
+			"href": "https://github.com/Themadhood/Directory_Inventory/releases/tag/V0.0.2"
+		},
+		{
+			"title": "Report Error",
+			"href": "https://docs.google.com/forms/d/e/1FAIpQLScEL9fV2zCqk1_qBACD8_d3n6YZijVtsHfBHn9kJ6lQaOSi2A/viewform?usp=pp_url&entry.180804820=Directory+Inventory+V"
+		},
+		{
+			"title": "Make Sugestion",
+			"href": "https://docs.google.com/forms/d/e/1FAIpQLSeViY94cExAC7dNsvKy0YPLbiTOZnYgReZQxtwrXzIdXc3wnw/viewform?usp=pp_url&entry.276126743=Directory+Inventory+V"
+		}
+	],
+	"description": [
+		"Directory Inventory generates text-based inventories of folders and files.",
+		"It can export either a simple file list or a complete folder structure using an easy-to-read tree format.",
+		"The tool is designed for documentation, project reviews, inventories, backups, audits, and support requests."
+	],
+	"features": [
+		"Select any local directory",
+		"Export inventories directly to text files",
+		"Generate simple file lists",
+		"Generate complete folder structure reports",
+		"Tree-style directory formatting",
+		"Lightweight graphical interface",
+		"Windows support",
+		"Linux support",
+		"Portable deployment"
+	],
+	"statusDetails": [
+		"Complete: Directory selection",
+		"Complete: Text file export",
+		"Complete: File list generation",
+		"Complete: Folder structure generation",
+		"Complete: Frontend and backend separation",
+		"Complete: Windows build support",
+		"Complete: Linux build support",
+		"Complete: Documentation",
+		"Complete: Release preparation"
+	],
+	"screenshots": [
+		"/Development-Tools/Assets/Projects/Directory-Inventory/Directory-Inventory.png"
+	],
+	"downloadLinks": [
+		{
+			"title": "Directory Inventory",
+			"body": "Generate file inventories and folder structure reports from any directory using a simple graphical interface.",
+			"href": "https://github.com/Themadhood/Directory_Inventory/releases/tag/V0.0.2",
+			"buttonText": "Download"
+		}
+	],
+	"documentation": {
+		"howItWorks": [
+			"Select a directory to inventory.",
+			"Choose either File List or Folder Structure output.",
+			"Choose a destination text file.",
+			"Directory Inventory scans the selected folder and writes the results to the output file."
+		],
+		"setupInstall": [
+			"Download the application",
+			"Launch Directory Inventory",
+			"Select a directory",
+			"Choose an output format",
+			"Save the generated report"
+		],
+		"apiStructure": [
+			"FrontEnd handles user interaction and application controls.",
+			"BackEnd handles directory scanning and report generation.",
+			"Supports both file list and folder structure output formats."
+		]
+	},
+	"devLogs": [
+		{
+			"progressNotes": [
+				"Initial Development (2025-01-14)",
+				"Created directory inventory utility",
+				"Implemented directory selection",
+				"Implemented text file export",
+				"Implemented file list generation"
+			]
+		},
+		{
+			"progressNotes": [
+				"Folder Structure Development (2026-05-29)",
+				"Added recursive directory traversal",
+				"Implemented tree-style output formatting",
+				"Added folder structure export mode"
+			]
+		},
+		{
+			"progressNotes": [
+				"Architecture Update (2026-05-29)",
+				"Separated frontend and backend components",
+				"Improved project organization",
+				"Updated application metadata and documentation"
+			]
+		},
+		{
+			"progressNotes": [
+				"Build & Release Preparation (2026-05-29)",
+				"Created Windows build configuration",
+				"Created Linux build configuration",
+				"Completed release documentation",
+				"Prepared public release assets"
+			]
+		}
+	],
+	"commonQuestions": [
+		{
+			"question": "What is the difference between File List and Folder Structure?",
+			"answer": "File List exports the contents of the selected directory. Folder Structure exports the complete directory hierarchy using a tree format."
+		},
+		{
+			"question": "Does Directory Inventory modify files?",
+			"answer": "No. The application only reads directory information and generates a text report."
+		},
+		{
+			"question": "Can it scan large directories?",
+			"answer": "Yes. Directory Inventory can generate inventories for both small and large directory structures."
+		}
+	]
+}
