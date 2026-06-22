@@ -1,0 +1,74 @@
+{
+    "title": "Meal_Planner",
+    "subtitle": "Automated meal planning, recipe storage, and shopping list generation",
+    "heroImage": "",
+    "status": "Planning",
+    "primaryLinks": [
+        {
+            "title": "Back This Project",
+            "href": ""
+        }
+    ],
+    "description": [
+        "Meal Planner is a subscription-based web application designed to remove the hassle of planning meals by automatically generating personalized meal plans based on each user's preferences, schedule, dietary needs, and cooking habits.",
+		"The application combines recipe management, automated meal scheduling, shopping list generation, and meal history into a single platform. Users can create, import, organize, scale, print, and share recipes while automatically generating shopping lists based on when they shop—from daily trips to monthly bulk shopping.",
+		"Unlike traditional meal planning apps, Meal Planner is designed to continuously adapt to each user. Weekly meal plans are generated from customizable settings such as preferred meal types, recurring meals like Taco Tuesday, healthy eating goals, regional cuisine preferences, takeout nights, and family size. Recipes can be automatically adjusted for serving sizes, freezer meal preparation, or batch cooking.",
+		"Future versions will include family accounts, shared subscriptions, collaborative shopping lists, recipe sharing, nutrition tracking, seasonal recommendations, birthday features, and cloud synchronization across multiple devices. Development begins with a Google Sheets prototype and Python test application before transitioning to a scalable cloud database and production web platform."
+    ],
+    "features": [
+        "Automatic meal plan generation",
+		"Personalized weekly and monthly meal planning",
+		"Automatically generated shopping lists",
+		"Custom shopping schedules",
+		"Recipe storage and organization",
+		"User-created recipes",
+		"Recipe scaling for serving sizes",
+		"Batch cooking and freezer meal support",
+		"Recurring meals (Taco Tuesday, Pizza Friday, etc.)",
+		"Takeout and restaurant scheduling",
+		"Recipe sharing",
+		"Printable recipes and shopping lists",
+		"Meal history tracking",
+		"Shopping history",
+		"Family accounts",
+		"Shared meal plans",
+		"Collaborative shopping lists",
+		"Multiple sign-in providers",
+		"Subscription tiers",
+		"Cloud synchronization",
+		"Future nutrition tracking"
+		],
+    "statusDetails": [
+        "Project concept is being planned",
+        "Database structure is being designed",
+        "Google Sheets prototype database is planned",
+        "Python test app is planned",
+        "Production web app has not been built yet"
+    ],
+    "screenshots": [
+        {
+            "src": "",
+            "title": "",
+            "body": ""
+        }
+    ],
+    "downloadLinks": [],
+    "documentation": {
+        "howItWorks": [],
+        "setupInstall": [],
+        "apiStructure": []
+    },
+    "devLogs": [
+        {
+            "progressNotes": [
+                "Project idea defined (Jun 2026)",
+                "Initial app direction planned around automated meal planning",
+                "Recipe, user settings, shopping list, and subscription needs identified",
+                "Current name is Meal_Planner but may change",
+                "Google Sheets will be used as the first test database",
+                "Python will be used to test app logic before building the full web app",
+                "Database wrapper is planned so the backend can later move from local/testing storage to a web database"
+            ]
+        }
+    ]
+}
