@@ -22,6 +22,40 @@
 					}
 				},
 				{
+				  "title": "Meal Planner",
+				  "href": "/GlobalAssets/HTML/Project.html?branch=apps&data-json=Meal-Planner",
+				  "image": "",
+				  "imageMax": 320,
+				  "description": [
+					"An automated meal planning web app designed to generate meal plans, shopping lists, and recipe adjustments based on user settings.",
+					"Built first as a test database and Python prototype before moving into a full web app with accounts, subscriptions, family sharing, and recipe management."
+				  ],
+				  "about": [
+					"A subscription-based meal planning app focused on automated weekly planning, reusable recipes, shopping lists, and user-controlled food preferences."
+				  ],
+				  "details": {
+					"status": "Planning",
+					"type": "Web App"
+				  }
+				},
+				{
+				  "title": "Prism Bloom Exercise",
+				  "href": "/GlobalAssets/HTML/Project.html?branch=apps&data-json=PrismBloomExercise",
+				  "image": "",
+				  "imageMax": 320,
+				  "description": [
+					"A public website for Prism Bloom Exercise, a free outdoor exercise community focused on events, routes, calendars, and community links.",
+					"The site includes pages for general information, offered events, self-guided routes, and social/calendar links, with events and routes kept up to date through daily generated JSON data."
+				  ],
+				  "about": [
+					"A lightweight community website for Prism Bloom Exercise that helps visitors learn about the group, find events, follow routes, and connect through Discord, social media, and calendars."
+				  ],
+				  "details": {
+					"status": "In Progress",
+					"type": "Community Website"
+				  }
+				},
+				{
                     "title": "Evolutionary-Tree",
                     "href": "/GlobalAssets/HTML/Project.html?branch=apps&data-json=Evolutionary-Tree",
                     "image": "",
