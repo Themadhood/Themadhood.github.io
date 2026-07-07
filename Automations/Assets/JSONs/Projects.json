@@ -5,9 +5,9 @@
 			"": "A growing collection of in-progress tools and systems focused on automation, syncing, and utility-driven workflows. These projects are being built to reduce manual steps, improve repeatability, and support practical day-to-day use.",
 			"items": [
 				{
-					"title": "Dir Sync",
-					"href": "/GlobalAssets/HTML/Project.html?branch=automations&data-json=Dir-Sync",
-					"image": "",
+					"title": "Directory Sync",
+					"href": "/GlobalAssets/HTML/Project.html?branch=automations&data-json=Directory-Sync",
+					"image": "/Automations/Assets/Projects/DirectorySync/DirectorySyncIcon.png",
 					"imageMax": 320,
 					"description": [
 						"A utility for comparing directories and copying file changes from one location to another.",
@@ -18,7 +18,7 @@
 						"Built around practical syncing and backup-style workflows."
 					],
 					"details": {
-						"status": "In Progress",
+						"status": "Completed",
 						"type": "Project"
 					}
 				},
@@ -36,14 +36,14 @@
 						"Designed to support automation that begins when removable media is detected."
 					],
 					"details": {
-						"status": "In Progress",
+						"status": "Completed",
 						"type": "Project"
 					}
 				},
 				{
-					"title": "USB Dir Sync",
-					"href": "/GlobalAssets/HTML/Project.html?branch=automations&data-json=USB-Dir-Sync",
-					"image": "",
+					"title": "Drive-Sync",
+					"href": "/GlobalAssets/HTML/Project.html?branch=automations&data-json=Drive-Sync",
+					"image": "/Automations/Assets/Projects/DriveSync/DriveSyncIcon.png",
 					"imageMax": 320,
 					"description": [
 						"A utility that combines USB detection with directory synchronization so file copy tasks can begin when a target drive is connected.",
@@ -54,7 +54,7 @@
 						"Intended to simplify portable backup and transfer workflows."
 					],
 					"details": {
-						"status": "In Progress",
+						"status": "Completed",
 						"type": "Project"
 					}
 				},

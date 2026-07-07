@@ -1,0 +1,133 @@
+{
+	"title": "DirectorySync",
+	"subtitle": "Directory group synchronization tool for keeping folders aligned",
+	"heroImage": "/Automations/Assets/Projects/DirectorySync/DirectorySyncIcon.png",
+	"status": "Complete",
+	"primaryLinks": [
+		{
+			"title": "Demo",
+			"href": ""
+		},
+		{
+			"title": "User Manual",
+			"href": ""
+		},
+		{
+			"title": "Product Listing",
+			"href": ""
+		},
+		{
+			"title": "Report Error",
+			"href": "https://docs.google.com/forms/d/e/1FAIpQLScEL9fV2zCqk1_qBACD8_d3n6YZijVtsHfBHn9kJ6lQaOSi2A/viewform?usp=pp_url&entry.180804820=DirectorySync+V"
+		},
+		{
+			"title": "Make Sugestion",
+			"href": "https://docs.google.com/forms/d/e/1FAIpQLSeViY94cExAC7dNsvKy0YPLbiTOZnYgReZQxtwrXzIdXc3wnw/viewform?usp=pp_url&entry.276126743=DirectorySync+V"
+		}
+	],
+	"description": [
+		"A directory synchronization app focused on managing groups of folders and keeping each group aligned.",
+		"It allows users to create sync groups, add or remove paths, preview changes, and run safe multi-directory synchronization."
+	],
+	"features": [
+		"Create named directory sync groups",
+		"Add and remove directory paths from each group",
+		"Select a group and view the paths included in that group",
+		"Preview planned sync actions before applying changes",
+		"Synchronize all directories inside a selected group",
+		"Preserve conflicts instead of automatically choosing a newest file",
+		"Archive deleted files instead of permanently removing them by default",
+		"Use configurable filters to skip OS-managed folders and internal sync data",
+		"Ability to report errors encountered during use",
+		"Ability to submit suggestions and improvement ideas"
+	],
+	"statusDetails": [
+		"Complete: Directory group manager",
+		"Complete: Add and remove path workflow",
+		"Complete: Preview selected group",
+		"Complete: Sync selected group",
+		"Complete: Conflict and delete safety handling",
+		"Complete: UI",
+		"Pending: Final public demo",
+		"Pending: Final product listing"
+	],
+	"screenshots": [
+		"/Automations/Assets/Projects/DirectorySync/Screenshot 2026-07-07 123339.png",
+		"/Automations/Assets/Projects/DirectorySync/Screenshot 2026-07-07 123348.png",
+		"/Automations/Assets/Projects/DirectorySync/Screenshot 2026-07-07 123357.png",
+		"/Automations/Assets/Projects/DirectorySync/Screenshot 2026-07-07 123405.png"
+	],
+	"downloadLinks": [
+		{
+			"title": "Product Listing",
+			"body": "Directory group sync utility designed to keep multiple folders aligned while preserving conflicts and deleted-file archives.",
+			"href": "",
+			"buttonText": "Purchase Page"
+		}
+	],
+	"documentation": {
+		"howItWorks": [
+			"DirectorySync organizes folders into named sync groups.",
+			"Each group contains multiple paths that should share the same file contents.",
+			"The selected group is passed into DirSync for previewing, synchronization, filtering, conflict handling, and delete archive handling."
+		],
+		"setupInstall": [
+			"Install or extract the application",
+			"Open DirectorySync",
+			"Create a directory group",
+			"Add two or more folder paths to the group",
+			"Use Preview to review planned actions",
+			"Run Sync when ready"
+		],
+		"apiStructure": [
+			"The application UI manages groups and user actions.",
+			"Settings and app controls store groups, paths, modes, and filter options."
+		]
+	},
+	"devLogs": [
+		{
+			"progressNotes": [
+				"DirectorySync Planning (2026-07-07)",
+				"Defined the app as a DirSync-based directory group manager",
+				"Planned group selection, path listing, add path, remove path, preview, and sync workflows"
+			]
+		},
+		{
+			"progressNotes": [
+				"DirectorySync App Development (2026-07-07)",
+				"Built the initial desktop application around OS_Tools\\DirUtilitys\\DirSync",
+				"Added group list behavior and path management",
+				"Connected selected groups to preview and sync actions"
+			]
+		},
+		{
+			"progressNotes": [
+				"Build and Icon Support (2026-07-07)",
+				"Added application build logic",
+				"Added runtime icon loading for Windows and Linux",
+				"Prepared application icon paths for packaged builds"
+			]
+		},
+		{
+			"progressNotes": [
+				"Documentation Preparation (2026-07-07)",
+				"Created initial user manual, README, changelog, license, and EULA documents",
+				"Documented directory group workflow and DirSync backend usage"
+			]
+		}
+	],
+	"commonQuestions": [
+		{
+			"question": "What is a directory group?",
+			"answer": "A directory group is a named set of folders that DirectorySync keeps aligned with each other."
+		},
+		{
+			"question": "Should I preview before syncing?",
+			"answer": "Yes. Preview mode lets you review planned actions before files are changed."
+		},
+		{
+			"question": "What happens if two folders changed the same file?",
+			"answer": "DirectorySync preserves the conflicting versions in an in-place conflict folder for manual resolution."
+		}
+	]
+}

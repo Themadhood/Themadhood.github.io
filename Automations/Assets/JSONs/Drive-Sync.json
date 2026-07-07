@@ -1,0 +1,153 @@
+{
+	"title": "Drive Sync",
+	"subtitle": "Drive-to-folder synchronization tool with drive detection and safe sync handling",
+	"heroImage": "/Automations/Assets/Projects/DriveSync/DriveSyncIcon.png",
+	"status": "Complete",
+	"primaryLinks": [
+		{
+			"title": "Demo",
+			"href": ""
+		},
+		{
+			"title": "User Manual",
+			"href": ""
+		},
+		{
+			"title": "Product Listing",
+			"href": ""
+		},
+		{
+			"title": "Report Error",
+			"href": "https://docs.google.com/forms/d/e/1FAIpQLScEL9fV2zCqk1_qBACD8_d3n6YZijVtsHfBHn9kJ6lQaOSi2A/viewform?usp=pp_url&entry.180804820=Drive+Sync+V"
+		},
+		{
+			"title": "Make Sugestion",
+			"href": "https://docs.google.com/forms/d/e/1FAIpQLSeViY94cExAC7dNsvKy0YPLbiTOZnYgReZQxtwrXzIdXc3wnw/viewform?usp=pp_url&entry.276126743=Drive+Sync+V"
+		}
+	],
+	"description": [
+		"A file synchronization tool focused on syncing known drives with selected local folders.",
+		"It uses drive identification, preview mode, safe conflict handling, and archive-safe deletes to reduce accidental data loss during drive-based workflows."
+	],
+	"features": [
+		"Detect connected drives and match them using stable drive identifiers",
+		"Create sync pairs between one known drive and one local folder path",
+		"Preview planned sync actions before applying changes",
+		"Synchronize files between configured drive and folder pairs",
+		"Preserve conflicts instead of automatically overwriting user changes",
+		"Archive deleted files instead of permanently removing them by default",
+		"Use configurable filters to skip OS-managed folders and internal sync data",
+		"Support monitor mode for connected-drive workflows",
+		"Ability to report errors encountered during use",
+		"Ability to submit suggestions and improvement ideas"
+	],
+	"statusDetails": [
+		"Complete: Drive detection backend",
+		"Complete: Drive-to-local-path sync workflow",
+		"Complete: Preview and sync controls",
+		"Complete: Conflict and delete safety handling",
+		"Complete: Filter settings",
+		"Complete: UI",
+		"Pending: Final public demo",
+		"Pending: Final product listing"
+	],
+	"screenshots": [
+		"/Automations/Assets/Projects/DriveSync/Screenshot 2026-07-07 123533.png",
+		"/Automations/Assets/Projects/DriveSync/Screenshot 2026-07-07 123540.png",
+		"/Automations/Assets/Projects/DriveSync/Screenshot 2026-07-07 123552.png",
+		"/Automations/Assets/Projects/DriveSync/Screenshot 2026-07-07 123600.png",
+		"/Automations/Assets/Projects/DriveSync/Screenshot 2026-07-07 123608.png",
+		"/Automations/Assets/Projects/DriveSync/Screenshot 2026-07-07 123625.png"
+	],
+	"downloadLinks": [
+		{
+			"title": "Product Listing",
+			"body": "Drive-to-folder sync utility designed for safer USB, external-drive, and cross-device workflows.",
+			"href": "",
+			"buttonText": "Purchase Page"
+		}
+	],
+	"documentation": {
+		"howItWorks": [
+			"Drive Sync detects connected drives and identifies them using drive IDs rather than relying only on drive letters.",
+			"Configured sync pairs connect a known drive with a selected local folder path.",
+			"The sync process uses DirSync to compare files, preview changes, apply updates, preserve conflicts, and archive deleted files."
+		],
+		"setupInstall": [
+			"Install or extract the application",
+			"Open Drive Sync",
+			"Scan connected drives",
+			"Save a known drive",
+			"Create a sync pair between the drive and a local folder",
+			"Use Preview before running Sync"
+		],
+		"apiStructure": [
+			"DriveDetect handles drive scanning and drive ID resolution.",
+			"DriveSync manages known drives, sync pairs, settings, and event triggers.",
+			"DirSync performs the actual directory synchronization, conflict handling, archive handling, and filtering."
+		]
+	},
+	"devLogs": [
+		{
+			"progressNotes": [
+				"Drive Sync Planning (2026-07-06)",
+				"Defined the need for a drive-based sync app using drive IDs and directory sync pairs",
+				"Planned backend-first design with DriveDetect, DriveSync, and DirSync components"
+			]
+		},
+		{
+			"progressNotes": [
+				"Drive Detection Integration (2026-07-06)",
+				"Added drive ID based matching",
+				"Designed support for added and removed drive events",
+				"Connected drive detection to external-loop and monitor workflows"
+			]
+		},
+		{
+			"progressNotes": [
+				"Drive Sync Backend Development (2026-07-06)",
+				"Built DriveSync as the bridge between DriveDetect and DirSync",
+				"Added known drive records and sync pair handling",
+				"Added preview and sync execution support"
+			]
+		},
+		{
+			"progressNotes": [
+				"Drive Sync App Development (2026-07-06)",
+				"Built a dark-themed desktop UI around the DriveSync backend",
+				"Added dashboard, drives, sync pairs, settings, and info sections",
+				"Connected UI controls to backend sync operations"
+			]
+		},
+		{
+			"progressNotes": [
+				"Safety and Filter Updates (2026-07-06)",
+				"Added configurable filtering for OS-managed folders, internal sync folders, and conflict/archive data",
+				"Improved conflict handling and delete archive behavior",
+				"Added saved monitor toggle behavior"
+			]
+		},
+		{
+			"progressNotes": [
+				"Branding and Build Preparation (2026-07-07)",
+				"Added app branding hooks and icon support",
+				"Added app info, version display, suggestion, and error-reporting controls",
+				"Prepared build logic for packaged application use"
+			]
+		}
+	],
+	"commonQuestions": [
+		{
+			"question": "Does Drive Sync rely on drive letters?",
+			"answer": "No. Drive Sync uses drive identification logic so configured drives can be recognized more reliably than by drive letter alone."
+		},
+		{
+			"question": "Does Drive Sync permanently delete files?",
+			"answer": "By default, deleted files are archived so they can be reviewed or recovered later."
+		},
+		{
+			"question": "What is Preview mode?",
+			"answer": "Preview mode shows planned sync actions without modifying files."
+		}
+	]
+}
