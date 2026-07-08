@@ -6,15 +6,15 @@
 	"primaryLinks": [
 		{
 			"title": "Demo",
-			"href": ""
+			"href": "https://youtu.be/-rEQKktWMaM"
 		},
 		{
 			"title": "User Manual",
-			"href": ""
+			"href": "https://docs.google.com/document/d/e/2PACX-1vSuL58a0MriV7-Wxf1YwmY35yxsSiQXgf-yos5wJj7LbGg_3Ltxr9m8Flx8NsRVGulZCcF_sE8jSxXK/pub"
 		},
 		{
 			"title": "Product Listing",
-			"href": ""
+			"href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/85bfbc14-f9b9-4048-bca7-80491ff74f66"
 		},
 		{
 			"title": "Report Error",
@@ -47,9 +47,7 @@
 		"Complete: Preview and sync controls",
 		"Complete: Conflict and delete safety handling",
 		"Complete: Filter settings",
-		"Complete: UI",
-		"Pending: Final public demo",
-		"Pending: Final product listing"
+		"Complete: UI"
 	],
 	"screenshots": [
 		"/Automations/Assets/Projects/DriveSync/Screenshot 2026-07-07 123533.png",
@@ -63,7 +61,7 @@
 		{
 			"title": "Product Listing",
 			"body": "Drive-to-folder sync utility designed for safer USB, external-drive, and cross-device workflows.",
-			"href": "",
+			"href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/85bfbc14-f9b9-4048-bca7-80491ff74f66",
 			"buttonText": "Purchase Page"
 		}
 	],

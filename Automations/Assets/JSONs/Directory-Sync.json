@@ -6,15 +6,15 @@
 	"primaryLinks": [
 		{
 			"title": "Demo",
-			"href": ""
+			"href": "https://youtu.be/dH6Fcs1mugc"
 		},
 		{
 			"title": "User Manual",
-			"href": ""
+			"href": "https://docs.google.com/document/d/e/2PACX-1vS3VBVY8LP8bDoMjfgg2LSXlZJkYVUtmxn29qYslh1mXgLwkIH9klaaOINm9Ekyh3jCeAdHK-R8QlH1/pub"
 		},
 		{
 			"title": "Product Listing",
-			"href": ""
+			"href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/32a6ce29-b9ee-491c-802e-38d946f30907"
 		},
 		{
 			"title": "Report Error",
@@ -47,9 +47,7 @@
 		"Complete: Preview selected group",
 		"Complete: Sync selected group",
 		"Complete: Conflict and delete safety handling",
-		"Complete: UI",
-		"Pending: Final public demo",
-		"Pending: Final product listing"
+		"Complete: UI"
 	],
 	"screenshots": [
 		"/Automations/Assets/Projects/DirectorySync/Screenshot 2026-07-07 123339.png",
@@ -61,7 +59,7 @@
 		{
 			"title": "Product Listing",
 			"body": "Directory group sync utility designed to keep multiple folders aligned while preserving conflicts and deleted-file archives.",
-			"href": "",
+			"href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/32a6ce29-b9ee-491c-802e-38d946f30907",
 			"buttonText": "Purchase Page"
 		}
 	],
