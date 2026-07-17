@@ -1,0 +1,65 @@
+{
+	"title": "Project Roos Closet",
+	"subtitle": "Private client application",
+	"heroImage": "/Applications/Assets/Projects/ClosetApp/ClosetAppIcon.png",
+	"status": "In Development",
+
+	"primaryLinks": [],
+
+	"description": [
+		"This application is being developed as a custom solution for a client.",
+		"Public information is intentionally limited while development continues and client confidentiality is maintained."
+	],
+
+	"features": [
+		"Custom client solution",
+		"Designed for long-term maintainability",
+		"Scalable project architecture",
+		"Modern desktop and web design practices",
+		"Confidential feature set"
+	],
+
+	"statusDetails": [
+		"In Development: Core architecture",
+		"In Development: User interface",
+		"In Development: Client review and iteration"
+	],
+
+	"screenshots": [],
+
+	"downloadLinks": [],
+
+	"documentation": {
+		"howItWorks": [
+			"Specific workflows are not publicly documented.",
+			"The application is being developed according to client requirements."
+		],
+		"setupInstall": [
+			"Not publicly available."
+		],
+		"apiStructure": [
+			"Internal implementation details are not published."
+		]
+	},
+
+	"devLogs": [
+		{
+			"progressNotes": [
+				"Project planning completed",
+				"Initial architecture and database planning underway",
+				"Client-focused development in progress"
+			]
+		}
+	],
+
+	"commonQuestions": [
+		{
+			"question": "Can I download this application?",
+			"answer": "No. This project is currently a private client application."
+		},
+		{
+			"question": "Will more information be published later?",
+			"answer": "Additional information may be shared if approved by the client."
+		}
+	]
+}

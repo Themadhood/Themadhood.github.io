@@ -82,7 +82,43 @@
                             "Stored information categories and layout are still being refined."
                         ]
                     }
-                }
+                },
+				{
+					"title": "Project Roos Closet",
+					"href": "/GlobalAssets/HTML/Project.html?branch=apps&data-json=Closet-App",
+					"image": "",
+					"imageMax": 320,
+					"description": [
+						"A private application currently being developed as part of a client project.",
+						"Designed with flexibility and long-term maintainability while respecting client confidentiality."
+					],
+					"about": [
+						"A custom software project created for a client with a focus on reliability and future growth.",
+						"Specific features and implementation details are intentionally withheld."
+					],
+					"details": {
+						"status": "In Development",
+						"type": "Client Project"
+					}
+				},
+				{
+					"title": "Project Roos Style",
+					"href": "/GlobalAssets/HTML/Project.html?branch=apps&data-json=Fashion-Social",
+					"image": "",
+					"imageMax": 320,
+					"description": [
+						"A custom client application currently under active development.",
+						"Built with an emphasis on scalability, maintainability, and a clean user experience."
+					],
+					"about": [
+						"A privately commissioned software project developed around client requirements.",
+						"Project-specific functionality and design details remain confidential."
+					],
+					"details": {
+						"status": "In Development",
+						"type": "Client Project"
+					}
+				}
             ]
         }
     ]
