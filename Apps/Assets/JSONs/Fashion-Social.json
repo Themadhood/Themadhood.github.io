@@ -1,0 +1,65 @@
+{
+	"title": "Project Roos Style",
+	"subtitle": "Private client application",
+	"heroImage": "/Applications/Assets/Projects/FashionSocial/FashionSocialIcon.png",
+	"status": "In Development",
+
+	"primaryLinks": [],
+
+	"description": [
+		"This application is being developed as a custom client project.",
+		"Only general project information is available while respecting client privacy and project confidentiality."
+	],
+
+	"features": [
+		"Custom client software",
+		"Modern application architecture",
+		"Designed for future expansion",
+		"Maintainable project structure",
+		"Confidential functionality"
+	],
+
+	"statusDetails": [
+		"In Development: Planning",
+		"In Development: Core systems",
+		"In Development: Ongoing client collaboration"
+	],
+
+	"screenshots": [],
+
+	"downloadLinks": [],
+
+	"documentation": {
+		"howItWorks": [
+			"Project functionality is intentionally not documented publicly.",
+			"Development follows client requirements and approved milestones."
+		],
+		"setupInstall": [
+			"Not publicly available."
+		],
+		"apiStructure": [
+			"Internal implementation details remain private."
+		]
+	},
+
+	"devLogs": [
+		{
+			"progressNotes": [
+				"Initial planning completed",
+				"Project architecture established",
+				"Active development continuing"
+			]
+		}
+	],
+
+	"commonQuestions": [
+		{
+			"question": "Is this application available?",
+			"answer": "Not at this time. It is currently a private client project."
+		},
+		{
+			"question": "Why are there so few details?",
+			"answer": "The client requested that project-specific information remain confidential during development."
+		}
+	]
+}
