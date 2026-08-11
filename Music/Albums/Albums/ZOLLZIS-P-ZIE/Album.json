@@ -1,0 +1,29 @@
+{
+    "title": "ZOLLZIS P ZIE",
+    "href": "",
+    "about": "A digital album built around identity, mindset, and the internal code that defines how I think, act, and move through life. Each track reflects a core part of who I am, from logic and contradiction to drive, persistence, and freedom.",
+    "body": [
+        "ZOLLZIS P ZIE is an identity-driven album built from the systems, beliefs, and patterns that shape me.",
+        "Each song represents a different layer of who I am, from how I think and process the world to how I act and push forward.",
+        "The tracks move through structure, contradiction, accountability, willpower, persistence, and constant motion.",
+        "It starts with foundation and self-definition, builds through pressure and drive, and ends in movement and freedom as the result of it all."
+    ],
+    "cover": "ZOLLZIS P ZIE Cover.jpg",
+    "imageMax": 320,
+    "details": {
+        "Type": "Album",
+        "Release": "2026",
+        "Tracks": 8,
+        "Format": "Digital"
+    },
+    "songs": [
+        "who-i-am.json",
+        "built-different.json",
+        "fire-in-the-water.json",
+        "through-me-first.json",
+        "force-of-will.json",
+        "i-don-t-quit.json",
+        "keep-it-moving.json",
+        "alive-and-free.json"
+    ]
+}

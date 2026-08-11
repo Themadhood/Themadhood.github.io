@@ -1,0 +1,31 @@
+{
+    "title": "IEIIZS",
+    "href": "https://open.spotify.com/album/5N6B7UnP0C09eBgcvzbeFg",
+    "about": "",
+    "body": [
+        "IEIIZS is a narrative album built around a series of songs that were rewritten and arranged to tell a connected story. While many of the pieces were originally written independently, the first three songs created the foundation for a larger storyline that the rest of the album was adapted to support.",
+        "The album explores relationships, memory, personal growth, and the internal struggles that shape how we see ourselves and others."
+    ],
+    "cover": "IEIIZS Cover.jpg",
+    "imageMax": 320,
+    "details": {
+        "Type": "Album",
+        "Release": "2026",
+        "Tracks": 12,
+        "Format": "Digital"
+    },
+    "songs": [
+        "what-time-stole-away.json",
+        "decade-search.json",
+        "second-meeting.json",
+        "the-unreachable-flower.json",
+        "fortress-of-my-mind.json",
+        "i-cant-get-you-out-of-my-head.json",
+        "two-months-and-a-message.json",
+        "knight-in-shining-armor.json",
+        "wild-and-free.json",
+        "the-quiet-vow.json",
+        "the-parts-you-dont-see.json",
+        "delightfully-late-responder.json"
+    ]
+}

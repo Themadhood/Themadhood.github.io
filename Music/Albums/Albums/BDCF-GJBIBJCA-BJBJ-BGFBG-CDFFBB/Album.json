@@ -1,0 +1,29 @@
+{
+    "title": "BDCF GJBIBJCA BJBJ BGFBG CDFFBB",
+    "href": "",
+    "about": "An album built around memories, experiences, and moments from 4-H State Arts-In, capturing the people, places, traditions, and behind-the-scenes experiences that made those years memorable.",
+    "body": [
+		"BDCF GJBIBJCA BJBJ BGFBG CDFFBB looks back at State Arts-In through the moments and experiences that stood out along the way.",
+		"Each song focuses on a different memory, from the people and friendships to the unusual traditions, backstage moments, and experiences that became part of the story.",
+		"Together, the tracks preserve pieces of State Arts-In that might otherwise exist only as memories, turning them into a record of what those years were like.",
+		"The album is less about telling one continuous story and more about collecting the individual moments that made State Arts-In what it was."
+		],
+    "cover": "BDCF GJBIBJCA BJBJ BGFBG CDFFBB Cover.png",
+    "imageMax": 320,
+    "details": {
+        "Type": "Album",
+        "Release": "",
+        "Tracks": 8,
+        "Format": ""
+    },
+    "songs": [
+        "Above_The_Ramp.json",
+        "Extension_Cords.json",
+        "Five_Spaceships.json",
+        "Melted_Screws.json",
+        "Space_Year.json",
+        "The_New_Kid.json",
+        "The_Nick_W_Alarm_Clock.json",
+        "The_Showboat.json"
+    ]
+}

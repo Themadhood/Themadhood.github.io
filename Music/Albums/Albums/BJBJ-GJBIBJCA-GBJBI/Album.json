@@ -1,0 +1,30 @@
+{
+    "title": "BJBJ GJBIBJCA GBJBI",
+    "href": "",
+    "about": "An album built around memories, experiences, and defining moments, preserving the people, places, traditions, and stories connected to this part of the journey.",
+    "body": [
+        "BJBJ GJBIBJCA GBJBI brings together a collection of songs drawn from specific memories and experiences.",
+        "Each track focuses on a different part of the story, capturing moments that stood out and the details that made them worth remembering.",
+        "Together, the songs turn those individual experiences into a larger record of the people, places, changes, and traditions surrounding them.",
+        "The album is a collection of connected memories rather than one continuous story, with each song preserving its own piece of the experience."
+    ],
+    "cover": "BJBJ GJBIBJCA GBJBI Cover.png",
+    "imageMax": 320,
+    "details": {
+        "Type": "Album",
+        "Release": "",
+        "Tracks": 9,
+        "Format": ""
+    },
+    "songs": [
+        "Code_Names.json",
+        "Duck_Duck_Grey_Duck.json",
+        "Ghost.json",
+        "Growing_Up.json",
+        "Mama_Jasinta.json",
+        "Pull-String_Fireworks.json",
+        "Secret_Paths.json",
+        "Space_Year_FINALE.json",
+        "State_Arts_In_Family.json"
+    ]
+}
