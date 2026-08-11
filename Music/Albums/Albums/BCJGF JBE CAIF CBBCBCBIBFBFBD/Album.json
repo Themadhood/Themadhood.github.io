@@ -1,0 +1,29 @@
+{
+    "title": "BCJGF JBE CAIF CBBCBCBIBFBFBD",
+    "href": "",
+    "about": "An album built around memories, experiences, and defining moments, preserving the people, places, traditions, and stories connected to this part of the journey.",
+    "body": [
+        "BCJGF JBE CAIF CBBCBCBIBFBFBD brings together a collection of songs drawn from specific memories and experiences.",
+        "Each track focuses on a different part of the story, capturing moments that stood out and the details that made them worth remembering.",
+        "Together, the songs turn those individual experiences into a larger record of the people, places, changes, and traditions surrounding them.",
+        "The album is a collection of connected memories rather than one continuous story, with each song preserving its own piece of the experience."
+    ],
+    "cover": "BCJGF JBE CAIF CBBCBCBIBFBFBD Cover.png",
+    "imageMax": 320,
+    "details": {
+        "Type": "Album",
+        "Release": "",
+        "Tracks": 8,
+        "Format": ""
+    },
+    "songs": [
+        "Balcony_With_Lanny.json",
+        "Ballroom_Year.json",
+        "Johns_Warm-Up.json",
+        "Shadows_of_Night.json",
+        "Stage_Left_Empty.json",
+        "Staging_Zones.json",
+        "The_Agriculture_Building.json",
+        "Yellow_Vest.json"
+    ]
+}

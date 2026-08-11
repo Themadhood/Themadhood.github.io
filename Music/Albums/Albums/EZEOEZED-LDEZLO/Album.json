@@ -1,0 +1,27 @@
+{
+    "title": "EZEOEZED LDEZLO",
+    "href": "https://open.spotify.com/album/1QQQdcfY6Tbjyg0hBMPYUU",
+    "about": "An affirmation-driven album designed to reinforce confidence, direction, and personal growth throughout the year.",
+    "body": [
+        "EZEOEZED LDEZLO was created as a musical version of my daily affirmations for 2026. Instead of repeating them every morning and evening, I transformed them into songs that can be played and sung along with throughout the day.",
+        "Each track focuses on a specific mindset or life area, helping reinforce positive direction while also capturing the major transitions happening during this period of my life."
+    ],
+    "cover": "EZEOEZED LDEZLO Cover.png",
+    "imageMax": 320,
+    "details": {
+        "Type": "Album",
+        "Release": "2026",
+        "Tracks": 8,
+        "Format": "Digital"
+    },
+    "songs": [
+        "grounded-fire.json",
+        "the-perfect-one-for-me.json",
+        "more-than-enough-time.json",
+        "already-in-changing-motion.json",
+        "easy-semester.json",
+        "aligned-with-you.json",
+        "inevitable-wealth.json",
+        "the-right-home.json"
+    ]
+}

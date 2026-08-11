@@ -1,10 +1,42 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0; url=../../showcase.html?branch=music&data-json=Albums_Showcase">
-  <script>
-    window.location.replace("../../showcase.html?branch=music&data-json=Albums_Showcase");
-  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Themadhood showcase page" />
+  <link rel="icon" data-site-favicon href="">
+  <link rel="stylesheet" href="/GlobalAssets/CSS/HeaderFooter.css" />
+  <link rel="stylesheet" href="./Assets/Showcase.css" />
+  <title>Themadhood Showcase</title>
 </head>
-<body></body>
+<body data-page="showcase">
+
+  <div id="shared-header"></div>
+
+  <div class="container" style="padding-top:22px">
+
+    <div class="grid" data-showcase-sections></div>
+
+  </div>
+
+  <div id="shared-footer"></div>
+
+  <div class="showcase-lightbox" data-showcase-lightbox hidden>
+    <div class="showcase-lightbox-backdrop" data-showcase-lightbox-close></div>
+
+    <div class="showcase-lightbox-panel">
+      <button class="showcase-lightbox-close" type="button" data-showcase-lightbox-close>×</button>
+
+      <button class="showcase-lightbox-nav showcase-lightbox-prev" type="button" data-showcase-prev>‹</button>
+
+      <img class="showcase-lightbox-image" data-showcase-lightbox-image src="" alt="">
+
+      <button class="showcase-lightbox-nav showcase-lightbox-next" type="button" data-showcase-next>›</button>
+
+      <div class="showcase-lightbox-caption" data-showcase-lightbox-caption></div>
+    </div>
+  </div>
+
+  <script type="module" src="./Assets/Album.js"></script>
+</body>
 </html>

@@ -1,0 +1,30 @@
+{
+    "title": "ZIDBZLIZEZDD",
+    "href": "https://open.spotify.com/album/2DW2NDk9dm8JBO8v4fUUCS",
+    "about": "A digital album built around the defining moments, shifts, losses, struggles, and identity changes that shaped my life. Each track reflects a time, state of mind, or turning point that stood out as significant in my story.",
+    "body": [
+        "ZIDBZLIZEZDD is a story-driven album built from different parts of my life.",
+        "Each song represents a meaningful period, emotional state, or defining event that helped shape who I became.",
+        "The tracks move through memory, struggle, pressure, loss, identity, and growth.",
+        "The opening section stands apart slightly, acting as a collection of early memories shared by family that I turned into a song, rather than one single sharply defined event."
+    ],
+    "cover": "ZIDBZLIZEZDD Cover.jpeg",
+    "imageMax": 320,
+    "details": {
+        "Type": "Album",
+        "Release": "2026",
+        "Tracks": 9,
+        "Format": "Digital"
+    },
+    "songs": [
+        "what-they-remember-of-me.json",
+        "too-far-gone.json",
+        "beaten-down.json",
+        "anything-but-me.json",
+        "same-day-again.json",
+        "under-the-tree.json",
+        "love-is-dead.json",
+        "who-i-was.json",
+        "free-to-be-me.json"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "title": "CFCFBFBEE CAIF BJBGBFCABCJHICA",
+    "href": "",
+    "about": "An album built around memories, experiences, and defining moments, preserving the people, places, traditions, and stories connected to this part of the journey.",
+    "body": [
+        "CFCFBFBEE CAIF BJBGBFCABCJHICA brings together a collection of songs drawn from specific memories and experiences.",
+        "Each track focuses on a different part of the story, capturing moments that stood out and the details that made them worth remembering.",
+        "Together, the songs turn those individual experiences into a larger record of the people, places, changes, and traditions surrounding them.",
+        "The album is a collection of connected memories rather than one continuous story, with each song preserving its own piece of the experience."
+    ],
+    "cover": "CFCFBFBEE CAIF BJBGBFCABCJHICA Cover.png",
+    "imageMax": 320,
+    "details": {
+        "Type": "Album",
+        "Release": "",
+        "Tracks": 7,
+        "Format": ""
+    },
+    "songs": [
+        "Behind_the_Curtain.json",
+        "Breakfast_Towers.json",
+        "Goodbye_at_the_Fair.json",
+        "One_Summer.json",
+        "Silent_Ship.json",
+        "Table_Games.json",
+        "Terror_Takes_the_Sound.json"
+    ]
+}

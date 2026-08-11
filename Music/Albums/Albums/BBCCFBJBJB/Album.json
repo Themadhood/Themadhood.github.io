@@ -1,0 +1,30 @@
+{
+    "title": "BBCCFBJBJB",
+    "href": "",
+    "about": "An album built around memories, experiences, and defining moments, preserving the people, places, traditions, and stories connected to this part of the journey.",
+    "body": [
+        "BBCCFBJBJB brings together a collection of songs drawn from specific memories and experiences.",
+        "Each track focuses on a different part of the story, capturing moments that stood out and the details that made them worth remembering.",
+        "Together, the songs turn those individual experiences into a larger record of the people, places, changes, and traditions surrounding them.",
+        "The album is a collection of connected memories rather than one continuous story, with each song preserving its own piece of the experience."
+    ],
+    "cover": "BBCCFBJBJB Cover.png",
+    "imageMax": 320,
+    "details": {
+        "Type": "Album",
+        "Release": "",
+        "Tracks": 9,
+        "Format": ""
+    },
+    "songs": [
+        "Almost_Nobody_Knew.json",
+        "Behind_the_Grandstand.json",
+        "Caffeine.json",
+        "Four_Days_Left.json",
+        "Grr.json",
+        "Interlocked_Fingers.json",
+        "Last_Conversation.json",
+        "She_Always_Found_Me.json",
+        "The_Garden.json"
+    ]
+}
