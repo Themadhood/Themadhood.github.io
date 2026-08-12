@@ -13,9 +13,9 @@
     "imageMax": 320,
     "details": {
         "Type": "Album",
-        "Release": "",
+        "Release": "2026",
         "Tracks": 8,
-        "Format": ""
+        "Format": "Digital"
     },
     "songs": [
         "Balcony_With_Lanny.json",
