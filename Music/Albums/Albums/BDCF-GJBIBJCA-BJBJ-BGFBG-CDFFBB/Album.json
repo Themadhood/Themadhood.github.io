@@ -1,19 +1,21 @@
 {
     "title": "BDCF GJBIBJCA BJBJ BGFBG CDFFBB",
     "href": "",
-    "about": "An album built around memories, experiences, and moments from 4-H State Arts-In, capturing the people, places, traditions, and behind-the-scenes experiences that made those years memorable.",
-    "body": [
-		"BDCF GJBIBJCA BJBJ BGFBG CDFFBB looks back at State Arts-In through the moments and experiences that stood out along the way.",
-		"Each song focuses on a different memory, from the people and friendships to the unusual traditions, backstage moments, and experiences that became part of the story.",
-		"Together, the tracks preserve pieces of State Arts-In that might otherwise exist only as memories, turning them into a record of what those years were like.",
-		"The album is less about telling one continuous story and more about collecting the individual moments that made State Arts-In what it was."
-		],
+    "about": "The story of my first State Arts-In Prep Week: arriving as the new kid expecting to stick with the friends I already knew, but instead finding new friendships, a place on Tech Crew, and the beginning of what State Arts-In would become for me, all while dealing with Bell's palsy.",
+
+	"body": [
+		"BDCF GJBIBJCA BJBJ BGFBG CDFFBB goes back to my first State Arts-In Prep Week, when I walked into the 4-H building as the new kid. I came in expecting to spend most of my time with the friends I already knew, but Prep Week didn't end up going the way I expected.",
+		"My first day with Tech Crew gave me one of the first stories of the week when Tony and I managed to melt screws while Paul stood there laughing at us. From there came the work of actually putting the production together, including building the new platform and then the spaceship that would sit on top of it. Somewhere between the work, the mistakes, and everything happening behind the scenes, I was getting to know the Tech Crew and finding that I was spending my first Prep Week with people I hadn't expected to.",
+		"At the same time, I was going through that first Prep Week with Bell's palsy. It was uncomfortable, frustrating, and definitely not how I would have chosen to experience my first year. It became another part of the reality behind those memories, even if it wasn't the part I wanted.",
+		"The week also gave me the kind of stories that could only seem normal at State Arts-In: Nick W. turning an electric guitar into an alarm clock, two pigeons named Bubba and Gump becoming part of State Arts-In lore, time with friends aboard the showboat during what turned out to be its final year, and all the other strange little moments that made Prep Week feel like its own world.",
+		"I arrived thinking I already knew who I would spend the week with. Instead, my first Prep Week introduced me to a much larger group of people and gave me my first real place within Tech Crew. Even with Bell's palsy making the week harder than it needed to be, this was the week when I stopped simply being the new kid and started becoming part of State Arts-In."
+	],
     "cover": "BDCF GJBIBJCA BJBJ BGFBG CDFFBB Cover.png",
     "imageMax": 320,
     "details": {
         "Type": "Album",
         "Release": "",
-        "Tracks": 8,
+        "Tracks": 9,
         "Format": ""
     },
     "songs": [
@@ -24,6 +26,7 @@
         "Space_Year.json",
         "The_New_Kid.json",
         "The_Nick_W_Alarm_Clock.json",
-        "The_Showboat.json"
+        "The_Showboat.json",
+		"Bubba_And_Gump.json"
     ]
 }
