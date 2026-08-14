@@ -13,9 +13,9 @@
     "imageMax": 320,
     "details": {
         "Type": "Album",
-        "Release": "",
+        "Release": "2026",
         "Tracks": 7,
-        "Format": ""
+        "Format": "Digital"
     },
     "songs": [
         "Behind_the_Curtain.json",

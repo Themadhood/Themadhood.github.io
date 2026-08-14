@@ -13,9 +13,9 @@
     "imageMax": 320,
     "details": {
         "Type": "Album",
-        "Release": "",
+        "Release": "2026",
         "Tracks": 9,
-        "Format": ""
+        "Format": "Digital"
     },
     "songs": [
         "Code_Names.json",
