@@ -1,5 +1,10 @@
 import { loadHeaderFooter, HF_main } from "/GlobalAssets/JS/HeaderFooter.js";
 
+//	?album=ALBUM_ID
+//	?album=ALBUM_ID&song=SONG_ID
+
+
+
 const ALBUMS_ROOT = "/Music/Albums/Albums";
 const ALBUMS_JSON = "/Music/Albums/Albums/Albums.json";
 const FEATURED_JSON = "/Music/Albums/Assets/Featured.json";

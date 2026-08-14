@@ -1,0 +1,31 @@
+{
+    "title": "BJBJ-BBJ-B-BE",
+    "href": "",
+    "about": "A collection of stories from my years as a State Arts-In Assistant Director, where long days, little sleep, unexpected problems, running jokes, and close friendships became part of learning what it meant to help keep the program moving.",
+    "body": [
+        "This album looks at State Arts-In from the other side of the experience: not as a participant, but as one of the Assistant Directors helping make everything happen.",
+        "The songs move through the responsibilities and chaos that came with the role, from balancing nine groups by hand and learning the job for the first time to remote Zoom disco parties, Tech News, indoor rain caused by a hose in the dorms, and nights where two hours of sleep somehow had to be enough.",
+        "At the center of those years were the people I worked beside. Friendships with Lauren, Will, Jenna, and the rest of the team grew through long days, shared problems, improvised solutions, and the kind of exhausted jokes that only make sense at three in the morning.",
+        "The final songs look back on returning for one more summer and eventually recognizing that loving State Arts-In did not automatically make the work sustainable forever. Together, these tracks preserve both the responsibility of being an AD and the friendships and ridiculous moments that made those years worth remembering."
+    ],
+    "cover": "BJBJ BBJ B BE cover.png",
+    "imageMax": 320,
+    "details": {
+        "Type": "Album",
+        "Release": "2026",
+        "Tracks": 10,
+        "Format": "Digital"
+    },
+    "songs": [
+        "Always_Together.json",
+        "Disco_Party.json",
+        "First_Assistant_Director.json",
+        "It_Was_a_JoJo.json",
+        "Nine_Groups.json",
+        "One_More_Summer.json",
+        "Tech_News.json",
+        "Two_Hours_of_Sleep.json",
+        "Wauren_and_Wadison.json",
+        "You_Cant_Live_on_Fun.json"
+    ]
+}
