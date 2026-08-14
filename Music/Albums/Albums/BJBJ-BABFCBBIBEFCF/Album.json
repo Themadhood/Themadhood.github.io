@@ -1,0 +1,31 @@
+{
+    "title": "BJBJ-BABFCBBIBEFCF",
+    "href": "",
+    "about": "A look across my State Arts-In journey from my first year as a participant through my final summer as an Assistant Director, along with the people whose influence helped shape the experience and the person I became.",
+    "body": [
+        "This album follows State Arts-In across the years, beginning with Space Year in 2015 and continuing through Pirate Year, Ballroom Year, Candy Year, my final year as a participant, the unusual online season of 2020, and my later years as an Assistant Director.",
+        "Each year brought a different version of the program and a different version of me. Backstage work, performances, friendships, injuries, relationships, jokes, responsibilities, and countless small traditions gradually turned State Arts-In from something I joined into something that became part of my life.",
+        "The story is also about the people behind those years. Songs for Joy and Kirsten recognize two of the people whose work, encouragement, leadership, and thousands of small influences helped make both the program and my own experience possible.",
+        "Taken together, these tracks form a timeline rather than a single summer: a record of growing from the quiet new kid who arrived in 2015 into an Assistant Director helping create the experience for others, and eventually reaching the end of that chapter with years of memories still following me."
+    ],
+    "cover": "BJBJ BABFCBBIBEFCF Cover.png",
+    "imageMax": 320,
+    "details": {
+        "Type": "Album",
+        "Release": "2026",
+        "Tracks": 10,
+        "Format": "Digital"
+    },
+    "songs": [
+        "2015-Space_Year_Ballad.json",
+        "2016-Pirate_Year.json",
+        "2017-Ballroom_Year.json",
+        "2018-Candy_Year.json",
+        "2019-The_Final_Roll.json",
+        "2020-Part_Time_AD.json",
+        "2021-The_First_Year.json",
+        "2023-The_Last_Summer.json",
+        "Behind_the_Camera.json",
+        "One_of_the_Driving_Forces.json"
+    ]
+}
