@@ -6,7 +6,9 @@
   --border:#2a2a38;
   --accent:#b11a25;
   --topbar-bg:#0f0f12;
+  --topbar-text:#f1f1f3;
   --footer-bg:#0f0f12;
+  --footer-text:#f1f1f3;
   --link-color:#0f0f12;
   --button-bg:#0f0f12;
   --button-text:#0f0f12;
@@ -41,7 +43,9 @@
   border:none;
   background:none;
 }
-.brand .name{font-weight:700;letter-spacing:.2px}
+.brand .name{font-weight:700;
+			letter-spacing:.2px;
+			color:var(--topbar-text);}
 
 /*Navigation*/
 /*Navigation*/
@@ -60,7 +64,7 @@
 }
 .nav a:hover{
 	border-color:var(--border);
-	color:var(--text);
+	color:var(--topbar-text);
 }
 
 /* Toggle button */
@@ -160,7 +164,8 @@
 }
 .footer{
   border-top:1px solid var(--border);
-  background:var(--topbar-bg);
+  background:var(--footer-bg);
+  color:var(--footer-text);
   margin-top:40px;
   padding-top:25px;
 }
@@ -171,12 +176,12 @@
   margin-bottom:20px;
 }
 .footer-text .small{
-  color:var(--muted);
+  color:var(--footer-text);
   font-size:0.85rem;
 }
 /*.footer h4{margin:0 0 10px 0;color:var(--text)}*/
 .kv{display:flex;gap:8px;align-items:center;margin-bottom:6px}
-.kv b{color:var(--text)}
+.kv b{color:var(--footer-text)}
 /*.small{font-size:13px}*/
 
 

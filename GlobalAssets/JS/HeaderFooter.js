@@ -38,6 +38,8 @@ function applyBranchColors(settings){
 	if(colors.buttonBg) root.style.setProperty("--button-bg", colors.buttonBg);
 	if(colors.buttonText) root.style.setProperty("--button-text", colors.buttonText);
 	if(colors.heroOverlay) root.style.setProperty("--hero-overlay", colors.heroOverlay);
+	if(colors.topbarText) root.style.setProperty("--topbar-text", colors.topbarText);
+	if(colors.footerText) root.style.setProperty("--footer-text", colors.footerText);
 }
 
 

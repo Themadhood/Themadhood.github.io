@@ -7,7 +7,7 @@ import { loadHeaderFooter, HF_main } from "/GlobalAssets/JS/HeaderFooter.js";
 
 const ALBUMS_ROOT = "/Music/Albums/Albums";
 const ALBUMS_JSON = "/Music/Albums/Albums/Albums.json";
-const FEATURED_JSON = "/Music/Albums/Assets/Featured.json";
+const FEATURED_JSON = "/Music/Albums/Assets/json/Featured.json";
 
 async function loadJson(path){
     const response = await fetch(path);
@@ -15,6 +15,87 @@ async function loadJson(path){
         throw new Error(`Failed to load ${path}: ${response.status}`);
     }
     return response.json();
+}
+
+
+function buildShareUrl(albumId, songId = null){
+    const url = new URL(window.location.href);
+    url.search = "";
+    url.hash = "";
+    url.searchParams.set("album", String(albumId || "").trim().toUpperCase());
+
+    if(songId){
+        url.searchParams.set("song", String(songId).trim().toLowerCase());
+    }
+
+    return url.toString();
+}
+
+function buildShareButton({albumId, songId = null, title = ""}){
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "showcase-share-button";
+    button.setAttribute("aria-label", `Share ${title || (songId ? "song" : "album")}`);
+    button.title = `Share ${title || (songId ? "song" : "album")}`;
+
+    const icon = document.createElement("span");
+    icon.className = "showcase-share-icon";
+    icon.setAttribute("aria-hidden", "true");
+    icon.innerHTML = `
+        <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+            <circle cx="18" cy="5" r="2.5"></circle>
+            <circle cx="6" cy="12" r="2.5"></circle>
+            <circle cx="18" cy="19" r="2.5"></circle>
+            <path d="M8.2 10.9 15.8 6.1M8.2 13.1l7.6 4.8"></path>
+        </svg>`;
+
+    const label = document.createElement("span");
+    label.className = "showcase-share-label";
+    label.textContent = "Share";
+
+    button.append(icon, label);
+
+    button.addEventListener("click", async event => {
+        event.preventDefault();
+        event.stopPropagation();
+
+        const url = buildShareUrl(albumId, songId);
+        const shareTitle = title || document.title;
+
+        try{
+            if(navigator.share){
+                await navigator.share({title: shareTitle, url});
+                return;
+            }
+
+            await navigator.clipboard.writeText(url);
+            const original = label.textContent;
+            label.textContent = "Copied!";
+            window.setTimeout(() => { label.textContent = original; }, 1400);
+        }catch(error){
+            if(error?.name === "AbortError") return;
+
+            try{
+                const textarea = document.createElement("textarea");
+                textarea.value = url;
+                textarea.setAttribute("readonly", "");
+                textarea.style.position = "fixed";
+                textarea.style.opacity = "0";
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand("copy");
+                textarea.remove();
+
+                const original = label.textContent;
+                label.textContent = "Copied!";
+                window.setTimeout(() => { label.textContent = original; }, 1400);
+            }catch(copyError){
+                console.warn("Share failed.", copyError);
+            }
+        }
+    });
+
+    return button;
 }
 
 function getImageMax(value, fallback = 280){
@@ -193,16 +274,29 @@ function buildSong(song, albumId){
     block.dataset.songId = song.id || "";
     block.dataset.albumId = albumId;
 
+    const header = document.createElement("div");
+    header.className = "showcase-dropdown-header";
+
     const button = document.createElement("button");
     button.type = "button";
     button.className = "showcase-dropdown-toggle";
     button.setAttribute("aria-expanded", "false");
+
     const label = document.createElement("span");
     label.textContent = song.title || "Song";
-    const icon = document.createElement("span");
-    icon.className = "showcase-dropdown-icon";
-    icon.textContent = "+";
-    button.append(label, icon);
+    button.appendChild(label);
+
+    const shareButton = buildShareButton({
+        albumId,
+        songId: song.id || "",
+        title: song.title || "Song"
+    });
+
+    const iconButton = document.createElement("button");
+    iconButton.type = "button";
+    iconButton.className = "showcase-dropdown-icon";
+    iconButton.setAttribute("aria-label", `Expand ${song.title || "song"}`);
+    iconButton.textContent = "+";
 
     const body = document.createElement("div");
     body.className = "showcase-dropdown-body";
@@ -234,14 +328,19 @@ function buildSong(song, albumId){
     inner.appendChild(content);
     body.appendChild(inner);
 
-    button.addEventListener("click", () => {
+    function toggleSong(){
         const open = button.getAttribute("aria-expanded") === "true";
         button.setAttribute("aria-expanded", String(!open));
         body.hidden = open;
-        icon.textContent = open ? "+" : "−";
-    });
+        iconButton.textContent = open ? "+" : "−";
+        iconButton.setAttribute("aria-label", `${open ? "Expand" : "Collapse"} ${song.title || "song"}`);
+    }
 
-    block.append(button, body);
+    button.addEventListener("click", toggleSong);
+    iconButton.addEventListener("click", toggleSong);
+
+    header.append(button, shareButton, iconButton);
+    block.append(header, body);
     return block;
 }
 
@@ -308,7 +407,7 @@ function buildFeaturedSong(featuredSong, lightbox, currentAlbumId){
                 `${albumRoot}/${album.cover}`,
                 song.title || album.title || "Album cover",
                 lightbox,
-                280
+                180
             )
         );
     }
@@ -328,7 +427,7 @@ function buildFeaturedSong(featuredSong, lightbox, currentAlbumId){
     content.appendChild(heading);
 
     addTextBlock(content, "About", song.about);
-    addTextBlock(content, "Description", song.description);
+    //addTextBlock(content, "Description", song.description);
 
     const details = {
         ...(song.details || {})
@@ -384,7 +483,8 @@ async function loadAlbumIndex(){
 }
 
 function getRequestedAlbumId(){
-    return new URLSearchParams(window.location.search).get("album");
+    const albumId = new URLSearchParams(window.location.search).get("album");
+    return albumId ? albumId.toUpperCase() : null;
 }
 
 async function loadAlbums(){
@@ -464,7 +564,17 @@ function buildAlbumSection(albumId, albumRoot, album, songs, lightbox){
         heading.textContent = album.title || "";
     }
 
-    content.appendChild(heading);
+    const titleRow = document.createElement("div");
+    titleRow.className = "showcase-title-row";
+    titleRow.append(
+        heading,
+        buildShareButton({
+            albumId,
+            title: album.title || "Album"
+        })
+    );
+
+    content.appendChild(titleRow);
     addTextBlock(content, "About", album.about);
     addTextBlock(content, "Body", album.body);
 
@@ -522,7 +632,8 @@ function renderAlbums(albums, featuredSongs){
     }
 
     const params = new URLSearchParams(window.location.search);
-    const requestedSong = params.get("song");
+    const requestedSongRaw = params.get("song");
+    const requestedSong = requestedSongRaw ? requestedSongRaw.toLowerCase() : null;
 
     if(requestedAlbumId && requestedSong){
         const target = document.getElementById(
