@@ -10,7 +10,7 @@ import {renderAlbum} from "./album.js";
 // Invalid albums fall back to Featured without breaking the page.
 // Invalid songs still load the requested valid album.
 
-const CONFIG_URL = new URL("../json/AlbumsConfig.json", import.meta.url);
+const CONFIG_URL = new URL("../json/Config.json", import.meta.url);
 
 let CONFIG = null;
 let MENU = null;
