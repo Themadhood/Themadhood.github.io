@@ -3,21 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Themadhood showcase page" />
+  <meta name="description" content="Themadhood's Music albums" />
   <link rel="icon" data-site-favicon href="">
   <link rel="stylesheet" href="/GlobalAssets/CSS/HeaderFooter.css" />
-  <link rel="stylesheet" href="./Assets/css/Showcase.css" />
-  <title>Themadhood Showcase</title>
+  <link rel="stylesheet" href="./Assets/css/Albums.css" />
+  <title>Themadhood albums</title>
 </head>
-<body data-page="showcase">
+<body data-page="albums">
 
   <div id="shared-header"></div>
 
-  <div class="container" style="padding-top:22px">
+  <nav class="albums-menu card albums-sidebar"
+       data-albums-menu
+       aria-label="Album navigation"></nav>
 
+  <main class="container albums-page" style="padding-top:22px">
+    <div class="albums-status" data-albums-status aria-live="polite"></div>
     <div class="grid" data-showcase-sections></div>
-
-  </div>
+  </main>
 
   <div id="shared-footer"></div>
 
@@ -37,6 +40,6 @@
     </div>
   </div>
 
-  <script type="module" src="./Assets/js/Album.js"></script>
+  <script type="module" src="./Assets/js/Albums.js"></script>
 </body>
 </html>
