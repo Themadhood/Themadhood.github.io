@@ -1,0 +1,25 @@
+{
+	"branches": [
+		{
+			"key": "StainedGlass",
+			"name": "Stained Glass",
+			"activeDates": "Archived T.Goods branch",
+			"color": "#41a0ff",
+			"logo": "Archive/StainedGlass/Imgs/Logo.png",
+			"bio": [
+				"Short branch history goes here.",
+				"This stays in Goods because it is T.Goods archive data, not part of the reusable global viewer."
+			]
+		},
+		{
+			"key": "Jewelry",
+			"name": "Jewelry",
+			"activeDates": "Archived T.Goods branch",
+			"color": "#d507d4",
+			"logo": "Archive/Jewelry/Imgs/Logo.png",
+			"bio": [
+				"Short Jewelry branch history goes here."
+			]
+		}
+	]
+}
