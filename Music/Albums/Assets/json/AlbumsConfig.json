@@ -1,0 +1,18 @@
+{
+  "albumsRoot": "/Music/Albums/Albums",
+  "menuJson": "/Music/Albums/Assets/json/AlbumsMenu.json",
+  "featuredJson": "/Music/Albums/Assets/json/Featured.json",
+  "defaultView": "featured",
+  "imageSizes": {
+    "album": 320,
+    "featured": 180
+  },
+  "labels": {
+    "featured": "Featured",
+    "featuredCollection": "Featured Collection",
+    "loading": "Loading...",
+    "albumLoadError": "Album failed to load.",
+    "featuredLoadError": "Featured collection could not be loaded.",
+    "emptyFeatured": "No featured songs are currently available."
+  }
+}
