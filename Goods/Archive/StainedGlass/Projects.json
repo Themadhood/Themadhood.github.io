@@ -1,0 +1,16 @@
+{
+	"projects": [
+		{
+			"key": "BlueWindowPanel",
+			"name": "Blue Window Panel",
+			"cover": "Imgs/BlueWindow.jpg",
+			"shortDescription": "Short description used only on the branch project list."
+		},
+		{
+			"key": "SunCatcher",
+			"name": "Sun Catcher",
+			"cover": "Imgs/SunCatcher.jpg",
+			"shortDescription": "Another lightweight project list entry."
+		}
+	]
+}

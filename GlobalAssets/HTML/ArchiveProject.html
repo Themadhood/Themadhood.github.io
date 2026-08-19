@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="T.Goods archived project" />
+	<link rel="icon" data-site-favicon href="">
+	<link rel="stylesheet" href="/GlobalAssets/CSS/HeaderFooter.css" />
+	<link rel="stylesheet" href="/GlobalAssets/CSS/Archive.css" />
+	<title>T.Goods Project Archive</title>
+</head>
+<body data-page="archive-project">
+
+	<div id="shared-header"></div>
+
+	<div class="container" style="padding-top:22px">
+		<div class="archive-breadcrumb" data-archive-breadcrumb></div>
+
+		<div class="grid">
+			<div class="card archive-project-hero">
+				<div class="archive-project-hero-inner">
+					<div class="archive-project-cover-wrap" data-project-cover-wrap>
+						<img class="archive-project-cover" data-project-cover alt="">
+					</div>
+
+					<div class="archive-project-copy">
+						<div class="archive-label" data-project-branch-label></div>
+						<h1 data-project-title></h1>
+						<p class="archive-project-summary" data-project-summary></p>
+						<div data-project-description></div>
+						<div class="archive-meta" data-project-meta></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="grid" style="margin-top:14px">
+			<div class="card">
+				<h2>Project Gallery</h2>
+				<div class="archive-gallery" data-project-gallery></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="shared-footer"></div>
+
+	<div class="archive-lightbox" data-archive-lightbox hidden>
+		<div class="archive-lightbox-backdrop" data-archive-lightbox-close></div>
+
+		<div class="archive-lightbox-panel">
+			<button class="archive-lightbox-close" type="button" data-archive-lightbox-close>×</button>
+			<button class="archive-lightbox-nav archive-lightbox-prev" type="button" data-archive-prev>‹</button>
+			<img class="archive-lightbox-image" data-archive-lightbox-image src="" alt="">
+			<button class="archive-lightbox-nav archive-lightbox-next" type="button" data-archive-next>›</button>
+			<div class="archive-lightbox-caption" data-archive-lightbox-caption></div>
+		</div>
+	</div>
+
+	<script type="module" src="/GlobalAssets/JS/ArchiveProject.js"></script>
+</body>
+</html>

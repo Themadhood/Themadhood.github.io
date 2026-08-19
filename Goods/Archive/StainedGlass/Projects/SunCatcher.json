@@ -1,0 +1,16 @@
+{
+	"name": "Sun Catcher",
+	"cover": "Imgs/SunCatcher.jpg",
+	"shortDescription": "Smaller stained-glass project.",
+	"description": "Full Sun Catcher description goes here.",
+	"details": {
+		"Created": "2023",
+		"Status": "Archived"
+	},
+	"gallery": [
+		{
+			"src": "Imgs/SunCatcher.jpg",
+			"caption": "Finished piece"
+		}
+	]
+}

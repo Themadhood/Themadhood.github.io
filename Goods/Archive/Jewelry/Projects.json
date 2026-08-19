@@ -1,0 +1,10 @@
+{
+	"projects": [
+		{
+			"key": "WirePendant",
+			"name": "Wire Pendant",
+			"cover": "Imgs/WirePendant.jpg",
+			"shortDescription": "Example archived jewelry project."
+		}
+	]
+}

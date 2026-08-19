@@ -1,0 +1,33 @@
+{
+	"name": "Blue Window Panel",
+	"cover": "Imgs/BlueWindow.jpg",
+	"shortDescription": "Example archived stained-glass project.",
+	"description": [
+		"Longer project description goes here.",
+		"This file is only fetched when this individual project is opened."
+	],
+	"details": {
+		"Created": "2024",
+		"Type": "Stained Glass",
+		"Materials": [
+			"Glass",
+			"Copper Foil",
+			"Solder"
+		],
+		"Status": "Archived"
+	},
+	"gallery": [
+		{
+			"src": "Imgs/BlueWindow.jpg",
+			"caption": "Completed front view"
+		},
+		{
+			"src": "Imgs/BlueWindowDetail.jpg",
+			"caption": "Close detail"
+		},
+		{
+			"src": "Imgs/BlueWindowBuild.jpg",
+			"caption": "Work in progress"
+		}
+	]
+}
