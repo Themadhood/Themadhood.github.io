@@ -1,25 +1,94 @@
 {
-	"branches": [
-		{
-			"key": "StainedGlass",
-			"name": "Stained Glass",
-			"activeDates": "Archived T.Goods branch",
-			"color": "#41a0ff",
-			"logo": "Archive/StainedGlass/Imgs/Logo.png",
-			"bio": [
-				"Short branch history goes here.",
-				"This stays in Goods because it is T.Goods archive data, not part of the reusable global viewer."
-			]
-		},
-		{
-			"key": "Jewelry",
-			"name": "Jewelry",
-			"activeDates": "Archived T.Goods branch",
-			"color": "#d507d4",
-			"logo": "Archive/Jewelry/Imgs/Logo.png",
-			"bio": [
-				"Short Jewelry branch history goes here."
-			]
-		}
-	]
+    "hero": {
+        "title": "Themadhood's Goods Archive",
+        "subtitle": "Physical goods archive",
+        "description": [
+            "The physical-goods branches have been discontinued.",
+            "This section preserves their history, branding, and selected projects."
+        ]
+    },
+    "branches": [
+        {
+            "key": "Art",
+            "name": "Art",
+            "activeDates": "Archived T.Goods branch 2018-2026",
+            "color": "#ff663f",
+            "logo": "/Goods/Archive/Art/Imgs/Logo.png",
+            "bio": [
+                "Themadhood's Art was the visual artwork division within Themadhood's Goods, focused on producing original paintings, sketches, illustrations, and other visual works that reflected the themes, ideas, and creative identity developed across Themadhood's projects.",
+				"Themadhood's Art originally grew from Themadhood's Goods as paintings and sketches began selling in greater numbers, giving the artwork enough of its own identity to develop into a dedicated branch. It operated as an independent creative studio for creating and publishing original artwork.",
+				"Through original pieces, themed collections, and experimental visual works, Themadhood's Art provided a place for organizing and developing artistic creations while allowing individual styles and techniques to evolve. Its work remained connected to the broader Themadhood creative ecosystem throughout the branch's operation."
+            ]
+        },
+        {
+            "key": "Creations",
+            "name": "Creations",
+            "activeDates": "Archived T.Goods branch 2025-2026",
+            "color": "#d87cff",
+            "logo": "/Goods/Archive/Creations/Imgs/Logo.png",
+            "bio": [
+                "Themadhood's Creations was the handmade and crafted creations division within Themadhood's Goods, focused on producing mixed-media builds, unique projects, and creations that did not fit naturally within one of the existing specialized branches.",
+
+				"Themadhood's Creations was established after Themadhood's Goods had grown to include several specialized branches. Rather than using one of those branches as a fallback for unusual or experimental projects, it made more sense to create a dedicated place for the odds and ends that fell outside their established focuses.",
+
+				"Through mixed-media builds, one-off creations, and experimental projects, Themadhood's Creations provided a home for ideas that crossed categories or simply did not need a category of their own. This allowed the other branches of Themadhood's Goods to maintain their individual focuses while still leaving room for unique and unconventional creations."
+            ]
+        },
+        {
+            "key": "Jewelry",
+            "name": "Jewelry",
+            "activeDates": "Archived T.Goods branch 2015-2026",
+            "color": "#c8a325",
+            "logo": "/Goods/Archive/Jewelry/Imgs/Logo.png",
+            "bio": [
+                "Themadhood's Jewelry was the jewelry and wearable goods division within Themadhood's Goods, focused on producing handcrafted jewelry, custom pieces, themed accessories, and other wearable creations.",
+
+				"Themadhood's Jewelry was established when demand for both existing jewelry designs and custom jewelry grew enough to justify a dedicated branch. Several designs became particularly popular, with some eventually being copied and sold elsewhere for as much as three times the original price.",
+
+				"Despite the appearance of higher-priced copies, Themadhood's Jewelry remained focused on its original designs and accessible pricing. Some of the copied products quickly dropped into steep sales elsewhere, while the branch continued creating original and custom pieces throughout its operation."
+            ]
+        },
+        {
+            "key": "LeatherGoods",
+            "name": "Leather Goods",
+            "activeDates": "Archived T.Goods branch 2024-2026",
+            "color": "#6b3f2d",
+            "logo": "/Goods/Archive/LeatherGoods/Imgs/Logo.png",
+            "bio": [
+                "Themadhood's Leather Goods was the leathercraft division within Themadhood's Goods, focused on producing handcrafted leather items, functional gear, and other leather creations.",
+
+				"Themadhood's Leather Goods operated as a dedicated workshop for leathercraft projects, providing a place to design and produce both practical and decorative leather items within Themadhood's Goods.",
+
+				"Through handcrafted pieces, functional designs, and experimental projects, Themadhood's Leather Goods provided a dedicated home for developing leatherworking skills and creating items that combined craftsmanship, function, and individual design."
+            ]
+        },
+        {
+            "key": "StainedGlass",
+            "name": "Stained Glass",
+            "activeDates": "Archived T.Goods branch 2021-2026",
+            "color": "#d86e1f",
+            "logo": "/Goods/Archive/StainedGlass/Imgs/Logo.png",
+            "bio": [
+                "Themadhood's Stained Glass was the stained glass division within Themadhood's Goods, focused on producing handcrafted stained glass pieces, decorative works, and custom designs.",
+
+				"Themadhood's Stained Glass was created as a dedicated place to sell stained glass works originally made through school as well as custom pieces created for individual requests.",
+
+				"Through school projects, original designs, and custom work, Themadhood's Stained Glass provided a home for displaying and selling these pieces while allowing new designs and techniques to develop over time."
+            ]
+        },
+        {
+            "key": "Trinkets",
+            "name": "Trinkets",
+            "activeDates": "Archived T.Goods branch 2016-2026",
+            "color": "#34a779",
+            "logo": "/Goods/Archive/Trinkets/Imgs/Logo.png",
+            "bio": [
+                "Themadhood's Trinkets was the trinkets and small goods division within Themadhood's Goods, focused on producing small decorative pieces, accessories, and other unique little creations.",
+
+				"Themadhood's Trinkets was created when production and sales of small trinkets and decorative pieces were in high demand. Years of fiddling, tinkering, and experimenting had also resulted in an abundance of finished creations and stock that needed a dedicated home.",
+
+				"Through small decorative pieces, experimental creations, and the occasional results of simply tinkering with an idea, Themadhood's Trinkets provided a place to organize and sell the wide variety of little creations that did not need a larger branch of their own."
+            ]
+        }
+    ]
 }

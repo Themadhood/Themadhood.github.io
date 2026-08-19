@@ -2,7 +2,6 @@ import {loadHeaderFooter, HF_main} from "./HeaderFooter.js";
 import {loadBranch} from "./OpenJsons.js";
 import {
 	branchPageUrl,
-	addParagraphs,
 	showPageError
 } from "./ArchiveHelpers.js";
 
@@ -49,25 +48,6 @@ function buildBranchCard(branch, siteBranch){
 }
 
 
-function buildHero(hero){
-	const title = document.querySelector("[data-archive-hero-title]");
-	const subtitle = document.querySelector("[data-archive-hero-subtitle]");
-	const description = document.querySelector("[data-archive-hero-description]");
-
-	if(title){
-		title.textContent = hero?.title || "Archive";
-	}
-
-	if(subtitle){
-		subtitle.textContent = hero?.subtitle || "";
-	}
-
-	if(description){
-		addParagraphs(description, hero?.description || "");
-	}
-}
-
-
 async function main(){
 	await loadHeaderFooter();
 	const {branch} = await HF_main();
@@ -75,8 +55,6 @@ async function main(){
 	const data = await loadBranch(branch, "ArchiveBranches");
 	const branches = Array.isArray(data?.branches) ? data.branches : [];
 	const host = document.querySelector("[data-archive-branches]");
-
-	buildHero(data?.hero);
 
 	if(!host){
 		throw new Error("Archive branch host was not found.");

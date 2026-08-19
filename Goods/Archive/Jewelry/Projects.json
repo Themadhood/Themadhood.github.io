@@ -1,10 +1,58 @@
 {
 	"projects": [
 		{
-			"key": "WirePendant",
-			"name": "Wire Pendant",
-			"cover": "Imgs/WirePendant.jpg",
-			"shortDescription": "Example archived jewelry project."
+			"key": "22ShellNecklaceCollection",
+			"name": "22 Shell Necklace Collection",
+			"cover": "Imgs/22-Shell-wing-Necklace.jpg",
+			"shortDescription": "A collection of 22 Shell based necklaces grouped"
+		},
+		{
+			"key": "PoptabBraceletCollection",
+			"name": "Poptab Bracelet Collection",
+			"cover": "Imgs/Black-Red-Poptab-Bracelets.jpg",
+			"shortDescription": "A collection of handcrafted bracelets created using pop tab elements and woven connections."
+		},
+		{
+			"key": "PaperclipBraceletCollection",
+			"name": "Paperclip Bracelet Collection",
+			"cover": "Imgs/Hematite-Paperclip-Bracelets.jpg",
+			"shortDescription": "A collection of handcrafted bracelets made from paperclips, shaped and assembled into a refined design."
+		},
+		{
+			"key": "HematiteAnklet",
+			"name": "Hematite Anklet",
+			"cover": "Imgs/Hematite-Anklet.jpg",
+			"shortDescription": "A handcrafted anklet inspired by the clean, metallic look of hematite."
+		},
+		{
+			"key": "ArrowDangleNecklace",
+			"name": "Arrow Dangle Necklace",
+			"cover": "Imgs/Arrow-Dangle-Necklace.jpg",
+			"shortDescription": "A handcrafted necklace featuring a Arrow pendant."
+		},
+		{
+			"key": "CrescentMoonNecklace",
+			"name": "Crescent Moon Necklace",
+			"cover": "Imgs/Crescent-Moon-Necklace.jpg",
+			"shortDescription": "A handcrafted necklace featuring a crescent moon inspired design."
+		},
+		{
+			"key": "HeartCrossNecklace",
+			"name": "Heart Cross Necklace",
+			"cover": "Imgs/Heart-Cross-Necklace.jpg",
+			"shortDescription": "A handcrafted necklace featuring a combined heart and cross pendant."
+		},
+		{
+			"key": "SimpleWasherNecklace",
+			"name": "Simple Washer Necklace",
+			"cover": "Imgs/Simple-Washer-Necklace.jpg",
+			"shortDescription": "A minimalist necklace built around a washer-style centerpiece."
+		},
+		{
+			"key": "SilverWalletChain",
+			"name": "Silver Wallet Chain",
+			"cover": "Imgs/Silver-Wallet-Chain.jpg",
+			"shortDescription": "A standalone chain accessory with a clean, durable design."
 		}
 	]
 }

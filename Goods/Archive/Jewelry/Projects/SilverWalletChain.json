@@ -1,0 +1,19 @@
+{
+	"name": "Silver Wallet Chain",
+	"cover": "Imgs/Silver-Wallet-Chain.jpg",
+	"shortDescription": "A standalone chain accessory with a clean, durable design.",
+	"description": [
+		"A silver-tone wallet chain that combines function with a bold, straightforward style."
+	],
+	"details": {
+		"type": "chain",
+		"group": "Gallery Root",
+		"Status": "Archived"
+	},
+	"gallery": [
+		{
+			"src": "Imgs/Silver-Wallet-Chain.jpg",
+			"caption": "Primary image"
+		}
+	]
+}

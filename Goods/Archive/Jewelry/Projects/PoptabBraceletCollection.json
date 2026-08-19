@@ -1,0 +1,44 @@
+{
+	"name": "Poptab Bracelet Collection",
+	"cover": "Imgs/Black-Red-Poptab-Bracelets.jpg",
+	"shortDescription": "A collection of handcrafted bracelets created using pop tab elements and woven connections.",
+	"description": [
+		"These bracelets combine recycled materials with bold color pairings, resulting in distinctive pieces with a strong, handcrafted character."
+	],
+	"details": {
+		"type": "bracelet collection",
+		"group": "Bracelets/Poptab-Bracelets",
+		"count": 7,
+		"Status": "Archived"
+	},
+	"gallery": [
+		{
+			"src": "Imgs/Black-Red-Poptab-Bracelets.jpg",
+			"caption": "Primary image"
+		},
+		{
+			"src": "Imgs/Blue-Poptab-Bracelets.jpg",
+			"caption": "Additional view"
+		},
+		{
+			"src": "Imgs/Gold-Black-Poptab-Bracelets.jpg",
+			"caption": "Additional view"
+		},
+		{
+			"src": "Imgs/Pink-Blue-Poptab-Bracelets.jpg",
+			"caption": "Additional view"
+		},
+		{
+			"src": "Imgs/Red-Black-Poptab-Bracelets.jpg",
+			"caption": "Additional view"
+		},
+		{
+			"src": "Imgs/Silver-Black-Poptab-Bracelets.jpg",
+			"caption": "Additional view"
+		},
+		{
+			"src": "Imgs/Silver-Pink-Poptab-Bracelets.jpg",
+			"caption": "Additional view"
+		}
+	]
+}

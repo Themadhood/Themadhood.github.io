@@ -1,0 +1,29 @@
+{
+	"name": "School of Shaolin Kung Fu",
+	"cover": "Imgs/Completed-SOSKF.jpg",
+	"shortDescription": "This piece was created as a stained glass adaptation of the School of Shaolin Kung Fu’s logo. The goal was not to redesign, but to accurately represent it in glass.",
+	"description": [
+		"This stained glass piece was created for the School of Shaolin Kung Fu, based on their established logo and visual identity. The design focuses on accurately translating the original artwork into glass while maintaining clarity, balance, and durability.",
+		"Layered colors, defined shapes, and strong contrast were used to ensure the design remains clear at a distance while still holding detail up close. Each section was cut, fitted, and assembled to preserve the structure of the original logo in a glass format.",
+		"The result is a clean, durable piece that reflects the school’s identity while adapting it into a physical, light-driven medium."
+	],
+	"details": {
+		"Medium": "Stained glass with lead came construction",
+		"Approximate Size": "~2 to 3 feet in diameter",
+		"Design Shape": "Circular, symbolizing unity and continuity",
+		"Primary Symbols": "Dragon (left) – internal strength, wisdom\nTiger (right) – external power, courage\nCrossed weapons – discipline and martial training\nYin-yang – balance and duality",
+		"Color Palette": "Green (dragon) – growth, control\nOrange/black (tiger) – power, intensity\nRed accents – energy, tradition\nStyle: Traditional martial arts symbolism with decorative glasswork",
+		"Status": "Archived",
+		"Original Link": "https://schoolofshaolin.com/"
+	},
+	"gallery": [
+		{
+			"src": "Imgs/Completed-SOSKF.jpg",
+			"caption": "Completed piece"
+		},
+		{
+			"src": "Imgs/Displayed-SOSKF-Window.jpg",
+			"caption": "Displayed view"
+		}
+	]
+}

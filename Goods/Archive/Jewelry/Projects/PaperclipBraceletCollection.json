@@ -1,0 +1,29 @@
+{
+	"name": "Paperclip Bracelet Collection",
+	"cover": "Imgs/Hematite-Paperclip-Bracelets.jpg",
+	"shortDescription": "A collection of handcrafted bracelets made from paperclips, shaped and assembled into a refined design.",
+	"description": [
+		"These bracelets are constructed from paperclips that have been reworked into a smooth, cohesive form.",
+		"The finished pieces present a clean, polished look, with the underlying materials only apparent on closer inspection."
+	],
+	"details": {
+		"type": "bracelet collection",
+		"group": "Bracelets/Paperclip-Bracelets",
+		"count": 3,
+		"Status": "Archived"
+	},
+	"gallery": [
+		{
+			"src": "Imgs/Hematite-Paperclip-Bracelets.jpg",
+			"caption": "Primary image"
+		},
+		{
+			"src": "Imgs/Butterfly-Roses-Paperclip-Bracelets.jpg",
+			"caption": "Additional view"
+		},
+		{
+			"src": "Imgs/Hematite-Ball-Paperclip-Bracelets.jpg",
+			"caption": "Additional view"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Simple Washer Necklace",
+	"cover": "Imgs/Simple-Washer-Necklace.jpg",
+	"shortDescription": "A minimalist necklace built around a washer-style centerpiece.",
+	"description": [
+		"A clean and understated design that emphasizes simplicity and everyday versatility."
+	],
+	"details": {
+		"type": "necklace",
+		"group": "Necklaces",
+		"Status": "Archived"
+	},
+	"gallery": [
+		{
+			"src": "Imgs/Simple-Washer-Necklace.jpg",
+			"caption": "Primary image"
+		}
+	]
+}

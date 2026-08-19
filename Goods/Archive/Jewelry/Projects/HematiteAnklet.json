@@ -1,0 +1,19 @@
+{
+	"name": "Hematite Anklet",
+	"cover": "Imgs/Hematite-Anklet.jpg",
+	"shortDescription": "A handcrafted anklet inspired by the clean, metallic look of hematite.",
+	"description": [
+		"A minimalist anklet designed for everyday wear, offering a subtle and refined accent."
+	],
+	"details": {
+		"type": "anklet",
+		"group": "Anklets",
+		"Status": "Archived"
+	},
+	"gallery": [
+		{
+			"src": "Imgs/Hematite-Anklet.jpg",
+			"caption": "Primary image"
+		}
+	]
+}

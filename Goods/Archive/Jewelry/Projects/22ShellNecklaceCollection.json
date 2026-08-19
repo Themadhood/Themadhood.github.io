@@ -1,0 +1,24 @@
+{
+	"name": "22 Shell Necklace Collection",
+	"cover": "Imgs/22-Shell-wing-Necklace.jpg",
+	"shortDescription": "A collection of 22 Shell based necklaces grouped",
+	"description": [
+		"This collection features handcrafted 22 Shell necklace variations, each offering a natural aesthetic with subtle design differences."
+	],
+	"details": {
+		"type": "necklace collection",
+		"group": "Necklaces",
+		"count": 2,
+		"Status": "Archived"
+	},
+	"gallery": [
+		{
+			"src": "Imgs/22-Shell-wing-Necklace.jpg",
+			"caption": "Primary image"
+		},
+		{
+			"src": "Imgs/22-Shell-Necklace-Simple.jpg",
+			"caption": "Additional view"
+		}
+	]
+}
