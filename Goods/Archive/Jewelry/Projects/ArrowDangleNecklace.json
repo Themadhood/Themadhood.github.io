@@ -1,0 +1,19 @@
+{
+	"name": "Arrow Dangle Necklace",
+	"cover": "Imgs/Arrow-Dangle-Necklace.jpg",
+	"shortDescription": "A handcrafted necklace featuring a Arrow pendant.",
+	"description": [
+		"A clean, elongated design that creates a subtle statement through its shape and movement."
+	],
+	"details": {
+		"type": "necklace",
+		"group": "Necklaces",
+		"Status": "Archived"
+	},
+	"gallery": [
+		{
+			"src": "Imgs/Arrow-Dangle-Necklace.jpg",
+			"caption": "Primary image"
+		}
+	]
+}

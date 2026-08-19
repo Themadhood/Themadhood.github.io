@@ -38,6 +38,10 @@
 			"label": "Card",
 			"href": "/GlobalAssets/HTML/BizCard.html?branch=goods"
 			},
+			{
+			"label": "Discontinued",
+			"href": "/GlobalAssets/HTML/Archive.html?branch=goods"
+			},
             {
                 "label": "Links",
                 "href": "/GlobalAssets/HTML/Links.html?branch=goods"

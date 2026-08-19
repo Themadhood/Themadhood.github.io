@@ -1,0 +1,19 @@
+{
+	"name": "Crescent Moon Necklace",
+	"cover": "Imgs/Crescent-Moon-Necklace.jpg",
+	"shortDescription": "A handcrafted necklace featuring a crescent moon inspired design.",
+	"description": [
+		"A lightweight and understated piece that incorporates a classic crescent moon form into a wearable design."
+	],
+	"details": {
+		"type": "necklace",
+		"group": "Necklaces",
+		"Status": "Archived"
+	},
+	"gallery": [
+		{
+			"src": "Imgs/Crescent-Moon-Necklace.jpg",
+			"caption": "Primary image"
+		}
+	]
+}

@@ -2,15 +2,23 @@
     "hero": {
         "headline": "Themadhood's Goods",
         "body": [
-            "Themadhood's Goods is the physical and crafted goods division within the Themadhood ecosystem, focused on producing tangible creations and themed items connected to its projects and creative identity. The branch supports the design and production of handcrafted works, decorative items, and collectible goods while maintaining the visual style and themes associated with Themadhood."
+            "Themadhood's Goods is the physical and handcrafted goods division within the larger Themadhood ecosystem. Growing from its early beginnings as Hood's Goods, it became a home for tangible creations ranging from artwork and jewelry to stained glass, leatherwork, trinkets, and other unique handcrafted projects. While its dedicated branches have since been discontinued and Themadhood's Goods has entered a dormant period, it remains part of Themadhood and may return as new projects, opportunities, or demand for physical creations emerge."
         ]
     },
     "about": {
         "title": "ABOUT US",
         "body": [
             "Themadhood's Goods operates as both an independent creative workshop and a structured branch within the larger Themadhood ecosystem. Its purpose is to design and produce physical items that reflect the themes, ideas, and visual identity developed across Themadhood projects.",
-            "",
-            "Through sub-branches dedicated to jewelry, stained glass creations, trinkets, and other handcrafted works, Themadhood's Goods provides a framework for organizing physical creations while allowing each line of products to develop its own style and focus. This structure ensures that goods remain connected to the broader creative ecosystem while still supporting unique craftsmanship and experimentation."
+			"",
+			"The history of Themadhood's Goods began long before it took its current form. It originally grew out of a small box shop called Hood's Goods, which I would bring to co-ops, parks, and other locations to set up and sell items as a way of making some money when I was around 12 years old.",
+			"",
+			"In 2015, Hood's Goods began growing into what would eventually become Themadhood's Goods. What started as a small box of things to sell developed into a larger creative workshop with its own identity and, eventually, dedicated branches for different types of physical creations.",
+			"",
+			"Over the years, Themadhood's Goods grew to include dedicated branches for jewelry, stained glass, trinkets, artwork, leather goods, and other handcrafted creations. These branches provided a home for projects that grew from personal experimentation into products, custom work, and items people wanted to purchase.",
+			"",
+			"As the modern era continues to move toward digital goods and services, the time required to design, create, stock, and manage unique physical products has become increasingly difficult to justify. Unlike digital creations, each physical piece requires materials, production time, storage, and often individual hands-on work. Because of this shift, the individual branches within Themadhood's Goods were discontinued and preserved as part of its archive.",
+			"",
+			"Themadhood's Goods itself has not been discontinued. Instead, it has entered a dormant period. The main branch remains in place as a home for physical creations and may become active again when a project, opportunity, or renewed demand makes physical production worthwhile. Its archived branches preserve the history of what came before while leaving the door open for Themadhood's Goods to evolve again in the future."
         ]
     },
     "branches": {
@@ -18,39 +26,39 @@
         "items": [
             {
                 "title": "Themadhood's Jewelry",
-                "href": "index.html?branch=jewelry",
+                "href": "/GlobalAssets/HTML/ArchiveBranch.html?branch=goods&archive=Jewelry",
                 "body": "Jewelry and wearable items created under Themadhood goods, including themed pieces and limited releases.",
-                "icon": "/Jewelry/Assets/Branding/THEMADHOOD Jewelry CIR 500-500.png"
+                "icon": "/Goods/Archive/Jewelry/Imgs/Logo.png"
             },
             {
                 "title": "Themadhood's Stained Glass",
-                "href": "index.html?branch=stained-glass",
+                "href": "/GlobalAssets/HTML/ArchiveBranch.html?branch=goods&archive=StainedGlass",
                 "body": "Stained glass pieces created under Themadhood Goods, including decorative panels, themed designs, and limited handcrafted works.",
-                "icon": "/Stained-Glass/Assets/Branding/THEMADHOOD Stained Glass CIR 500-500.png"
+                "icon": "/Goods/Archive/StainedGlass/Imgs/Logo.png"
             },
             {
                 "title": "Themadhood's Creations",
-                "href": "index.html?branch=creations",
+                "href": "/GlobalAssets/HTML/ArchiveBranch.html?branch=goods&archive=Creations",
                 "body": "Handmade and crafted items, including mixed-media builds and unique project creations.",
-                "icon": "/Creations/Assets/Branding/THEMADHOOD Creations CIR 500-500.png"
+                "icon": "/Goods/Archive/Creations/Imgs/Logo.png"
             },
             {
                 "title": "Themadgood's Trinkets",
-                "href": "index.html?branch=trinkets",
+                "href": "/GlobalAssets/HTML/ArchiveBranch.html?branch=goods&archive=Trinkets",
                 "body": "Small goods, accessories, and collectible trinkets released under Themadhood goods.",
-                "icon": "/Trinkets/Assets/Branding/THEMADHOOD Trinkets CIR 500-500.png"
+                "icon": "/Goods/Archive/Trinkets/Imgs/Logo.png"
             },
             {
                 "title": "Themadgood's Art",
-                "href": "index.html?branch=art",
+                "href": "/GlobalAssets/HTML/ArchiveBranch.html?branch=goods&archive=Art",
                 "body": "Artworks, illustrations, and visual creations produced and released under Themadhood's creative branches, including original pieces and curated visual projects.",
-                "icon": "/Art/Assets/Branding/THEMADHOOD Art CIR 500-500.png"
+                "icon": "/Goods/Archive/Art/Imgs/Logo.png"
             },
             {
                 "title": "Themadgood's Leather Goods",
-                "href": "index.html?branch=leather-goods",
+                "href": "/GlobalAssets/HTML/ArchiveBranch.html?branch=goods&archive=LeatherGoods",
                 "body": "Leather goods, handcrafted items, and physical creations produced and released under Themadhood's creative branches, including original designs and curated functional pieces.",
-                "icon": "/Leather-Goods/Assets/Branding/THEMADHOOD Leather Goods CIR 500-500.png"
+                "icon": "/Goods/Archive/LeatherGoods/Imgs/Logo.png"
             },
             {
                 "title": "Other/ Routed Through Us",

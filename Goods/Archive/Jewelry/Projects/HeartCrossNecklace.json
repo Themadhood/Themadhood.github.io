@@ -1,0 +1,20 @@
+{
+	"name": "Heart Cross Necklace",
+	"cover": "Imgs/Heart-Cross-Necklace.jpg",
+	"shortDescription": "A handcrafted necklace featuring a combined heart and cross pendant.",
+	"description": [
+		"A symbolic design that blends heart and cross elements into a single form.",
+		"The custom-made pendant offers a balanced look that is both meaningful and refined."
+	],
+	"details": {
+		"type": "necklace",
+		"group": "Necklaces",
+		"Status": "Archived"
+	},
+	"gallery": [
+		{
+			"src": "Imgs/Heart-Cross-Necklace.jpg",
+			"caption": "Primary image"
+		}
+	]
+}
