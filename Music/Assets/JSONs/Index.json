@@ -1,24 +1,26 @@
 {
     "hero": {
-        "headline": "Themadhood's Music",
-        "body": [
-            "Themadhood's Music is the audio production and release. Including original compositions, collaborative releases, experimental audio work, and soundtrack-style projects connected to other creative initiatives.",
-            "",
-            "Music is developed, organized, and released in a structured environment that supports both individual artists and ecosystem-driven productions. The focus is not only on creating music, but also on maintaining a consistent catalog of releases that remain clearly documented, accessible, and connected to the broader body of work developed through Themadhood.",
-            "",
-            "By maintaining a dedicated music division, Themadhood's Music provides a stable framework for long-term audio development, evolving creative styles, and experimental musical projects while preserving continuity between releases and maintaining a recognizable identity across the catalog."
-        ]
-    },
-    "about": {
-        "title": "ABOUT US",
-        "body": [
-            "Themadhood's Music was established to support the long-term creation and organization of audio projects within the wider Themadhood creative ecosystem. As part of Themadhood Media, the branch is responsible for coordinating music production, maintaining structured publishing practices, and providing a centralized platform where audio projects can be developed and released in a sustainable way.",
-            "",
-            "The division supports a wide range of musical work, including original compositions, collaborative projects, themed albums, experimental sound design, and audio productions connected to other branches within Themadhood. This structure allows music releases to grow and evolve while remaining part of a larger catalog of creative output.",
-            "",
-            "When individual artists or projects do not maintain their own dedicated public presence, releases and updates can still be distributed through Themadhood's Music while preserving proper attribution and project identity. This approach ensures that music remains both flexible for creators and organized for long-term accessibility, allowing Themadhood's Music to function as both a production platform and an enduring archive for the ecosystem's audio work."
-        ]
-    },
+		"headline": "Themadhood's Music",
+		"body": [
+			"Themadhood's Music is the home for music created and released by Themadhood Pequot, including original compositions, themed albums, experimental audio work, and music connected to other creative projects.",
+			"",
+			"T.Music provides one consistent place for the catalog, releases, and ongoing musical projects while keeping them connected to the wider Themadhood creative ecosystem."
+		]
+	},
+	"about": {
+		"title": "ABOUT US",
+		"body": [
+			"Themadhood's Music was established as the dedicated home for music created by Themadhood Pequot. As part of Themadhood Media, Themadhood's Music brings together original compositions, themed albums, experimental audio projects, soundtrack-style work, and music connected to other projects across the wider Themadhood ecosystem.",
+			"",
+			"Themadhood's Music was created in 2025 as music production began to grow significantly. This growth followed the discovery of composition AI, which made it possible to produce music faster and explore a much wider variety of musical styles. Before this, music was composed by hand with the help of friends who performed and recorded their parts independently, often at different times and without hearing the other parts. This made production slow and could result in compositions that did not always flow together smoothly. Today, composition AI assists with creating the instrumental music, while Themadhood Pequot records the vocals and personally brings the music and vocals together into the finished production.",
+			"",
+			"Themadhood's Music organizes, publishes, and maintains Themadhood Pequot's growing music catalog. This provides a consistent home for releases while allowing the style, format, and purpose of the music to continue evolving over time.",
+			"",
+			"One characteristic listeners may notice across the catalog is a missing octave in Themadhood Pequot's vocal range. Its effect varies depending on the song, making it considerably more noticeable in some recordings than in others. Rather than hiding this difference, it remains part of the vocals heard throughout the music.",
+			"",
+			"Themadhood's Music also uses a unique album-naming process designed around how people discover and listen to music. Album names are intentionally created in a distinctive and searchable format, making individual releases easier to find across music platforms. This approach does come at the cost of some readability and can make album names more difficult to remember. Since listeners often remember or search for individual songs more than album titles, this tradeoff allows the naming system to prioritize discoverability and catalog organization while still giving each album its own identity."
+		]
+	},
     "branches": {
         "title": "Services",
         "items": [
