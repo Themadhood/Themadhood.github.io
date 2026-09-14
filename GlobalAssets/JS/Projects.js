@@ -653,9 +653,19 @@ function renderEmbed(node){
   const wrap = document.createElement("div");
   wrap.className = "projects-embed-wrap";
 
+  let embedUrl = String(node.embed || "").trim();
+
+  try{
+    const url = new URL(embedUrl, window.location.origin);
+    url.searchParams.set("embed", "1");
+    embedUrl = `${url.pathname}${url.search}${url.hash}`;
+  }catch(err){
+    console.info("Could not add embed mode to embedded page URL.", err);
+  }
+
   const frame = document.createElement("iframe");
   frame.className = "projects-embed";
-  frame.src = node.embed;
+  frame.src = embedUrl;
   frame.title = node.title || node.branch || "Embedded page";
   frame.loading = "lazy";
 

@@ -8,6 +8,29 @@
   <link rel="stylesheet" href="/GlobalAssets/CSS/HeaderFooter.css" />
   <link rel="stylesheet" href="./Assets/css/Albums.css" />
   <title>Themadhood albums</title>
+
+  <style>
+    body.albums-embedded{
+      padding-top:0 !important;
+      min-height:100vh;
+    }
+
+    body.albums-embedded #shared-header,
+    body.albums-embedded #shared-footer{
+      display:none !important;
+    }
+
+    body.albums-embedded .albums-sidebar{
+      top:16px;
+      max-height:calc(100vh - 32px);
+    }
+
+    body.albums-embedded .albums-page{
+      min-height:100vh;
+      padding-top:22px !important;
+      padding-bottom:22px;
+    }
+  </style>
 </head>
 <body data-page="albums">
 

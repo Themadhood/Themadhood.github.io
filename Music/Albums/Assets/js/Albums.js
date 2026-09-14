@@ -27,6 +27,10 @@ function isRenderCurrent(token){
     return token === renderToken;
 }
 
+function isEmbedded(){
+    return new URLSearchParams(window.location.search).get("embed") === "1";
+}
+
 async function showFeatured(){
     await renderFeatured({
         config: CONFIG,
@@ -87,8 +91,12 @@ async function main(){
         window.history.replaceState({}, "", url);
     }
 
-    await loadHeaderFooter();
-    await HF_main();
+    if(isEmbedded()){
+        document.body.classList.add("albums-embedded");
+    }else{
+        await loadHeaderFooter();
+        await HF_main();
+    }
 
     buildMenu(MENU, {navigateToFeatured, navigateToAlbum});
     LIGHTBOX = createLightbox();
