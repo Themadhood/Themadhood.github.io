@@ -23,8 +23,6 @@ async function loadBranchRules(){
 }
 
 
-
-
 function capitalizeWord(word){
 	if(!word) return word;
 	return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
@@ -61,29 +59,18 @@ function applyBranchFolderRules(branchId, rulesData){
 				.join("-");
 		}
 	}
-	//console.log("after Branch rules aplyed:",result);
+
 	return result;
 }
 
 
 async function resolveBranchFolder(branchId){
 	const rulesData = await loadBranchRules();
-	const folderName = applyBranchFolderRules(branchId, rulesData);
-
-	/*console.log("Branch resolve:", {
-		branchId,
-		folderName
-	});*/
-
-	return folderName;
+	return applyBranchFolderRules(branchId, rulesData);
 }
 
 
-
-
-export async function loadBranch(branchId, json){
-	const folder = await resolveBranchFolder(branchId);
-
+function normalizeJsonFileName(json){
 	let fileName = String(json || "").trim();
 
 	if(!fileName){
@@ -94,21 +81,37 @@ export async function loadBranch(branchId, json){
 		fileName += ".json";
 	}
 
-	const jsonData = await loadJson(`/${folder}/Assets/JSONs/${fileName}`);
-
-	//console.log(`Loaded /${folder}/${fileName}`);
-
-	return jsonData;
+	return fileName;
 }
 
 
+export async function loadBranch(branchId, json){
+	const folder = await resolveBranchFolder(branchId);
+	const fileName = normalizeJsonFileName(json);
+	return await loadJson(`/${folder}/Assets/JSONs/${fileName}`);
+}
 
 
+/*
+	Loads a JSON file from a custom folder instead of the normal
+	/<Branch>/Assets/JSONs/ location.
 
+	Example:
+	loadPath("/Goods/Archive/Jewelry", "Projects")
+	-> /Goods/Archive/Jewelry/Projects.json
+*/
+export async function loadPath(path, json){
+	const fileName = normalizeJsonFileName(json);
+	let folder = String(path || "").trim();
 
+	if(!folder){
+		throw new Error("No JSON path was provided.");
+	}
 
+	if(!folder.startsWith("/")){
+		folder = `/${folder}`;
+	}
 
-
-
-
-
+	folder = folder.replace(/\/+$/, "");
+	return await loadJson(`${folder}/${fileName}`);
+}
