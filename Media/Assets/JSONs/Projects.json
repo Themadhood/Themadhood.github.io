@@ -1,0 +1,16 @@
+{
+	"branches": [
+		{
+			"title": "Themadhood's Music",
+			"branch": "music"
+		},
+		{
+			"title": "Themadhood's Photos",
+			"branch": "photos"
+		},
+		{
+			"title": "Themadhood's Videos",
+			"branch": "videos"
+		}
+	]
+}

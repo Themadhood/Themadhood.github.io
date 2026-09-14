@@ -1,19 +1,16 @@
 {
-	"sections": [
+	"branches": [
 		{
-		"title": "",
-		"body": "",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {}
-			}
-			]
+			"title": "Themadhood's PI Relays",
+			"branch": "pi-relays"
+		},
+		{
+			"title": "Themadhood's PI Automations",
+			"branch": "pi-automations"
+		},
+		{
+			"title": "Themadhood's PI Utilities",
+			"branch": "pi-utilities"
 		}
-		]
+	]
 }

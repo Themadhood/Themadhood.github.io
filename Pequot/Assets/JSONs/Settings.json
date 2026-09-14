@@ -37,6 +37,10 @@
                 "href": "/index.html"
             },
             {
+                "label": "Projects",
+                "href": "/Pequot/Projects"
+            },
+            {
                 "label": "My Story",
                 "href": "/GlobalAssets/HTML/Showcase.html?branch=pequot&data-json=MyStory"
             },
