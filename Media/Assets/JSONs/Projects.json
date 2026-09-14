@@ -1,0 +1,19 @@
+{
+  "branches": [
+    {
+      "title": "Themadhood's Music",
+      "branch": "music",
+      "embed": "/Music/Albums/"
+    },
+    {
+      "title": "Themadhood's Photos",
+      "branch": "photos",
+      "json": "Gallery"
+    },
+    {
+      "title": "Themadhood's Videos",
+      "branch": "videos",
+      "json": "Videos"
+    }
+  ]
+}

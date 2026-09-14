@@ -1,57 +1,57 @@
 {
-	"branchId": "pequot",
-	
-	
-	"site": {
-		"tagline": "The primary hub and parent entity for the Themadhood network.",
-		"metaDescription": "Themadhood Pequot is the primary hub and parent entity for the Themadhood network."
+    "branchId": "pequot",
+    "site": {
+        "tagline": "The primary hub and parent entity for the Themadhood network.",
+        "metaDescription": "Themadhood Pequot is the primary hub and parent entity for the Themadhood network."
     },
-	
-	
-	"brand": {
-		"title": "Themadhood Pequot",
-		"email": "ThemadhoodPequot@gmail.com",
-		"logo": "/Pequot/Assets/Branding/THEMADHOOD Pequot CIR 500-500.png",
-		"background": "/Pequot/Assets/Branding/THEMADHOOD SQ background 1K-1K.jpg",
-		"copyright": "\u00a9 2026 Themadhood Pequot. All rights reserved.",
-		"brandContext": "Themadhood Pequot operates as a parent entity for affiliated projects.",
-		"colors": {
-			"bg": "#000000",
-			"text": "#f5f5f5",
-			"muted": "#b8b8c2",
-			"card": "#17171c",
-			"border": "#2a2a34",
-			"accent": "#74131c",
-			"accentSoft": "rgba(177,26,37,.15)",
-			"topbarBg":"#74131c",
-			"footerBg":"#74131c",
-			"linkColor":"#f5f5f5",
-			"buttonBg":"#0f0f12",
-			"buttonText":"#f5f5f5",
-			"heroOverlay":"#0f0f12"
-			}
-	},
-	
-	
-	"nav": {
-		"homePath": "/index.html",
-		"items": [
-			{
-			"label": "Home",
-			"href": "/index.html"
-			},
+    "brand": {
+        "title": "Themadhood Pequot",
+        "email": "ThemadhoodPequot@gmail.com",
+        "logo": "/Pequot/Assets/Branding/THEMADHOOD Pequot CIR 500-500.png",
+        "background": "/Pequot/Assets/Branding/THEMADHOOD SQ background 1K-1K.jpg",
+        "copyright": "© 2026 Themadhood Pequot. All rights reserved.",
+        "brandContext": "Themadhood Pequot operates as a parent entity for affiliated projects.",
+        "colors": {
+            "bg": "#000000",
+            "text": "#c70100",
+            "muted": "#b8b8c2",
+            "card": "#17171c",
+            "border": "#2a2a34",
+            "accent": "#74131c",
+            "accentSoft": "rgba(177,26,37,.15)",
+            "topbarBg": "#74131c",
+            "topbarText": "#f5f5f5",
+            "footerBg": "#74131c",
+            "footerText": "#f5f5f5",
+            "linkColor": "#f5f5f5",
+            "buttonBg": "#0f0f12",
+            "buttonText": "#f5f5f5",
+            "heroOverlay": "#0f0f12"
+        }
+    },
+    "nav": {
+        "homePath": "/index.html",
+        "items": [
             {
-            "label": "Our Story",
-            "href": "/GlobalAssets/HTML/Showcase.html?branch=pequot&data-json=OurStory"
+                "label": "Home",
+                "href": "/index.html"
             },
-			{
-			"label": "Card",
-			"href": "/GlobalAssets/HTML/BizCard.html"
-			},
-			{
-			"label": "Links",
-			"href": "/GlobalAssets/HTML/Links.html"
-			}
-		]
-	}
+            {
+                "label": "Projects",
+                "href": "/Pequot/Projects"
+            },
+            {
+                "label": "My Story",
+                "href": "/GlobalAssets/HTML/Showcase.html?branch=pequot&data-json=MyStory"
+            },
+            {
+                "label": "Card",
+                "href": "/GlobalAssets/HTML/BizCard.html"
+            },
+            {
+                "label": "Links",
+                "href": "/GlobalAssets/HTML/Links.html"
+            }
+        ]
+    }
 }

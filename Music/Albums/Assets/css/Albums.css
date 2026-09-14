@@ -11,7 +11,7 @@
   --button-bg:#0f0f12;
   --button-text:#0f0f12;
   --hero-overlay:#0f0f12;
-  
+
   --albums-content-width:1100px;
   --albums-menu-width:250px;
   --albums-gap:18px;
@@ -768,4 +768,93 @@ body{
   .albums-menu{
     grid-template-columns:1fr;
   }
+}
+
+/*-------------- Embedded Albums: force mobile-style layout --------------*/
+
+body.albums-embedded .albums-sidebar{
+  position:static;
+  z-index:auto;
+  width:auto;
+  max-height:none;
+  overflow:visible;
+  margin:14px 16px 0;
+}
+
+body.albums-embedded .albums-page{
+  width:auto;
+  max-width:none;
+  margin:0 16px;
+}
+
+body.albums-embedded .albums-menu{
+  grid-template-columns:1fr 1fr;
+}
+
+body.albums-embedded .albums-menu-dropdown-body{
+  max-height:40vh;
+}
+
+body.albums-embedded .showcase-media{
+  float:none;
+  width:100%;
+  max-width:100%;
+  margin:0 0 12px 0;
+}
+
+body.albums-embedded .showcase-meta-row{
+  grid-template-columns:1fr;
+  gap:4px;
+}
+
+body.albums-embedded .showcase-lightbox-panel{
+  grid-template-columns:44px 1fr 44px;
+  width:min(96vw,1100px);
+}
+
+body.albums-embedded .showcase-lightbox-image.is-portrait{
+  max-width:min(100%, 82vw);
+  max-height:78vh;
+}
+
+body.albums-embedded .showcase-lightbox-image.is-landscape{
+  max-width:min(100%, 94vw);
+  max-height:62vh;
+}
+
+body.albums-embedded .showcase-section > .showcase-item-inner{
+  display:flex;
+  flex-direction:column;
+}
+
+body.albums-embedded .showcase-section > .showcase-item-inner > .showcase-media{
+  order:1;
+  float:none;
+  width:100%;
+  max-width:100%;
+  margin:0 0 12px 0;
+}
+
+body.albums-embedded .showcase-section > .showcase-item-inner > .showcase-content{
+  order:2;
+  width:100%;
+}
+
+body.albums-embedded .showcase-title-row{
+  display:flex;
+  width:100%;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:12px;
+}
+
+body.albums-embedded .showcase-title-row .showcase-title{
+  flex:1 1 auto;
+  min-width:0;
+  margin:0;
+}
+
+body.albums-embedded .showcase-title-row .showcase-share-button{
+  flex:0 0 auto;
+  margin-left:auto;
 }

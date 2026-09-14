@@ -1,0 +1,40 @@
+{
+  "branches": [
+    {
+      "title": "Themadhood's Art",
+      "branch": "art",
+      "path": "/Goods/Archive/Art",
+      "archived": true
+    },
+    {
+      "title": "Themadhood's Creations",
+      "branch": "creations",
+      "path": "/Goods/Archive/Creations",
+      "archived": true
+    },
+    {
+      "title": "Themadhood's Jewelry",
+      "branch": "jewelry",
+      "path": "/Goods/Archive/Jewelry",
+      "archived": true
+    },
+    {
+      "title": "Themadhood's Leather Goods",
+      "branch": "leather-goods",
+      "path": "/Goods/Archive/LeatherGoods",
+      "archived": true
+    },
+    {
+      "title": "Themadhood's Stained Glass",
+      "branch": "stained-glass",
+      "path": "/Goods/Archive/StainedGlass",
+      "archived": true
+    },
+    {
+      "title": "Themadhood's Trinkets",
+      "branch": "trinkets",
+      "path": "/Goods/Archive/Trinkets",
+      "archived": true
+    }
+  ]
+}

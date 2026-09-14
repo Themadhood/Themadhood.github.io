@@ -1,19 +1,20 @@
 {
-	"sections": [
-		{
-		"title": "",
-		"body": "",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {}
-			}
-			]
-		}
-		]
+    "branches": [
+        {
+            "title": "Themadhood's Games",
+            "branch": "games"
+        },
+        {
+            "title": "Themadhood's Development Tools",
+            "branch": "development-tools"
+        },
+        {
+            "title": "Themadhood's Apps",
+            "branch": "apps"
+        },
+        {
+            "title": "Themadhood's Executables",
+            "branch": "executables"
+        }
+    ]
 }

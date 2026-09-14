@@ -13,14 +13,16 @@
         "brandContext": "Themadhood's Photos operates under Themadhood Media.",
         "colors": {
             "bg": "#000000",
-            "text": "#f5f5f5",
+            "text": "#f5c43e",
             "muted": "#b8b8c2",
             "card": "#17171c",
             "border": "#2a2a34",
             "accent": "#a709a6",
             "accentSoft": "rgba(177,26,37,.15)",
             "topbarBg": "#a709a6",
+            "topbarText": "#f5c43e",
             "footerBg": "#a709a6",
+            "footerText": "#f5c43e",
             "linkColor": "#f5f5f5",
             "buttonBg": "#0f0f12",
             "buttonText": "#f5f5f5",
@@ -38,10 +40,10 @@
                 "label": "Gallery",
                 "href": "/GlobalAssets/HTML/Showcase.html?branch=photos&data-json=Gallery"
             },
-			{
-			"label": "Card",
-			"href": "/GlobalAssets/HTML/BizCard.html?branch=photos"
-			},
+            {
+                "label": "Card",
+                "href": "/GlobalAssets/HTML/BizCard.html?branch=photos"
+            },
             {
                 "label": "Links",
                 "href": "/GlobalAssets/HTML/Links.html?branch=photos"

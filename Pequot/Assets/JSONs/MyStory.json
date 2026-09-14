@@ -369,6 +369,56 @@
 			"details": {
 				"Time Frame": "2026"
 			}
+			},
+
+			{
+			"title": "AI Boost",
+			"href": "",
+			"image": "",
+			"imageMax": 320,
+			"gallery": [
+				"",
+				{
+				"src": "",
+				"alt": "Album One Inside View"
+				}
+			],
+			"Story": [
+				"As artificial intelligence continues to advance, I have incorporated it into my development process as a tool for accelerating projects and completing work more efficiently than when every step was performed manually.",
+				"",
+				"AI assists with tasks such as generating initial code, exploring solutions, organizing information, and speeding up repetitive development work. This allows me to move projects from ideas to working implementations much faster.",
+				"",
+				"However, AI does not replace my involvement in the development process. I continue to manually debug and test projects, design and refine user interfaces, make development decisions, and review any information or generated work before it is used.",
+				"",
+				"Ultimately, I treat AI as a development tool. It helps increase the speed at which I can build and complete projects, while the direction, review, debugging, design, and final decisions remain my responsibility."
+			],
+			"details": {
+				"Time Frame": "2026"
+			}
+			},
+
+			{
+			"title": "Physical Goods Discontinued",
+			"href": "",
+			"image": "",
+			"imageMax": 320,
+			"gallery": [
+				"",
+				{
+				"src": "",
+				"alt": "Album One Inside View"
+				}
+			],
+			"Story": [
+				"As of 2026, physical goods are no longer available through Themadhood.",
+				"",
+				"All branches focused on physical products have been shut down and archived. Their previous work may remain preserved for reference, but they are no longer active or accepting orders.",
+				"",
+				"Physical goods may return in the future if circumstances allow. For now, Themadhood's active work is focused on its remaining projects and services."
+			],
+			"details": {
+				"Time Frame": "2026"
+			}
 			}
 
 		]

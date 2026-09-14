@@ -1,19 +1,20 @@
 {
-	"sections": [
+	"branches": [
 		{
-		"title": "",
-		"body": "",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {}
-			}
-			]
+			"title": "Themadhood's Coding Foundations",
+			"branch": "coding-foundations"
+		},
+		{
+			"title": "Themadhood's Automations",
+			"branch": "automations"
+		},
+		{
+			"title": "Themadhood's Databases",
+			"branch": "databases"
+		},
+		{
+			"title": "Themadhood's Scripts",
+			"branch": "scripts"
 		}
-		]
+	]
 }

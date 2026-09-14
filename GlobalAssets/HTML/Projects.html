@@ -3,47 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Themadhood's Music albums" />
+  <meta name="description" content="Themadhood projects page" />
   <link rel="icon" data-site-favicon href="">
   <link rel="stylesheet" href="/GlobalAssets/CSS/HeaderFooter.css" />
-  <link rel="stylesheet" href="./Assets/css/Albums.css" />
-  <title>Themadhood albums</title>
-
-  <style>
-    body.albums-embedded{
-      padding-top:0 !important;
-      min-height:100vh;
-    }
-
-    body.albums-embedded #shared-header,
-    body.albums-embedded #shared-footer{
-      display:none !important;
-    }
-
-    body.albums-embedded .albums-sidebar{
-      top:16px;
-      max-height:calc(100vh - 32px);
-    }
-
-    body.albums-embedded .albums-page{
-      min-height:100vh;
-      padding-top:22px !important;
-      padding-bottom:22px;
-    }
-  </style>
+  <link rel="stylesheet" href="/GlobalAssets/CSS/Showcase.css" />
+  <link rel="stylesheet" href="/GlobalAssets/CSS/Projects.css" />
+  <title>Themadhood Projects</title>
 </head>
-<body data-page="albums">
+<body data-page="projects">
 
   <div id="shared-header"></div>
 
-  <nav class="albums-menu card albums-sidebar"
-       data-albums-menu
-       aria-label="Album navigation"></nav>
+  <div class="container projects-layout" style="padding-top:22px">
+    <aside class="projects-sidebar">
+      <nav class="projects-menu card" data-projects-menu hidden>
+        <div class="projects-menu-tree" data-projects-menu-tree></div>
+      </nav>
+    </aside>
 
-  <main class="container albums-page" style="padding-top:22px">
-    <div class="albums-status" data-albums-status aria-live="polite"></div>
-    <div class="grid" data-showcase-sections></div>
-  </main>
+    <main class="projects-page">
+      <div class="grid" data-projects-sections></div>
+    </main>
+  </div>
 
   <div id="shared-footer"></div>
 
@@ -52,17 +33,13 @@
 
     <div class="showcase-lightbox-panel">
       <button class="showcase-lightbox-close" type="button" data-showcase-lightbox-close>×</button>
-
       <button class="showcase-lightbox-nav showcase-lightbox-prev" type="button" data-showcase-prev>‹</button>
-
       <img class="showcase-lightbox-image" data-showcase-lightbox-image src="" alt="">
-
       <button class="showcase-lightbox-nav showcase-lightbox-next" type="button" data-showcase-next>›</button>
-
       <div class="showcase-lightbox-caption" data-showcase-lightbox-caption></div>
     </div>
   </div>
 
-  <script type="module" src="./Assets/js/Albums.js"></script>
+  <script type="module" src="/GlobalAssets/JS/Projects.js"></script>
 </body>
 </html>

@@ -13,14 +13,16 @@
         "brandContext": "Themadhood's Apps operates under Themadhood's Applications.",
         "colors": {
             "bg": "#000000",
-            "text": "#f5f5f5",
+            "text": "#80219f",
             "muted": "#b8b8c2",
             "card": "#17171c",
             "border": "#2a2a34",
             "accent": "#242424",
             "accentSoft": "rgba(177,26,37,.15)",
             "topbarBg": "#242424",
+			"topbarText": "#80219f",
             "footerBg": "#242424",
+			"footerText": "#80219f",
             "linkColor": "#f5f5f5",
             "buttonBg": "#0f0f12",
             "buttonText": "#f5f5f5",
@@ -36,7 +38,7 @@
             },
 			{
 			"label": "Projects",
-			"href": "/GlobalAssets/HTML/Showcase.html?branch=apps&data-json=Projects"
+			"href": "/Apps/Projects"
 			},
 			{
 			"label": "Card",

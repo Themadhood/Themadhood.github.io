@@ -1,19 +1,16 @@
 {
-	"sections": [
-		{
-		"title": "",
-		"body": "",
-		"items": [
-			{
-			"title": "",
-			"href": "",
-			"image": "",
-			"imageMax": 320,
-			"description": [],
-			"about": [],
-			"details": {}
-			}
-			]
-		}
-		]
+    "branches": [
+        {
+            "title": "Themadhood Systems",
+            "branch": "systems"
+        },
+        {
+            "title": "Themadhood's PI Solutions",
+            "branch": "pi-solutions"
+        },
+        {
+            "title": "Themadhood's Applications",
+            "branch": "applications"
+        }
+    ]
 }

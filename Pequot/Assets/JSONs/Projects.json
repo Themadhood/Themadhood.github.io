@@ -1,0 +1,16 @@
+{
+    "branches": [
+        {
+            "title": "Themadhood Media",
+            "branch": "media"
+        },
+        {
+            "title": "Themadhood's Codes",
+            "branch": "codes"
+        },
+        {
+            "title": "Themadhood's Goods",
+            "branch": "goods"
+        }
+    ]
+}

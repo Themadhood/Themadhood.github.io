@@ -13,14 +13,16 @@
         "brandContext": "Themadhood's Videos operates under Themadhood Media.",
         "colors": {
             "bg": "#000000",
-            "text": "#f5f5f5",
+            "text": "#b70304",
             "muted": "#b8b8c2",
             "card": "#17171c",
             "border": "#2a2a34",
             "accent": "#a709a6",
             "accentSoft": "rgba(177,26,37,.15)",
             "topbarBg": "#a709a6",
+            "topbarText": "#830202",
             "footerBg": "#a709a6",
+            "footerText": "#830202",
             "linkColor": "#f5f5f5",
             "buttonBg": "#0f0f12",
             "buttonText": "#0f5f5f5",
@@ -34,10 +36,14 @@
                 "label": "Home",
                 "href": "/index.html?branch=videos"
             },
-			{
-			"label": "Card",
-			"href": "/GlobalAssets/HTML/BizCard.html?branch=videos"
-			},
+            {
+                "label": "Videos",
+                "href": "/Videos/Videos"
+            },
+            {
+                "label": "Card",
+                "href": "/GlobalAssets/HTML/BizCard.html?branch=videos"
+            },
             {
                 "label": "Links",
                 "href": "/GlobalAssets/HTML/Links.html?branch=videos"

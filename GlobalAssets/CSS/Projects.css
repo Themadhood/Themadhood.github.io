@@ -1,0 +1,222 @@
+/* Projects branch navigation.
+   Project cards continue using Showcase.css. */
+
+:root{
+  --projects-content-width:1100px;
+  --projects-menu-width:250px;
+  --projects-gap:18px;
+}
+
+
+/*-------------- Projects page layout --------------*/
+
+.projects-layout{
+  width:100%;
+}
+
+.projects-sidebar{
+  position:fixed;
+  width:var(--projects-menu-width);
+
+  left:max(
+    16px,
+    calc(
+      50% - (var(--projects-content-width) / 2)
+      - var(--projects-menu-width)
+      - var(--projects-gap)
+    )
+  );
+
+  top:calc(var(--header-height, 0px) + 16px);
+  max-height:calc(100vh - var(--header-height, 0px) - 32px);
+  overflow-y:auto;
+  z-index:1000;
+}
+
+.projects-page{
+  width:calc(100% - var(--projects-menu-width) - 50px);
+  max-width:var(--projects-content-width);
+  margin-left:calc(var(--projects-menu-width) + 32px);
+  margin-right:auto;
+}
+
+.projects-menu[hidden]{
+  display:none !important;
+}
+
+
+/*-------------- Projects menu --------------*/
+
+.projects-menu{
+  margin:0;
+  padding:10px;
+  overflow:visible;
+}
+
+.projects-menu-tree,
+.projects-menu-dropdown-body{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:6px;
+}
+
+.projects-menu-button,
+.projects-menu-dropdown > summary{
+  width:100%;
+  min-height:40px;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  padding:9px 14px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  background:rgba(255,255,255,.02);
+  color:var(--text);
+  cursor:pointer;
+  font:inherit;
+  font-weight:700;
+  line-height:1.2;
+  text-align:left;
+  user-select:none;
+}
+
+.projects-menu-button:hover,
+.projects-menu-button:focus-visible,
+.projects-menu-dropdown > summary:hover,
+.projects-menu-dropdown > summary:focus-visible,
+.projects-menu-dropdown[open] > summary{
+  border-color:var(--muted);
+  background:rgba(255,255,255,.05);
+}
+
+.projects-menu-button.is-active,
+.projects-menu-dropdown > summary.is-active{
+  border-color:currentColor;
+  background:rgba(255,255,255,.08);
+}
+
+.projects-menu-button.is-archived::after,
+.projects-menu-dropdown > summary.is-archived::after{
+  content:"Archived";
+  margin-left:auto;
+  padding-left:8px;
+  color:var(--muted);
+  font-size:.72rem;
+  font-weight:600;
+}
+
+.projects-menu-dropdown{
+  position:relative;
+  width:100%;
+}
+
+.projects-menu-dropdown > summary{
+  list-style:none;
+}
+
+.projects-menu-dropdown > summary::-webkit-details-marker{
+  display:none;
+}
+
+.projects-menu-dropdown > summary::after{
+  content:"▾";
+  margin-left:auto;
+  padding-left:8px;
+  font-size:.8rem;
+  transition:transform .15s ease;
+}
+
+.projects-menu-dropdown > summary.is-archived::after{
+  content:"Archived  ▾";
+}
+
+.projects-menu-dropdown[open] > summary::after{
+  transform:rotate(180deg);
+}
+
+.projects-menu-dropdown-body{
+  min-width:0;
+  max-height:45vh;
+  overflow:auto;
+  margin-top:6px;
+  padding:8px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  background:rgba(255,255,255,.02);
+}
+
+.projects-menu-dropdown-body .projects-menu-dropdown-body{
+  max-height:none;
+  margin-left:8px;
+}
+
+.projects-empty{
+  text-align:center;
+}
+
+.projects-empty p{
+  margin:0;
+  color:var(--muted);
+}
+
+
+/*-------------- Embedded project pages --------------*/
+
+[data-projects-sections] > .projects-embed-wrap{
+  grid-column:1 / -1;
+}
+
+.projects-embed-wrap{
+  display:block;
+  width:100%;
+  min-width:0;
+  height:calc(100vh - var(--header-height, 0px) - 52px);
+  min-height:720px;
+  overflow:hidden;
+  border:1px solid var(--border);
+  border-radius:14px;
+  background:var(--card);
+}
+
+.projects-embed{
+  display:block;
+  width:100%;
+  height:100%;
+  min-width:100%;
+  min-height:720px;
+  border:0;
+  background:transparent;
+}
+
+
+/*-------------- Responsive --------------*/
+
+@media (max-width:900px){
+  .projects-sidebar{
+    position:static;
+    width:100%;
+    max-height:none;
+    overflow:visible;
+    margin-bottom:14px;
+  }
+
+  .projects-page{
+    width:100%;
+    max-width:none;
+    margin-left:0;
+    margin-right:0;
+  }
+
+  .projects-menu-dropdown-body{
+    max-height:40vh;
+  }
+
+  .projects-embed-wrap{
+    height:78vh;
+    min-height:560px;
+  }
+
+  .projects-embed{
+    min-height:560px;
+  }
+}
