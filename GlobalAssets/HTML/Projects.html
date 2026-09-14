@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Themadhood projects page" />
+  <link rel="icon" data-site-favicon href="">
+  <link rel="stylesheet" href="/GlobalAssets/CSS/HeaderFooter.css" />
+  <link rel="stylesheet" href="/GlobalAssets/CSS/Showcase.css" />
+  <link rel="stylesheet" href="/GlobalAssets/CSS/Projects.css" />
+  <title>Themadhood Projects</title>
+</head>
+<body data-page="projects">
+
+  <div id="shared-header"></div>
+
+  <div class="container" style="padding-top:22px">
+    <nav class="projects-menu card" data-projects-menu hidden>
+      <div class="projects-menu-tree" data-projects-menu-tree></div>
+    </nav>
+
+    <div class="grid" data-projects-sections></div>
+  </div>
+
+  <div id="shared-footer"></div>
+
+  <div class="showcase-lightbox" data-showcase-lightbox hidden>
+    <div class="showcase-lightbox-backdrop" data-showcase-lightbox-close></div>
+
+    <div class="showcase-lightbox-panel">
+      <button class="showcase-lightbox-close" type="button" data-showcase-lightbox-close>×</button>
+      <button class="showcase-lightbox-nav showcase-lightbox-prev" type="button" data-showcase-prev>‹</button>
+      <img class="showcase-lightbox-image" data-showcase-lightbox-image src="" alt="">
+      <button class="showcase-lightbox-nav showcase-lightbox-next" type="button" data-showcase-next>›</button>
+      <div class="showcase-lightbox-caption" data-showcase-lightbox-caption></div>
+    </div>
+  </div>
+
+  <script type="module" src="/GlobalAssets/JS/Projects.js"></script>
+</body>
+</html>

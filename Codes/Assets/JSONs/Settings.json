@@ -35,6 +35,10 @@
                 "href": "/index.html?branch=codes"
             },
 			{
+				"label": "Projects",
+				"href": "/Codes/Projects"
+			},
+			{
 				"label": "Card",
 				"href": "/GlobalAssets/HTML/BizCard.html?branch=codes"
 			},
