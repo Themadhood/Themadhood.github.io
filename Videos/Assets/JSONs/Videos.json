@@ -10,28 +10,28 @@
 			"image": "",
 			"imageMax": 320,
 			"description": [
-				"A narrative-driven track chronicling the long search for a childhood friend first begun in 2015.",
-				"Built from personal journal entries, the song compresses years of thoughts and memories into a single unfolding story."
-				],
+				"A four-month AI video experiment created to visually tell the story carried by the music.",
+				"The project explores how generated imagery can translate a long-form musical narrative into a connected visual experience."
+			],
 			"about": [
-				"The lyrics were adapted from real entries written during the search, with negative or repetitive moments condensed to create a clearer narrative arc.",
-				"Originally intended to reach a full ten-minute runtime as a symbolic representation of the decade-long search, the final version remains just slightly shorter while preserving the spirit of the concept."
-				]
+				"Created over four months as an experiment in AI-assisted visual storytelling.",
+				"The video translates the song's decade-spanning narrative into a connected visual journey."
+			]
 			},
 
 			{
 			"title": "The Unreachable Flower",
 			"href": "",
-			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.jpg",
+			"image": "/Music/Albums/Albums/IEIIZS/IEIIZS Cover.jpg",
 			"imageMax": 320,
 			"description": [
-				"A reflective piece about longing for something meaningful that always seems just out of reach.",
-				"The song explores the emotional space between hope and acceptance, capturing the quiet struggle of pursuing something deeply valued while knowing it may never fully materialize."
-				],
+				"A symbolic visual interpretation built around imagery representing love, longing, mystery, and the unattainable.",
+				"The blue rose serves as the central symbol, connecting the song's emotional themes with ideas of uniqueness, dreams, and something just beyond reach."
+			],
 			"about": [
-				"Within the IEIIZS narrative, this track represents a turning point where expectation begins to meet reality.",
-				"It reflects the realization that some ideals are less about possession and more about what they inspire within us."
-				]
+				"Built around symbolic imagery chosen to express the song's meaning.",
+				"The blue rose represents love, mystery, dreams, and something beautiful that remains beyond reach."
+			]
 			},
 
 			{
@@ -40,13 +40,13 @@
 			"image": "",
 			"imageMax": 320,
 			"description": [
-				"A personal piece focused on the unseen aspects of identity that rarely surface in everyday introductions.",
-				"The song reflects on the internal motivations, experiences, and perspectives that shape a person beyond what is immediately visible."
-				],
+				"A visual self-reflection exploring the different experiences, motivations, and characteristics that shape personal identity.",
+				"Each section pairs the music with imagery reflecting another part of the person behind what others normally see."
+			],
 			"about": [
-				"Written as a way to answer a common question: how do you truly describe yourself?",
-				"By turning that question into a song, it becomes both a personal reflection and a conversation starter for listeners."
-				]
+				"A visual self-reflection exploring the different parts of personal identity.",
+				"Each section uses imagery reflecting the experiences, motivations, and characteristics explored by the song."
+			]
 			}
 			]
 		},
@@ -58,16 +58,15 @@
 			"Music videos bring Themadhood's original music into a visual format, combining each song with imagery designed to complement its sound, story, and atmosphere.",
 			"Videos range from narrative-driven pieces to simpler visual productions, with each created around the needs and style of the individual song."
 			],
-		"dropdowns": [
+		"items": [
 			{
 			"title": "Decade Search",
 			"href": "https://youtu.be/esFTldMzzLY?si=xmzw-Zpqb3XJj0rg",
 			"image": "",
 			"imageMax": 200,
-			"about": "A narrative song based on journal entries documenting a long search for a childhood friend.",
-			"description": "In 2015 I began searching for a childhood friend I had lost contact with. Over the years I wrote journal entries documenting the search and the thoughts that came with it. This song adapts those entries into a condensed narrative, shaping years of reflection into a single story-driven track.",
+			"about": "An experimental AI-assisted music video developed over four months to visually translate the song's decade-spanning story.",
+			"description": "Created over the course of four months, Decade Search served as an extended experiment in using AI-generated visuals for narrative storytelling. The video follows the story carried by the music, transforming its progression, memories, and emotional moments into a visual interpretation designed to accompany the song from beginning to end.",
 			"details": {
-				"Track": 2,
 				"Length": "9:16"
 				}
 			},
@@ -76,8 +75,8 @@
 			"href": "https://youtu.be/VjDm5cpcQm4?si=14C_4PH7D7EIu0hx",
 			"image": "",
 			"imageMax": 200,
-			"about": "A song describing a real encounter that followed reconnecting with someone.",
-			"description": "After reconnecting with a friend through conversation, we eventually met for coffee. This song captures the mix of familiarity and uncertainty that can come from meeting someone again after time apart. This is the second version of the song. The revision involved a small lyrical change to better match how the moment was remembered — how the same eyes could appear different depending on the light.",
+			"about": "An experimental AI-assisted music video exploring visual contrast as a way of interpreting the song.",
+			"description": "Second Meeting continued the experimentation with AI-generated music videos, with a greater emphasis on contrasting imagery, moods, and visual ideas. Rather than attempting to illustrate every lyric literally, the video uses those contrasts to create a visual interpretation of the emotions and changing perspectives within the song.",
 			"details": {
 				"Length": "4:54"
 				}
@@ -85,10 +84,10 @@
 			{
 			"title": "The Unreachable Flower",
 			"href": "https://youtu.be/k2Ng2y0oQkc?si=umyTuZRIfoo0BCrZ",
-			"image": "/Music/Assets/AlbumCovers/IEIIZS Cover.jpg",
+			"image": "/Music/Albums/Albums/IEIIZS/IEIIZS Cover.jpg",
 			"imageMax": 200,
-			"about": "A reflection on longing for something meaningful that may always remain out of reach.",
-			"description": "This song explores the emotional tension between hope and acceptance. It focuses on pursuing something beautiful or meaningful while recognizing that it may never fully be attained.",
+			"about": "A symbolic music video using carefully selected imagery to express the song's themes of love, longing, and the unattainable.",
+			"description": "The video's imagery was selected for its symbolic meaning, allowing different visual elements to communicate the themes of the song in their own ways. The rose represents love, while its blue color introduces ideas of mystery, uniqueness, dreams, and something beautiful that remains beyond reach. Together, these elements create a visual interpretation of the song rather than a literal retelling of it.",
 			"details": {
 				"Length": "3:20"
 				}
@@ -98,8 +97,8 @@
 			"href": "https://youtu.be/byDK9jse6MY?si=4sOsOmARMuIYPinl",
 			"image": "",
 			"imageMax": 200,
-			"about": "A song about emotional defenses built from past experiences.",
-			"description": "After being hurt in the past, I built emotional walls to avoid repeating those experiences. This song tells the story of someone who managed to break through those defenses for a short time before the relationship came to an end.",
+			"about": "An AI-generated interpretation of the song created almost entirely through a dedicated music video generation system.",
+			"description": "Fortress Of My Mind was produced as an experiment with a dedicated AI music video generator. The finished video came from the second generation attempt and developed differently from the original vision for the project. While the result was unexpected, the generated imagery ultimately created its own interpretation of the song and became a successful experiment in allowing the tool greater creative control.",
 			"details": {
 				"Length": "3:47"
 				}
@@ -109,8 +108,8 @@
 			"href": "https://youtu.be/DAp-JG6jz6k?si=G5pe5PHs18ICjnfm",
 			"image": "",
 			"imageMax": 200,
-			"about": "A reflection on communicating with someone who replies on their own timeline.",
-			"description": "This song was inspired by a friend who sometimes takes a long time to respond to messages. However, when they do reply, their responses are thoughtful and detailed. The song balances the frustration of waiting with appreciation for the depth of those conversations.",
+			"about": "A simple audio-visual presentation designed to give the song a visual presence without creating a traditional narrative music video.",
+			"description": "Rather than telling a separate visual story, Two Months And A Message uses a restrained audio-visual presentation that keeps the music at the center of the experience. The visuals serve primarily as a companion to the track, providing movement and atmosphere without competing with the song's narrative.",
 			"details": {
 				"Length": "3:57"
 				}
@@ -120,8 +119,8 @@
 			"href": "https://youtu.be/u1vBAZPZomw?si=0hEEHE0PeChTW7pa",
 			"image": "",
 			"imageMax": 200,
-			"about": "A personal reflection on the deeper aspects of identity.",
-			"description": "People often ask how to describe yourself, but most introductions only capture surface details. This song explores the deeper motivations, experiences, and perspectives that shape who someone really is.",
+			"about": "A simple audio-visual presentation designed to give the song a visual presence without creating a traditional narrative music video.",
+			"description": "Rather than telling a separate visual story, Two Months And A Message uses a restrained audio-visual presentation that keeps the music at the center of the experience. The visuals serve primarily as a companion to the track, providing movement and atmosphere without competing with the song's narrative.",
 			"details": {
 				"Length": "9:27"
 				}

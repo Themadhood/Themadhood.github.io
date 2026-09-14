@@ -37,6 +37,10 @@
                 "href": "/index.html?branch=videos"
             },
             {
+                "label": "Videos",
+                "href": "/Videos/Videos"
+            },
+            {
                 "label": "Card",
                 "href": "/GlobalAssets/HTML/BizCard.html?branch=videos"
             },

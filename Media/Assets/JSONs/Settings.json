@@ -37,6 +37,10 @@
                 "href": "/index.html?branch=media"
             },
             {
+                "label": "Projects",
+                "href": "/Media/Projects"
+            },
+            {
                 "label": "Card",
                 "href": "/GlobalAssets/HTML/BizCard.html?branch=media"
             },
