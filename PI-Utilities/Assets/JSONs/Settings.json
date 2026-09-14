@@ -20,7 +20,9 @@
             "accent": "#242424",
             "accentSoft": "rgba(177,26,37,.15)",
             "topbarBg": "#242424",
+            "topbarText": "#f5f5f5",
             "footerBg": "#242424",
+            "footerText": "#f5f5f5",
             "linkColor": "#f5f5f5",
             "buttonBg": "#0f0f12",
             "buttonText": "#f5f5f5",
@@ -34,14 +36,14 @@
                 "label": "Home",
                 "href": "/index.html?branch=pi-utilities"
             },
-			{
-			"label": "Projects",
-			"href": "/GlobalAssets/HTML/Showcase.html?branch=PI-Utilities&data-json=Projects"
-			},
-			{
-			"label": "Card",
-			"href": "/GlobalAssets/HTML/BizCard.html?branch=pi-utilities"
-			},
+            {
+                "label": "Projects",
+                "href": "/GlobalAssets/HTML/Showcase.html?branch=PI-Utilities&data-json=Projects"
+            },
+            {
+                "label": "Card",
+                "href": "/GlobalAssets/HTML/BizCard.html?branch=pi-utilities"
+            },
             {
                 "label": "Links",
                 "href": "/GlobalAssets/HTML/Links.html?branch=pi-utilities"

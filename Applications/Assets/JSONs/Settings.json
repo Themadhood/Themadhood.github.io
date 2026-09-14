@@ -13,14 +13,16 @@
         "brandContext": "Themadhood's Applications operates under Themadhood's Codes.",
         "colors": {
             "bg": "#000000",
-            "text": "#f5f5f5",
+            "text": "#3a6fa4",
             "muted": "#b8b8c2",
             "card": "#17171c",
             "border": "#2a2a34",
             "accent": "#242424",
             "accentSoft": "rgba(177,26,37,.15)",
             "topbarBg": "#242424",
+            "topbarText": "#3a6fa4",
             "footerBg": "#242424",
+            "footerText": "#3a6fa4",
             "linkColor": "#f5f5f5",
             "buttonBg": "#0f0f12",
             "buttonText": "#f5f5f5",
@@ -34,14 +36,14 @@
                 "label": "Home",
                 "href": "/index.html?branch=applications"
             },
-			{
-				"label": "Projects",
-				"href": "/Applications/Projects"
-			},
-			{
-			"label": "Card",
-			"href": "/GlobalAssets/HTML/BizCard.html?branch=applications"
-			},
+            {
+                "label": "Projects",
+                "href": "/Applications/Projects"
+            },
+            {
+                "label": "Card",
+                "href": "/GlobalAssets/HTML/BizCard.html?branch=applications"
+            },
             {
                 "label": "Links",
                 "href": "/GlobalAssets/HTML/Links.html?branch=applications"

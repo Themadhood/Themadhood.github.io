@@ -3,8 +3,7 @@ import { loadBranch } from "./OpenJsons.js";
 
 
 function getURLParam(name){
-  const params = new URLSearchParams(window.location.search);
-  return params.get(name);
+  return new URLSearchParams(window.location.search).get(name);
 }
 
 
@@ -28,14 +27,10 @@ function normalizeBranchEntry(entry){
     return branch ? { branch, title: branch } : null;
   }
 
-  if(!entry || typeof entry !== "object"){
-    return null;
-  }
+  if(!entry || typeof entry !== "object") return null;
 
   const branch = String(entry.branch || "").trim();
-  if(!branch){
-    return null;
-  }
+  if(!branch) return null;
 
   return {
     branch,
@@ -46,16 +41,17 @@ function normalizeBranchEntry(entry){
 
 async function loadProjectNode(branchId, title = "", ancestry = new Set()){
   const branch = String(branchId || "").trim();
-  if(!branch || ancestry.has(branch)){
-    return null;
-  }
+
+  if(!branch || ancestry.has(branch)) return null;
 
   let data;
 
   try{
     data = await loadBranch(branch, "Projects");
   }catch(err){
-    console.info(`No Projects.json for branch "${branch}". It will not be shown in the projects menu.`);
+    console.info(
+      `No Projects.json for branch "${branch}". It will not be shown in the projects menu.`
+    );
     return null;
   }
 
@@ -80,7 +76,6 @@ async function loadProjectNode(branchId, title = "", ancestry = new Set()){
   );
 
   node.children = children.filter(Boolean);
-
   return node;
 }
 
@@ -88,15 +83,11 @@ async function loadProjectNode(branchId, title = "", ancestry = new Set()){
 function findFirstProjectNode(node){
   if(!node) return null;
 
-  if(hasSections(node.data)){
-    return node;
-  }
+  if(hasSections(node.data)) return node;
 
   for(const child of node.children || []){
     const found = findFirstProjectNode(child);
-    if(found){
-      return found;
-    }
+    if(found) return found;
   }
 
   return null;
@@ -154,9 +145,7 @@ function createLightbox(){
   const prevButton = document.querySelector("[data-showcase-prev]");
   const nextButton = document.querySelector("[data-showcase-next]");
 
-  if(!lightbox || !image || !caption){
-    return null;
-  }
+  if(!lightbox || !image || !caption) return null;
 
   let gallery = [];
   let index = 0;
@@ -168,6 +157,7 @@ function createLightbox(){
     const current = gallery[index];
 
     image.classList.remove("is-landscape", "is-portrait");
+
     image.onload = () => {
       if(image.naturalWidth > image.naturalHeight){
         image.classList.add("is-landscape");
@@ -237,9 +227,7 @@ function createLightbox(){
 
 function buildMediaBlock(entry, lightbox, fallbackMax = 280){
   const gallery = normalizeGallery(entry);
-  if(!gallery.length){
-    return null;
-  }
+  if(!gallery.length) return null;
 
   const media = document.createElement("div");
   media.className = "showcase-media";
@@ -281,9 +269,7 @@ function buildMediaBlock(entry, lightbox, fallbackMax = 280){
 
 
 function appendParagraphs(host, value){
-  if(value === null || value === undefined || value === ""){
-    return;
-  }
+  if(value === null || value === undefined || value === "") return;
 
   const lines = Array.isArray(value) ? value : [value];
 
@@ -303,13 +289,8 @@ function appendParagraphs(host, value){
 
 
 function buildTextBlock(title, value){
-  if(value === null || value === undefined || value === ""){
-    return null;
-  }
-
-  if(Array.isArray(value) && value.length === 0){
-    return null;
-  }
+  if(value === null || value === undefined || value === "") return null;
+  if(Array.isArray(value) && value.length === 0) return null;
 
   const block = document.createElement("div");
   block.className = "showcase-block";
@@ -336,9 +317,7 @@ function buildMeta(details){
     return true;
   });
 
-  if(!entries.length){
-    return null;
-  }
+  if(!entries.length) return null;
 
   const wrap = document.createElement("div");
   wrap.className = "showcase-meta";
@@ -374,8 +353,6 @@ function formatBlockTitle(key){
 
 
 function isReservedEntryKey(key){
-  const normalized = String(key || "").toLowerCase();
-
   return [
     "title",
     "href",
@@ -394,7 +371,7 @@ function isReservedEntryKey(key){
     "details",
     "branches",
     "id"
-  ].includes(normalized);
+  ].includes(String(key || "").toLowerCase());
 }
 
 
@@ -402,11 +379,11 @@ function buildDropdownValue(value){
   const host = document.createElement("div");
 
   if(Array.isArray(value)){
-    const listLikeObjects = value.every(
+    const objectList = value.every(
       item => item && typeof item === "object" && !Array.isArray(item)
     );
 
-    if(listLikeObjects){
+    if(objectList){
       for(const item of value){
         host.appendChild(buildEntry(item, null, "h4", 220, ""));
       }
@@ -436,9 +413,7 @@ function buildDropdownValue(value){
 
 
 function buildDropdowns(entry){
-  if(!Array.isArray(entry?.dropdowns)){
-    return [];
-  }
+  if(!Array.isArray(entry?.dropdowns)) return [];
 
   const blocks = [];
 
@@ -471,12 +446,13 @@ function buildDropdowns(entry){
       dropdown.items ??
       "";
 
-    const content = buildDropdownValue(value);
-    body.appendChild(content);
+    body.appendChild(buildDropdownValue(value));
 
     toggle.append(label, icon);
+
     toggle.addEventListener("click", () => {
       const open = toggle.getAttribute("aria-expanded") === "true";
+
       toggle.setAttribute("aria-expanded", String(!open));
       icon.textContent = open ? "+" : "−";
       body.hidden = open;
@@ -490,7 +466,13 @@ function buildDropdowns(entry){
 }
 
 
-function buildEntry(entry, lightbox, headingLevel = "h3", fallbackMax = 280, parentPath = ""){
+function buildEntry(
+  entry,
+  lightbox,
+  headingLevel = "h3",
+  fallbackMax = 280,
+  parentPath = ""
+){
   const wrap = document.createElement("div");
   wrap.className = "showcase-item-inner";
 
@@ -499,9 +481,7 @@ function buildEntry(entry, lightbox, headingLevel = "h3", fallbackMax = 280, par
   }
 
   const media = buildMediaBlock(entry, lightbox, fallbackMax);
-  if(media){
-    wrap.appendChild(media);
-  }
+  if(media) wrap.appendChild(media);
 
   const content = document.createElement("div");
   content.className = "showcase-content";
@@ -525,7 +505,9 @@ function buildEntry(entry, lightbox, headingLevel = "h3", fallbackMax = 280, par
   for(const [key, value] of Object.entries(entry || {})){
     if(isReservedEntryKey(key)) continue;
 
-    const validString = typeof value === "string" && value.trim();
+    const validString =
+      typeof value === "string" && value.trim();
+
     const validTextList =
       Array.isArray(value) &&
       value.length > 0 &&
@@ -533,16 +515,12 @@ function buildEntry(entry, lightbox, headingLevel = "h3", fallbackMax = 280, par
 
     if(validString || validTextList){
       const block = buildTextBlock(formatBlockTitle(key), value);
-      if(block){
-        content.appendChild(block);
-      }
+      if(block) content.appendChild(block);
     }
   }
 
   const meta = buildMeta(entry?.details);
-  if(meta){
-    content.appendChild(meta);
-  }
+  if(meta) content.appendChild(meta);
 
   for(const dropdown of buildDropdowns(entry)){
     content.appendChild(dropdown);
@@ -558,8 +536,6 @@ function getSectionDescription(section){
     return section.description;
   }
 
-  // Some existing project JSONs contain an empty-string key where
-  // description was intended. Keep supporting it for compatibility.
   if(section && Object.prototype.hasOwnProperty.call(section, "")){
     return section[""];
   }
@@ -574,7 +550,9 @@ function renderProjects(data, lightbox){
 
   host.innerHTML = "";
 
-  const sections = Array.isArray(data?.sections) ? data.sections : [];
+  const sections = Array.isArray(data?.sections)
+    ? data.sections
+    : [];
 
   if(!sections.length){
     const empty = document.createElement("div");
@@ -604,15 +582,14 @@ function renderProjects(data, lightbox){
     };
 
     const media = buildMediaBlock(sectionEntry, lightbox, 320);
-    if(media){
-      sectionCard.appendChild(media);
-    }
+    if(media) sectionCard.appendChild(media);
 
     const heading = document.createElement("h2");
     heading.textContent = section?.title || "Projects";
     sectionCard.appendChild(heading);
 
     const description = getSectionDescription(section);
+
     if(description){
       const descriptionHost = document.createElement("div");
       descriptionHost.setAttribute("data-showcase-body", "");
@@ -631,6 +608,7 @@ function renderProjects(data, lightbox){
 
       const itemSlug = makeSlug(item.id || item.title || "item");
       const itemPath = `${sectionPath}/${itemSlug}`;
+
       itemCard.dataset.showcasePath = itemPath;
 
       itemCard.appendChild(
@@ -644,7 +622,10 @@ function renderProjects(data, lightbox){
       sectionCard.appendChild(items);
     }
 
-    sectionCard.appendChild(document.createElement("div")).style.clear = "both";
+    const clear = document.createElement("div");
+    clear.style.clear = "both";
+    sectionCard.appendChild(clear);
+
     host.appendChild(sectionCard);
   }
 
@@ -667,7 +648,9 @@ function openItemFromURL(){
   let lastTarget = null;
 
   for(const part of parts){
-    currentPath = currentPath ? `${currentPath}/${part}` : part;
+    currentPath = currentPath
+      ? `${currentPath}/${part}`
+      : part;
 
     const target = document.querySelector(
       `[data-showcase-path="${CSS.escape(currentPath)}"]`
@@ -684,75 +667,101 @@ function openItemFromURL(){
 }
 
 
+/*-------------- Projects branch menu --------------*/
+
 function updateActiveMenuButtons(activeBranch){
   document.querySelectorAll("[data-projects-branch]").forEach(button => {
-    button.classList.toggle(
-      "is-active",
-      button.dataset.projectsBranch === activeBranch
-    );
+    const active = button.dataset.projectsBranch === activeBranch;
+
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-current", active ? "page" : "false");
   });
 }
 
 
+function closeSiblingProjectDropdowns(details){
+  const parent = details.parentElement;
+  if(!parent) return;
+
+  for(const sibling of parent.children){
+    if(
+      sibling !== details &&
+      sibling.matches?.(".projects-menu-dropdown[open]")
+    ){
+      sibling.removeAttribute("open");
+    }
+  }
+}
+
+
 function renderMenuNode(node, activeState, lightbox){
-  const wrap = document.createElement("div");
-  wrap.className = "projects-menu-node";
-
-  const button = document.createElement("button");
-  button.type = "button";
-  button.className = "projects-menu-button";
-  button.dataset.projectsBranch = node.branch;
-
-  const label = document.createElement("span");
-  label.className = "projects-menu-label";
-  label.textContent = node.title;
-
-  const arrow = document.createElement("span");
-  arrow.className = "projects-menu-arrow";
-
-  const hasChildren = Array.isArray(node.children) && node.children.length > 0;
+  const hasChildren =
+    Array.isArray(node.children) &&
+    node.children.length > 0;
 
   if(!hasChildren){
-    wrap.classList.add("projects-menu-leaf");
-    arrow.textContent = "›";
-  }else{
-    arrow.textContent = "▸";
-  }
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "projects-menu-button";
+    button.dataset.projectsBranch = node.branch;
+    button.textContent = node.title || node.branch;
 
-  button.append(label, arrow);
-  wrap.appendChild(button);
+    button.addEventListener("click", () => {
+      if(!hasSections(node.data)) return;
 
-  let childrenHost = null;
-
-  if(hasChildren){
-    childrenHost = document.createElement("div");
-    childrenHost.className = "projects-menu-children";
-    childrenHost.hidden = true;
-
-    for(const child of node.children){
-      childrenHost.appendChild(
-        renderMenuNode(child, activeState, lightbox)
-      );
-    }
-
-    wrap.appendChild(childrenHost);
-  }
-
-  button.addEventListener("click", () => {
-    if(hasSections(node.data)){
       activeState.node = node;
       renderProjects(node.data, lightbox);
       updateActiveMenuButtons(node.branch);
-    }
+    });
 
-    if(childrenHost){
-      const willOpen = childrenHost.hidden;
-      childrenHost.hidden = !willOpen;
-      arrow.textContent = willOpen ? "▾" : "▸";
+    return button;
+  }
+
+  const details = document.createElement("details");
+  details.className = "projects-menu-dropdown";
+
+  const summary = document.createElement("summary");
+  summary.className = "projects-menu-summary";
+  summary.dataset.projectsBranch = node.branch;
+  summary.textContent = node.title || node.branch;
+
+  /*
+    Like the Albums menu:
+    - children are closed by default
+    - summary controls the dropdown
+    - opening a dropdown closes its siblings
+    - nested dropdowns remain recursive
+  */
+  details.addEventListener("toggle", () => {
+    if(details.open){
+      closeSiblingProjectDropdowns(details);
     }
   });
 
-  return wrap;
+  /*
+    A parent branch can also contain its own projects.
+    Clicking its summary selects those projects while the native
+    <details> behavior opens/closes the branch list.
+  */
+  summary.addEventListener("click", () => {
+    if(!hasSections(node.data)) return;
+
+    activeState.node = node;
+    renderProjects(node.data, lightbox);
+    updateActiveMenuButtons(node.branch);
+  });
+
+  const body = document.createElement("div");
+  body.className = "projects-menu-dropdown-body";
+
+  for(const child of node.children){
+    body.appendChild(
+      renderMenuNode(child, activeState, lightbox)
+    );
+  }
+
+  details.append(summary, body);
+  return details;
 }
 
 
@@ -760,9 +769,7 @@ function renderProjectMenu(rootNode, activeState, lightbox){
   const menu = document.querySelector("[data-projects-menu]");
   const tree = document.querySelector("[data-projects-menu-tree]");
 
-  if(!menu || !tree){
-    return;
-  }
+  if(!menu || !tree) return;
 
   tree.innerHTML = "";
 
@@ -793,6 +800,7 @@ async function main(){
   await loadHeaderFooter();
 
   const headerState = await HF_main();
+
   const rootBranch = String(
     getURLParam("branch") ||
     headerState?.branch ||
@@ -806,7 +814,9 @@ async function main(){
   const rootNode = await loadProjectNode(rootBranch, "");
 
   if(!rootNode){
-    throw new Error(`No Projects.json could be loaded for "${rootBranch}".`);
+    throw new Error(
+      `No Projects.json could be loaded for "${rootBranch}".`
+    );
   }
 
   const lightbox = createLightbox();

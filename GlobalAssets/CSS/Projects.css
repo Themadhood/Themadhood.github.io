@@ -1,74 +1,139 @@
-/* Projects.html adds only the branch tree/menu.
-   Project cards continue using Showcase.css so existing Projects.json
-   files keep the same visual style. */
+/* Projects branch navigation.
+   Project cards continue using Showcase.css. */
 
-.projects-menu{
-  margin-bottom:14px;
-  padding:10px;
+:root{
+  --projects-content-width:1100px;
+  --projects-menu-width:250px;
+  --projects-gap:18px;
+}
+
+
+/*-------------- Projects page layout --------------*/
+
+.projects-layout{
+  width:100%;
+}
+
+.projects-sidebar{
+  position:fixed;
+  width:var(--projects-menu-width);
+
+  left:max(
+    16px,
+    calc(
+      50% - (var(--projects-content-width) / 2)
+      - var(--projects-menu-width)
+      - var(--projects-gap)
+    )
+  );
+
+  top:calc(var(--header-height, 0px) + 16px);
+  max-height:calc(100vh - var(--header-height, 0px) - 32px);
+  overflow-y:auto;
+  z-index:1000;
+}
+
+.projects-page{
+  width:calc(100% - var(--projects-menu-width) - 50px);
+  max-width:var(--projects-content-width);
+  margin-left:calc(var(--projects-menu-width) + 32px);
+  margin-right:auto;
 }
 
 .projects-menu[hidden]{
   display:none !important;
 }
 
+
+/*-------------- Projects menu --------------*/
+
+.projects-menu{
+  margin:0;
+  padding:10px;
+  overflow:visible;
+}
+
 .projects-menu-tree,
-.projects-menu-children{
+.projects-menu-dropdown-body{
   display:grid;
+  grid-template-columns:1fr;
   gap:6px;
 }
 
-.projects-menu-children{
-  margin:6px 0 0 18px;
-  padding-left:10px;
-  border-left:1px solid var(--border);
-}
-
-.projects-menu-node{
-  min-width:0;
-}
-
-.projects-menu-button{
+.projects-menu-button,
+.projects-menu-dropdown > summary{
   width:100%;
+  min-height:40px;
   display:flex;
   align-items:center;
-  justify-content:space-between;
-  gap:12px;
-  padding:10px 12px;
-  border:1px solid transparent;
+  justify-content:flex-start;
+  padding:9px 14px;
+  border:1px solid var(--border);
   border-radius:12px;
-  background:transparent;
+  background:rgba(255,255,255,.02);
   color:var(--text);
   cursor:pointer;
   font:inherit;
   font-weight:700;
+  line-height:1.2;
   text-align:left;
+  user-select:none;
 }
 
-.projects-menu-button:hover{
-  background:rgba(255,255,255,.04);
-  border-color:var(--border);
-}
-
-.projects-menu-button.is-active{
-  border-color:var(--accent);
+.projects-menu-button:hover,
+.projects-menu-button:focus-visible,
+.projects-menu-dropdown > summary:hover,
+.projects-menu-dropdown > summary:focus-visible,
+.projects-menu-dropdown[open] > summary{
+  border-color:var(--muted);
   background:rgba(255,255,255,.05);
 }
 
-.projects-menu-label{
+.projects-menu-button.is-active,
+.projects-menu-dropdown > summary.is-active{
+  border-color:currentColor;
+  background:rgba(255,255,255,.08);
+}
+
+.projects-menu-dropdown{
+  position:relative;
+  width:100%;
+}
+
+.projects-menu-dropdown > summary{
+  list-style:none;
+}
+
+.projects-menu-dropdown > summary::-webkit-details-marker{
+  display:none;
+}
+
+.projects-menu-dropdown > summary::after{
+  content:"▾";
+  margin-left:auto;
+  padding-left:8px;
+  font-size:.8rem;
+  transition:transform .15s ease;
+}
+
+.projects-menu-dropdown[open] > summary::after{
+  transform:rotate(180deg);
+}
+
+.projects-menu-dropdown-body{
   min-width:0;
-  overflow-wrap:anywhere;
+  max-height:45vh;
+  overflow:auto;
+  margin-top:6px;
+  padding:8px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  background:rgba(255,255,255,.02);
 }
 
-.projects-menu-arrow{
-  flex:0 0 auto;
-  width:1.25rem;
-  text-align:center;
-  font-size:1rem;
-  line-height:1;
-}
-
-.projects-menu-leaf .projects-menu-arrow{
-  visibility:hidden;
+.projects-menu-dropdown-body .projects-menu-dropdown-body{
+  max-height:none;
+  margin-left:8px;
 }
 
 .projects-empty{
@@ -80,13 +145,26 @@
   color:var(--muted);
 }
 
-@media (max-width:700px){
-  .projects-menu-children{
-    margin-left:10px;
-    padding-left:8px;
+
+/*-------------- Responsive --------------*/
+
+@media (max-width:900px){
+  .projects-sidebar{
+    position:static;
+    width:100%;
+    max-height:none;
+    overflow:visible;
+    margin-bottom:14px;
   }
 
-  .projects-menu-button{
-    padding:9px 10px;
+  .projects-page{
+    width:100%;
+    max-width:none;
+    margin-left:0;
+    margin-right:0;
+  }
+
+  .projects-menu-dropdown-body{
+    max-height:40vh;
   }
 }

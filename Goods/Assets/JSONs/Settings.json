@@ -20,7 +20,9 @@
             "accent": "#2967a3",
             "accentSoft": "rgba(177,26,37,.15)",
             "topbarBg": "#2967a3",
+            "topbarText": "#f5f5f5",
             "footerBg": "#2967a3",
+            "footerText": "#f5f5f5",
             "linkColor": "#f5f5f5",
             "buttonBg": "#0f0f12",
             "buttonText": "#f5f5f5",
@@ -34,14 +36,14 @@
                 "label": "Home",
                 "href": "/index.html?branch=goods"
             },
-			{
-			"label": "Card",
-			"href": "/GlobalAssets/HTML/BizCard.html?branch=goods"
-			},
-			{
-			"label": "Discontinued",
-			"href": "/GlobalAssets/HTML/Archive.html?branch=goods"
-			},
+            {
+                "label": "Card",
+                "href": "/GlobalAssets/HTML/BizCard.html?branch=goods"
+            },
+            {
+                "label": "Discontinued",
+                "href": "/GlobalAssets/HTML/Archive.html?branch=goods"
+            },
             {
                 "label": "Links",
                 "href": "/GlobalAssets/HTML/Links.html?branch=goods"
