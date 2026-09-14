@@ -769,3 +769,22 @@ body{
     grid-template-columns:1fr;
   }
 }
+
+body.albums-embedded .albums-sidebar{
+  position:static;
+  z-index:auto;
+  width:auto;
+  max-height:none;
+  overflow:visible;
+  margin:14px 16px 0;
+}
+
+body.albums-embedded .albums-page{
+  width:auto;
+  max-width:none;
+  margin:0 16px;
+}
+
+body.albums-embedded .albums-menu{
+  grid-template-columns:1fr 1fr;
+}
