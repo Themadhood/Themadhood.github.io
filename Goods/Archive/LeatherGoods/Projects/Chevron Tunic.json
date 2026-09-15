@@ -1,0 +1,23 @@
+{
+	"name": "Chevron Tunic",
+	"cover": "",
+	"shortDescription": "A developing leather tunic built around a chevron pattern, currently completed through its first paper mock-up.",
+	"description": [
+		"The Chevron Tunic is an original leather garment project that is still in development. The project is currently in the patterning stage, where the overall shape, fit, and construction are being worked out before cutting the final leather.",
+		"The first full paper mock-up has been completed. That mock-up provides the base for refining the pattern before the project moves into its final materials and construction."
+	],
+	"details": {
+		"Project Type": "Leather Tunic",
+		"Design": "Chevron",
+		"Current Stage": "Patterning",
+		"Prototype": "First paper mock-up completed",
+		"Final Material": "Leather",
+		"Status": "In Development"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

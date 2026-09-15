@@ -1,0 +1,30 @@
+{
+	"name": "Coat Of Arms",
+	"cover": "",
+	"shortDescription": "A stained-glass interpretation of my personal coat of arms, combining family colors and symbols with dragons, phoenixes, a crown, clouds, and an etched motto.",
+	"description": [
+		"This window is a simplified stained-glass version of a coat of arms I designed from several variations of my family coat of arms. Because there are multiple family versions, a homework assignment when I was younger asked me to create my own version from them.",
+		"The crest is a pair of feather-like dragon wings, each with five feathers colored black on the outside and red on the inside. The mantling uses red, black, and gold. Red and gold appeared across the family variations, while I added black to my version. The helmet is based on a red-and-black dragon helm I made, and a gold three-point crown sits above the shield.",
+		"The shield is a blood-red combat kite shield with a blue vertical line and a blue horizontal line. Two blue fire phoenix-dragons act as supporters, while rolling clouds form the compartment below. The motto, \"Never give up without the fight,\" is etched into mirrored pieces forming the ribbon."
+	],
+	"details": {
+		"Project Type": "Stained Glass Coat of Arms",
+		"Basis": "Personal design derived from family variants",
+		"Crest": "Pair of dragon wings",
+		"Wing Feathers": "5 per wing",
+		"Mantling Colors": "Red, black, and gold",
+		"Helmet": "Red and black dragon helm",
+		"Crown": "Gold, 3 point",
+		"Shield": "Blood-red combat kite shield with blue cross lines",
+		"Supporters": "2 blue fire phoenix-dragons",
+		"Compartment": "Rolling clouds",
+		"Motto": "Never give up without the fight",
+		"Motto Material": "Etched mirror"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"name": "defence bracer",
+	"cover": "",
+	"shortDescription": "A simple black leather defensive bracer reinforced with three black metal plates.",
+	"description": [
+		"The Defence Bracer is a straightforward protective leather project. It uses a black leather bracer as the base with three black metal plates mounted along it for reinforcement.",
+		"The design intentionally stays simple, focusing on the combination of leather and metal rather than additional decoration or storage."
+	],
+	"details": {
+		"Project Type": "Defensive Bracer",
+		"Primary Material": "Black leather",
+		"Armor Material": "Black metal",
+		"Metal Plates": "3",
+		"Design": "Simple reinforced bracer"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Cuisses",
+	"cover": "",
+	"shortDescription": "Leather and metal cuisses based on a Prince Armory design, modified to connect with matching greaves below the knee.",
+	"description": [
+		"These cuisses use a pattern and design by Prince Armory and were built to work together with my greaves. I modified the upper portion so it can be removed, allowing the cuisses to connect just below the knee.",
+		"A metal flail runs from the knee upward and around the side of the leg, while the remainder of the construction is leather. The changes make the piece part of a larger modular leg-armor setup rather than a completely independent piece."
+	],
+	"details": {
+		"Project Type": "Cuisses / Leg Armor",
+		"Pattern / Design": "Prince Armory",
+		"Primary Material": "Leather",
+		"Armor Material": "Metal",
+		"Connection": "Designed to work with greaves",
+		"Modification": "Removable upper portion",
+		"Metal Coverage": "From knee upward and around side of leg"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

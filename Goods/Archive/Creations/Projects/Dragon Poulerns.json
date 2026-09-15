@@ -1,0 +1,21 @@
+{
+	"name": "Dragon Poulerns",
+	"cover": "",
+	"shortDescription": "Metal dragon pauldrons based on a Prince Armory pattern and modified to incorporate throwing spikes at the shoulders.",
+	"description": [
+		"The Dragon Pauldrons are based on a pattern owned by Prince Armory. I constructed all of the armor pieces from metal rather than using a mixed-material build.",
+		"I modified the shoulder design to incorporate throwing spikes, giving the pauldrons a distinct feature beyond the original pattern."
+	],
+	"details": {
+		"Project Type": "Pauldrons / Shoulder Armor",
+		"Pattern / Design": "Prince Armory",
+		"Material": "Metal",
+		"Modification": "Shoulders adapted for throwing spikes"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

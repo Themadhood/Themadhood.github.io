@@ -1,0 +1,22 @@
+{
+	"name": "My shelf painting",
+	"cover": "",
+	"shortDescription": "A still-life shelf painting developed over several weeks as my professor taught the painting process, featuring a Mountain Dew can, playing card, and folding knife.",
+	"description": [
+		"This painting was created over the course of several weeks and served as the piece my professor used to teach me the painting process.",
+		"The scene depicts a shelf with several objects arranged on it. The two most prominent subjects are a Mountain Dew can with a playing card in it and a folding knife."
+	],
+	"details": {
+		"Project Type": "Painting",
+		"Subject": "Shelf still life",
+		"Creation Time": "Several weeks",
+		"Context": "Painting-process instruction",
+		"Prominent Objects": "Mountain Dew can, playing card, and folding knife"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

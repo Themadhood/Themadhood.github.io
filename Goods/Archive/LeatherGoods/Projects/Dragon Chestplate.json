@@ -1,0 +1,24 @@
+{
+	"name": "Dragon Chestplate",
+	"cover": "",
+	"shortDescription": "A red, black, and gold multi-piece dragon chest and back plate based on a Prince Armory pattern, with a future recolor or metal remake planned.",
+	"description": [
+		"The Dragon Chestplate uses a design and pattern by Prince Armory and was originally made and colored following the accompanying tutorial. It is a multi-piece, roughly chevron-shaped chest and back armor set made from leather, with a red base, black trim, and gold lining.",
+		"The original coloring was done with an alcohol-based dye, and the color has been fading over time. I plan either to redye the leather in black using oil dye with gold accents, or eventually remake the design in metal."
+	],
+	"details": {
+		"Project Type": "Chest and Back Armor",
+		"Pattern / Design": "Prince Armory",
+		"Primary Material": "Leather",
+		"Original Colors": "Red, black, and gold",
+		"Original Finish": "Alcohol-based dye",
+		"Planned Refinish": "Black oil dye with gold accents",
+		"Alternate Future Version": "Metal construction"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

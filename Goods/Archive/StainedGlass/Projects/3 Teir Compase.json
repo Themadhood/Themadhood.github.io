@@ -1,0 +1,26 @@
+{
+	"name": "3 Teir Compase",
+	"cover": "",
+	"shortDescription": "A three-part stained-glass window built around a large blue-and-black compass, a smaller clover, and a red-and-blue rose heart.",
+	"description": [
+		"This stained-glass window is composed of three progressively smaller sections and takes its name from the compass at the top. The top section is a blue-and-black compass roughly two to three feet in diameter.",
+		"The middle section is intentionally a fraction of the compass size and can be viewed as either a ten-leaf or five-leaf clover. The bottom section is a red-and-blue rose heart, smaller again and roughly half the size of the compass.",
+		"The changing scale ties the three symbols together while keeping the compass as the dominant feature of the full window."
+	],
+	"details": {
+		"Project Type": "Stained Glass Window",
+		"Structure": "3 sections",
+		"Top Section": "Compass",
+		"Middle Section": "5 / 10 leaf clover",
+		"Bottom Section": "Rose heart",
+		"Compass Colors": "Blue and black",
+		"Rose Heart Colors": "Red and blue",
+		"Approx. Compass Diameter": "2-3 feet"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

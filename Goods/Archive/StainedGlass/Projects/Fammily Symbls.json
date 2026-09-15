@@ -1,0 +1,24 @@
+{
+	"name": "Fammily Symbls",
+	"cover": "",
+	"shortDescription": "A small stained-glass family window using five symbols etched into mirror, with personalized corner colors and a central family symbol.",
+	"description": [
+		"This small stained-glass window contains five symbols etched into mirror pieces. Four symbols sit in the corners, with each one representing a person and surrounded by the color associated with that person.",
+		"The fifth symbol is positioned in the center and represents the family as a whole. The remaining space along the sides is yellow, chosen because it is Mom's favorite color."
+	],
+	"details": {
+		"Project Type": "Stained Glass Window",
+		"Symbols": "5",
+		"Technique": "Symbols etched into mirror",
+		"Corner Symbols": "4 individual people",
+		"Center Symbol": "Family",
+		"Side Color": "Yellow",
+		"Color Meaning": "Individual colors represent each person; yellow is Mom's favorite"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

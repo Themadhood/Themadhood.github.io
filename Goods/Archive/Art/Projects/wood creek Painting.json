@@ -1,0 +1,25 @@
+{
+	"name": "wood creek Painting",
+	"cover": "",
+	"shortDescription": "An oil painting made outdoors beside a favorite creek during winter, completed over roughly a week for a homework assignment.",
+	"description": [
+		"This painting began as a homework assignment. We were given a board in the middle of winter and told to paint on it, so I brought mine to a creek I liked and sat at the location to paint the scene directly.",
+		"I used oil paints and worked on the painting over the course of about a week, making the creek itself both the subject and the place where the project was created."
+	],
+	"details": {
+		"Project Type": "Landscape Painting",
+		"Medium": "Oil paint",
+		"Surface": "Board",
+		"Subject": "Creek",
+		"Setting": "Painted on location",
+		"Season": "Winter",
+		"Creation Time": "About 1 week",
+		"Context": "Homework assignment"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

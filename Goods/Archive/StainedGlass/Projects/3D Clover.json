@@ -1,0 +1,24 @@
+{
+	"name": "3D Clover",
+	"cover": "",
+	"shortDescription": "A three-dimensional four-leaf clover that evolved from a dream-catcher concept into an outdoor hanging stained-glass piece.",
+	"description": [
+		"This project is a four-leaf clover constructed as a three-dimensional stained-glass form. It was originally intended to have a dream-catcher-style border, but I later decided against that direction.",
+		"The piece uses swirled supports underneath the clover and includes a wind clover and silver hanging elements. As the design changed, it moved away from being a dream catcher and became an outdoor hanging window."
+	],
+	"details": {
+		"Project Type": "3D Stained Glass Hanging",
+		"Main Form": "Four-leaf clover",
+		"Construction": "Three-dimensional",
+		"Original Concept": "Dream catcher",
+		"Final Use": "Outdoor hanging window",
+		"Support Detail": "Swirled supports",
+		"Hanging Elements": "Wind clover and silver dangles"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}
