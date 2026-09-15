@@ -1,0 +1,24 @@
+{
+	"name": "Tasets",
+	"cover": "",
+	"shortDescription": "A black, red, and gold set of leather tassets combining two Prince Armory pattern variants into one design.",
+	"description": [
+		"This tasset set is based on patterns owned by Prince Armory. There are two versions of the original tasset design, and I combined elements from both versions to make a single set.",
+		"The finished color scheme uses black as the base, red around the edging, and gold for the accent work."
+	],
+	"details": {
+		"Project Type": "Tassets",
+		"Pattern / Design": "Prince Armory",
+		"Pattern Variants Used": "2",
+		"Base Color": "Black",
+		"Edge Color": "Red",
+		"Accent Color": "Gold",
+		"Construction Approach": "Combined two pattern versions"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

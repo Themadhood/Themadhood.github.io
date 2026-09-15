@@ -1,0 +1,23 @@
+{
+	"name": "Right Sholder Tunic",
+	"cover": "",
+	"shortDescription": "A leather and metal reinterpretation of an Amazon tunic, replacing the original soft materials with armored components on the right side.",
+	"description": [
+		"The Right Shoulder Tunic is based on a tunic sold on Amazon. I changed the material construction by using leather instead of fleece and replacing the pleather elements on the right side with metal.",
+		"The metal components include the breastplate and tasset, giving the design a more armored construction while keeping the general tunic concept of the original inspiration."
+	],
+	"details": {
+		"Project Type": "Armored Tunic",
+		"Design Inspiration": "Purchased Amazon tunic",
+		"Primary Material": "Leather",
+		"Armor Material": "Metal",
+		"Metal Components": "Right-side breastplate and tasset",
+		"Modified From": "Fleece and pleather construction"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

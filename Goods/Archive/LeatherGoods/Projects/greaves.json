@@ -1,0 +1,25 @@
+{
+	"name": "greaves",
+	"cover": "",
+	"shortDescription": "Red, black, and gold leather greaves based on a Prince Armory pattern, with metal shin pieces and planned upgrades to the dye and metal coverage.",
+	"description": [
+		"These greaves are based on a pattern owned by Prince Armory. Metal pieces run up the shin, while the buckles are positioned on the inside of the leg. The original leather color scheme is red with black trim and gold accents.",
+		"I plan to refinish the leather using oil dye, changing it to black with gold accents. I also plan to extend the metal portions to increase their coverage."
+	],
+	"details": {
+		"Project Type": "Greaves",
+		"Pattern / Design": "Prince Armory",
+		"Primary Material": "Leather",
+		"Shin Material": "Metal",
+		"Original Colors": "Red, black, and gold",
+		"Buckle Position": "Inside of leg",
+		"Planned Refinish": "Black oil dye with gold accents",
+		"Planned Modification": "Extend metal sections"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

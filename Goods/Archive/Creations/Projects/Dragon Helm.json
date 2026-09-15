@@ -1,0 +1,27 @@
+{
+	"name": "Dragon Helmet",
+	"cover": "",
+	"shortDescription": "A modular metal dragon helmet based on a Prince Armory pattern, modified with a more open Roman/Greek-style lower guard and interchangeable face guards.",
+	"description": [
+		"The Dragon Helmet starts from a base pattern owned by Prince Armory, with the main helmet shell made according to that pattern. I modified the chin and lower mouth guard by making it thinner, splitting it in the middle, and opening the shape to give it more of a Roman or Greek feel.",
+		"The face guard uses a heart as its base shape with three points added to it. I also designed the helmet so the face guards can be interchanged rather than permanently fixed to a single design.",
+		"The current face guard has a red base with a black crown and nose, giving it a crow-like appearance. Gold paint is applied using the same style I prefer for painting eye details."
+	],
+	"details": {
+		"Project Type": "Dragon Helmet",
+		"Base Pattern": "Prince Armory",
+		"Primary Material": "Metal",
+		"Lower Guard Modification": "Thinner, split, and opened",
+		"Style Influence": "Roman / Greek",
+		"Face Guard Base": "Heart with 3 points",
+		"Face Guards": "Interchangeable",
+		"Current Colors": "Red, black, and gold",
+		"Current Face Guard Look": "Crow-like"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

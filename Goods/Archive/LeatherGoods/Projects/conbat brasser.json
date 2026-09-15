@@ -1,0 +1,26 @@
+{
+	"name": "conbat brasser",
+	"cover": "",
+	"shortDescription": "A heavy black leather combat bracer reinforced with three metal plates and built with integrated storage for pens, throwing spikes, and throwing knives.",
+	"description": [
+		"The Combat Bracer is built from thick black leather over a thinner leather layer, with the two layers sewn together using red leather cord. Three metal plates are spaced along its length to reinforce the bracer.",
+		"The layered construction also creates storage between the thick and thin leather. It was designed to hold three pens, three throwing spikes, and four throwing knives, with Chicago screws helping secure the leather and form the storage areas."
+	],
+	"details": {
+		"Project Type": "Combat Bracer",
+		"Primary Material": "Thick black leather",
+		"Secondary Material": "Thin leather liner",
+		"Stitching": "Red leather cord",
+		"Metal Plates": "3",
+		"Pen Capacity": "3",
+		"Throwing Spike Capacity": "3",
+		"Throwing Knife Capacity": "4",
+		"Hardware": "Chicago screws"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

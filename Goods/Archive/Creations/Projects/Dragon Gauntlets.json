@@ -1,0 +1,23 @@
+{
+	"name": "Dragon Gauntlets",
+	"cover": "",
+	"shortDescription": "A mismatched pair of metal dragon gauntlets combining different pattern sources, modified with claw-like fingers and thick leather wrists.",
+	"description": [
+		"The Dragon Gauntlets use patterns that I do not own. The left gauntlet follows the original pattern, while the right combines a Prince Armory bracer pattern with the glove pattern.",
+		"I modified the finger pattern so the fingers resemble claws. Most of the gauntlets are metal, with thick leather used around the wrists."
+	],
+	"details": {
+		"Project Type": "Dragon Gauntlets",
+		"Primary Material": "Metal",
+		"Wrist Material": "Thick leather",
+		"Left Gauntlet": "Original pattern",
+		"Right Gauntlet": "Prince Armory bracer pattern combined with glove pattern",
+		"Finger Modification": "Reshaped to resemble claws"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

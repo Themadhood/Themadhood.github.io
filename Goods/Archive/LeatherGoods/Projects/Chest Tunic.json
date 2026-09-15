@@ -1,0 +1,23 @@
+{
+	"name": "Chest Tunic",
+	"cover": "",
+	"shortDescription": "A leather reinterpretation of an Egyptian-inspired tunic, upgraded with real leather, metal armor pieces, and an added back plate.",
+	"description": [
+		"This tunic was based on a purchased Amazon design with an Egyptian-inspired appearance. Rather than reproducing the original materials, I rebuilt the concept using real leather in place of felt and metal in place of the original pleather guard.",
+		"I also expanded the design by adding a back plate, turning the original inspiration into a more substantial armored tunic."
+	],
+	"details": {
+		"Project Type": "Armored Tunic",
+		"Primary Material": "Leather",
+		"Armor Material": "Metal",
+		"Design Inspiration": "Purchased Amazon tunic",
+		"Style": "Egyptian-inspired",
+		"Modifications": "Metal guard and added back plate"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Dragon Attack Shield",
+	"cover": "",
+	"shortDescription": "A handmade dragon-themed attack shield developed from an original doodle into a paper model and eventually a finished painted shield.",
+	"description": [
+		"The Dragon Attack Shield began as a doodle of an attack dragon shield. A few days later, I developed the idea into a paper design, modifying and folding it to create a physical example of the shield's intended shape.",
+		"A few years after making the paper version, I returned to the design and built the actual shield. The finished shield was painted black and features contrasting white and red eyes."
+	],
+	"details": {
+		"Project Type": "Shield",
+		"Theme": "Attack Dragon",
+		"Original Design": "Hand-Drawn Doodle",
+		"Prototype": "Folded Paper Model",
+		"Final Base Color": "Black",
+		"Eye Colors": "White and Red",
+		"Development": "Doodle → Paper Model → Finished Shield",
+		"Time Between Prototype and Final Build": "A Few Years"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

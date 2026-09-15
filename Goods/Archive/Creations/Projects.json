@@ -1,3 +1,46 @@
 {
-	"projects": []
+	"projects": [
+		{
+			"key": "3 tire 22. shell Dream Cature",
+			"name": "3 tire 22. shell Dream Cature",
+			"cover": "",
+			"shortDescription": "A three-ring dream catcher made with .22 shells, paperclip cores, and continuous webbing; one of my most popular designs while I sold them."
+		},
+		{
+			"key": "3D 22. shell dream cature",
+			"name": "3D 22. shell dream cature",
+			"cover": "",
+			"shortDescription": "A one-off three-dimensional .22 shell dream catcher with a center stone, originally hung from my father’s rear-view mirror."
+		},
+		{
+			"key": "Dragon Attack Shield",
+			"name": "Dragon Attack Shield",
+			"cover": "",
+			"shortDescription": "A handmade dragon-themed attack shield developed from an original doodle into a paper model and eventually a finished painted shield."
+		},
+		{
+			"key": "Dragon Gauntlets",
+			"name": "Dragon Gauntlets",
+			"cover": "",
+			"shortDescription": "A mismatched pair of metal dragon gauntlets combining different pattern sources, modified with claw-like fingers and thick leather wrists."
+		},
+		{
+			"key": "Dragon Helm",
+			"name": "Dragon Helmet",
+			"cover": "",
+			"shortDescription": "A modular metal dragon helmet based on a Prince Armory pattern, modified with a more open Roman/Greek-style lower guard and interchangeable face guards."
+		},
+		{
+			"key": "Dragon Poulerns",
+			"name": "Dragon Poulerns",
+			"cover": "",
+			"shortDescription": "Metal dragon pauldrons based on a Prince Armory pattern and modified to incorporate throwing spikes at the shoulders."
+		},
+		{
+			"key": "Spiral 22. shell Dream Cature",
+			"name": "Spiral 22. shell Dream Cature",
+			"cover": "",
+			"shortDescription": "My largest dream catcher, transformed from a frustrating diamond-spiral design into a hanging copper-and-.22-shell spiral with amethyst and a naturally curled feather."
+		}
+	]
 }

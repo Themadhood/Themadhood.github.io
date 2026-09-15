@@ -1,0 +1,24 @@
+{
+	"name": "skirt Belt",
+	"cover": "",
+	"shortDescription": "A modular three-piece skirt and two-piece armored belt based on a Prince Armory pattern, using snaps to support interchangeable skirt styles.",
+	"description": [
+		"This project uses a pattern owned by Prince Armory and combines a three-piece skirt with a two-piece armored belt. I added snaps so the skirt sections can be changed instead of permanently fixing one style to the belt.",
+		"I made both a scale-mail version and a black leather version of the skirt. The armored belt itself is black with gold accents."
+	],
+	"details": {
+		"Project Type": "Armored Belt and Skirt",
+		"Pattern / Design": "Prince Armory",
+		"Skirt Sections": "3",
+		"Belt Sections": "2",
+		"Attachment": "Snaps",
+		"Interchangeable Skirts": "Scale mail and black leather",
+		"Belt Colors": "Black and gold"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}

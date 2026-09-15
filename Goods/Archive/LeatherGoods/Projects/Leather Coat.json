@@ -1,0 +1,28 @@
+{
+	"name": "Leather Coat",
+	"cover": "",
+	"shortDescription": "A custom black leather coat with red accents, reverse-engineered from an irreplaceable older coat and redesigned as a modular garment.",
+	"description": [
+		"This project began after an old coat I owned, already older than I was, deteriorated beyond repair. After spending about a year trying to find a replacement, including asking people experienced at finding hard-to-locate items online, I decided to recreate it myself.",
+		"I spent roughly four months carefully seam-ripping the original coat so the surviving pieces could be preserved, then about two months converting those pieces into usable pattern parts. I spent another two weeks modifying the pattern to make the new coat longer and slightly looser. The finished version uses black leather with red piping and accents and is lined with black denim. One back pattern piece was accidentally not lengthened, so two red rectangular pieces were added to make up the difference.",
+		"The coat was also redesigned to be modular. Its inner vest uses zippers so pieces can be changed without rebuilding the coat. I made zipper-on sleeves with removable cuffs, and planned multiple hoods, including a rain hood and a parka-style hood. Several interchangeable skirt sections were also planned, with one completed."
+	],
+	"details": {
+		"Project Type": "Modular Leather Coat",
+		"Pattern Source": "Reverse-engineered from original coat",
+		"Primary Material": "Black leather",
+		"Accent Color": "Red",
+		"Lining": "Black denim",
+		"Pattern Development": "Approx. 2 months",
+		"Original Coat Disassembly": "Approx. 4 months",
+		"Pattern Modification": "Approx. 2 weeks",
+		"Modular Features": "Zippered vest, sleeves, cuffs, hoods, and skirt sections",
+		"Planned Hoods": "Rain and parka styles"
+	},
+	"gallery": [
+		{
+			"src": "",
+			"caption": ""
+		}
+	]
+}
