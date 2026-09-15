@@ -5,6 +5,30 @@
 			"name": "School of Shaolin Kung Fu",
 			"cover": "Imgs/Completed-SOSKF.jpg",
 			"shortDescription": "This piece was created as a stained glass adaptation of the School of Shaolin Kung Fu’s logo. The goal was not to redesign, but to accurately represent it in glass."
+		},
+		{
+			"key": "3 Teir Compase",
+			"name": "3 Teir Compase",
+			"cover": "",
+			"shortDescription": "A three-part stained-glass window built around a large blue-and-black compass, a smaller clover, and a red-and-blue rose heart."
+		},
+		{
+			"key": "3D Clover",
+			"name": "3D Clover",
+			"cover": "",
+			"shortDescription": "A three-dimensional four-leaf clover that evolved from a dream-catcher concept into an outdoor hanging stained-glass piece."
+		},
+		{
+			"key": "Coat Of Arms",
+			"name": "Coat Of Arms",
+			"cover": "",
+			"shortDescription": "A stained-glass interpretation of my personal coat of arms, combining family colors and symbols with dragons, phoenixes, a crown, clouds, and an etched motto."
+		},
+		{
+			"key": "Fammily Symbls",
+			"name": "Fammily Symbls",
+			"cover": "",
+			"shortDescription": "A small stained-glass family window using five symbols etched into mirror, with personalized corner colors and a central family symbol."
 		}
 	]
 }

@@ -1,3 +1,70 @@
 {
-	"projects": []
+	"projects": [
+		{
+			"key": "Chest Tunic",
+			"name": "Chest Tunic",
+			"cover": "",
+			"shortDescription": "A leather reinterpretation of an Egyptian-inspired tunic, upgraded with real leather, metal armor pieces, and an added back plate."
+		},
+		{
+			"key": "Chevron Tunic",
+			"name": "Chevron Tunic",
+			"cover": "",
+			"shortDescription": "A developing leather tunic built around a chevron pattern, currently completed through its first paper mock-up."
+		},
+		{
+			"key": "Cuisses",
+			"name": "Cuisses",
+			"cover": "",
+			"shortDescription": "Leather and metal cuisses based on a Prince Armory design, modified to connect with matching greaves below the knee."
+		},
+		{
+			"key": "Dragon Chestplate",
+			"name": "Dragon Chestplate",
+			"cover": "",
+			"shortDescription": "A red, black, and gold multi-piece dragon chest and back plate based on a Prince Armory pattern, with a future recolor or metal remake planned."
+		},
+		{
+			"key": "Leather Coat",
+			"name": "Leather Coat",
+			"cover": "",
+			"shortDescription": "A custom black leather coat with red accents, reverse-engineered from an irreplaceable older coat and redesigned as a modular garment."
+		},
+		{
+			"key": "Right Sholder Tunic",
+			"name": "Right Sholder Tunic",
+			"cover": "",
+			"shortDescription": "A leather and metal reinterpretation of an Amazon tunic, replacing the original soft materials with armored components on the right side."
+		},
+		{
+			"key": "Tasets",
+			"name": "Tasets",
+			"cover": "",
+			"shortDescription": "A black, red, and gold set of leather tassets combining two Prince Armory pattern variants into one design."
+		},
+		{
+			"key": "Themadhood leather wraped Braser",
+			"name": "Themadhood leather wraped Braser",
+			"cover": "",
+			"shortDescription": "My first leather project: a single-piece Themadhood-logo bracer wrapped with thick leather cord and designed to slip on without buckles or ties."
+		},
+		{
+			"key": "conbat brasser",
+			"name": "conbat brasser",
+			"cover": "",
+			"shortDescription": "A heavy black leather combat bracer reinforced with three metal plates and built with integrated storage for pens, throwing spikes, and throwing knives."
+		},
+		{
+			"key": "defence bracer",
+			"name": "defence bracer",
+			"cover": "",
+			"shortDescription": "A simple black leather defensive bracer reinforced with three black metal plates."
+		},
+		{
+			"key": "greaves",
+			"name": "greaves",
+			"cover": "",
+			"shortDescription": "Red, black, and gold leather greaves based on a Prince Armory pattern, with metal shin pieces and planned upgrades to the dye and metal coverage."
+		}
+	]
 }

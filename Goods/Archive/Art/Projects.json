@@ -1,3 +1,16 @@
 {
-	"projects": []
+	"projects": [
+		{
+			"key": "My shelf painting",
+			"name": "My shelf painting",
+			"cover": "",
+			"shortDescription": "A still-life shelf painting developed over several weeks as my professor taught the painting process, featuring a Mountain Dew can, playing card, and folding knife."
+		},
+		{
+			"key": "wood creek Painting",
+			"name": "wood creek Painting",
+			"cover": "",
+			"shortDescription": "An oil painting made outdoors beside a favorite creek during winter, completed over roughly a week for a homework assignment."
+		}
+	]
 }
