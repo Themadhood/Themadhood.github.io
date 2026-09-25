@@ -45,5 +45,15 @@
                 "href": "/GlobalAssets/HTML/Links.html?branch=pi-automations"
             }
         ]
+    },
+    "legal": {
+        "privacyPolicy": {
+            "label": "Privacy Policy",
+            "href": "https://docs.google.com/document/d/e/2PACX-1vRIMvvjzWBzjr0OYIb2aLLpEAJQeYbn7SQMsgsUy8xPOoSVlqlzXDOeUbB4QiZ4i7J9joCFn-udhmqI/pub"
+        },
+        "termsAndConditions": {
+            "label": "Terms & Conditions",
+            "href": "https://docs.google.com/document/d/e/2PACX-1vQVFItWEYJSKykQePQRc5RH2BY8oeR1jhDEHlQmMCtEhmC-ibJetxFE3r8piWQ-ufA1KCuDqgY1MbdX/pub"
+        }
     }
 }

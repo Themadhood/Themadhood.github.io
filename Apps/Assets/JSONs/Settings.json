@@ -20,9 +20,9 @@
             "accent": "#242424",
             "accentSoft": "rgba(177,26,37,.15)",
             "topbarBg": "#242424",
-			"topbarText": "#80219f",
+            "topbarText": "#80219f",
             "footerBg": "#242424",
-			"footerText": "#80219f",
+            "footerText": "#80219f",
             "linkColor": "#f5f5f5",
             "buttonBg": "#0f0f12",
             "buttonText": "#f5f5f5",
@@ -36,18 +36,28 @@
                 "label": "Home",
                 "href": "/index.html?branch=apps"
             },
-			{
-			"label": "Projects",
-			"href": "/Apps/Projects"
-			},
-			{
-			"label": "Card",
-			"href": "/GlobalAssets/HTML/BizCard.html?branch=apps"
-			},
+            {
+                "label": "Projects",
+                "href": "/Apps/Projects"
+            },
+            {
+                "label": "Card",
+                "href": "/GlobalAssets/HTML/BizCard.html?branch=apps"
+            },
             {
                 "label": "Links",
                 "href": "/GlobalAssets/HTML/Links.html?branch=apps"
             }
         ]
+    },
+    "legal": {
+        "privacyPolicy": {
+            "label": "Privacy Policy",
+            "href": "https://docs.google.com/document/d/e/2PACX-1vRIMvvjzWBzjr0OYIb2aLLpEAJQeYbn7SQMsgsUy8xPOoSVlqlzXDOeUbB4QiZ4i7J9joCFn-udhmqI/pub"
+        },
+        "termsAndConditions": {
+            "label": "Terms & Conditions",
+            "href": "https://docs.google.com/document/d/e/2PACX-1vQVFItWEYJSKykQePQRc5RH2BY8oeR1jhDEHlQmMCtEhmC-ibJetxFE3r8piWQ-ufA1KCuDqgY1MbdX/pub"
+        }
     }
 }

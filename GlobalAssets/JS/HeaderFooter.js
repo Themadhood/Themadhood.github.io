@@ -73,6 +73,7 @@ function applyNavMode() {
 	updateHeaderHeight();
 }
 
+
 function setupNavToggle() {
 	const toggle = document.querySelector("[data-nav-toggle]");
 	const nav = document.querySelector("[data-nav]");
@@ -109,14 +110,6 @@ function setupNavToggle() {
 
 
 
-
-
-
-
-
-
-
-
 // render
 function renderNav(settings){
 	const brandLogo = document.querySelector("[data-brand-logo]");
@@ -136,7 +129,7 @@ function renderNav(settings){
 		brandHome.href = settings.nav?.homePath || "index.html";
 	}
 
-	//navigation on right of headder
+	//navigation on right of header
 	if(nav){
 		nav.innerHTML = "";
 		for(const item of (settings.nav?.items || [])){
@@ -150,6 +143,35 @@ function renderNav(settings){
 
 
 
+function renderLegalLink(element, legalSetting){
+	if(!element) return;
+
+	const href = legalSetting?.href || "";
+	const label = legalSetting?.label || "";
+
+	if(!href){
+		element.hidden = true;
+		element.removeAttribute("href");
+		element.textContent = "";
+		return;
+	}
+
+	element.href = href;
+	element.textContent = label;
+	element.hidden = false;
+
+	// Published Google Docs and other external legal pages
+	// open separately from the main site.
+	if(/^https?:\/\//i.test(href)){
+		element.target = "_blank";
+		element.rel = "noopener noreferrer";
+	}else{
+		element.removeAttribute("target");
+		element.removeAttribute("rel");
+	}
+}
+
+
 function renderFooter(settings){
 	const footerLogo = document.querySelector("[data-footer-logo]");
 
@@ -157,46 +179,75 @@ function renderFooter(settings){
 		footerLogo.src = settings.brand.logo;
 		footerLogo.alt = settings.brand.title || "Logo";
 	}
-	setText(document.querySelector("[data-footer-title]"), settings.brand?.title || "");
+
+	setText(
+		document.querySelector("[data-footer-title]"),
+		settings.brand?.title || ""
+	);
+
 	const emailEl = document.querySelector("[data-footer-email]");
+
 	if(emailEl){
 		const email = settings.brand?.email || "";
 		emailEl.href = email ? `mailto:${email}` : "#";
 		emailEl.textContent = email ? email : "";
 	}
-	setText(document.querySelector("[data-footer-copy]"), settings.brand?.copyright || "");
-	setText(document.querySelector("[data-footer-line2]"), settings.brand?.brandContext || "");
+
+	setText(
+		document.querySelector("[data-footer-copy]"),
+		settings.brand?.copyright || ""
+	);
+
+	setText(
+		document.querySelector("[data-footer-line2]"),
+		settings.brand?.brandContext || ""
+	);
+
+	// Legal links
+	renderLegalLink(
+		document.querySelector("[data-footer-privacy]"),
+		settings.legal?.privacyPolicy
+	);
+
+	renderLegalLink(
+		document.querySelector("[data-footer-terms]"),
+		settings.legal?.termsAndConditions
+	);
 }
 
 
-//Header Hight tracker so body starts under it not behind
+//Header Height tracker so body starts under it not behind
 function updateHeaderHeight() {
-    const header = document.querySelector(".topbar")
-    if (!header) {
-        return
-    }
-    document.documentElement.style.setProperty(
-        "--header-height",
-        `${header.offsetHeight}px`
-    )
+	const header = document.querySelector(".topbar");
+
+	if (!header) {
+		return;
+	}
+
+	document.documentElement.style.setProperty(
+		"--header-height",
+		`${header.offsetHeight}px`
+	);
 }
+
 
 function watchHeaderHeight() {
-    const header = document.querySelector(".topbar")
+	const header = document.querySelector(".topbar");
 
-    if (!header) {
-        return
-    }
+	if (!header) {
+		return;
+	}
 
-    updateHeaderHeight()
+	updateHeaderHeight();
 
-    const resizeObserver = new ResizeObserver(() => {
-        updateHeaderHeight()
-    })
-    resizeObserver.observe(header)
-    window.addEventListener("resize", updateHeaderHeight)
+	const resizeObserver = new ResizeObserver(() => {
+		updateHeaderHeight();
+	});
+
+	resizeObserver.observe(header);
+
+	window.addEventListener("resize", updateHeaderHeight);
 }
-
 
 
 
@@ -205,9 +256,15 @@ export async function HF_main(){
 
 	const settings = await loadBranch(branch,'Settings');
 
-	document.title = settings.brand?.title ? `${settings.brand?.title}` : document.title;
+	document.title = settings.brand?.title
+		? `${settings.brand?.title}`
+		: document.title;
+
 	const meta = document.querySelector('meta[name="description"]');
-	if(meta && settings.site?.metaDescription) meta.setAttribute("Content", settings.site.metaDescription);
+
+	if(meta && settings.site?.metaDescription){
+		meta.setAttribute("Content", settings.site.metaDescription);
+	}
 
 	renderNav(settings);
 	setupNavToggle();
@@ -218,14 +275,16 @@ export async function HF_main(){
 	setFaviconFromLogo(settings);
 
 	return {branch, settings};
-
 }
+
 
 async function loadSharedPart(targetSelector, filePath){
 	const target = document.querySelector(targetSelector);
+
 	if(!target) return;
 
 	const response = await fetch(filePath);
+
 	if(!response.ok){
 		throw new Error(`Failed to load ${filePath}: ${response.status}`);
 	}
@@ -233,8 +292,17 @@ async function loadSharedPart(targetSelector, filePath){
 	target.innerHTML = await response.text();
 }
 
+
 export async function loadHeaderFooter(){
-	await loadSharedPart("#shared-header", "/GlobalAssets/HTML/Header.html");
-	watchHeaderHeight()
-	await loadSharedPart("#shared-footer", "/GlobalAssets/HTML/Footer.html");
+	await loadSharedPart(
+		"#shared-header",
+		"/GlobalAssets/HTML/Header.html"
+	);
+
+	watchHeaderHeight();
+
+	await loadSharedPart(
+		"#shared-footer",
+		"/GlobalAssets/HTML/Footer.html"
+	);
 }
