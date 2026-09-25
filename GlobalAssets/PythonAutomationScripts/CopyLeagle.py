@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 
+#must be in root dir
 
 # ---------------------------------------------------------
 # Configuration
