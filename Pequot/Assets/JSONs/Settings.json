@@ -29,6 +29,16 @@
             "heroOverlay": "#0f0f12"
         }
     },
+    "legal": {
+        "privacyPolicy": {
+            "label": "Privacy Policy",
+            "href": ""
+        },
+        "termsAndConditions": {
+            "label": "Terms & Conditions",
+            "href": ""
+        }
+    },
     "nav": {
         "homePath": "/index.html",
         "items": [
