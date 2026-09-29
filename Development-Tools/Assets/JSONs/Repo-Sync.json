@@ -26,16 +26,19 @@
 		}
 	],
 	"description": [
-		"A development tool focused on keeping repository structures consistent across projects and devices.",
-		"It helps automate repetitive tasks involved in syncing files, templates, and shared project layouts."
+		"A Git repository synchronization and management tool for keeping repositories up to date across projects and devices.",
+		"It automates common Git workflows for getting and uploading individual or multiple repositories while providing repository settings, licensing, logging, and Pro workflow options."
 	],
 	"features": [
-		"Synchronize files and structures across multiple repositories",
-		"Synchronize files and structures across multiple devices",
-		"Reduce manual duplication of shared assets and templates",
-		"Support consistent project organization across branches",
-		"Designed to integrate into development workflows and automation scripts",
-		"synchronize one or all repositories it manages",
+		"Synchronize repositories across multiple devices",
+		"Get or upload one repository or all managed repositories",
+		"Manage repository names, branches, remote .git URLs, base paths, and relative paths",
+		"Save a default base path through the Settings screen",
+		"Base and Pro license support with built-in license management",
+		"Pro option to overwrite a local repository when getting the remote repository",
+		"Pro Git LFS large-file tracking",
+		"Pro custom commit messages for repository uploads",
+		"Progress tracking for repository Get and Upload operations",
 		"Ability to report errors encountered during use",
 		"Ability to submit suggestions and improvement ideas"
 	],
@@ -43,13 +46,18 @@
 		"Complete: Git workflow automation",
 		"Complete: Settings and repository manager",
 		"Complete: UI",
-		"Pending: Single repo overwrite: Overwrite target repo with source",
-		"Pending: Commit message: Commit message for synced changes"
+		"Complete: Base and Pro licensing",
+		"Complete: Single and all repo overwrite option for Pro",
+		"Complete: Git LFS large-file tracking for Pro",
+		"Complete: Custom commit messages for Pro",
+		"Complete: Get and Upload progress tracking"
 	],
 	"screenshots": [
-		"/Development-Tools/Assets/Projects/RepoSync/RepoSyncMainPage.png",
-		"/Development-Tools/Assets/Projects/RepoSync/RepoSyncManege ReposInfo).png",
-		"/Development-Tools/Assets/Projects/RepoSync/RepoSyncSingleRepoSync.png"
+		"/Development-Tools/Assets/Projects/RepoSync/Main.png",
+		"/Development-Tools/Assets/Projects/RepoSync/ManegeRepos.png",
+		"/Development-Tools/Assets/Projects/RepoSync/SingleRepo.png",
+		"/Development-Tools/Assets/Projects/RepoSync/Settings.png",
+		"/Development-Tools/Assets/Projects/RepoSync/License.png"
 	],
 	"downloadLinks": [
 		{
@@ -61,17 +69,18 @@
 	],
 	"documentation": {
 		"howItWorks": [
-			"Repo Sync compares directory structures and file sets between repositories.",
-			"It identifies differences and applies updates to keep projects aligned with a defined structure."
+			"Repo Sync manages saved Git repositories and automates common Get and Upload workflows.",
+			"Repositories can be synchronized individually or together, with Pro options for local overwrite, Git LFS tracking, and custom commit messages."
 		],
 		"setupInstall": [
-			"Clone the repository",
-			"Configure source and target directories",
-			"Run the sync process"
+			"Install and start RepoSync",
+			"Activate the required RepoSync license if prompted",
+			"Set the default Base Path in Settings",
+			"Add repositories through Manege Repos using the repository name, branch, .git URL, and path information"
 		],
 		"apiStructure": [
-			"Core modules handle directory comparison and file operations.",
-			"Functions are designed to be reusable for scripting and automation workflows."
+			"The RepoSync backend manages repository settings, licensing, and application-level Git workflows.",
+			"Git API modules handle Git operations while the GUI and drivers provide the user interface and connect user actions to the backend."
 		]
 	},
 	"devLogs": [
@@ -138,20 +147,29 @@
 				"Verified compatibility across different environments",
 				"Adjusted platform-specific behaviors and configurations"
 			]
+		},
+		{
+			"progressNotes": [
+				"Licensing, Pro Features & Settings Update (2026-09-29)",
+				"Added Base and Pro licensing with built-in license management",
+				"Added Pro overwrite, Git LFS tracking, and custom commit messages",
+				"Added Get and Upload progress tracking",
+				"Added a dedicated Settings screen and updated repository interfaces"
+			]
 		}
 	],
 	"commonQuestions": [
-			{
-				"question": "Does Repo Sync support private repositories?",
-				"answer": "Yes, private repositories are supported through your local Git configuration and authentication."
-			},
-			{
-				"question": "Does it overwrite files automatically?",
-				"answer": "No. Repo Sync uses Git push and pull operations for synchronization. Full overwrite syncing is currently in development."
-			},
-			{
-				"question": "Does it support Linux?",
-				"answer": "Yes. Windows and Linux builds are available."
-			}
-		]
+		{
+			"question": "Does Repo Sync support private repositories?",
+			"answer": "Yes, private repositories are supported through your local Git configuration and authentication."
+		},
+		{
+			"question": "Does it overwrite files automatically?",
+			"answer": "Normal synchronization uses Git operations. Pro users can optionally enable overwrite when getting a repository to replace the local repository with the remote copy."
+		},
+		{
+			"question": "Does it support Linux?",
+			"answer": "Yes. Windows and Linux builds are available."
+		}
+	]
 }
