@@ -7,7 +7,7 @@
                 {
 					"title": "Themadhood.github.io",
 					"href": "/GlobalAssets/HTML/Project.html?branch=apps&data-json=Themadhood-github-io",
-					"image": "",
+					"image": "/Pequot/Assets/Branding/THEMADHOOD Pequot CIR 500-500.png",
 					"imageMax": 320,
 					"description": [
 						"A scalable web platform designed to host and organize all Themadhood projects and systems.",
@@ -22,26 +22,26 @@
 					}
 				},
 				{
-				  "title": "Meal Planner",
-				  "href": "/GlobalAssets/HTML/Project.html?branch=apps&data-json=Meal-Planner",
-				  "image": "",
+				  "title": "Vittlery",
+				  "href": "/GlobalAssets/HTML/Project.html?branch=apps&data-json=Vittlery",
+				  "image": "/Apps/Assets/Projects/Vittlery/Brand Book Circle.png",
 				  "imageMax": 320,
 				  "description": [
-					"An automated meal planning web app designed to generate meal plans, shopping lists, and recipe adjustments based on user settings.",
-					"Built first as a test database and Python prototype before moving into a full web app with accounts, subscriptions, family sharing, and recipe management."
+					"Vittlery is a meal planning, recipe, cooking, and shopping app designed to take users from deciding what to eat through planning, shopping, and cooking.",
+					"It combines automated meal planning, interactive recipes, cooking tools, personalized food preferences, shared household features, and automatically generated shopping lists in one connected application."
 				  ],
 				  "about": [
-					"A subscription-based meal planning app focused on automated weekly planning, reusable recipes, shopping lists, and user-controlled food preferences."
+					"A complete food planning and cooking platform that combines a digital cookbook, automated meal planner, cooking assistant, and collaborative shopping list manager."
 				  ],
 				  "details": {
-					"status": "Planning",
+					"status": "In Development",
 					"type": "Web App"
 				  }
 				},
 				{
 				  "title": "Prism Bloom Exercise Website",
 				  "href": "/GlobalAssets/HTML/Project.html?branch=apps&data-json=PrismBloomExercise",
-				  "image": "",
+				  "image": "/Apps/Assets/Projects/Prism-Bloom-Exercise/Glowing rainbow bloom in a dark realm CIR.png",
 				  "imageMax": 320,
 				  "description": [
 					"A public website for Prism Bloom Exercise, a free outdoor exercise community focused on events, routes, calendars, and community links.",
