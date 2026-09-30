@@ -1,0 +1,88 @@
+{
+    "title": "Vittlery",
+    "subtitle": "Meal planning, recipes, cooking tools, and smart shopping lists",
+    "heroImage": "/Apps/Assets/Projects/Vittlery/Brand Book Circle.png",
+    "status": "In Development",
+    "primaryLinks": [
+        {
+            "title": "Back This Project",
+            "href": ""
+        }
+    ],
+    "description": [
+        "Vittlery is a meal planning, recipe, cooking, and shopping web application designed to take users from deciding what to eat through planning, shopping, and cooking.",
+        "The application combines automated weekly and monthly meal planning, recipe management, interactive cooking tools, serving-size scaling, food preferences, leftovers, meal history, and automatically generated shopping lists in one connected platform.",
+        "Meal planning can account for household size, selected meal types, allergies, dietary restrictions, blocked foods and recipes, likes and dislikes, budget preferences, recurring meals, cooking preferences, and meal history.",
+        "Vittlery also supports public recipe discovery, ratings and reviews, household sharing, collaborative shopping lists, approximate ingredient and recipe cost estimates, nutrition information, metric and imperial measurements, printing, dark mode, and responsive desktop and mobile use."
+    ],
+	"features": [
+		"Automatic personalized meal planning",
+		"Recipe creation, management, and sharing",
+		"Interactive cooking mode and cooking timers",
+		"Automatic recipe scaling and unit conversion",
+		"Meal preferences, recurring meals, and leftovers",
+		"Automatically generated shopping lists",
+		"Pantry tracking and cost estimates",
+		"Nutrition information",
+		"Public recipe ratings, reviews, and discovery",
+		"Family and household sharing",
+		"Collaborative shopping lists",
+		"Meal and recipe history",
+		"Responsive desktop and mobile experience"
+	],
+    "statusDetails": [
+        "Working Vittlery web application built",
+        "Core recipe, cooking, meal-planning, shopping-list, settings, and responsive desktop/mobile interfaces are substantially implemented",
+        "Current development is focused on cleanup, bug fixes, UX refinement, and completing interconnected application behavior",
+        "Subscription limitations and feature permissions still need to be applied",
+        "Production backend preparation, uploading, deployment, and live testing remain"
+    ],
+    "screenshots": [
+        {
+            "src": "",
+            "title": "",
+            "body": ""
+        }
+    ],
+    "downloadLinks": [],
+    "documentation": {
+        "howItWorks": [],
+        "setupInstall": [],
+        "apiStructure": []
+    },
+    "devLogs": [
+        {
+            "progressNotes": [
+                "Project idea defined (Jun 2026)",
+                "Initial app direction planned around automated meal planning",
+                "Recipe, user settings, shopping list, household, and subscription needs identified",
+                "Relational database design expanded for recipes, ingredients, users, meal plans, shopping lists, preferences, history, nutrition, pricing, and supporting data",
+                "Recipe ingredients, recipe steps, supporting lookup tables, and seed-data strategy developed"
+            ]
+        },
+		{
+            "progressNotes": [
+                "Working web application built from the Meal Planner specifications (Sep 29, 2026)",
+                "Recipe browsing, recipe details, serving scaling, cooking controls, and cooking timers implemented",
+                "Meal planner implemented with meal replacement and locking",
+                "Shopping-list interface and generation workflow implemented",
+                "Settings and recurring meal rule functionality incorporated",
+                "Responsive desktop and mobile interfaces developed",
+                "Desktop and mobile cooking controls refined independently",
+                "Recipe navigation, mobile menu behavior, and browser performance issues identified and refined",
+                "Ingredient pricing direction changed from store-specific catalogs to approximate low/high ingredient price estimates",
+                "Recipe likes and dislikes defined as private weighted meal-generation preferences separate from public star ratings",
+                "Household collaboration, leftovers, public recipe interactions, moderation, unit conversion, printing, localization, and accessibility requirements expanded"
+            ]
+        },
+		{
+            "progressNotes": [
+                "Project renamed and branded Vittlery (Sep 30, 2026)",
+                "Development shifted from planning/prototype work to completing Vittlery as the actual application",
+                "Current work focuses on cleanup, remaining application logic, and UX refinement",
+                "Subscription limitations and permissions will be applied after unrestricted functionality is complete",
+                "Uploading, deployment, and live testing are the next major milestones after cleanup and subscription work"
+            ]
+        }
+    ]
+}
