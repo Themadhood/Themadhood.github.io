@@ -5,8 +5,12 @@
     "status": "Complete",
     "primaryLinks": [
         {
-            "title": "Demo",
+            "title": "Directory Sync Demo",
             "href": "https://youtu.be/dH6Fcs1mugc"
+        },
+        {
+            "title": "Drive Sync Demo",
+            "href": "https://youtu.be/-rEQKktWMaM"
         },
         {
             "title": "User Manual",
@@ -27,7 +31,8 @@
     ],
     "description": [
         "A file synchronization application that combines Directory Sync and Drive Sync into one application.",
-        "It supports multi-directory sync groups and known-drive-to-folder sync pairs, with preview mode, conflict preservation, archive-safe deletes, configurable filters, and license-controlled features."
+        "It supports multi-directory sync groups and known-drive-to-folder sync pairs, with preview mode, conflict preservation, archive-safe deletes, configurable filters, and license-controlled features.",
+        "Demo note: Both demo videos were recorded before Drive Sync and Directory Sync were merged. The current UI looks slightly different, but the applications work and look mostly the same."
     ],
     "features": [
         "Create and manage named directory sync groups",

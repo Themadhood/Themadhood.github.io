@@ -2,7 +2,7 @@
 	"title": "Drive Sync",
 	"subtitle": "Drive-to-folder synchronization tool with drive detection and safe sync handling",
 	"heroImage": "/Automations/Assets/Projects/DriveSync/DriveSyncIcon.png",
-	"status": "Archived",
+	"status": "Archived (merged with Directory Sync)",
 	"primaryLinks": [
 		{
 			"title": "Demo",
