@@ -1,131 +1,179 @@
 {
-	"title": "DirectorySync",
-	"subtitle": "Directory group synchronization tool for keeping folders aligned",
-	"heroImage": "/Automations/Assets/Projects/DirectorySync/DirectorySyncIcon.png",
-	"status": "Complete",
-	"primaryLinks": [
-		{
-			"title": "Demo",
-			"href": "https://youtu.be/dH6Fcs1mugc"
-		},
-		{
-			"title": "User Manual",
-			"href": "https://docs.google.com/document/d/e/2PACX-1vS3VBVY8LP8bDoMjfgg2LSXlZJkYVUtmxn29qYslh1mXgLwkIH9klaaOINm9Ekyh3jCeAdHK-R8QlH1/pub"
-		},
-		{
-			"title": "Product Listing",
-			"href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/32a6ce29-b9ee-491c-802e-38d946f30907"
-		},
-		{
-			"title": "Report Error",
-			"href": "https://docs.google.com/forms/d/e/1FAIpQLScEL9fV2zCqk1_qBACD8_d3n6YZijVtsHfBHn9kJ6lQaOSi2A/viewform?usp=pp_url&entry.180804820=DirectorySync+V"
-		},
-		{
-			"title": "Make Sugestion",
-			"href": "https://docs.google.com/forms/d/e/1FAIpQLSeViY94cExAC7dNsvKy0YPLbiTOZnYgReZQxtwrXzIdXc3wnw/viewform?usp=pp_url&entry.276126743=DirectorySync+V"
-		}
-	],
-	"description": [
-		"A directory synchronization app focused on managing groups of folders and keeping each group aligned.",
-		"It allows users to create sync groups, add or remove paths, preview changes, and run safe multi-directory synchronization."
-	],
-	"features": [
-		"Create named directory sync groups",
-		"Add and remove directory paths from each group",
-		"Select a group and view the paths included in that group",
-		"Preview planned sync actions before applying changes",
-		"Synchronize all directories inside a selected group",
-		"Preserve conflicts instead of automatically choosing a newest file",
-		"Archive deleted files instead of permanently removing them by default",
-		"Use configurable filters to skip OS-managed folders and internal sync data",
-		"Ability to report errors encountered during use",
-		"Ability to submit suggestions and improvement ideas"
-	],
-	"statusDetails": [
-		"Complete: Directory group manager",
-		"Complete: Add and remove path workflow",
-		"Complete: Preview selected group",
-		"Complete: Sync selected group",
-		"Complete: Conflict and delete safety handling",
-		"Complete: UI"
-	],
-	"screenshots": [
-		"/Automations/Assets/Projects/DirectorySync/Screenshot 2026-07-07 123339.png",
-		"/Automations/Assets/Projects/DirectorySync/Screenshot 2026-07-07 123348.png",
-		"/Automations/Assets/Projects/DirectorySync/Screenshot 2026-07-07 123357.png",
-		"/Automations/Assets/Projects/DirectorySync/Screenshot 2026-07-07 123405.png"
-	],
-	"downloadLinks": [
-		{
-			"title": "Product Listing",
-			"body": "Directory group sync utility designed to keep multiple folders aligned while preserving conflicts and deleted-file archives.",
-			"href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/32a6ce29-b9ee-491c-802e-38d946f30907",
-			"buttonText": "Purchase Page"
-		}
-	],
-	"documentation": {
-		"howItWorks": [
-			"DirectorySync organizes folders into named sync groups.",
-			"Each group contains multiple paths that should share the same file contents.",
-			"The selected group is passed into DirSync for previewing, synchronization, filtering, conflict handling, and delete archive handling."
-		],
-		"setupInstall": [
-			"Install or extract the application",
-			"Open DirectorySync",
-			"Create a directory group",
-			"Add two or more folder paths to the group",
-			"Use Preview to review planned actions",
-			"Run Sync when ready"
-		],
-		"apiStructure": [
-			"The application UI manages groups and user actions.",
-			"Settings and app controls store groups, paths, modes, and filter options."
-		]
-	},
-	"devLogs": [
-		{
-			"progressNotes": [
-				"DirectorySync Planning (2026-07-07)",
-				"Defined the app as a DirSync-based directory group manager",
-				"Planned group selection, path listing, add path, remove path, preview, and sync workflows"
-			]
-		},
-		{
-			"progressNotes": [
-				"DirectorySync App Development (2026-07-07)",
-				"Built the initial desktop application around OS_Tools\\DirUtilitys\\DirSync",
-				"Added group list behavior and path management",
-				"Connected selected groups to preview and sync actions"
-			]
-		},
-		{
-			"progressNotes": [
-				"Build and Icon Support (2026-07-07)",
-				"Added application build logic",
-				"Added runtime icon loading for Windows and Linux",
-				"Prepared application icon paths for packaged builds"
-			]
-		},
-		{
-			"progressNotes": [
-				"Documentation Preparation (2026-07-07)",
-				"Created initial user manual, README, changelog, license, and EULA documents",
-				"Documented directory group workflow and DirSync backend usage"
-			]
-		}
-	],
-	"commonQuestions": [
-		{
-			"question": "What is a directory group?",
-			"answer": "A directory group is a named set of folders that DirectorySync keeps aligned with each other."
-		},
-		{
-			"question": "Should I preview before syncing?",
-			"answer": "Yes. Preview mode lets you review planned actions before files are changed."
-		},
-		{
-			"question": "What happens if two folders changed the same file?",
-			"answer": "DirectorySync preserves the conflicting versions in an in-place conflict folder for manual resolution."
-		}
-	]
+    "title": "DirectorySync",
+    "subtitle": "Directory and drive synchronization tool with safe sync handling",
+    "heroImage": "/Automations/Assets/Projects/DirectorySync/DirectorySyncIcon.png",
+    "status": "Complete",
+    "primaryLinks": [
+        {
+            "title": "Demo",
+            "href": "https://youtu.be/dH6Fcs1mugc"
+        },
+        {
+            "title": "User Manual",
+            "href": "https://docs.google.com/document/d/e/2PACX-1vS3VBVY8LP8bDoMjfgg2LSXlZJkYVUtmxn29qYslh1mXgLwkIH9klaaOINm9Ekyh3jCeAdHK-R8QlH1/pub"
+        },
+        {
+            "title": "Product Listing",
+            "href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/32a6ce29-b9ee-491c-802e-38d946f30907"
+        },
+        {
+            "title": "Report Error",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScEL9fV2zCqk1_qBACD8_d3n6YZijVtsHfBHn9kJ6lQaOSi2A/viewform?usp=pp_url&entry.180804820=DirectorySync+V"
+        },
+        {
+            "title": "Make Sugestion",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLSeViY94cExAC7dNsvKy0YPLbiTOZnYgReZQxtwrXzIdXc3wnw/viewform?usp=pp_url&entry.276126743=DirectorySync+V"
+        }
+    ],
+    "description": [
+        "A file synchronization application that combines Directory Sync and Drive Sync into one application.",
+        "It supports multi-directory sync groups and known-drive-to-folder sync pairs, with preview mode, conflict preservation, archive-safe deletes, configurable filters, and license-controlled features."
+    ],
+    "features": [
+        "Create and manage named directory sync groups",
+        "Add and remove directory paths from each group",
+        "Preview and synchronize all directories in a selected group",
+        "Detect connected drives and identify known drives using stable drive identifiers",
+        "Create sync pairs between known drives and local folder paths",
+        "Preview and synchronize configured drive and folder pairs",
+        "Preserve conflicts instead of automatically overwriting user changes",
+        "Archive deleted files instead of permanently removing them by default",
+        "Use configurable filters to skip OS-managed folders and internal sync data",
+        "Preserve supported timestamps, permissions, and file attributes",
+        "Use integrated Directory Sync and Drive Sync interfaces from one application",
+        "Activate Directory, Drive, or Pro licensing from the integrated License tab",
+        "Use Pro drive monitoring and automatic synchronization for configured drives",
+        "View application logs and sync status",
+        "Report errors encountered during use",
+        "Submit suggestions and improvement ideas"
+    ],
+    "statusDetails": [
+        "Complete: Directory group manager",
+        "Complete: Add and remove directory path workflow",
+        "Complete: Directory preview and synchronization",
+        "Complete: Drive detection and known-drive management",
+        "Complete: Drive-to-local-folder sync pairs",
+        "Complete: Drive preview and synchronization",
+        "Complete: Conflict and delete safety handling",
+        "Complete: Configurable filters and sync settings",
+        "Complete: Integrated licensing",
+        "Complete: Combined Directory Sync and Drive Sync UI"
+    ],
+    "screenshots": [
+        "/Automations/Assets/Projects/DirectorySync/Screenshot 2026-10-07 143410.png",
+        "/Automations/Assets/Projects/DirectorySync/Screenshot 2026-10-07 143422.png",
+        "/Automations/Assets/Projects/DirectorySync/Screenshot 2026-10-07 143434.png",
+        "/Automations/Assets/Projects/DirectorySync/Screenshot 2026-10-07 143441.png",
+        "/Automations/Assets/Projects/DirectorySync/Screenshot 2026-10-07 143448.png",
+        "/Automations/Assets/Projects/DirectorySync/Screenshot 2026-10-07 143454.png",
+        "/Automations/Assets/Projects/DirectorySync/Screenshot 2026-10-07 143502.png",
+        "/Automations/Assets/Projects/DirectorySync/Screenshot 2026-10-07 143510.png",
+        "/Automations/Assets/Projects/DirectorySync/Screenshot 2026-10-07 143516.png",
+        "/Automations/Assets/Projects/DirectorySync/Screenshot 2026-10-07 143524.png",
+        "/Automations/Assets/Projects/DirectorySync/Screenshot 2026-10-07 143529.png"
+    ],
+    "downloadLinks": [
+        {
+            "title": "Product Listing",
+            "body": "Combined directory and drive synchronization utility with preview mode, conflict protection, archive-safe deletes, configurable filters, and licensing.",
+            "href": "https://themadhoods-codes.lemonsqueezy.com/checkout/buy/32a6ce29-b9ee-491c-802e-38d946f30907",
+            "buttonText": "Purchase Page"
+        }
+    ],
+    "documentation": {
+        "howItWorks": [
+            "DirectorySync combines Directory Sync and Drive Sync inside one application.",
+            "Directory Sync organizes multiple folder paths into named groups that should contain the same synchronized files.",
+            "Drive Sync detects connected drives, saves known-drive identities, and connects a known drive with a selected local folder using sync pairs.",
+            "Both synchronization systems support previewing changes before they are applied and use safe conflict and delete handling.",
+            "Licensing controls access to Directory Sync, Drive Sync, and supported Pro functionality."
+        ],
+        "setupInstall": [
+            "Install or extract DirectorySync",
+            "Open DirectorySync",
+            "Open the License tab and activate the appropriate Directory, Drive, or Pro license",
+            "For Directory Sync, create a group and add the folder paths that should be synchronized",
+            "For Drive Sync, scan connected drives, save the desired known drive, and create a drive-to-folder sync pair",
+            "Use Preview to review planned changes before running Sync"
+        ],
+        "apiStructure": [
+            "The main DirectorySync application provides the shared application shell, licensing, version display, and access to Directory Sync and Drive Sync.",
+            "Directory Sync manages named directory groups and their participating paths.",
+            "Drive Sync manages drive detection, known drives, drive-to-folder sync pairs, settings, monitoring, and event-driven synchronization.",
+            "DirSync performs directory comparison, synchronization, conflict handling, archive handling, and filtering."
+        ]
+    },
+    "devLogs": [
+        {
+            "progressNotes": [
+                "DirectorySync Planning (2026-07-07)",
+                "Defined the app as a DirSync-based directory group manager",
+                "Planned group selection, path listing, add path, remove path, preview, and sync workflows"
+            ]
+        },
+        {
+            "progressNotes": [
+                "DirectorySync App Development (2026-07-07)",
+                "Built the initial desktop application around OS_Tools\\DirUtilitys\\DirSync",
+                "Added group list behavior and path management",
+                "Connected selected groups to preview and sync actions"
+            ]
+        },
+        {
+            "progressNotes": [
+                "Build and Icon Support (2026-07-07)",
+                "Added application build logic",
+                "Added runtime icon loading for Windows and Linux",
+                "Prepared application icon paths for packaged builds"
+            ]
+        },
+        {
+            "progressNotes": [
+                "Documentation Preparation (2026-07-07)",
+                "Created initial user manual, README, changelog, license, and EULA documents",
+                "Documented directory group workflow and DirSync backend usage"
+            ]
+        },
+        {
+            "progressNotes": [
+                "DirectorySync and DriveSync Integration (2026-10-07)",
+                "Merged the previously separate DriveSync application into DirectorySync",
+                "Added a shared application shell with Directory Sync, Drive Sync, and License tabs",
+                "Added Directory, Drive, and Pro license-controlled access",
+                "Integrated Drive Sync dashboard, drive management, sync pairs, settings, info, and logging",
+                "Added Pro-only drive monitoring and automatic synchronization controls",
+                "Updated application versioning, branding, icons, and packaged build support"
+            ]
+        }
+    ],
+    "commonQuestions": [
+        {
+            "question": "Are DirectorySync and DriveSync still separate applications?",
+            "answer": "No. DriveSync is now integrated into DirectorySync. Directory Sync and Drive Sync are available from the same application based on the active license."
+        },
+        {
+            "question": "What is a directory group?",
+            "answer": "A directory group is a named set of folders that DirectorySync keeps aligned with each other."
+        },
+        {
+            "question": "Does Drive Sync rely on drive letters?",
+            "answer": "No. Drive Sync uses drive identification logic so configured drives can be recognized more reliably than by drive letter alone."
+        },
+        {
+            "question": "Should I preview before syncing?",
+            "answer": "Yes. Preview mode lets you review planned synchronization actions before files are changed."
+        },
+        {
+            "question": "What happens when synchronized copies of the same file conflict?",
+            "answer": "DirectorySync preserves conflicting versions for manual resolution instead of silently choosing one version."
+        },
+        {
+            "question": "Does DirectorySync permanently delete files?",
+            "answer": "When archive delete handling is enabled, deleted files are archived instead of being immediately permanently removed."
+        },
+        {
+            "question": "What does a Pro license provide?",
+            "answer": "Pro provides access to both Directory Sync and Drive Sync and enables supported Pro functionality such as drive monitoring and automatic synchronization."
+        }
+    ]
 }
