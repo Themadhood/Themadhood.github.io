@@ -41,24 +41,6 @@
 					}
 				},
 				{
-					"title": "Drive-Sync",
-					"href": "/GlobalAssets/HTML/Project.html?branch=automations&data-json=Drive-Sync",
-					"image": "/Automations/Assets/Projects/DriveSync/DriveSyncIcon.png",
-					"imageMax": 320,
-					"description": [
-						"A utility that combines USB detection with directory synchronization so file copy tasks can begin when a target drive is connected.",
-						"Built to reduce manual backup steps and make portable sync workflows easier to run."
-					],
-					"about": [
-						"A combined utility that links USB detection with directory synchronization.",
-						"Intended to simplify portable backup and transfer workflows."
-					],
-					"details": {
-						"status": "Completed",
-						"type": "Project"
-					}
-				},
-				{
 					"title": "Prism Bloom Exercise Event Planning",
 					"href": "/GlobalAssets/HTML/Project.html?branch=automations&data-json=PBE-Event-Planing.json",
 					"image": "/GlobalAssets/Imgs/PrismBloomExerciseLogo.png",
@@ -80,6 +62,29 @@
 							"Future automation helpers"
 						],
 						"status": "In Progress"
+					}
+				}
+			]
+		},
+		"title": "Archived Projects",
+			"": "A collection of archived tools and systems focused on automation, syncing, and utility-driven workflows. These projects are no longer actively developed but are preserved for reference, historical context, and potential future use.",
+			"items": [
+				{
+					"title": "Drive-Sync",
+					"href": "/GlobalAssets/HTML/Project.html?branch=automations&data-json=Drive-Sync",
+					"image": "/Automations/Assets/Projects/DriveSync/DriveSyncIcon.png",
+					"imageMax": 320,
+					"description": [
+						"A utility that combines USB detection with directory synchronization so file copy tasks can begin when a target drive is connected.",
+						"Built to reduce manual backup steps and make portable sync workflows easier to run."
+					],
+					"about": [
+						"A combined utility that links USB detection with directory synchronization.",
+						"Intended to simplify portable backup and transfer workflows."
+					],
+					"details": {
+						"status": "Archived (merged with Directory Sync)",
+						"type": "Project"
 					}
 				}
 			]
