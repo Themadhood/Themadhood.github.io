@@ -66,6 +66,7 @@
 				}
 			]
 		},
+		{
 		"title": "Archived Projects",
 			"": "A collection of archived tools and systems focused on automation, syncing, and utility-driven workflows. These projects are no longer actively developed but are preserved for reference, historical context, and potential future use.",
 			"items": [
