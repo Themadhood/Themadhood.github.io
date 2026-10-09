@@ -18,6 +18,7 @@
             "card": "#17171c",
             "border": "#2a2a34",
             "accent": "#242424",
+            "qrBackground": "#80219f",
             "accentSoft": "rgba(177,26,37,.15)",
             "topbarBg": "#242424",
             "topbarText": "#80219f",
