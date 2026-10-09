@@ -96,6 +96,14 @@
                 "Began development of external API for triggering alerts.",
                 "Started integration of IO for lights and sensors."
             ]
+        },
+        {
+            "progressNotes": [
+                "ntfy remote-control (Oct 2026)",
+                "implemented basic ntfy commands",
+				"user can triger a test or panic state remotly",
+				"rate limmits needs to be tuned currently to great"
+            ]
         }
     ]
 }
