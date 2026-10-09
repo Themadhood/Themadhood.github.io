@@ -2,7 +2,7 @@
 export function getBusinessCardURL(branch){
     // Use the actual site's origin, never a hardcoded domain or local page path.
     const origin = window.location.origin;
-    const slug = String(branch || "pequot").trim().replace(/^\\/+|\\/+$/g, "");
+    const slug = String(branch || "pequot").trim().replace(/^\/+|\/+$/g, "");
     if(!/^[A-Za-z0-9_-]+$/.test(slug)){
         throw new Error("Invalid branch name for the QR URL");
     }
