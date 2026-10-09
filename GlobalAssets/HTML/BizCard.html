@@ -1,38 +1,43 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
-	<meta name="description" content="Themadhoods's digital business card" />
-	<link rel="icon" data-site-favicon href="">
-	<link rel="stylesheet" href="/GlobalAssets/CSS/HeaderFooter.css" />
-	<link rel="stylesheet" href="/GlobalAssets/CSS/BusinessCard.css" />
-	<title>Themadhoods's Business Card</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Themadhoods's digital business card" />
+    <link rel="icon" data-site-favicon href="">
+    <link rel="stylesheet" href="/GlobalAssets/CSS/HeaderFooter.css" />
+    <link rel="stylesheet" href="/GlobalAssets/CSS/BusinessCard.css" />
+    <title>Themadhoods's Business Card</title>
 </head>
 <body data-page="business-card">
-	<div id="shared-header"></div>
+    <div id="shared-header"></div>
 
-	<main>
-		<div class="container business-card-wrap">
-			<section class="business-card">
-				<div class="business-card-banner"></div>
-				<img class="business-card-headshot" data-card-headshot alt="Headshot">
+    <main>
+        <div class="container business-card-wrap">
+            <section class="business-card">
+                <div class="business-card-banner"></div>
+                <img class="business-card-headshot" data-card-headshot alt="Headshot">
 
-				<div class="business-card-copy">
-					<p class="eyebrow" data-card-eyebrow></p>
-					<h1 data-card-title></h1>
-					<p class="subtitle" data-card-subtitle></p>
-					<div class="tagline" data-card-tagline></div>
-				</div>
+                <div class="business-card-copy">
+                    <p class="eyebrow" data-card-eyebrow></p>
+                    <h1 data-card-title></h1>
+                    <p class="subtitle" data-card-subtitle></p>
+                    <div class="tagline" data-card-tagline></div>
+                </div>
 
-				<div class="action-list" data-card-actions></div>
-				<div class="meta-list" data-card-meta></div>
-			</section>
-		</div>
-	</main>
+                <div class="action-list" data-card-actions></div>
+                <div class="meta-list" data-card-meta></div>
+                <div class="business-card-qr-section">
+                    <div class="business-card-qr" data-card-qr aria-live="polite"></div>
+                    <p class="business-card-qr-caption">Scan to share this business card</p>
+                    <a class="business-card-qr-link" data-card-qr-link></a>
+                </div>
+            </section>
+        </div>
+    </main>
 
-	<div id="shared-footer"></div>
+    <div id="shared-footer"></div>
 
-	<script type="module" src="/GlobalAssets/JS/BusinessCard.js"></script>
+    <script type="module" src="/GlobalAssets/JS/BusinessCard.js"></script>
 </body>
 </html>
