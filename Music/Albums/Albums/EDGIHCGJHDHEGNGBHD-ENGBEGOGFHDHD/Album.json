@@ -1,0 +1,29 @@
+{
+  "title": "EDGIHCGJHDHEGNGBHD ENGBEGOGFHDHD",
+  "href": "",
+  "about": "EDGIHCGJHDHEGNGBHD ENGBEGOGFHDHD is a collection of humorous, heartfelt original songs about our family's Christmas traditions, outrageous gift wrapping, handmade presents, and memories that keep coming back.",
+  "body": [
+    "Every family has Christmas traditions. Ours includes turning presents into puzzles, passing a toy horse back and forth for years, and seeing just how difficult a gift can be to open.",
+    "These nine songs tell the stories behind those memories: Rudolph's unexpected present, Christmas at Grandma's house, a cardboard train for Dillon, twelve-pocket red-and-blue pants, and a Trojan horse with its own miniature army.",
+    "There is plenty of mischief here, from a welded barrel full of clues to the uncle who solved it with an angle grinder. At the heart of the album is the love and Christmas magic that make all of those stories worth remembering."
+  ],
+  "cover": "EDGIHCGJHDHEGNGBHD ENGBEGOGFHDHD Cover.png",
+  "imageMax": 320,
+  "details": {
+    "Type": "Album",
+    "Release": "2026",
+    "Tracks": 9,
+    "Format": "Digital"
+  },
+  "songs": [
+    "Rudolph_Left_Me_a_Present.json",
+    "Christmas_at_Grandmas_House.json",
+    "You_Wrapped_It_Youre_In.json",
+    "You_Dont_Need_Any_Tools.json",
+    "Dillons_Box_Train.json",
+    "The_Horse_That_Kept_Coming_Back.json",
+    "Twelve_Pockets_of_Christmas.json",
+    "The_Trojan_Horse_Strikes_Back.json",
+    "The_Crazy_Lady_Christmas_Magic.json"
+  ]
+}
