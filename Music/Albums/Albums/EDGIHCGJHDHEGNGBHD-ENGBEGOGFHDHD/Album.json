@@ -1,0 +1,29 @@
+{
+  "title": "EDGIHCGJHDHEGNGBHD ENGBEGOGFHDHD",
+  "href": "",
+  "about": "Nine original Christmas songs celebrating our family's funniest gift-giving traditions, homemade surprises, and the people who make the holidays unforgettable.",
+  "body": [
+    "Every family has its own Christmas traditions. In ours, wrapping a gift can turn into an engineering challenge, an ordinary toy horse can return year after year in increasingly elaborate disguises, and the funniest moments are often the ones nobody planned.",
+    "These nine original songs preserve the stories behind our holidays: a child's conviction that Rudolph deserves a snack of his own, Christmas at Grandma Lammert's house, Dillon's long-awaited train, outrageous twelve-pocket jeans, and a familiar Christmas horse that eventually becomes a Trojan invasion.",
+    "There are barrels, padlocks, hidden clues, power tools, homemade surprises, and plenty of friendly competition over who can devise the most unforgettable gift. Beneath the mischief is something more important: the love, creativity, and determination that keep a family together and make every Christmas worth remembering."
+  ],
+  "cover": "EDGIHCGJHDHEGNGBHD ENGBEGOGFHDHD Cover.png",
+  "imageMax": 320,
+  "details": {
+    "Type": "Album",
+    "Release": "2026",
+    "Tracks": 9,
+    "Format": "Digital"
+  },
+  "songs": [
+    "Rudolph_Left_Me_a_Present.json",
+    "Christmas_at_Grandmas_House.json",
+    "You_Wrapped_It_Youre_In.json",
+    "You_Dont_Need_Any_Tools.json",
+    "Dillons_Box_Train.json",
+    "The_Horse_That_Kept_Coming_Back.json",
+    "Twelve_Pockets_of_Christmas.json",
+    "The_Trojan_Horse_Strikes_Back.json",
+    "The_Crazy_Lady_Christmas_Magic.json"
+  ]
+}
