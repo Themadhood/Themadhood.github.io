@@ -18,13 +18,28 @@
         "Real-time alert and panic escalation system",
         "GUI and optional web interface support",
         "Expandable API for external trigger integration",
-        "IO integration for lights, sensors, and external hardware"
+        "IO integration for lights, sensors, and external hardware",
+        "Device monitoring with online/offline status, last seen, and panic counts",
+        "Master web dashboard with device management and active panic monitoring",
+        "Optional module bridge for external alert sources",
+        "National Weather Service alert monitoring with interactive simulated alert testing",
+        "Remote panic and test triggering through ntfy"
     ],
     "statusDetails": [
         "Core system complete and functional",
         "API layer in development for external triggers",
         "IO integration in progress for hardware interaction",
-        "System being refined for usability and expansion"
+        "System being refined for usability and expansion",
+        "Master Tk dashboard navigation and panic-state refresh improved",
+        "Web device management implemented with device removal and restoration",
+        "Weather optional module and NWS API header standardized; simulated alert testing added",
+        "Optional module loading and weather integration still require full end-to-end verification",
+        "Planned: replace the master local control dashboard with the shared client panic display",
+        "Planned: reorganize root and shared Support directories without duplicating master/client code",
+        "Planned: separate application files, user settings, persistent data, and logs for Windows and Linux",
+        "Planned: centralize path handling to remove current-working-directory assumptions",
+        "Planned: expose configuration and optional-module settings through the web dashboard",
+        "Planned: clean, test, and package for distribution after restructuring; optional-module packaging deferred"
     ],
     "screenshots": [
         {
@@ -103,6 +118,34 @@
                 "implemented basic ntfy commands",
 				"user can triger a test or panic state remotly",
 				"rate limmits needs to be tuned currently to great"
+            ]
+        },
+        {
+            "progressNotes": [
+                "Device monitoring and dashboard updates (Oct 2026)",
+                "Added device online/offline tracking, last-seen information, and persistent panic counts.",
+                "Added device management to the master web dashboard, including removal and restoration.",
+                "Fixed Tk dashboard panic-state updates and integrated dashboard, devices, and settings navigation."
+            ]
+        },
+        {
+            "progressNotes": [
+                "Optional weather module testing (Oct 2026)",
+                "Developed interactive optional-module panic testing through the existing bridge.",
+                "Updated weather module and NWS API headers to match the project Python template.",
+                "Added a selectable weather test subclass that substitutes simulated NWS alerts for live API responses.",
+                "Added numbered alert toggles to simulate activation and clearing through the normal weather filtering and panic bridge.",
+                "Full driver integration testing remains to be completed."
+            ]
+        },
+        {
+            "progressNotes": [
+                "Repository cleanup and distribution planning (Oct 2026)",
+                "Planned replacement of the master's local control dashboard with the existing client panic display while retaining web administration.",
+                "Planned audit and organization of the shared Support directory and root-level files.",
+                "Planned separation of installed application resources, editable settings, runtime data, and logs across Windows and Linux.",
+                "Planned web-based settings management, including optional weather configuration.",
+                "Compilation and distribution packaging deferred until after cleanup and testing; optional-module packaging to be decided later."
             ]
         }
     ]
