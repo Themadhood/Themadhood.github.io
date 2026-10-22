@@ -33,9 +33,10 @@
     "statusDetails": [
         "Working Vittlery web application built",
         "Core recipe, cooking, meal-planning, shopping-list, settings, and responsive desktop/mobile interfaces are substantially implemented",
-        "Current development is focused on cleanup, bug fixes, UX refinement, and completing interconnected application behavior",
-        "Subscription limitations and feature permissions still need to be applied",
-        "Production backend preparation, uploading, deployment, and live testing remain"
+        "Recent development expanded recipe creation and copy-based editing, ingredient-derived nutrition estimates, cooking controls, meal-plan generation, leftovers, and shopping integration",
+        "Accessibility, localization, and imperial/metric display support have been expanded; remaining gaps continue to be refined through ongoing testing",
+        "Core functionality has been tested incrementally during development; beta preparation is now focused on completing login integration, implementing subscriptions, and connecting/migrating persistent data",
+        "Deployment, integrated account and subscription testing, and controlled beta release remain"
     ],
     "screenshots": [
         {
@@ -82,6 +83,21 @@
                 "Current work focuses on cleanup, remaining application logic, and UX refinement",
                 "Subscription limitations and permissions will be applied after unrestricted functionality is complete",
                 "Uploading, deployment, and live testing are the next major milestones after cleanup and subscription work"
+            ]
+        },
+        {
+            "progressNotes": [
+                "Major feature restoration and pre-beta development progress (Oct 19, 2026)",
+                "Weekly and monthly meal-plan generation expanded with snack configuration, ingredient exclusions, allergy and dietary filtering, weighted likes/dislikes, meal history, budgets, recurring rules, and locked meals",
+                "Batch cooking and future leftover scheduling implemented, including marking meals cooked, tracking prepared portions, and consuming leftovers through planned meals",
+                "Recipe creation and copy-based editing workflows added with ownership-controlled recipe storage and public/private visibility support",
+                "Ingredient-based nutrition estimates and automatic recipe cost calculations added, with data-coverage limitations for unmatched ingredients",
+                "Recipe and comment reporting expanded; recipe detail review-star selection, copy-to-edit workflow, recipe save handling, automatic screen wake lock, and mobile cooking controls refined",
+                "Impromptu shopping, planned-leftover shopping exclusion, serving preferences, and ingredient-based shopping quantities incorporated",
+                "Shared localization and accessibility foundations expanded, with imperial/metric display conversion added to recipes, shopping, pantry, and price displays",
+                "Ongoing testing has accompanied development; remaining integration and reliability issues are being addressed as found",
+                "Pre-beta priorities reorganized to complete login integration, implement subscriptions and entitlements, then connect and migrate the persistent database/data infrastructure",
+                "Next milestone is controlled beta testing after account, subscription, data persistence, and deployment integration are verified"
             ]
         }
     ]

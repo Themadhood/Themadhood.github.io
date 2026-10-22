@@ -30,7 +30,7 @@
         "API layer in development for external triggers",
         "IO integration in progress for hardware interaction",
         "System being refined for usability and expansion",
-        "Master Tk dashboard navigation and panic-state refresh improved",
+        "Master web dashboard refresh and panic tracking corrected; active alarms, highest-priority state, and device panic totals now update after received panic events",
         "Web device management implemented with device removal and restoration",
         "Weather optional module and NWS API header standardized; simulated alert testing added",
         "Optional module loading and weather integration still require full end-to-end verification",
@@ -116,8 +116,8 @@
             "progressNotes": [
                 "ntfy remote-control (Oct 2026)",
                 "implemented basic ntfy commands",
-				"user can triger a test or panic state remotly",
-				"rate limmits needs to be tuned currently to great"
+                "user can triger a test or panic state remotly",
+                "rate limmits needs to be tuned currently to great"
             ]
         },
         {
@@ -146,6 +146,16 @@
                 "Planned separation of installed application resources, editable settings, runtime data, and logs across Windows and Linux.",
                 "Planned web-based settings management, including optional weather configuration.",
                 "Compilation and distribution packaging deferred until after cleanup and testing; optional-module packaging to be decided later."
+            ]
+        },
+        {
+            "progressNotes": [
+                "Master/client web and panic tracking refinements (October 22, 2026)",
+                "Separated intended master and client web ports to avoid dashboard conflicts when both run on one device; existing saved web-port settings may still require adjustment.",
+                "Reviewed the master receive flow and restored counting newly activated client panics in the persistent device registry without incrementing repeated active alarms.",
+                "Corrected master receive processing so the dashboard refresh executes after state changes, including monitor-generated records.",
+                "Verified through live testing that active panic information, dashboard and shell status, and device panic totals update again.",
+                "Reviewed client settings access from the master device management workflow; further integration should be verified against deployed clients."
             ]
         }
     ]
