@@ -24,8 +24,15 @@ export function projectPageUrl(branch, archiveKey, projectKey){
 }
 
 
+function archiveBranchFolder(branch){
+	// Match the Goods folder casing used by the site for archive routes.
+	const name = String(branch || "").trim();
+	return name.toLowerCase() === "goods" ? "Goods" : name;
+}
+
+
 export function archiveRoot(branch, archiveKey = ""){
-	const base = `/${String(branch || "").trim()}/Archive`;
+	const base = `/${archiveBranchFolder(branch)}/Archive`;
 
 	if(!archiveKey){
 		return base;
@@ -71,7 +78,7 @@ export function resolveGoodsAsset(branch, path){
 		return value;
 	}
 
-	return `/${String(branch || "").trim()}/${value.replace(/^\.\//, "")}`;
+	return `/${archiveBranchFolder(branch)}/${value.replace(/^\.\//, "")}`;
 }
 
 
