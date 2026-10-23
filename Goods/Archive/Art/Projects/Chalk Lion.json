@@ -1,0 +1,21 @@
+{
+    "name": "Chalk Lion",
+    "cover": "",
+    "shortDescription": "A guided black chalk drawing of a lion’s head, created during a Heritage homeschool art lesson.",
+    "description": [
+        "This drawing was made during a guided chalk-art lesson in a Heritage homeschool class.",
+        "The artwork depicts a lion’s head in black chalk, keeping the composition focused on the animal’s face and mane."
+    ],
+    "details": {
+        "Project Type": "Guided chalk drawing",
+        "Medium": "Black chalk",
+        "Subject": "Lion’s head",
+        "Context": "Heritage homeschool class"
+    },
+    "gallery": [
+        {
+            "src": "",
+            "caption": ""
+        }
+    ]
+}

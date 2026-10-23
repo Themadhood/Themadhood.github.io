@@ -1,0 +1,21 @@
+{
+    "name": "Reality Inception Painting",
+    "cover": "",
+    "shortDescription": "A surreal painting inspired by René Magritte’s The Son of Man and The Key to the Fields, featuring red curtains, a shattered window, and a canvas viewed from the artist’s perspective.",
+    "description": [
+        "This painting draws inspiration from René Magritte’s The Son of Man (1964) and The Key to the Fields (La clef des champs). It combines elements of both works into a scene painted on a handmade canvas.",
+        "Red curtains frame both sides of the composition. A shattered window and a canvas positioned in front of it create a layered perspective, as though the artist is standing to the right of the viewer’s point of view."
+    ],
+    "details": {
+        "Project Type": "Surrealist-inspired painting",
+        "Surface": "Handmade canvas",
+        "Inspiration": "René Magritte — The Son of Man (1964) and The Key to the Fields",
+        "Composition": "Red curtains, shattered window, and foreground canvas"
+    },
+    "gallery": [
+        {
+            "src": "",
+            "caption": ""
+        }
+    ]
+}
