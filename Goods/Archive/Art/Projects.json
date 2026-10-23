@@ -1,16 +1,52 @@
 {
-	"projects": [
-		{
-			"key": "My shelf painting",
-			"name": "My shelf painting",
-			"cover": "",
-			"shortDescription": "A still-life shelf painting developed over several weeks as my professor taught the painting process, featuring a Mountain Dew can, playing card, and folding knife."
-		},
-		{
-			"key": "wood creek Painting",
-			"name": "wood creek Painting",
-			"cover": "",
-			"shortDescription": "An oil painting made outdoors beside a favorite creek during winter, completed over roughly a week for a homework assignment."
-		}
-	]
+    "projects": [
+        {
+            "key": "My shelf painting",
+            "name": "My shelf painting",
+            "cover": "",
+            "shortDescription": "A still-life shelf painting developed over several weeks as my professor taught the painting process, featuring a Mountain Dew can, playing card, and folding knife."
+        },
+        {
+            "key": "wood creek Painting",
+            "name": "wood creek Painting",
+            "cover": "",
+            "shortDescription": "An oil painting made outdoors beside a favorite creek during winter, completed over roughly a week for a homework assignment."
+        },
+        {
+            "key": "Reality Inception Painting",
+            "name": "Reality Inception Painting",
+            "cover": "",
+            "shortDescription": "A surreal painting inspired by René Magritte’s The Son of Man and The Key to the Fields, featuring red curtains, a shattered window, and a canvas viewed from the artist’s perspective."
+        },
+        {
+            "key": "Chalk Eskimo",
+            "name": "Chalk Eskimo",
+            "cover": "",
+            "shortDescription": "A guided black chalk drawing depicting a face framed by the hood of winter clothing."
+        },
+        {
+            "key": "Chalk Lion",
+            "name": "Chalk Lion",
+            "cover": "",
+            "shortDescription": "A guided black chalk drawing of a lion’s head, created during a Heritage homeschool art lesson."
+        },
+        {
+            "key": "Peacock Chalk Drawing",
+            "name": "Peacock Chalk Drawing",
+            "cover": "",
+            "shortDescription": "A guided chalk drawing of a full peacock with sparse, web-like plumage rather than a broad, fully spread tail."
+        },
+        {
+            "key": "Clipped Baby Jesus",
+            "name": "Clipped Baby Jesus",
+            "cover": "",
+            "shortDescription": "A Christmas-themed drawing of baby Jesus in Mary’s arms, with magazine clippings used to create their clothing."
+        },
+        {
+            "key": "Flowered Heart",
+            "name": "Flowered Heart",
+            "cover": "",
+            "shortDescription": "A heart-shaped composition formed from several flowers in different shades of blue."
+        }
+    ]
 }
