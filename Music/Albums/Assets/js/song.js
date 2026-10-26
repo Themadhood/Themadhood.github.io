@@ -1,5 +1,6 @@
 import {normalizeSongId, buildShareButton, addTextBlock, buildMeta} from "./helpers.js";
 import {buildLyricsDropdown} from "./lyric.js";
+import {buildSoundCloudPlayer} from "./soundcloud.js";
 
 export function buildSong(song, albumId){
     const block = document.createElement("div");
@@ -64,6 +65,10 @@ export function buildSong(song, albumId){
 
     const meta = buildMeta(song.details);
     if(meta) content.appendChild(meta);
+
+    // Only songs with a SoundCloud URL in their JSON display a player.
+    const player = buildSoundCloudPlayer(song.soundcloud, song.title);
+    if(player) content.appendChild(player);
 
     content.appendChild(buildLyricsDropdown(song.lyrics || []));
     inner.appendChild(content);
