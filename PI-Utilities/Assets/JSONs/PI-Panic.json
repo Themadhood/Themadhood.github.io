@@ -23,23 +23,22 @@
         "Master web dashboard with device management and active panic monitoring",
         "Optional module bridge for external alert sources",
         "National Weather Service alert monitoring with interactive simulated alert testing",
-        "Remote panic and test triggering through ntfy"
+        "Remote panic and test triggering through ntfy",
+        "Client web settings and modular panic monitor management",
+        "Client self-panic status and highest-priority locally originated alert display"
     ],
     "statusDetails": [
         "Core system complete and functional",
         "API layer in development for external triggers",
         "IO integration in progress for hardware interaction",
         "System being refined for usability and expansion",
+        "Automatic client restart disabled; network changes require a manual client restart",
+        "Client self-panic indicators added for locally originated active alerts and highest-priority local panic; received device panics are excluded",
+        "Client web UI reorganized into separate network and monitor pages with master-dashboard styling and improved Connection Key controls",
         "Master web dashboard refresh and panic tracking corrected; active alarms, highest-priority state, and device panic totals now update after received panic events",
         "Web device management implemented with device removal and restoration",
         "Weather optional module and NWS API header standardized; simulated alert testing added",
-        "Optional module loading and weather integration still require full end-to-end verification",
-        "Planned: replace the master local control dashboard with the shared client panic display",
-        "Planned: reorganize root and shared Support directories without duplicating master/client code",
-        "Planned: separate application files, user settings, persistent data, and logs for Windows and Linux",
-        "Planned: centralize path handling to remove current-working-directory assumptions",
-        "Planned: expose configuration and optional-module settings through the web dashboard",
-        "Planned: clean, test, and package for distribution after restructuring; optional-module packaging deferred"
+        "Optional module loading and weather integration still require full end-to-end verification"
     ],
     "screenshots": [
         {
@@ -105,57 +104,17 @@
         },
         {
             "progressNotes": [
-                "Completion and post-build improvements (Jan 2026 to Feb 2026)",
-                "Finalized core system functionality.",
-                "Prepared system for real-world usage.",
-                "Began development of external API for triggering alerts.",
-                "Started integration of IO for lights and sensors."
-            ]
-        },
-        {
-            "progressNotes": [
-                "ntfy remote-control (Oct 2026)",
-                "implemented basic ntfy commands",
-                "user can triger a test or panic state remotly",
-                "rate limmits needs to be tuned currently to great"
-            ]
-        },
-        {
-            "progressNotes": [
-                "Device monitoring and dashboard updates (Oct 2026)",
-                "Added device online/offline tracking, last-seen information, and persistent panic counts.",
-                "Added device management to the master web dashboard, including removal and restoration.",
-                "Fixed Tk dashboard panic-state updates and integrated dashboard, devices, and settings navigation."
-            ]
-        },
-        {
-            "progressNotes": [
-                "Optional weather module testing (Oct 2026)",
-                "Developed interactive optional-module panic testing through the existing bridge.",
-                "Updated weather module and NWS API headers to match the project Python template.",
-                "Added a selectable weather test subclass that substitutes simulated NWS alerts for live API responses.",
-                "Added numbered alert toggles to simulate activation and clearing through the normal weather filtering and panic bridge.",
-                "Full driver integration testing remains to be completed."
-            ]
-        },
-        {
-            "progressNotes": [
-                "Repository cleanup and distribution planning (Oct 2026)",
-                "Planned replacement of the master's local control dashboard with the existing client panic display while retaining web administration.",
-                "Planned audit and organization of the shared Support directory and root-level files.",
-                "Planned separation of installed application resources, editable settings, runtime data, and logs across Windows and Linux.",
-                "Planned web-based settings management, including optional weather configuration.",
-                "Compilation and distribution packaging deferred until after cleanup and testing; optional-module packaging to be decided later."
-            ]
-        },
-        {
-            "progressNotes": [
-                "Master/client web and panic tracking refinements (October 22, 2026)",
-                "Separated intended master and client web ports to avoid dashboard conflicts when both run on one device; existing saved web-port settings may still require adjustment.",
-                "Reviewed the master receive flow and restored counting newly activated client panics in the persistent device registry without incrementing repeated active alarms.",
-                "Corrected master receive processing so the dashboard refresh executes after state changes, including monitor-generated records.",
-                "Verified through live testing that active panic information, dashboard and shell status, and device panic totals update again.",
-                "Reviewed client settings access from the master device management workflow; further integration should be verified against deployed clients."
+                "October 2026 development and refinements (Oct 2026)",
+                "Added ntfy remote panic and test commands; rate limits still need tuning.",
+                "Added device online/offline tracking, last-seen data, persistent panic counts, and master dashboard device removal/restoration.",
+                "Corrected master panic processing and dashboard updates; verified active alarms, top panic, and device panic totals during live testing.",
+                "Separated master/client web ports to avoid conflicts; saved port settings may require adjustment.",
+                "Expanded optional weather module testing with simulated NWS alerts and standardized headers; full driver integration testing remains.",
+                "Planned cleanup of shared files, cross-platform paths, user data, settings, and logs; packaging deferred until testing and restructuring.",
+                "Added client web network settings and premade/custom panic monitor configuration, with separate monitor pages and modular UI files.",
+                "Refined client UI to match master dashboard styling, improve spacing and readability, and provide a wider Connection Key field with compact Show/Hide button.",
+                "Disabled automatic client restart after network settings changes; settings save and manual restart remains required.",
+                "Added client header self-panic status and top locally originated panic, excluding alarms received from other devices."
             ]
         }
     ]
