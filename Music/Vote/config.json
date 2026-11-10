@@ -1,0 +1,25 @@
+{
+  "eyebrow": "THEMADHOOD'S MUSIC · LISTENER VOTE",
+  "title": "Which Version Wins?",
+  "description": "Listen to both versions, then vote for the one you like best using the Google Form below.",
+  "tracks": [
+    {
+      "label": "OPTION A New ADR",
+      "title": "Breakfast Is Stuck in Yesterday Tomorrow A",
+      "description": "Listen to the first version. this is the new ADR. this one sounds cleaner and more profeshonal but cleanes a litle to well i feel it looses some of my unicq vocals",
+      "file": "Breakfast Is Stuck in Yesterday Tomorrow A.mp3"
+    },
+    {
+      "label": "OPTION B Old ADR",
+      "title": "Breakfast Is Stuck in Yesterday Tomorrow B",
+      "description": "Listen to the second version. this is the Old ADR. this one sounds more like me but also letts a lot of the background and missing octave threw",
+      "file": "Breakfast Is Stuck in Yesterday Tomorrow B.mp3"
+    }
+  ],
+  "googleForm": {
+    "title": "Cast your vote for a ADR",
+    "description": "Now that you've heard both, let us know which one you prefer. ADR(Additional Dialogue Replacement) it cleans vocals and backgrownd noise",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSc8VeKYfVU9zt4E_UFv_NID7LUC9PRGFPRTQQykY2_9cIsWLQ/viewform?usp=publish-editor",
+    "height": 780
+  }
+}
