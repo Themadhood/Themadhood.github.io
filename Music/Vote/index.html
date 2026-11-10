@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Listen to two tracks and cast your vote for your favorite on Themadhood's Music.">
+  <link rel="icon" data-site-favicon href="">
+  <link rel="stylesheet" href="/GlobalAssets/CSS/HeaderFooter.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Music Vote | Themadhood's Music</title>
+</head>
+<body data-page="music-vote">
+  <div id="shared-header"></div>
+
+  <main class="container voting-page">
+    <section class="voting-intro" aria-labelledby="vote-title">
+      <span class="eyebrow" data-eyebrow>THEMADHOOD'S MUSIC · LISTENER VOTE</span>
+      <h1 id="vote-title" data-title>Which Version Wins?</h1>
+      <p class="voting-description" data-description>Listen to both tracks, then choose your favorite in the form below.</p>
+    </section>
+
+    <div class="voting-status" data-status role="status" aria-live="polite">Loading the voting page…</div>
+
+    <section class="voting-tracks" data-tracks aria-label="Audio options"></section>
+
+    <section class="vote-section card" aria-labelledby="form-title" data-form-section hidden>
+      <div class="section-heading">
+        <span class="step">02 / CAST YOUR VOTE</span>
+        <h2 id="form-title" data-form-title>Cast your vote</h2>
+        <p data-form-description>Now that you've heard both, let us know which one you prefer.</p>
+      </div>
+      <div class="form-placeholder" data-form-placeholder hidden>
+        <p>Add your Google Form URL to <code>config.json</code> to display the voting form here.</p>
+      </div>
+      <iframe class="vote-form" data-form title="Music voting Google Form" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" hidden></iframe>
+      <a class="form-external" data-form-link href="#" target="_blank" rel="noopener noreferrer" hidden>Open the voting form in a new tab ↗</a>
+    </section>
+  </main>
+
+  <div id="shared-footer"></div>
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
