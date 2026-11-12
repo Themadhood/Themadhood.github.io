@@ -38,13 +38,67 @@ function CreateTrack(track, index) {
   const description = document.createElement("p");
   description.textContent = track.description || "Listen to this version.";
 
+  // The audio element deliberately has no native controls: browsers cannot
+  // display a built-in download menu when the built-in player is not shown.
   const audio = document.createElement("audio");
-  audio.controls = true;
   audio.preload = "metadata";
   audio.setAttribute("aria-label", `Play ${title.textContent}`);
-  audio.controlsList.add("nodownload");
-  // Resolve to this page directory, not the website root.
   audio.src = new URL(track.file, import.meta.url).href;
+
+  const player = document.createElement("div");
+  player.className = "vote-custom-player";
+  player.style.cssText = "display:flex;align-items:center;gap:12px;width:100%;padding:10px 12px;border-radius:12px;background:#242124;color:white;box-sizing:border-box;";
+
+  const playButton = document.createElement("button");
+  playButton.type = "button";
+  playButton.textContent = "▶";
+  playButton.setAttribute("aria-label", `Play ${title.textContent}`);
+  playButton.style.cssText = "border:0;border-radius:50%;background:#fff;color:#111;min-width:38px;width:38px;height:38px;cursor:pointer;font-size:16px;";
+
+  const seek = document.createElement("input");
+  seek.type = "range";
+  seek.min = "0";
+  seek.max = "1000";
+  seek.value = "0";
+  seek.step = "1";
+  seek.setAttribute("aria-label", `Seek ${title.textContent}`);
+  seek.style.cssText = "flex:1;min-width:40px;accent-color:#d7558c;cursor:pointer;";
+
+  const time = document.createElement("span");
+  time.style.cssText = "white-space:nowrap;font-size:13px;font-variant-numeric:tabular-nums;";
+  const formatTime = seconds => {
+    if (!Number.isFinite(seconds)) return "0:00";
+    const s = Math.floor(seconds);
+    return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+  };
+  const updateTime = () => {
+    const duration = audio.duration;
+    seek.value = Number.isFinite(duration) && duration > 0
+      ? String(Math.round(audio.currentTime / duration * 1000)) : "0";
+    time.textContent = `${formatTime(audio.currentTime)} / ${formatTime(duration)}`;
+  };
+  updateTime();
+
+  playButton.addEventListener("click", async () => {
+    if (!audio.paused) {
+      audio.pause();
+    } else {
+      try { await audio.play(); }
+      catch (error) { help.textContent = "Unable to play this audio on your browser."; }
+    }
+  });
+  seek.addEventListener("input", () => {
+    if (Number.isFinite(audio.duration) && audio.duration > 0) {
+      audio.currentTime = Number(seek.value) / 1000 * audio.duration;
+    }
+  });
+  audio.addEventListener("play", () => { playButton.textContent = "Ⅱ"; playButton.setAttribute("aria-label", `Pause ${title.textContent}`); });
+  audio.addEventListener("pause", () => { playButton.textContent = "▶"; playButton.setAttribute("aria-label", `Play ${title.textContent}`); });
+  audio.addEventListener("ended", updateTime);
+  audio.addEventListener("timeupdate", updateTime);
+  audio.addEventListener("loadedmetadata", updateTime);
+  audio.addEventListener("durationchange", updateTime);
+  player.append(playButton, seek, time);
 
   const help = document.createElement("div");
   help.className = "track-help";
@@ -53,7 +107,7 @@ function CreateTrack(track, index) {
     help.textContent = "Audio unavailable. Check the MP3 filename and that the file is uploaded beside index.html.";
   });
 
-  card.append(label, icon, title, description, audio, help);
+  card.append(label, icon, title, description, player, audio, help);
   return {card, audio};
 }
 
@@ -64,7 +118,6 @@ function RenderTracks(tracks) {
   tracksHost.replaceChildren();
   const players = tracks.map((track, i) => CreateTrack(track, i));
   for (const item of players) tracksHost.append(item.card);
-  // One track at a time makes A/B comparisons easier.
   for (const item of players) {
     item.audio.addEventListener("play", () => {
       for (const other of players) {
@@ -112,8 +165,6 @@ function RenderForm(form) {
 }
 
 async function Main() {
-  // Use the same music branch settings as the other Music pages, without
-  // adding a public navigation link or editing the shared assets.
   const url = new URL(location.href);
   if (url.searchParams.get("branch") !== "music") {
     url.searchParams.set("branch", "music");
@@ -123,7 +174,6 @@ async function Main() {
   await HF_main();
   document.title = "Music Vote | Themadhood's Music";
 
-  // Existing shared JSON opener; all voting content stays local to this page.
   const config = await loadPath("/Music/Vote", "config");
   SetText("[data-eyebrow]", config.eyebrow);
   SetText("[data-title]", config.title);
