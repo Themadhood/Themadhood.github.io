@@ -11,8 +11,10 @@ function buildFeaturedSong(featuredSong, lightbox, config, navigateToAlbum){
     const inner = document.createElement("div");
     inner.className = "showcase-item-inner";
 
-    if(album.cover){
-        inner.appendChild(buildCover(`${albumRoot}/${album.cover}`, song.title || album.title || "Album cover", lightbox, config?.imageSizes?.featured || 180));
+    // Prefer song artwork; retain the existing album cover fallback.
+    const cover = song.cover || album.cover;
+    if(cover){
+        inner.appendChild(buildCover(`${albumRoot}/${cover}`, song.title || album.title || "Album cover", lightbox, config?.imageSizes?.featured || 180));
     }
 
     const content = document.createElement("div");

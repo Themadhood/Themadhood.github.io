@@ -1,0 +1,25 @@
+{
+  "eyebrow": "THEMADHOOD'S MUSIC · LISTENER VOTE",
+  "title": "Which Version Wins?",
+  "description": "Listen to both versions, then vote for the one you like best using the Google Form below.",
+  "tracks": [
+    {
+      "label": "OPTION A",
+      "title": "",
+      "description": "Listen to the first version.",
+      "file": ""
+    },
+    {
+      "label": "OPTION B",
+      "title": "",
+      "description": "Listen to the second version.",
+      "file": ""
+    }
+  ],
+  "googleForm": {
+    "title": "Cast your vote",
+    "description": "Now that you've heard both, let me know which one you prefer.",
+    "url": "",
+    "height": 780
+  }
+}

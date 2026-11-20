@@ -1,8 +1,8 @@
-import {normalizeSongId, buildShareButton, addTextBlock, buildMeta} from "./helpers.js";
+import {normalizeSongId, buildShareButton, addTextBlock, buildMeta, buildCover} from "./helpers.js";
 import {buildLyricsDropdown} from "./lyric.js";
 import {buildSoundCloudPlayer} from "./soundcloud.js";
 
-export function buildSong(song, albumId){
+export function buildSong(song, albumId, albumRoot, lightbox){
     const block = document.createElement("div");
     block.className = "showcase-block showcase-dropdown";
 
@@ -41,6 +41,16 @@ export function buildSong(song, albumId){
 
     const inner = document.createElement("div");
     inner.className = "showcase-item-inner";
+
+    // Song artwork is optional. Without it, the existing layout is unchanged.
+    if(song.cover){
+        inner.appendChild(buildCover(
+            `${albumRoot}/${song.cover}`,
+            song.title || "Song cover",
+            lightbox,
+            song.imageMax || 280
+        ));
+    }
 
     const content = document.createElement("div");
     content.className = "showcase-content";
