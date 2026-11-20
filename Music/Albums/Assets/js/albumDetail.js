@@ -52,7 +52,7 @@ export function buildAlbumSection(albumId, albumRoot, album, songs, lightbox, co
     items.className = "showcase-items";
 
     for(const song of songs){
-        items.appendChild(buildSong(song, albumId));
+        items.appendChild(buildSong(song, albumId, albumRoot, lightbox));
     }
 
     card.appendChild(items);
