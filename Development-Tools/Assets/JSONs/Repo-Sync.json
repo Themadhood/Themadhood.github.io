@@ -27,7 +27,8 @@
 	],
 	"description": [
 		"A Git repository synchronization and management tool for keeping repositories up to date across projects and devices.",
-		"It automates common Git workflows for getting and uploading individual or multiple repositories while providing repository settings, licensing, logging, and Pro workflow options."
+		"It automates common Git workflows for getting and uploading individual or multiple repositories while providing repository settings, licensing, logging, and Pro workflow options.",
+		"Supports graphical and terminal-based workflows, including command-line automation and GitHub issue exports."
 	],
 	"features": [
 		"Synchronize repositories across multiple devices",
@@ -40,7 +41,15 @@
 		"Pro custom commit messages for repository uploads",
 		"Progress tracking for repository Get and Upload operations",
 		"Ability to report errors encountered during use",
-		"Ability to submit suggestions and improvement ideas"
+		"Ability to submit suggestions and improvement ideas",
+		"Interactive terminal interface for desktop and headless environments",
+		"Command-line commands for repository listing, status, Get, Upload, and issue export",
+		"Optional new terminal window at startup (disabled by default)",
+		"Manual GitHub issue exports for individual or all managed repositories with Base and Pro licenses",
+		"Pro automatic issue export when using Get Repo or Get All",
+		"Pro compiled issue list across managed repositories, sorted by repository name, with a separate save location",
+		"Pro option to export only open issues, including an issue summary at the top of individual Markdown exports",
+		"Terminal access to error reporting and suggestion form URLs"
 	],
 	"statusDetails": [
 		"Complete: Git workflow automation",
@@ -50,7 +59,11 @@
 		"Complete: Single and all repo overwrite option for Pro",
 		"Complete: Git LFS large-file tracking for Pro",
 		"Complete: Custom commit messages for Pro",
-		"Complete: Get and Upload progress tracking"
+		"Complete: Get and Upload progress tracking",
+		"Implemented: Interactive terminal interface and command-line automation",
+		"Implemented: Manual GitHub issue exports for Base and Pro",
+		"Implemented: Pro automatic issue exports, compiled issue lists, and open-issue filtering",
+		"Development: Terminal reporting and separate GUI and CLI builds; final build validation pending"
 	],
 	"screenshots": [
 		"/Development-Tools/Assets/Projects/RepoSync/Main.png",
@@ -70,17 +83,23 @@
 	"documentation": {
 		"howItWorks": [
 			"Repo Sync manages saved Git repositories and automates common Get and Upload workflows.",
-			"Repositories can be synchronized individually or together, with Pro options for local overwrite, Git LFS tracking, and custom commit messages."
+			"Repositories can be synchronized individually or together, with Pro options for local overwrite, Git LFS tracking, and custom commit messages.",
+			"The terminal interface provides menu-driven repository management, while command-line arguments allow direct execution for scripts and server workflows.",
+			"Issue exports can be run manually with either license. Pro users can enable automatic exports during Get operations, compile issue lists across repositories, and filter exports to open issues."
 		],
 		"setupInstall": [
 			"Install and start RepoSync",
 			"Activate the required RepoSync license if prompted",
 			"Set the default Base Path in Settings",
-			"Add repositories through Manege Repos using the repository name, branch, .git URL, and path information"
+			"Add repositories through Manege Repos using the repository name, branch, .git URL, and path information",
+			"Start the graphical or terminal application depending on the desired workflow.",
+			"For terminal automation, use commands such as list, status, pull --all, push --all, or --help.",
+			"Configure automatic issue exports and the compiled issue save location in Settings if using Pro."
 		],
 		"apiStructure": [
 			"The RepoSync backend manages repository settings, licensing, and application-level Git workflows.",
-			"Git API modules handle Git operations while the GUI and drivers provide the user interface and connect user actions to the backend."
+			"Git API modules handle Git operations while the GUI and drivers provide the user interface and connect user actions to the backend.",
+			"The terminal UI and command-line entry point reuse the repository backend, allowing graphical and terminal workflows to share repository settings and operations."
 		]
 	},
 	"devLogs": [
@@ -156,6 +175,35 @@
 				"Added Get and Upload progress tracking",
 				"Added a dedicated Settings screen and updated repository interfaces"
 			]
+		},
+		{
+			"progressNotes": [
+				"Issue Export & Workflow Improvements (2026-11-25)",
+				"Added manual GitHub issue exports for individual and multiple repositories",
+				"Added Pro automatic issue exports during Get Repo and Get All operations",
+				"Added Pro compiled issue lists sorted by repository name with a separate save location",
+				"Added open-issue filtering and Markdown issue summaries",
+				"Kept manual issue exports available to both Base and Pro users"
+			]
+		},
+		{
+			"progressNotes": [
+				"Terminal Interface & Command-Line Automation (2026-11-27)",
+				"Developed a menu-driven terminal interface using the existing repository backend",
+				"Added direct command-line operations for scripting and headless server workflows",
+				"Added terminal settings, repository management, and license management",
+				"Added an optional new terminal window setting with a headless fallback",
+				"Prepared terminal error reporting and suggestion form URL support"
+			]
+		},
+		{
+			"progressNotes": [
+				"Build Configuration & Compatibility Testing (2026-11-27)",
+				"Prepared separate graphical and terminal application entry points and build configurations",
+				"Investigated Python 3.15 package compatibility and PyInstaller build errors",
+				"Updated compatible dependencies and installed Pygame CE as a replacement for Pygame",
+				"Identified remaining native compilation requirements; final build validation pending"
+			]
 		}
 	],
 	"commonQuestions": [
@@ -170,6 +218,18 @@
 		{
 			"question": "Does it support Linux?",
 			"answer": "Yes. Windows and Linux builds are available."
+		},
+		{
+			"question": "Can Repo Sync run on a headless server?",
+			"answer": "The terminal interface and direct command-line operations are designed for headless workflows without requiring a graphical interface."
+		},
+		{
+			"question": "Do I need Pro to export GitHub issues?",
+			"answer": "No. Manual issue exports are available with Base and Pro. Automatic exports, compiled issue lists, and open-issue filtering are Pro features."
+		},
+		{
+			"question": "Can Repo Sync automatically export issues when getting repositories?",
+			"answer": "Yes. Pro users can enable automatic issue exports in Settings for Get Repo and Get All operations."
 		}
 	]
 }
